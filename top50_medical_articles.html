@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top 50 Medical Articles Across All Wikipedias</title>
+<style>
+  :root {
+    --red: #E3120B;
+    --blue: #1A5276;
+    --dark: #1A1A2E;
+    --text: #333333;
+    --subtitle: #666666;
+    --grey: #758D99;
+    --light-grey: #D9E1E2;
+    --bg: #F7F5F0;
+    --card-bg: #FFFFFF;
+    --grid: #DAD5CC;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--card-bg);
+    border-bottom: 3px solid var(--red);
+    padding: 0;
+  }
+  .header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 24px 24px;
+  }
+  .red-bar {
+    width: 80px;
+    height: 4px;
+    background: var(--red);
+    margin-bottom: 16px;
+  }
+  header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--dark);
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  header .subtitle {
+    font-size: 1.05rem;
+    color: var(--subtitle);
+    max-width: 750px;
+    line-height: 1.5;
+  }
+  .meta-bar {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: var(--grey);
+  }
+  .meta-bar span { display: flex; align-items: center; gap: 5px; }
+  .meta-bar .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--red); display: inline-block; }
+
+  /* ── Controls ── */
+  .controls {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 24px 0;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .search-box {
+    flex: 1;
+    min-width: 240px;
+    position: relative;
+  }
+  .search-box input {
+    width: 100%;
+    padding: 10px 14px 10px 38px;
+    border: 1px solid var(--light-grey);
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    background: var(--card-bg);
+    color: var(--text);
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .search-box input:focus { border-color: var(--blue); }
+  .search-box svg {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--grey);
+  }
+  .sort-btn {
+    font-family: Arial, sans-serif;
+    font-size: 0.82rem;
+    padding: 9px 16px;
+    border: 1px solid var(--light-grey);
+    border-radius: 6px;
+    background: var(--card-bg);
+    color: var(--text);
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  .sort-btn:hover { border-color: var(--blue); color: var(--blue); }
+  .sort-btn.active { background: var(--blue); color: white; border-color: var(--blue); }
+
+  /* ── Table ── */
+  .table-wrap {
+    max-width: 1200px;
+    margin: 20px auto 40px;
+    padding: 0 24px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  thead th {
+    background: var(--dark);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 14px 16px;
+    text-align: left;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  thead th:hover { background: #243447; }
+  thead th .sort-arrow { margin-left: 4px; opacity: 0.4; font-size: 0.7rem; }
+  thead th.sorted .sort-arrow { opacity: 1; }
+  tbody tr { border-bottom: 1px solid #f0eeea; transition: background 0.15s; }
+  tbody tr:hover { background: #f9f7f3; }
+  tbody td {
+    padding: 14px 16px;
+    font-size: 0.92rem;
+    vertical-align: top;
+  }
+  .rank-cell {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    color: var(--grey);
+    text-align: center;
+    width: 48px;
+    font-size: 0.85rem;
+  }
+  .rank-top3 { color: var(--red); font-size: 1.05rem; }
+  .article-name {
+    font-weight: 600;
+    color: var(--dark);
+  }
+  .article-name a {
+    color: var(--blue);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .article-name a:hover { color: var(--red); text-decoration: underline; }
+  .num-cell {
+    font-family: 'Arial', sans-serif;
+    text-align: right;
+    white-space: nowrap;
+    font-size: 0.88rem;
+  }
+  .lang-count {
+    font-weight: 700;
+    color: var(--dark);
+  }
+
+  /* ── Language bar ── */
+  .lang-bar-wrap {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .lang-bar-bg {
+    flex: 1;
+    height: 8px;
+    background: #eae7e0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .lang-bar-fill {
+    height: 100%;
+    background: var(--red);
+    border-radius: 4px;
+    transition: width 0.4s ease;
+  }
+  .lang-bar-pct {
+    font-family: Arial, sans-serif;
+    font-size: 0.75rem;
+    color: var(--grey);
+    min-width: 36px;
+    text-align: right;
+  }
+
+  /* ── Expandable row ── */
+  .expand-btn {
+    background: none;
+    border: 1px solid var(--light-grey);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    color: var(--blue);
+    font-family: Arial, sans-serif;
+    transition: all 0.2s;
+  }
+  .expand-btn:hover { background: var(--blue); color: white; }
+  .detail-row { display: none; }
+  .detail-row.open { display: table-row; }
+  .detail-row td {
+    background: #faf9f6;
+    padding: 16px 16px 20px 64px;
+    border-bottom: 2px solid var(--light-grey);
+  }
+  .detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 8px;
+  }
+  .detail-lang {
+    font-family: Arial, sans-serif;
+    font-size: 0.82rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px;
+    background: var(--card-bg);
+    border-radius: 4px;
+    border: 1px solid #eee;
+  }
+  .detail-lang .dl-code { font-weight: 700; color: var(--blue); min-width: 36px; }
+  .detail-lang .dl-title { flex: 1; margin: 0 8px; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .detail-lang .dl-views { color: var(--grey); white-space: nowrap; }
+  .detail-header {
+    font-family: Arial, sans-serif;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--grey);
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .all-langs {
+    margin-top: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+    color: var(--subtitle);
+    line-height: 1.7;
+  }
+  .all-langs code {
+    background: #eee;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    margin: 1px;
+    display: inline-block;
+  }
+
+  /* ── Footer ── */
+  footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    font-size: 0.78rem;
+    color: var(--grey);
+    border-top: 1px solid var(--light-grey);
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 768px) {
+    header h1 { font-size: 1.5rem; }
+    .lang-bar-wrap { display: none; }
+    .controls { flex-direction: column; }
+    .detail-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="red-bar"></div>
+    <h1>The World's Most-Read Medical Articles on Wikipedia</h1>
+    <div class="subtitle">Top 50 articles ranked by the number of language editions in which they appear among the 50 most-viewed medical pages. Data from 337 Wikipedia language editions via mdwiki.toolforge.org, unified through Wikidata.</div>
+    <div class="meta-bar">
+      <span><span class="dot"></span>337 language editions analysed</span>
+      <span><span class="dot"></span>1,929 unique articles identified</span>
+      <span><span class="dot"></span>97% Wikidata match rate</span>
+      <span><span class="dot"></span>February 2026</span>
+    </div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="search-box">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" id="search" placeholder="Search articles..." autocomplete="off">
+  </div>
+  <button class="sort-btn active" data-sort="langs">Sort: Most Languages</button>
+  <button class="sort-btn" data-sort="views">Sort: Most Views</button>
+  <button class="sort-btn" data-sort="alpha">Sort: A &ndash; Z</button>
+</div>
+
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th style="width:48px">#</th>
+        <th>Article</th>
+        <th style="text-align:right">Languages</th>
+        <th>Coverage</th>
+        <th style="text-align:right">Total Views</th>
+        <th style="width:60px"></th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<footer>
+  Source: mdwiki.toolforge.org &middot; Wikidata &middot; Analysis by Anver Hisham &middot;
+  <a href="https://github.com/nethahussain/wikipedia-medical-articles-overlap" style="color:var(--blue);">GitHub repo</a>
+</footer>
+
+<script>
+// Data will be injected below by the build script
+const DATA = [{"qid": "Q1072", "label": "Heart", "num_langs": 174, "total_views": 27589720, "top_langs": [{"lang": "es", "title": "Corazón", "views": 6208596, "rank": 22}, {"lang": "fa", "title": "قلب", "views": 2085079, "rank": 38}, {"lang": "ar", "title": "قلب", "views": 1932884, "rank": 21}, {"lang": "hi", "title": "हृदय", "views": 1635140, "rank": 7}, {"lang": "pt", "title": "Coração", "views": 1577868, "rank": 40}, {"lang": "id", "title": "Jantung", "views": 1280555, "rank": 10}, {"lang": "th", "title": "หัวใจ", "views": 1023966, "rank": 2}, {"lang": "ro", "title": "Inimă", "views": 836343, "rank": 3}, {"lang": "kk", "title": "Жүрек", "views": 770218, "rank": 2}, {"lang": "vi", "title": "Tim", "views": 707079, "rank": 19}], "all_lang_codes": ["es", "pt", "fa", "ar", "sv", "cs", "tr", "id", "hi", "hu", "vi", "ro", "el", "th", "bg", "hr", "bn", "sk", "kk", "uz", "hy", "ta", "ms", "simple", "ca", "lt", "sl", "sq", "ka", "et", "bs", "mk", "mr", "lv", "te", "af", "sw", "ky", "kn", "si", "eu", "ur", "gl", "ast", "is", "eo", "ckb", "nn", "la", "as", "tg", "ne", "be", "or", "cy", "pa", "ga", "am", "jv", "azb", "ps", "als", "io", "sco", "ha", "oc", "an", "war", "su", "ia", "be-x-old", "zh-min-nan", "so", "fy", "yi", "tt", "gn", "br", "scn", "bh", "lb", "qu", "nds", "dv", "ht", "om", "li", "new", "pnb", "ba", "sn", "lmo", "ilo", "mg", "sah", "fo", "yo", "xmf", "ln", "sa", "rw", "hif", "bjn", "diq", "sd", "bat-smg", "rue", "ceb", "pam", "cv", "lfn", "bo", "hak", "bxr", "cdo", "za", "sc", "fiu-vro", "xh", "eml", "hyw", "vec", "lo", "gcr", "map-bms", "mt", "arc", "ay", "szl", "vep", "ug", "roa-rup", "vls", "kw", "ti", "kbp", "ce", "co", "se", "rn", "tw", "ang", "gom", "ie", "jbo", "szy", "nap", "vo", "av", "nrm", "inh", "anp", "mhr", "nah", "mdf", "lbe", "fj", "shi", "mrj", "cbk-zam", "kv", "xal", "trv", "nqo", "atj", "pag", "bew", "bdr", "btm", "kge", "iba", "zgh", "rki", "ann"]}, {"qid": "Q7873", "label": "Blood", "num_langs": 160, "total_views": 10586999, "top_langs": [{"lang": "hi", "title": "रक्त", "views": 1154056, "rank": 21}, {"lang": "id", "title": "Darah", "views": 805232, "rank": 32}, {"lang": "kk", "title": "Қан", "views": 769339, "rank": 3}, {"lang": "ro", "title": "Sânge", "views": 590213, "rank": 20}, {"lang": "bn", "title": "রক্ত", "views": 533154, "rank": 9}, {"lang": "az", "title": "Qan", "views": 508782, "rank": 4}, {"lang": "vi", "title": "Máu", "views": 488503, "rank": 32}, {"lang": "th", "title": "เลือด", "views": 480310, "rank": 19}, {"lang": "hr", "title": "Krv", "views": 360112, "rank": 13}, {"lang": "el", "title": "Αίμα", "views": 353743, "rank": 40}], "all_lang_codes": ["id", "hi", "vi", "ro", "el", "th", "sr", "hr", "bn", "sk", "kk", "da", "uz", "hy", "az", "simple", "ca", "lt", "sl", "sq", "ka", "et", "mk", "mr", "lv", "te", "sw", "ky", "kn", "eu", "ur", "gl", "my", "gu", "ast", "eo", "ckb", "la", "as", "tg", "ne", "be", "or", "cy", "pa", "ga", "am", "jv", "azb", "km", "ps", "als", "io", "sco", "oc", "an", "war", "su", "ia", "be-x-old", "zh-min-nan", "ku", "so", "fy", "yi", "tt", "gn", "br", "bcl", "scn", "bh", "lb", "qu", "nds", "dv", "ht", "om", "li", "new", "pnb", "ba", "sn", "lmo", "bar", "ilo", "mg", "sah", "fo", "yo", "zu", "xmf", "ln", "sa", "hif", "diq", "sd", "bat-smg", "rue", "ceb", "pam", "cv", "bo", "gd", "hak", "frr", "bxr", "cdo", "kab", "za", "fiu-vro", "xh", "hyw", "vec", "ext", "iu", "pap", "gcr", "mt", "dag", "arc", "vep", "ug", "fur", "tyv", "ban", "roa-rup", "vls", "kw", "tcy", "kbp", "wo", "ce", "se", "tw", "ang", "gom", "ie", "chr", "szy", "mad", "vo", "av", "inh", "mhr", "cu", "mdf", "lbe", "fj", "shi", "nia", "cbk-zam", "knc", "ami", "atj", "bew", "kge", "iba", "kus", "ann", "tok"]}, {"qid": "Q12199", "label": "HIV/AIDS", "num_langs": 152, "total_views": 49925634, "top_langs": [{"lang": "en", "title": "HIV/AIDS", "views": 15753466, "rank": 50}, {"lang": "es", "title": "VIH/sida", "views": 5288734, "rank": 33}, {"lang": "zh", "title": "艾滋病", "views": 3725505, "rank": 5}, {"lang": "ar", "title": "إيدز", "views": 2558263, "rank": 10}, {"lang": "fa", "title": "ایدز", "views": 2512415, "rank": 20}, {"lang": "fr", "title": "Syndrome d'immunodéficience acquise", "views": 2349966, "rank": 46}, {"lang": "it", "title": "AIDS", "views": 2276565, "rank": 29}, {"lang": "hi", "title": "एड्स", "views": 1707020, "rank": 6}, {"lang": "id", "title": "AIDS", "views": 1293986, "rank": 9}, {"lang": "vi", "title": "HIV/AIDS", "views": 784514, "rank": 11}], "all_lang_codes": ["en", "es", "fr", "it", "fa", "zh", "ar", "nl", "he", "id", "hi", "ko", "hu", "vi", "ro", "el", "th", "bg", "sr", "bn", "kk", "uz", "hy", "ta", "az", "simple", "lt", "sl", "sh", "sq", "ka", "tl", "mk", "mr", "lv", "te", "af", "sw", "kn", "zh-yue", "si", "ur", "arz", "gu", "is", "eo", "ckb", "nn", "as", "tg", "ne", "be", "or", "wuu", "cy", "pa", "tk", "ga", "am", "jv", "km", "ps", "als", "sco", "ha", "oc", "war", "su", "ia", "be-x-old", "zh-min-nan", "ku", "so", "fy", "yi", "tt", "gn", "br", "scn", "lb", "qu", "dv", "ht", "li", "new", "pnb", "ba", "wa", "sn", "lmo", "ilo", "sah", "fo", "yo", "zu", "xmf", "ln", "zh-classical", "sa", "hif", "jam", "diq", "sd", "bat-smg", "rue", "cv", "bo", "gd", "hak", "bxr", "cdo", "gan", "za", "sc", "fiu-vro", "ig", "vec", "ext", "ary", "lo", "nds-nl", "ts", "lg", "pap", "mai", "gcr", "mt", "fur", "dty", "kbp", "ks", "ce", "tw", "din", "ki", "gom", "gor", "mad", "kaa", "bm", "ve", "nv", "anp", "mhr", "pcm", "shi", "blk", "kg", "tum", "iba", "zgh", "tly"]}, {"qid": "Q84263196", "label": "COVID-19", "num_langs": 143, "total_views": 44688859, "top_langs": [{"lang": "en", "title": "COVID-19", "views": 16034479, "rank": 47}, {"lang": "es", "title": "COVID-19", "views": 12508915, "rank": 3}, {"lang": "it", "title": "COVID-19", "views": 3315600, "rank": 8}, {"lang": "zh", "title": "2019冠状病毒病", "views": 2752599, "rank": 14}, {"lang": "fr", "title": "Maladie à coronavirus 2019", "views": 2534544, "rank": 36}, {"lang": "pl", "title": "COVID-19", "views": 1794119, "rank": 21}, {"lang": "nl", "title": "COVID-19", "views": 1303352, "rank": 4}, {"lang": "cs", "title": "Covid-19", "views": 696678, "rank": 31}, {"lang": "tr", "title": "COVID-19", "views": 608557, "rank": 41}, {"lang": "ko", "title": "코로나바이러스감염증-19", "views": 407269, "rank": 37}], "all_lang_codes": ["en", "es", "fr", "it", "pl", "zh", "nl", "cs", "tr", "ko", "el", "sk", "ms", "ca", "tl", "et", "te", "kn", "zh-yue", "si", "eu", "arz", "gl", "gu", "ast", "is", "eo", "la", "as", "be", "or", "wuu", "cy", "pa", "ga", "jv", "azb", "km", "ps", "sco", "ha", "oc", "an", "war", "su", "ia", "be-x-old", "zh-min-nan", "ku", "fy", "tt", "gn", "br", "bcl", "bh", "lb", "qu", "nds", "ht", "li", "min", "pnb", "wa", "sn", "lmo", "sah", "yo", "zu", "mzn", "xmf", "ln", "zh-classical", "hif", "bjn", "diq", "sd", "cv", "bo", "hak", "frr", "bxr", "cdo", "gan", "kab", "za", "sc", "eml", "ary", "iu", "lo", "nds-nl", "ts", "pap", "mai", "dag", "szl", "ug", "gv", "ny", "roa-rup", "tcy", "gpe", "ks", "tw", "ang", "din", "ki", "gor", "frp", "chr", "szy", "av", "awa", "ff", "nrm", "anp", "mhr", "cu", "kcg", "haw", "shn", "blk", "crh", "mi", "knc", "guw", "ami", "to", "trv", "atj", "tum", "rm", "btm", "bug", "pwn", "nr", "tet", "dz", "tay", "zgh", "guc", "syl", "tok"]}, {"qid": "Q5873", "label": "Sexual intercourse", "num_langs": 136, "total_views": 175542463, "top_langs": [{"lang": "en", "title": "Sexual intercourse", "views": 43759801, "rank": 1}, {"lang": "fa", "title": "آمیزش جنسی", "views": 32634745, "rank": 1}, {"lang": "ja", "title": "性行為", "views": 20499417, "rank": 1}, {"lang": "de", "title": "Geschlechtsverkehr", "views": 10506424, "rank": 3}, {"lang": "ru", "title": "Половой акт", "views": 7675015, "rank": 9}, {"lang": "ar", "title": "جماع", "views": 7223657, "rank": 1}, {"lang": "es", "title": "Relación sexual", "views": 5109877, "rank": 39}, {"lang": "tr", "title": "Cinsel ilişki", "views": 4307582, "rank": 1}, {"lang": "fr", "title": "Rapport sexuel", "views": 3986199, "rank": 10}, {"lang": "zh", "title": "性交", "views": 3795714, "rank": 4}], "all_lang_codes": ["en", "es", "de", "ru", "fr", "ja", "it", "pt", "fa", "pl", "zh", "ar", "nl", "cs", "tr", "he", "id", "hi", "ko", "vi", "ro", "el", "th", "bg", "sr", "hr", "bn", "da", "uz", "hy", "ta", "az", "ms", "simple", "ca", "sl", "sh", "sq", "ka", "tl", "et", "bs", "mr", "te", "af", "sw", "kn", "zh-yue", "si", "eu", "ur", "arz", "gl", "my", "ast", "is", "eo", "ckb", "nn", "la", "as", "ne", "be", "or", "wuu", "cy", "tk", "ga", "am", "jv", "azb", "ps", "als", "io", "sco", "an", "war", "ia", "be-x-old", "zh-min-nan", "ku", "fy", "tt", "gn", "br", "bcl", "scn", "bh", "qu", "ht", "om", "li", "new", "ba", "sn", "lmo", "bar", "ilo", "mg", "sah", "zu", "mzn", "xmf", "ln", "zh-classical", "sa", "diq", "sd", "ceb", "cv", "bo", "gd", "hak", "bxr", "cdo", "gan", "za", "ary", "tn", "iu", "lo", "pap", "mai", "mt", "ny", "ban", "hsb", "jbo", "mad", "kaa", "ksh", "cu", "glk", "mi", "tum", "btm"]}, {"qid": "Q808", "label": "Virus", "num_langs": 136, "total_views": 44725553, "top_langs": [{"lang": "es", "title": "Virus", "views": 9416377, "rank": 9}, {"lang": "ru", "title": "Вирусы", "views": 5656117, "rank": 32}, {"lang": "ja", "title": "ウイルス", "views": 2642464, "rank": 45}, {"lang": "it", "title": "Virus (biologia)", "views": 2464073, "rank": 23}, {"lang": "id", "title": "Virus", "views": 2366997, "rank": 1}, {"lang": "fr", "title": "Virus", "views": 2355028, "rank": 45}, {"lang": "zh", "title": "病毒", "views": 2002209, "rank": 31}, {"lang": "ar", "title": "فيروس", "views": 1671698, "rank": 28}, {"lang": "pl", "title": "Wirusy", "views": 1652565, "rank": 27}, {"lang": "pt", "title": "Vírus", "views": 1563915, "rank": 42}], "all_lang_codes": ["es", "ru", "fr", "ja", "it", "pt", "pl", "zh", "ar", "nl", "sv", "tr", "he", "id", "hi", "ko", "hu", "vi", "ro", "th", "bg", "sr", "hr", "bn", "sk", "kk", "uz", "hy", "az", "simple", "ca", "lt", "sl", "sh", "sq", "ka", "et", "mk", "lv", "ky", "si", "eu", "gl", "ast", "is", "ckb", "nn", "la", "as", "tg", "be", "cy", "ga", "am", "jv", "azb", "ps", "als", "io", "sco", "oc", "an", "war", "su", "ia", "be-x-old", "zh-min-nan", "so", "fy", "yi", "tt", "gn", "bcl", "scn", "bh", "lb", "qu", "nds", "dv", "ht", "om", "min", "new", "pnb", "ba", "wa", "lmo", "ilo", "mg", "sah", "fo", "yo", "xmf", "ln", "zh-classical", "hif", "sd", "bat-smg", "rue", "pam", "cv", "lfn", "bo", "hak", "frr", "bxr", "cdo", "za", "hyw", "ext", "lij", "lo", "lg", "pap", "gcr", "dag", "arc", "ug", "gv", "tyv", "kw", "tcy", "kbp", "csb", "rn", "ang", "ki", "ie", "gor", "mad", "kaa", "myv", "inh", "tpi", "rki", "tok"]}, {"qid": "Q12204", "label": "Tuberculosis", "num_langs": 135, "total_views": 75860858, "top_langs": [{"lang": "en", "title": "Tuberculosis", "views": 25907588, "rank": 12}, {"lang": "de", "title": "Tuberkulose", "views": 8658342, "rank": 5}, {"lang": "ru", "title": "Туберкулёз", "views": 6564376, "rank": 17}, {"lang": "es", "title": "Tuberculosis", "views": 5707584, "rank": 27}, {"lang": "it", "title": "Tubercolosi", "views": 3047715, "rank": 12}, {"lang": "ja", "title": "結核", "views": 2715756, "rank": 41}, {"lang": "fr", "title": "Tuberculose", "views": 2597874, "rank": 33}, {"lang": "ar", "title": "سل", "views": 1895777, "rank": 23}, {"lang": "pt", "title": "Tuberculose", "views": 1560657, "rank": 43}, {"lang": "pl", "title": "Gruźlica człowieka", "views": 1550346, "rank": 36}], "all_lang_codes": ["en", "es", "de", "ru", "fr", "ja", "it", "pt", "pl", "ar", "nl", "sv", "cs", "he", "id", "fi", "hi", "ko", "hu", "ro", "el", "th", "bg", "sr", "no", "bn", "sk", "kk", "da", "uz", "hy", "ta", "az", "ca", "lt", "sl", "sq", "ka", "tl", "et", "mk", "mr", "lv", "te", "af", "sw", "ky", "kn", "zh-yue", "si", "eu", "ur", "arz", "gl", "my", "gu", "ast", "is", "as", "tg", "ne", "be", "or", "wuu", "cy", "pa", "tk", "am", "jv", "ps", "als", "an", "war", "su", "ia", "be-x-old", "zh-min-nan", "ku", "fy", "yi", "tt", "gn", "br", "scn", "lb", "qu", "li", "new", "pnb", "ba", "wa", "lmo", "ilo", "sah", "fo", "ln", "sa", "hif", "bjn", "jam", "bat-smg", "rue", "cv", "lfn", "bo", "gd", "hak", "bxr", "sc", "fiu-vro", "xh", "hyw", "lo", "lg", "gcr", "mt", "dag", "ay", "szl", "gv", "ny", "tyv", "dty", "kbp", "gpe", "wo", "tw", "bm", "awa", "nv", "anp", "nah", "blk", "smn", "trv"]}, {"qid": "Q7186", "label": "Marie Curie", "num_langs": 132, "total_views": 79479258, "top_langs": [{"lang": "en", "title": "Marie Curie", "views": 28035376, "rank": 9}, {"lang": "es", "title": "Marie Curie", "views": 15404214, "rank": 1}, {"lang": "fr", "title": "Marie Curie", "views": 8685766, "rank": 1}, {"lang": "pl", "title": "Maria Skłodowska-Curie", "views": 5940082, "rank": 1}, {"lang": "de", "title": "Marie Curie", "views": 5175786, "rank": 25}, {"lang": "pt", "title": "Marie Curie", "views": 3304278, "rank": 3}, {"lang": "it", "title": "Marie Curie", "views": 3299465, "rank": 9}, {"lang": "tr", "title": "Marie Curie", "views": 1366880, "rank": 4}, {"lang": "sv", "title": "Marie Curie", "views": 988538, "rank": 5}, {"lang": "nl", "title": "Marie Curie", "views": 848502, "rank": 32}], "all_lang_codes": ["en", "es", "de", "fr", "it", "pt", "pl", "nl", "sv", "cs", "tr", "he", "ko", "vi", "ro", "el", "th", "sr", "hr", "no", "da", "simple", "ca", "te", "kn", "si", "eu", "arz", "gl", "my", "is", "eo", "nn", "as", "ne", "be", "or", "pa", "ga", "azb", "km", "als", "io", "sco", "oc", "an", "ia", "zh-min-nan", "ku", "fy", "yi", "gn", "br", "bcl", "scn", "bh", "lb", "qu", "nds", "ht", "om", "min", "new", "pnb", "ba", "lmo", "bar", "ilo", "mg", "sah", "fo", "yo", "mzn", "xmf", "zh-classical", "sa", "hif", "jam", "diq", "sd", "bat-smg", "rue", "ceb", "pam", "gd", "hak", "frr", "bxr", "gan", "ext", "tn", "lij", "nds-nl", "mai", "gcr", "map-bms", "mt", "pms", "ay", "vep", "tyv", "ban", "roa-rup", "kw", "dty", "tcy", "kbp", "csb", "gpe", "ks", "ce", "jbo", "mad", "kaa", "vo", "lad", "bi", "zea", "nah", "pcd", "olo", "crh", "smn", "knc", "bew", "dtp", "btm", "alt", "udm", "iba", "ann", "tok"]}, {"qid": "Q10876", "label": "Bacteria", "num_langs": 129, "total_views": 24769339, "top_langs": [{"lang": "es", "title": "Bacteria", "views": 9744037, "rank": 7}, {"lang": "ar", "title": "بكتيريا", "views": 1625348, "rank": 31}, {"lang": "id", "title": "Bakteri", "views": 1396722, "rank": 7}, {"lang": "hi", "title": "जीवाणु", "views": 1332281, "rank": 14}, {"lang": "kk", "title": "Бактериялар", "views": 880747, "rank": 1}, {"lang": "nl", "title": "Bacteriën", "views": 863226, "rank": 27}, {"lang": "vi", "title": "Vi khuẩn", "views": 721761, "rank": 18}, {"lang": "tr", "title": "Bakteri", "views": 658492, "rank": 37}, {"lang": "ro", "title": "Bacterie", "views": 603137, "rank": 17}, {"lang": "cs", "title": "Bakterie", "views": 580322, "rank": 49}], "all_lang_codes": ["es", "ar", "nl", "cs", "tr", "he", "id", "hi", "ko", "hu", "vi", "ro", "th", "hr", "bn", "sk", "kk", "da", "uz", "hy", "az", "simple", "ca", "lt", "sl", "sh", "ka", "et", "mk", "mr", "lv", "ky", "si", "eu", "ur", "gl", "ast", "is", "eo", "ckb", "nn", "as", "tg", "be", "wuu", "cy", "pa", "ga", "am", "jv", "azb", "ps", "als", "io", "sco", "oc", "war", "su", "ia", "be-x-old", "zh-min-nan", "ku", "so", "fy", "yi", "tt", "br", "bcl", "scn", "qu", "nds", "dv", "ht", "om", "li", "min", "new", "pnb", "ba", "wa", "lmo", "ilo", "mg", "sah", "fo", "zu", "mzn", "xmf", "zh-classical", "sa", "rw", "hif", "jam", "sd", "bat-smg", "rue", "ceb", "lfn", "gd", "hak", "frr", "cdo", "za", "sc", "fiu-vro", "vec", "ext", "ary", "lij", "lg", "pap", "gcr", "arc", "ay", "vep", "gv", "kw", "hsb", "ki", "chr", "nap", "kaa", "vo", "ace", "nrm", "inh", "anp", "lld", "tok"]}, {"qid": "Q9215", "label": "Sigmund Freud", "num_langs": 128, "total_views": 71210707, "top_langs": [{"lang": "en", "title": "Sigmund Freud", "views": 23405623, "rank": 17}, {"lang": "es", "title": "Sigmund Freud", "views": 10759680, "rank": 5}, {"lang": "de", "title": "Sigmund Freud", "views": 5878680, "rank": 17}, {"lang": "ru", "title": "Фрейд, Зигмунд", "views": 5401876, "rank": 37}, {"lang": "fr", "title": "Sigmund Freud", "views": 3855851, "rank": 12}, {"lang": "pt", "title": "Sigmund Freud", "views": 3737378, "rank": 1}, {"lang": "it", "title": "Sigmund Freud", "views": 3735760, "rank": 5}, {"lang": "fa", "title": "زیگموند فروید", "views": 1938740, "rank": 43}, {"lang": "ar", "title": "سيغموند فرويد", "views": 1781476, "rank": 26}, {"lang": "zh", "title": "西格蒙德·弗洛伊德", "views": 1751065, "rank": 39}], "all_lang_codes": ["en", "es", "de", "ru", "fr", "it", "pt", "fa", "pl", "zh", "ar", "nl", "sv", "cs", "tr", "he", "ko", "ro", "el", "hr", "no", "da", "ca", "sl", "ka", "si", "eu", "ur", "arz", "gl", "is", "eo", "ckb", "be", "pa", "ga", "am", "jv", "azb", "km", "ps", "als", "io", "sco", "an", "war", "ia", "be-x-old", "zh-min-nan", "ku", "fy", "yi", "tt", "br", "bcl", "scn", "bh", "lb", "qu", "ht", "li", "new", "pnb", "ba", "bar", "ilo", "mg", "sah", "fo", "yo", "mzn", "xmf", "hif", "jam", "diq", "bat-smg", "rue", "pam", "cv", "lfn", "gd", "bxr", "cdo", "gan", "kab", "za", "sc", "ext", "lij", "nds-nl", "gcr", "map-bms", "arc", "pms", "ay", "mwl", "szl", "vep", "ug", "fur", "gv", "roa-rup", "kw", "kbp", "ce", "co", "se", "gom", "ie", "jbo", "chr", "os", "szy", "mad", "kaa", "vo", "myv", "nrm", "zea", "haw", "shi", "crh", "knc", "koi", "pag", "bew", "btm", "zgh"]}, {"qid": "Q12078", "label": "Cancer", "num_langs": 128, "total_views": 11735883, "top_langs": [{"lang": "ar", "title": "سرطان", "views": 2419060, "rank": 11}, {"lang": "zh", "title": "癌症", "views": 1708318, "rank": 42}, {"lang": "vi", "title": "Ung thư", "views": 733263, "rank": 16}, {"lang": "cs", "title": "Rakovina", "views": 619089, "rank": 39}, {"lang": "id", "title": "Kanker", "views": 613519, "rank": 49}, {"lang": "he", "title": "סרטן (מחלה)", "views": 457719, "rank": 45}, {"lang": "bn", "title": "ক্যান্সার", "views": 442718, "rank": 14}, {"lang": "ro", "title": "Cancer", "views": 433652, "rank": 32}, {"lang": "el", "title": "Καρκίνος", "views": 400827, "rank": 26}, {"lang": "bg", "title": "Рак (болест)", "views": 357925, "rank": 31}], "all_lang_codes": ["zh", "ar", "cs", "he", "id", "vi", "ro", "el", "bg", "bn", "sk", "kk", "hy", "ta", "az", "simple", "lt", "sq", "ka", "tl", "et", "mk", "mr", "te", "af", "kn", "si", "eu", "arz", "gl", "my", "gu", "is", "eo", "ckb", "nn", "la", "as", "tg", "ne", "be", "or", "wuu", "cy", "ga", "am", "jv", "azb", "ps", "als", "io", "sco", "ha", "oc", "an", "war", "su", "ia", "be-x-old", "zh-min-nan", "ku", "so", "fy", "yi", "tt", "gn", "br", "bcl", "bh", "qu", "dv", "ht", "om", "li", "new", "pnb", "ba", "wa", "sn", "ilo", "xmf", "zh-classical", "sa", "hif", "jam", "diq", "sd", "bat-smg", "rue", "pam", "bo", "gd", "hak", "frr", "bxr", "cdo", "gan", "za", "fiu-vro", "hyw", "vec", "ext", "nds-nl", "ts", "lg", "gcr", "dag", "arc", "gv", "dty", "tcy", "kbp", "gpe", "ks", "se", "tw", "szy", "vo", "inh", "anp", "tpi", "olo", "knc", "guw", "skr", "iba", "rki", "tok"]}, {"qid": "Q11190", "label": "Medicine", "num_langs": 125, "total_views": 2226199, "top_langs": [{"lang": "kk", "title": "Медицина", "views": 258239, "rank": 35}, {"lang": "ta", "title": "மருத்துவம்", "views": 231531, "rank": 23}, {"lang": "uz", "title": "Tibbiyot", "views": 167622, "rank": 39}, {"lang": "ms", "title": "Perubatan", "views": 139668, "rank": 50}, {"lang": "simple", "title": "Medicine", "views": 124624, "rank": 41}, {"lang": "bs", "title": "Medicina", "views": 81876, "rank": 25}, {"lang": "ky", "title": "Медицина", "views": 54302, "rank": 42}, {"lang": "ur", "title": "طب", "views": 33656, "rank": 12}, {"lang": "la", "title": "Medicina", "views": 31037, "rank": 2}, {"lang": "my", "title": "ဆေးပညာ", "views": 29754, "rank": 27}], "all_lang_codes": ["kk", "uz", "ta", "ms", "simple", "bs", "ky", "eu", "ur", "gl", "my", "ast", "is", "eo", "ckb", "nn", "la", "tg", "be", "or", "wuu", "cy", "pa", "ga", "am", "jv", "ps", "als", "io", "sco", "oc", "an", "war", "su", "ia", "be-x-old", "zh-min-nan", "ku", "so", "fy", "yi", "tt", "br", "bcl", "scn", "bh", "lb", "qu", "nds", "ht", "om", "li", "min", "ba", "wa", "ilo", "sah", "fo", "xmf", "sa", "hif", "jam", "diq", "sd", "bat-smg", "rue", "ceb", "cv", "lfn", "gd", "hak", "bxr", "cdo", "kab", "za", "sc", "fiu-vro", "hyw", "vec", "ext", "ary", "iu", "lij", "lo", "nds-nl", "ts", "gcr", "mt", "arc", "ay", "mwl", "vep", "fur", "gv", "kw", "ti", "nov", "csb", "wo", "ks", "ce", "stq", "co", "pi", "ie", "gor", "frp", "chr", "os", "nap", "kaa", "vo", "av", "bm", "lad", "bpy", "bi", "inh", "mhr", "pcd", "shi", "tum", "rm", "tly", "tok"]}, {"qid": "Q12147", "label": "Health", "num_langs": 113, "total_views": 12690504, "top_langs": [{"lang": "es", "title": "Salud", "views": 7250628, "rank": 16}, {"lang": "hi", "title": "स्वास्थ्य", "views": 1157930, "rank": 20}, {"lang": "id", "title": "Kesehatan", "views": 924736, "rank": 22}, {"lang": "mr", "title": "आरोग्य", "views": 389668, "rank": 7}, {"lang": "kk", "title": "Денсаулық", "views": 297403, "rank": 30}, {"lang": "simple", "title": "Health", "views": 219921, "rank": 19}, {"lang": "sq", "title": "Shëndeti", "views": 192697, "rank": 29}, {"lang": "tl", "title": "Kalusugan", "views": 190680, "rank": 27}, {"lang": "kn", "title": "ಆರೋಗ್ಯ", "views": 179038, "rank": 5}, {"lang": "az", "title": "Sağlamlıq", "views": 165871, "rank": 46}], "all_lang_codes": ["es", "id", "hi", "kk", "az", "ms", "simple", "ca", "sh", "sq", "tl", "mr", "lv", "af", "sw", "ky", "kn", "si", "eu", "ur", "gl", "my", "ast", "is", "eo", "ckb", "nn", "la", "as", "tg", "ne", "be", "or", "cy", "pa", "ga", "am", "km", "ps", "als", "io", "sco", "oc", "an", "war", "su", "ia", "be-x-old", "zh-min-nan", "ku", "so", "yi", "tt", "gn", "br", "bcl", "scn", "qu", "ht", "li", "new", "pnb", "ba", "sn", "lmo", "ilo", "mg", "sa", "hif", "bjn", "jam", "sd", "bat-smg", "rue", "ceb", "pam", "cv", "gd", "hak", "bxr", "sc", "fiu-vro", "ig", "eml", "ext", "lo", "ts", "gcr", "mwl", "vep", "fur", "tyv", "ban", "ti", "co", "pi", "frp", "chr", "nrm", "bpy", "inh", "zea", "cu", "kcg", "pcm", "mdf", "fj", "haw", "blk", "pfl", "knc", "krc", "tum"]}, {"qid": "Q81068910", "label": "COVID-19 pandemic", "num_langs": 111, "total_views": 99431169, "top_langs": [{"lang": "en", "title": "COVID-19 pandemic", "views": 42276897, "rank": 2}, {"lang": "ru", "title": "Пандемия COVID-19", "views": 13270371, "rank": 1}, {"lang": "zh", "title": "2019冠状病毒病疫情", "views": 10822723, "rank": 1}, {"lang": "de", "title": "COVID-19-Pandemie", "views": 8500509, "rank": 6}, {"lang": "es", "title": "Pandemia de COVID-19", "views": 7369932, "rank": 15}, {"lang": "fr", "title": "Pandémie de Covid-19", "views": 4430140, "rank": 7}, {"lang": "pt", "title": "Pandemia de COVID-19", "views": 3126425, "rank": 4}, {"lang": "vi", "title": "Đại dịch COVID-19", "views": 2035996, "rank": 2}, {"lang": "pl", "title": "Pandemia COVID-19", "views": 1411301, "rank": 45}, {"lang": "he", "title": "מגפת הקורונה", "views": 870053, "rank": 8}], "all_lang_codes": ["en", "es", "de", "ru", "fr", "pt", "pl", "zh", "nl", "tr", "he", "ko", "vi", "th", "uz", "ta", "ms", "simple", "lt", "tl", "lv", "af", "zh-yue", "si", "ur", "my", "as", "tg", "be", "wuu", "cy", "tk", "ga", "am", "azb", "km", "als", "sco", "an", "war", "ia", "be-x-old", "zh-min-nan", "so", "yi", "gn", "br", "bcl", "bh", "lb", "qu", "ht", "min", "pnb", "lmo", "sah", "yo", "zu", "zh-classical", "hif", "bjn", "diq", "sd", "bat-smg", "ceb", "cv", "bo", "hak", "bxr", "cdo", "gan", "kab", "sc", "xh", "vec", "tn", "iu", "lij", "lo", "ts", "pap", "mt", "dag", "mwl", "szl", "ug", "gv", "ny", "ban", "ti", "dty", "hsb", "wo", "ce", "tw", "ang", "jbo", "frp", "kaa", "ve", "awa", "pcm", "tpi", "haw", "shi", "shn", "ami", "bug", "dsb", "kus", "tok"]}, {"qid": "Q7817", "label": "World Health Organization", "num_langs": 107, "total_views": 19162857, "top_langs": [{"lang": "en", "title": "World Health Organization", "views": 16050230, "rank": 46}, {"lang": "hi", "title": "विश्व स्वास्थ्य संगठन", "views": 1201913, "rank": 17}, {"lang": "tr", "title": "Dünya Sağlık Örgütü", "views": 564266, "rank": 46}, {"lang": "vi", "title": "Tổ chức Y tế Thế giới", "views": 466182, "rank": 33}, {"lang": "bn", "title": "বিশ্ব স্বাস্থ্য সংস্থা", "views": 254492, "rank": 34}, {"lang": "si", "title": "ලෝක සෞඛ්‍ය සංවිධානය", "views": 43764, "rank": 34}, {"lang": "zh-yue", "title": "世界衞生組織", "views": 25508, "rank": 38}, {"lang": "eu", "title": "Munduko Osasun Erakundea", "views": 24747, "rank": 10}, {"lang": "km", "title": "អង្គការសុខភាពពិភពលោក", "views": 24639, "rank": 10}, {"lang": "new", "title": "वर्ल्ड हेल्थ अर्गेनाइजेसन", "views": 20645, "rank": 1}], "all_lang_codes": ["en", "tr", "hi", "vi", "bn", "zh-yue", "si", "eu", "gl", "is", "eo", "ckb", "nn", "la", "as", "ne", "be", "or", "wuu", "pa", "tk", "am", "km", "ps", "als", "io", "ha", "oc", "an", "war", "su", "ia", "be-x-old", "ku", "so", "fy", "yi", "tt", "gn", "br", "bcl", "scn", "bh", "lb", "li", "min", "new", "ba", "sn", "lmo", "ilo", "sah", "fo", "yo", "xmf", "zh-classical", "sa", "hif", "bjn", "jam", "sd", "rue", "cv", "lfn", "bo", "hak", "frr", "bxr", "kab", "sc", "fiu-vro", "eml", "vec", "lo", "pap", "gcr", "mt", "dag", "pms", "szl", "vep", "ug", "gv", "ny", "ban", "kw", "ti", "dty", "kbp", "ce", "ki", "ie", "frp", "kaa", "bi", "kcg", "shn", "crh", "smn", "knc", "krc", "btm", "iba", "ab", "kus", "bbc", "rki"]}, {"qid": "Q12206", "label": "Diabetes", "num_langs": 105, "total_views": 18791263, "top_langs": [{"lang": "ru", "title": "Сахарный диабет", "views": 5782101, "rank": 31}, {"lang": "zh", "title": "糖尿病", "views": 3410537, "rank": 7}, {"lang": "ar", "title": "السكري", "views": 2069466, "rank": 17}, {"lang": "hi", "title": "मधुमेह", "views": 854183, "rank": 32}, {"lang": "id", "title": "Diabetes melitus", "views": 798990, "rank": 33}, {"lang": "he", "title": "סוכרת", "views": 462302, "rank": 42}, {"lang": "th", "title": "เบาหวาน", "views": 444299, "rank": 23}, {"lang": "ko", "title": "당뇨병", "views": 442186, "rank": 29}, {"lang": "hu", "title": "Cukorbetegség", "views": 430626, "rank": 42}, {"lang": "kk", "title": "Қант диабеті", "views": 425316, "rank": 16}], "all_lang_codes": ["ru", "zh", "ar", "he", "id", "hi", "ko", "hu", "th", "bg", "hr", "kk", "uz", "hy", "ta", "lt", "sl", "sh", "sq", "ka", "mr", "lv", "te", "ky", "kn", "zh-yue", "si", "eu", "ur", "arz", "my", "eo", "ckb", "nn", "la", "as", "tg", "ne", "be", "or", "pa", "tk", "ga", "am", "jv", "azb", "km", "ps", "als", "io", "an", "war", "su", "ia", "be-x-old", "zh-min-nan", "ku", "so", "yi", "tt", "gn", "br", "bh", "lb", "qu", "dv", "om", "li", "min", "new", "pnb", "ba", "ilo", "fo", "xmf", "sa", "jam", "bat-smg", "rue", "ceb", "pam", "cv", "bxr", "hyw", "lij", "lg", "pap", "gcr", "ug", "ban", "kw", "ks", "ce", "se", "din", "os", "awa", "bpy", "kcg", "shi", "shn", "blk", "nia", "iba", "syl"]}, {"qid": "Q12156", "label": "Malaria", "num_langs": 99, "total_views": 8869088, "top_langs": [{"lang": "fr", "title": "Paludisme", "views": 3200757, "rank": 21}, {"lang": "pt", "title": "Malária", "views": 2138776, "rank": 15}, {"lang": "hi", "title": "मलेरिया", "views": 1109828, "rank": 24}, {"lang": "el", "title": "Ελονοσία", "views": 343522, "rank": 43}, {"lang": "bn", "title": "ম্যালেরিয়া", "views": 274428, "rank": 30}, {"lang": "simple", "title": "Malaria", "views": 252335, "rank": 12}, {"lang": "ms", "title": "Malaria", "views": 213979, "rank": 26}, {"lang": "mr", "title": "मलेरिया", "views": 190646, "rank": 22}, {"lang": "sk", "title": "Malária", "views": 158859, "rank": 50}, {"lang": "gu", "title": "મલેરિયા", "views": 134965, "rank": 4}], "all_lang_codes": ["fr", "pt", "hi", "el", "bn", "sk", "ms", "simple", "ca", "mr", "te", "sw", "kn", "si", "eu", "gl", "my", "gu", "is", "eo", "nn", "as", "tg", "or", "wuu", "cy", "pa", "ga", "ps", "als", "io", "ha", "an", "su", "ia", "be-x-old", "zh-min-nan", "ku", "fy", "yi", "tt", "gn", "br", "scn", "bh", "qu", "dv", "ht", "om", "min", "new", "pnb", "ba", "lmo", "ilo", "mg", "fo", "yo", "zu", "ln", "sa", "jam", "sd", "bat-smg", "rue", "lfn", "gd", "hak", "bxr", "cdo", "za", "sc", "fiu-vro", "xh", "ig", "hyw", "ext", "ts", "gcr", "mt", "pms", "vep", "tcy", "kbp", "gpe", "wo", "tw", "din", "chr", "mad", "awa", "anp", "nso", "pcm", "nia", "knc", "ee", "tly", "ann"]}, {"qid": "Q4", "label": "Death", "num_langs": 99, "total_views": 1384633, "top_langs": [{"lang": "vi", "title": "Chết", "views": 528906, "rank": 27}, {"lang": "simple", "title": "Death", "views": 126537, "rank": 40}, {"lang": "mr", "title": "मृत्यू", "views": 93685, "rank": 48}, {"lang": "bs", "title": "Smrt", "views": 81393, "rank": 26}, {"lang": "zh-yue", "title": "死", "views": 59948, "rank": 12}, {"lang": "ur", "title": "موت", "views": 30027, "rank": 17}, {"lang": "ha", "title": "Mutuwa", "views": 21843, "rank": 3}, {"lang": "arz", "title": "موت", "views": 19556, "rank": 35}, {"lang": "la", "title": "Mors", "views": 14677, "rank": 5}, {"lang": "ast", "title": "Muerte", "views": 13525, "rank": 33}], "all_lang_codes": ["vi", "simple", "bs", "mr", "zh-yue", "ur", "arz", "ast", "eo", "la", "as", "be", "wuu", "cy", "pa", "ga", "am", "km", "ps", "als", "io", "sco", "ha", "oc", "an", "su", "ia", "be-x-old", "zh-min-nan", "ku", "so", "fy", "yi", "tt", "gn", "br", "scn", "bh", "qu", "ht", "li", "new", "pnb", "ba", "wa", "sn", "bar", "ilo", "mg", "sah", "zu", "ln", "zh-classical", "hif", "diq", "sd", "bat-smg", "rue", "ceb", "pam", "bo", "hak", "bxr", "cdo", "gan", "kab", "za", "hyw", "ext", "ary", "iu", "lij", "pap", "gcr", "mt", "arc", "szl", "vep", "roa-rup", "kw", "tcy", "kbp", "ce", "tw", "ki", "av", "myv", "inh", "nah", "cu", "kcg", "pcm", "mrj", "nia", "guw", "btm", "bug", "iba", "tok"]}, {"qid": "Q514", "label": "Anatomy", "num_langs": 95, "total_views": 1284809, "top_langs": [{"lang": "th", "title": "กายวิภาคศาสตร์", "views": 432116, "rank": 24}, {"lang": "az", "title": "Anatomiya", "views": 171015, "rank": 42}, {"lang": "da", "title": "Anatomi", "views": 130904, "rank": 48}, {"lang": "ky", "title": "Анатомия", "views": 73282, "rank": 29}, {"lang": "my", "title": "ခန္ဓာဗေဒ", "views": 47163, "rank": 14}, {"lang": "ast", "title": "Anatomía", "views": 16859, "rank": 23}, {"lang": "nov", "title": "Anatomia", "views": 12984, "rank": 2}, {"lang": "ia", "title": "Anatomia", "views": 10768, "rank": 3}, {"lang": "vec", "title": "Anatomia", "views": 10761, "rank": 2}, {"lang": "om", "title": "Anaatoomii", "views": 10413, "rank": 3}], "all_lang_codes": ["th", "da", "az", "ky", "my", "ast", "eo", "ckb", "nn", "la", "as", "be", "cy", "jv", "azb", "ps", "als", "io", "sco", "oc", "an", "war", "su", "ia", "be-x-old", "zh-min-nan", "ku", "fy", "yi", "tt", "br", "bcl", "scn", "bh", "lb", "qu", "nds", "ht", "om", "li", "min", "new", "pnb", "ba", "wa", "ilo", "mg", "sah", "xmf", "hif", "bjn", "jam", "diq", "bat-smg", "rue", "pam", "cv", "lfn", "bo", "gd", "kab", "sc", "fiu-vro", "eml", "vec", "ext", "gcr", "mt", "arc", "mwl", "vep", "fur", "ban", "roa-rup", "kw", "nov", "ks", "ce", "stq", "gor", "frp", "os", "mad", "kaa", "vo", "av", "awa", "nrm", "inh", "mhr", "mdf", "ik", "fj", "knc", "nqo"]}, {"qid": "Q12136", "label": "Disease", "num_langs": 95, "total_views": 1105166, "top_langs": [{"lang": "uz", "title": "Kasallik", "views": 159391, "rank": 47}, {"lang": "ta", "title": "நோய்", "views": 155599, "rank": 49}, {"lang": "ms", "title": "Penyakit", "views": 140094, "rank": 49}, {"lang": "ca", "title": "Malaltia", "views": 114214, "rank": 14}, {"lang": "tg", "title": "Беморӣ", "views": 23011, "rank": 12}, {"lang": "eu", "title": "Eritasun", "views": 18378, "rank": 24}, {"lang": "ne", "title": "रोग", "views": 17874, "rank": 15}, {"lang": "gn", "title": "Mba'asy", "views": 14500, "rank": 5}, {"lang": "as", "title": "ৰোগ", "views": 12439, "rank": 27}, {"lang": "la", "title": "Morbus", "views": 11784, "rank": 8}], "all_lang_codes": ["uz", "ta", "ms", "ca", "eu", "gl", "eo", "ckb", "nn", "la", "as", "tg", "ne", "be", "wuu", "cy", "pa", "ga", "azb", "ps", "als", "io", "oc", "an", "war", "ia", "be-x-old", "zh-min-nan", "so", "fy", "yi", "tt", "gn", "br", "scn", "bh", "qu", "ht", "li", "min", "pnb", "ba", "wa", "ilo", "mg", "sah", "yo", "zu", "ln", "hif", "bjn", "jam", "sd", "bat-smg", "rue", "lfn", "bo", "hak", "bxr", "cdo", "gan", "kab", "za", "fiu-vro", "xh", "hyw", "vec", "ext", "ary", "iu", "ts", "lg", "mai", "gcr", "map-bms", "dag", "arc", "ay", "vep", "roa-rup", "kw", "ks", "tw", "ang", "szy", "av", "bm", "myv", "inh", "nah", "olo", "fj", "shi", "zgh", "tok"]}, {"qid": "Q706", "label": "Calcium", "num_langs": 90, "total_views": 1489170, "top_langs": [{"lang": "th", "title": "แคลเซียม", "views": 353674, "rank": 49}, {"lang": "kk", "title": "Кальций", "views": 328557, "rank": 24}, {"lang": "bg", "title": "Калций", "views": 297043, "rank": 49}, {"lang": "ka", "title": "კალციუმი", "views": 104150, "rank": 49}, {"lang": "et", "title": "Kaltsium", "views": 52821, "rank": 43}, {"lang": "eu", "title": "Kaltzio", "views": 17941, "rank": 28}, {"lang": "arz", "title": "كالسيوم", "views": 15077, "rank": 49}, {"lang": "ckb", "title": "کەلسیۆم", "views": 9930, "rank": 49}, {"lang": "an", "title": "Calcio", "views": 9437, "rank": 11}, {"lang": "hif", "title": "Calcium", "views": 8921, "rank": 8}], "all_lang_codes": ["th", "bg", "kk", "ka", "et", "eu", "arz", "eo", "ckb", "la", "ga", "am", "azb", "io", "sco", "oc", "an", "su", "ia", "be-x-old", "zh-min-nan", "ku", "so", "yi", "tt", "gn", "scn", "bh", "lb", "qu", "nds", "dv", "ht", "li", "new", "ba", "lmo", "bar", "sah", "fo", "yo", "zh-classical", "sa", "hif", "ceb", "lfn", "bo", "gd", "hak", "frr", "cdo", "gan", "sc", "ext", "ary", "lij", "lg", "pms", "vep", "ug", "fur", "gv", "ban", "roa-rup", "kw", "nov", "kbp", "stq", "co", "ki", "jbo", "chr", "os", "vo", "awa", "nv", "anp", "nah", "mdf", "olo", "fj", "haw", "shi", "mrj", "blk", "mi", "kv", "xal", "zgh", "tok"]}, {"qid": "Q11995", "label": "Pregnancy", "num_langs": 87, "total_views": 9431908, "top_langs": [{"lang": "fa", "title": "بارداری", "views": 1878252, "rank": 46}, {"lang": "pt", "title": "Gravidez", "views": 1616073, "rank": 35}, {"lang": "hi", "title": "गर्भावस्था", "views": 1184855, "rank": 19}, {"lang": "ta", "title": "கருத்தரிப்பு", "views": 678575, "rank": 1}, {"lang": "bn", "title": "গর্ভধারণ", "views": 527400, "rank": 10}, {"lang": "af", "title": "Swangerskap", "views": 455478, "rank": 1}, {"lang": "th", "title": "การตั้งครรภ์", "views": 350916, "rank": 50}, {"lang": "kk", "title": "Жүктілік", "views": 321148, "rank": 25}, {"lang": "hy", "title": "Հղիություն (մարդ)", "views": 296094, "rank": 5}, {"lang": "uz", "title": "Homiladorlik", "views": 259262, "rank": 16}], "all_lang_codes": ["pt", "fa", "hi", "th", "bn", "kk", "uz", "hy", "ta", "az", "simple", "ca", "tl", "et", "mk", "te", "af", "ky", "kn", "eu", "ur", "gl", "my", "eo", "ckb", "la", "as", "ne", "be", "or", "cy", "pa", "tk", "ga", "azb", "als", "io", "sco", "ha", "oc", "be-x-old", "zh-min-nan", "fy", "tt", "gn", "br", "scn", "lb", "qu", "ht", "li", "pnb", "ba", "wa", "sn", "ilo", "xmf", "ln", "hif", "bjn", "jam", "sd", "rue", "pam", "bo", "gd", "bxr", "cdo", "kab", "fiu-vro", "ig", "eml", "vec", "gcr", "ny", "ban", "kw", "ti", "tcy", "ce", "tw", "gom", "ie", "szy", "mad", "syl", "fat"]}, {"qid": "Q8011", "label": "Avicenna", "num_langs": 82, "total_views": 14882253, "top_langs": [{"lang": "fa", "title": "ابن سینا", "views": 5252730, "rank": 3}, {"lang": "ar", "title": "ابن سينا", "views": 4323486, "rank": 2}, {"lang": "id", "title": "Ibnu Sina", "views": 2180434, "rank": 2}, {"lang": "uz", "title": "Abu Ali ibn Sino", "views": 960642, "rank": 1}, {"lang": "tr", "title": "İbn Sina", "views": 702066, "rank": 28}, {"lang": "az", "title": "İbn Sina", "views": 423494, "rank": 6}, {"lang": "bn", "title": "ইবনে সিনা", "views": 215154, "rank": 44}, {"lang": "tg", "title": "Ибни Сино", "views": 172404, "rank": 1}, {"lang": "arz", "title": "ابن سينا", "views": 126892, "rank": 4}, {"lang": "ur", "title": "ابن سینا", "views": 98069, "rank": 2}], "all_lang_codes": ["fa", "ar", "tr", "id", "bn", "uz", "az", "ur", "arz", "gl", "eo", "ckb", "la", "tg", "cy", "tk", "ga", "jv", "azb", "als", "ha", "oc", "an", "war", "su", "ia", "zh-min-nan", "ku", "so", "tt", "br", "bh", "nds", "li", "min", "pnb", "ba", "lmo", "bar", "ilo", "sah", "yo", "xmf", "sa", "hif", "bjn", "jam", "diq", "sd", "bat-smg", "rue", "ceb", "cv", "bxr", "gan", "za", "ext", "gcr", "pms", "mwl", "vep", "ug", "tyv", "kw", "kbp", "ce", "gor", "mad", "kaa", "myv", "ff", "bi", "inh", "glk", "crh", "lld", "knc", "bew", "skr", "btm", "tly", "syl"]}, {"qid": "Q7365", "label": "Muscle", "num_langs": 75, "total_views": 3735494, "top_langs": [{"lang": "id", "title": "Otot", "views": 910304, "rank": 23}, {"lang": "kk", "title": "Бұлшық ет", "views": 677000, "rank": 5}, {"lang": "th", "title": "กล้ามเนื้อ", "views": 530427, "rank": 16}, {"lang": "ro", "title": "Mușchi (anatomie)", "views": 407069, "rank": 39}, {"lang": "uz", "title": "Muskullar", "views": 304670, "rank": 12}, {"lang": "lt", "title": "Raumuo", "views": 149073, "rank": 30}, {"lang": "ca", "title": "Múscul", "views": 126300, "rank": 9}, {"lang": "sh", "title": "Mišići", "views": 101481, "rank": 34}, {"lang": "lv", "title": "Muskuļi", "views": 100820, "rank": 7}, {"lang": "sl", "title": "Mišica", "views": 87541, "rank": 37}], "all_lang_codes": ["id", "ro", "th", "kk", "uz", "ca", "lt", "sl", "sh", "bs", "lv", "is", "eo", "ckb", "la", "as", "be", "cy", "ga", "am", "jv", "als", "io", "an", "su", "ia", "be-x-old", "zh-min-nan", "ku", "so", "fy", "yi", "tt", "br", "bcl", "bh", "lb", "qu", "ht", "li", "pnb", "ba", "wa", "ilo", "mg", "sah", "yo", "ln", "hif", "diq", "sd", "bat-smg", "rue", "lfn", "bxr", "cdo", "kab", "za", "fiu-vro", "lo", "gcr", "arc", "ug", "vls", "kbp", "ce", "se", "chr", "av", "mhr", "lbe", "fj", "pag", "bew", "iba"]}, {"qid": "Q12192", "label": "Pneumonia", "num_langs": 74, "total_views": 49830602, "top_langs": [{"lang": "en", "title": "Pneumonia", "views": 24372468, "rank": 13}, {"lang": "ru", "title": "Пневмония", "views": 7033400, "rank": 14}, {"lang": "es", "title": "Neumonía", "views": 4919205, "rank": 46}, {"lang": "zh", "title": "肺炎", "views": 2622842, "rank": 17}, {"lang": "ar", "title": "ذات الرئة", "views": 1531430, "rank": 35}, {"lang": "tl", "title": "Pulmonya", "views": 697254, "rank": 2}, {"lang": "cs", "title": "Zápal plic", "views": 671605, "rank": 34}, {"lang": "id", "title": "Radang paru-paru", "views": 652330, "rank": 45}, {"lang": "bg", "title": "Пневмония", "views": 620818, "rank": 6}, {"lang": "sv", "title": "Lunginflammation", "views": 536694, "rank": 41}], "all_lang_codes": ["en", "es", "ru", "zh", "ar", "sv", "cs", "he", "id", "fi", "hu", "ro", "el", "bg", "hr", "bn", "sk", "kk", "da", "uz", "hy", "ta", "az", "ca", "lt", "sl", "sq", "tl", "mk", "lv", "te", "af", "sw", "ky", "zh-yue", "si", "ast", "is", "la", "tg", "or", "wuu", "tk", "am", "km", "ps", "als", "oc", "yi", "tt", "lb", "dv", "min", "new", "ba", "wa", "ilo", "sah", "xmf", "hif", "bat-smg", "bxr", "kab", "hyw", "vec", "lij", "gcr", "gpe", "ce", "rn", "awa", "pdc", "lld", "dz"]}, {"qid": "Q153", "label": "Ethanol", "num_langs": 74, "total_views": 39426687, "top_langs": [{"lang": "ru", "title": "Этанол", "views": 5579859, "rank": 33}, {"lang": "de", "title": "Ethanol", "views": 5571509, "rank": 22}, {"lang": "es", "title": "Etanol", "views": 5050946, "rank": 41}, {"lang": "ja", "title": "エタノール", "views": 3605154, "rank": 22}, {"lang": "fr", "title": "Éthanol", "views": 2547060, "rank": 35}, {"lang": "pl", "title": "Etanol", "views": 2248558, "rank": 9}, {"lang": "zh", "title": "乙醇", "views": 2223753, "rank": 25}, {"lang": "it", "title": "Etanolo", "views": 2067550, "rank": 45}, {"lang": "nl", "title": "Ethanol", "views": 1111647, "rank": 11}, {"lang": "id", "title": "Etanol", "views": 1085502, "rank": 16}], "all_lang_codes": ["es", "de", "ru", "fr", "ja", "it", "pl", "zh", "nl", "sv", "cs", "id", "fi", "ko", "hu", "ro", "el", "th", "bg", "sr", "hr", "no", "sk", "da", "ms", "ca", "lt", "sl", "sh", "et", "bs", "lv", "eu", "gl", "ast", "eo", "nn", "be", "jv", "azb", "ps", "als", "an", "war", "be-x-old", "zh-min-nan", "fy", "yi", "tt", "gn", "br", "bcl", "lb", "qu", "li", "new", "pnb", "ba", "lmo", "bar", "ilo", "sah", "zh-classical", "hif", "bat-smg", "ceb", "bo", "frr", "vep", "tyv", "kw", "stq", "awa", "knc"]}, {"qid": "Q42005", "label": "Black Death", "num_langs": 69, "total_views": 70862874, "top_langs": [{"lang": "en", "title": "Black Death", "views": 32712145, "rank": 4}, {"lang": "es", "title": "Peste negra", "views": 14215028, "rank": 2}, {"lang": "fr", "title": "Peste noire", "views": 4010744, "rank": 9}, {"lang": "it", "title": "Peste nera", "views": 3445991, "rank": 6}, {"lang": "zh", "title": "黑死病", "views": 2821734, "rank": 11}, {"lang": "pl", "title": "Czarna śmierć", "views": 2207848, "rank": 11}, {"lang": "pt", "title": "Peste Negra", "views": 2001633, "rank": 18}, {"lang": "tr", "title": "Kara Ölüm", "views": 1285952, "rank": 6}, {"lang": "sv", "title": "Digerdöden", "views": 1225744, "rank": 4}, {"lang": "no", "title": "Svartedauden", "views": 922949, "rank": 1}], "all_lang_codes": ["en", "es", "fr", "it", "pt", "pl", "zh", "nl", "sv", "tr", "he", "fi", "ko", "vi", "ro", "el", "hr", "no", "sk", "da", "ca", "ka", "lv", "zh-yue", "arz", "is", "nn", "be", "cy", "ga", "als", "sco", "an", "war", "be-x-old", "ku", "fy", "br", "scn", "nds", "li", "new", "ba", "wa", "fo", "xmf", "jam", "gd", "hak", "cdo", "kab", "sc", "fiu-vro", "hyw", "mai", "gcr", "mt", "mwl", "szl", "fur", "kbp", "os", "lad", "nah", "lld", "nia", "smn", "kbd", "got"]}, {"qid": "Q10737", "label": "Suicide", "num_langs": 69, "total_views": 16872732, "top_langs": [{"lang": "es", "title": "Suicidio", "views": 5029283, "rank": 44}, {"lang": "ja", "title": "自殺", "views": 2770019, "rank": 39}, {"lang": "pt", "title": "Suicídio", "views": 2105175, "rank": 16}, {"lang": "pl", "title": "Samobójstwo", "views": 1360885, "rank": 50}, {"lang": "ar", "title": "انتحار", "views": 1338960, "rank": 46}, {"lang": "hi", "title": "आत्महत्या", "views": 804663, "rank": 37}, {"lang": "nl", "title": "Zelfmoord", "views": 754912, "rank": 44}, {"lang": "tl", "title": "Pagpapatiwakal", "views": 597802, "rank": 5}, {"lang": "fi", "title": "Itsemurha", "views": 453509, "rank": 49}, {"lang": "hu", "title": "Öngyilkosság", "views": 440231, "rank": 38}], "all_lang_codes": ["es", "ja", "pt", "pl", "ar", "nl", "fi", "hi", "hu", "th", "no", "bn", "simple", "tl", "si", "ur", "my", "gu", "ast", "eo", "la", "as", "or", "azb", "ps", "als", "an", "be-x-old", "fy", "yi", "tt", "br", "bcl", "lb", "qu", "ht", "li", "new", "pnb", "ba", "wa", "bar", "ilo", "sah", "fo", "zh-classical", "hif", "jam", "diq", "bat-smg", "bo", "gd", "bxr", "za", "sc", "fiu-vro", "nds-nl", "pap", "gcr", "ny", "kw", "wo", "ce", "rn", "ie", "bm", "inh", "btm", "nr"]}, {"qid": "Q8452", "label": "Abortion", "num_langs": 67, "total_views": 11662313, "top_langs": [{"lang": "es", "title": "Aborto", "views": 7626572, "rank": 12}, {"lang": "pt", "title": "Aborto", "views": 2182487, "rank": 13}, {"lang": "tl", "title": "Pagpapalaglag", "views": 434156, "rank": 8}, {"lang": "hr", "title": "Pobačaj", "views": 283952, "rank": 23}, {"lang": "ta", "title": "கருக்கலைப்பு", "views": 246196, "rank": 19}, {"lang": "sw", "title": "Utoaji mimba", "views": 160696, "rank": 12}, {"lang": "sh", "title": "Abortus", "views": 127130, "rank": 17}, {"lang": "simple", "title": "Abortion", "views": 115937, "rank": 46}, {"lang": "mk", "title": "Абортус", "views": 84340, "rank": 31}, {"lang": "my", "title": "ကိုယ်ဝန်ဖျက်ချခြင်း", "views": 51932, "rank": 12}], "all_lang_codes": ["es", "pt", "hr", "ta", "simple", "sh", "tl", "mk", "sw", "ky", "si", "ur", "my", "eo", "la", "ne", "tk", "ga", "ha", "ia", "be-x-old", "ku", "fy", "yi", "gn", "lb", "qu", "ht", "li", "pnb", "ba", "sn", "lmo", "ilo", "fo", "yo", "hif", "jam", "diq", "bat-smg", "rue", "pam", "bxr", "sc", "fiu-vro", "ig", "eml", "hyw", "ext", "iu", "nds-nl", "mai", "gcr", "mt", "dag", "pms", "szl", "ny", "tcy", "kbp", "ce", "tw", "anp", "knc", "guw", "btm", "dz"]}, {"qid": "Q2840", "label": "Influenza", "num_langs": 67, "total_views": 8095820, "top_langs": [{"lang": "ja", "title": "インフルエンザ", "views": 2786365, "rank": 36}, {"lang": "zh", "title": "流行性感冒", "views": 1719083, "rank": 40}, {"lang": "nl", "title": "Griep", "views": 1024701, "rank": 13}, {"lang": "id", "title": "Influenza", "views": 851884, "rank": 27}, {"lang": "th", "title": "ไข้หวัดใหญ่", "views": 652666, "rank": 7}, {"lang": "kk", "title": "Тұмау", "views": 297558, "rank": 29}, {"lang": "tl", "title": "Trangkaso", "views": 204335, "rank": 22}, {"lang": "ca", "title": "Grip", "views": 93772, "rank": 28}, {"lang": "sw", "title": "Homa ya mafua", "views": 93152, "rank": 27}, {"lang": "lv", "title": "Gripa", "views": 51883, "rank": 36}], "all_lang_codes": ["ja", "zh", "nl", "id", "th", "kk", "ca", "tl", "lv", "sw", "ky", "eu", "gl", "ast", "or", "tk", "jv", "als", "ha", "oc", "an", "ku", "so", "fy", "tt", "gn", "br", "qu", "nds", "dv", "ht", "min", "pnb", "ba", "wa", "ilo", "mg", "sah", "xmf", "ln", "jam", "sd", "bat-smg", "rue", "bo", "frr", "bxr", "kab", "vec", "ts", "pap", "gcr", "map-bms", "pms", "ay", "tyv", "roa-rup", "vls", "csb", "rn", "frp", "kaa", "awa", "nv", "fj", "blk", "guc"]}, {"qid": "Q39631", "label": "Medical doctor", "num_langs": 65, "total_views": 1154172, "top_langs": [{"lang": "th", "title": "แพทย์", "views": 560201, "rank": 15}, {"lang": "bn", "title": "চিকিৎসক", "views": 206583, "rank": 49}, {"lang": "af", "title": "Dokter", "views": 103765, "rank": 21}, {"lang": "ln", "title": "Mónganga", "views": 13482, "rank": 2}, {"lang": "su", "title": "Dokter", "views": 12462, "rank": 3}, {"lang": "nds", "title": "Dokter (Medizin)", "views": 12050, "rank": 2}, {"lang": "la", "title": "Medicus", "views": 9996, "rank": 15}, {"lang": "eo", "title": "Kuracisto", "views": 9167, "rank": 12}, {"lang": "sn", "title": "Chiremba", "views": 8922, "rank": 10}, {"lang": "nn", "title": "Lege", "views": 7731, "rank": 37}], "all_lang_codes": ["th", "bn", "af", "eo", "nn", "la", "be", "pa", "azb", "io", "oc", "su", "ia", "be-x-old", "zh-min-nan", "ku", "fy", "yi", "scn", "lb", "qu", "nds", "min", "new", "wa", "sn", "lmo", "mg", "fo", "yo", "ln", "zh-classical", "bjn", "jam", "sd", "bat-smg", "rue", "bo", "gd", "hak", "bxr", "cdo", "za", "gcr", "mt", "arc", "tyv", "ti", "ks", "ki", "os", "szy", "pcd", "mdf", "glk", "crh", "cbk-zam", "chy", "ami", "bew", "rmy", "got", "bbc", "tok", "mos"]}, {"qid": "Q57751738", "label": "Coronavirus", "num_langs": 62, "total_views": 69645873, "top_langs": [{"lang": "en", "title": "Coronavirus", "views": 38965730, "rank": 3}, {"lang": "fr", "title": "Coronavirus", "views": 5637687, "rank": 2}, {"lang": "fa", "title": "کروناویروس", "views": 5201209, "rank": 4}, {"lang": "pt", "title": "Coronavírus", "views": 2693465, "rank": 6}, {"lang": "ar", "title": "فيروس كورونا", "views": 2137706, "rank": 14}, {"lang": "pl", "title": "Koronawirusy", "views": 1997371, "rank": 17}, {"lang": "hi", "title": "कोरोनावायरस", "views": 1574732, "rank": 8}, {"lang": "id", "title": "Koronavirus", "views": 1472862, "rank": 5}, {"lang": "cs", "title": "Koronavirus", "views": 1268223, "rank": 6}, {"lang": "tr", "title": "Koronavirüs", "views": 1061864, "rank": 13}], "all_lang_codes": ["en", "fr", "pt", "fa", "pl", "ar", "nl", "sv", "cs", "tr", "id", "hi", "ko", "hu", "vi", "ro", "bn", "da", "az", "simple", "ca", "sl", "mr", "kn", "si", "ur", "gu", "ckb", "la", "ne", "or", "pa", "ga", "azb", "gn", "qu", "ht", "min", "lmo", "mzn", "sa", "bjn", "kab", "ig", "vec", "ary", "nds-nl", "ts", "pap", "mai", "mt", "ay", "ug", "ti", "tcy", "ang", "gor", "kcg", "glk", "haw", "bbc", "syl"]}, {"qid": "Q5887", "label": "Orgasm", "num_langs": 62, "total_views": 56001008, "top_langs": [{"lang": "en", "title": "Orgasm", "views": 18029974, "rank": 29}, {"lang": "ru", "title": "Оргазм", "views": 6240722, "rank": 23}, {"lang": "ja", "title": "オーガズム", "views": 5167318, "rank": 8}, {"lang": "de", "title": "Orgasmus", "views": 4719593, "rank": 35}, {"lang": "fa", "title": "ارگاسم", "views": 3936847, "rank": 10}, {"lang": "ar", "title": "هزة الجماع", "views": 3252105, "rank": 4}, {"lang": "zh", "title": "性高潮", "views": 3240696, "rank": 8}, {"lang": "pl", "title": "Orgazm", "views": 1621175, "rank": 30}, {"lang": "ko", "title": "오르가슴", "views": 1011951, "rank": 4}, {"lang": "tr", "title": "Orgazm", "views": 984657, "rank": 16}], "all_lang_codes": ["en", "de", "ru", "ja", "fa", "pl", "zh", "ar", "cs", "tr", "he", "id", "fi", "ko", "hu", "vi", "ro", "sr", "hr", "bn", "sk", "hy", "az", "simple", "lt", "sl", "sh", "ka", "bs", "af", "zh-yue", "eu", "ast", "eo", "la", "be", "wuu", "cy", "ga", "jv", "ps", "sco", "an", "su", "ia", "be-x-old", "ku", "fy", "bcl", "qu", "nds", "sah", "zu", "mzn", "zh-classical", "bat-smg", "bo", "sc", "ext", "hsb", "ie", "tok"]}, {"qid": "Q7162", "label": "Genetics", "num_langs": 62, "total_views": 3830793, "top_langs": [{"lang": "hi", "title": "आनुवंशिकी", "views": 830761, "rank": 34}, {"lang": "id", "title": "Genetika", "views": 696320, "rank": 38}, {"lang": "th", "title": "พันธุศาสตร์", "views": 583619, "rank": 13}, {"lang": "vi", "title": "Di truyền học", "views": 564473, "rank": 22}, {"lang": "kk", "title": "Генетика", "views": 431286, "rank": 15}, {"lang": "uz", "title": "Genetika", "views": 214791, "rank": 24}, {"lang": "sl", "title": "Genetika", "views": 122847, "rank": 13}, {"lang": "ky", "title": "Генетика", "views": 100746, "rank": 13}, {"lang": "bs", "title": "Genetika", "views": 56932, "rank": 49}, {"lang": "eu", "title": "Genetika", "views": 19988, "rank": 18}], "all_lang_codes": ["id", "hi", "vi", "th", "kk", "uz", "sl", "bs", "ky", "eu", "eo", "la", "be", "cy", "ga", "am", "jv", "km", "io", "sco", "oc", "an", "ia", "zh-min-nan", "ku", "fy", "yi", "br", "qu", "ht", "om", "min", "pnb", "ba", "sah", "yo", "jam", "diq", "rue", "lfn", "gd", "ext", "lo", "lg", "pap", "gcr", "tyv", "ban", "nov", "ce", "ki", "ie", "jbo", "gor", "chr", "os", "mad", "av", "mhr", "mdf", "lld", "avk"]}, {"qid": "Q1103", "label": "Iodine", "num_langs": 62, "total_views": 409756, "top_langs": [{"lang": "sl", "title": "Jod", "views": 92028, "rank": 33}, {"lang": "ca", "title": "Iode", "views": 77494, "rank": 38}, {"lang": "an", "title": "Yodo", "views": 16194, "rank": 5}, {"lang": "vep", "title": "Jod", "views": 12578, "rank": 1}, {"lang": "stq", "title": "Iod", "views": 12482, "rank": 1}, {"lang": "nds", "title": "Jod", "views": 11293, "rank": 4}, {"lang": "nn", "title": "Jod", "views": 10042, "rank": 21}, {"lang": "fo", "title": "Jod", "views": 8693, "rank": 5}, {"lang": "jv", "title": "Yodium", "views": 8208, "rank": 12}, {"lang": "li", "title": "Jodium", "views": 7464, "rank": 10}], "all_lang_codes": ["ca", "sl", "nn", "am", "jv", "azb", "io", "an", "su", "ia", "be-x-old", "so", "tt", "scn", "bh", "nds", "dv", "li", "pnb", "ba", "lmo", "fo", "yo", "zh-classical", "sa", "hif", "diq", "ceb", "cv", "bo", "gd", "hak", "frr", "cdo", "gan", "ary", "lij", "lg", "pms", "vep", "ug", "fur", "gv", "tyv", "ban", "roa-rup", "kw", "nov", "kbp", "stq", "co", "jbo", "os", "myv", "bi", "anp", "olo", "mrj", "lld", "kv", "xal", "skr"]}, {"qid": "Q16917", "label": "Hospital", "num_langs": 61, "total_views": 549499, "top_langs": [{"lang": "simple", "title": "Hospital", "views": 160104, "rank": 30}, {"lang": "kn", "title": "ಆಸ್ಪತ್ರೆ", "views": 102427, "rank": 11}, {"lang": "bh", "title": "अस्पताल", "views": 26397, "rank": 4}, {"lang": "gu", "title": "હોસ્પિટલ", "views": 23677, "rank": 39}, {"lang": "iu", "title": "ᐋᓐᓂᐊᕐᕕᒃ", "views": 11145, "rank": 4}, {"lang": "gl", "title": "Hospital", "views": 10636, "rank": 21}, {"lang": "ia", "title": "Hospital", "views": 9624, "rank": 7}, {"lang": "war", "title": "Hospital", "views": 9156, "rank": 5}, {"lang": "sm", "title": "Falema'i", "views": 8208, "rank": 1}, {"lang": "la", "title": "Valetudinarium", "views": 7681, "rank": 30}], "all_lang_codes": ["simple", "kn", "gl", "gu", "eo", "la", "be", "cy", "ga", "jv", "io", "an", "war", "ia", "be-x-old", "ku", "so", "fy", "yi", "gn", "br", "bcl", "scn", "bh", "lb", "qu", "ht", "wa", "sn", "lmo", "ln", "sd", "ceb", "cv", "hak", "bxr", "gan", "vec", "tn", "iu", "lo", "dag", "arc", "szl", "ban", "roa-rup", "vls", "ks", "ce", "tw", "ang", "ie", "lad", "chy", "guw", "ami", "trv", "rmy", "sm", "iba", "fat"]}, {"qid": "Q12184", "label": "Pandemic", "num_langs": 60, "total_views": 16834530, "top_langs": [{"lang": "de", "title": "Pandemie", "views": 4503671, "rank": 40}, {"lang": "ja", "title": "パンデミック", "views": 3342055, "rank": 26}, {"lang": "it", "title": "Pandemia", "views": 2384896, "rank": 26}, {"lang": "pl", "title": "Pandemia", "views": 1558865, "rank": 34}, {"lang": "pt", "title": "Pandemia", "views": 1481570, "rank": 48}, {"lang": "nl", "title": "Pandemie", "views": 992988, "rank": 14}, {"lang": "sv", "title": "Pandemi", "views": 736387, "rank": 16}, {"lang": "el", "title": "Πανδημία", "views": 468907, "rank": 19}, {"lang": "hu", "title": "Pandémia", "views": 442239, "rank": 37}, {"lang": "sk", "title": "Pandémia", "views": 169139, "rank": 44}], "all_lang_codes": ["de", "ja", "it", "pt", "pl", "nl", "sv", "hu", "el", "no", "sk", "da", "ca", "ka", "tl", "an", "ia", "tt", "bcl", "bh", "lb", "nds", "li", "min", "ba", "sn", "lmo", "ilo", "sah", "yo", "zu", "xmf", "rue", "cv", "bo", "hak", "frr", "kab", "za", "sc", "xh", "vec", "pap", "dag", "mwl", "szl", "vep", "ug", "ban", "ce", "se", "tw", "ang", "ie", "os", "szy", "ve", "nah", "smn", "knc"]}, {"qid": "Q38404", "label": "Autism", "num_langs": 59, "total_views": 62915719, "top_langs": [{"lang": "en", "title": "Autism", "views": 16089337, "rank": 45}, {"lang": "ru", "title": "Аутизм", "views": 10398224, "rank": 3}, {"lang": "de", "title": "Autismus", "views": 7550630, "rank": 10}, {"lang": "it", "title": "Autismo", "views": 3204315, "rank": 10}, {"lang": "fr", "title": "Autisme", "views": 2798440, "rank": 29}, {"lang": "ja", "title": "自閉症", "views": 2736526, "rank": 40}, {"lang": "zh", "title": "自閉症", "views": 2381616, "rank": 18}, {"lang": "ar", "title": "توحد", "views": 1898178, "rank": 22}, {"lang": "fa", "title": "اوتیسم", "views": 1846889, "rank": 49}, {"lang": "pt", "title": "Autismo", "views": 1709164, "rank": 28}], "all_lang_codes": ["en", "de", "ru", "fr", "ja", "it", "pt", "fa", "zh", "ar", "nl", "sv", "cs", "tr", "he", "fi", "hu", "ro", "el", "bg", "sr", "hr", "no", "da", "hy", "az", "ms", "lt", "sl", "sq", "ka", "et", "mk", "lv", "af", "zh-yue", "eu", "is", "ckb", "or", "tk", "war", "ia", "ku", "so", "dv", "wa", "fo", "jam", "bat-smg", "lfn", "sc", "xh", "ary", "gcr", "gpe", "rn", "jbo", "pdc"]}, {"qid": "Q12140", "label": "Medication", "num_langs": 59, "total_views": 392929, "top_langs": [{"lang": "uz", "title": "Dori", "views": 152671, "rank": 50}, {"lang": "an", "title": "Medecina", "views": 16834, "rank": 4}, {"lang": "bo", "title": "སྨན།", "views": 10523, "rank": 1}, {"lang": "hif", "title": "Dawai", "views": 9935, "rank": 5}, {"lang": "iu", "title": "ᐊᓐᓂᐊᒥ ᖃᐅᔨᓴᕐᓂᖅ", "views": 9928, "rank": 6}, {"lang": "as", "title": "ঔষধ", "views": 8441, "rank": 43}, {"lang": "gl", "title": "Fármaco", "views": 8426, "rank": 44}, {"lang": "bh", "title": "दवाई", "views": 7445, "rank": 10}, {"lang": "ha", "title": "Magani", "views": 6964, "rank": 19}, {"lang": "pam", "title": "Panulu", "views": 6197, "rank": 9}], "all_lang_codes": ["uz", "gl", "eo", "as", "be", "cy", "azb", "ps", "als", "io", "ha", "oc", "an", "war", "ia", "be-x-old", "ku", "fy", "yi", "tt", "gn", "br", "scn", "bh", "qu", "pnb", "ba", "lmo", "mg", "sah", "fo", "ln", "hif", "jam", "bat-smg", "pam", "cv", "bo", "bxr", "fiu-vro", "hyw", "vec", "iu", "gcr", "vep", "dty", "gpe", "tw", "szy", "kaa", "myv", "mdf", "ik", "kv", "knc", "guw", "bdr", "kge", "iba"]}, {"qid": "Q34956", "label": "Vitamin", "num_langs": 58, "total_views": 6665405, "top_langs": [{"lang": "hi", "title": "विटामिन", "views": 2121312, "rank": 5}, {"lang": "id", "title": "Vitamin", "views": 823184, "rank": 30}, {"lang": "kk", "title": "Дәрумен", "views": 732947, "rank": 4}, {"lang": "hu", "title": "Vitamin", "views": 499885, "rank": 32}, {"lang": "bn", "title": "ভিটামিন", "views": 341299, "rank": 24}, {"lang": "uz", "title": "Vitaminlar", "views": 338558, "rank": 8}, {"lang": "az", "title": "Vitaminlər", "views": 331677, "rank": 15}, {"lang": "hy", "title": "Վիտամին", "views": 257111, "rank": 7}, {"lang": "sr", "title": "Vitamin", "views": 201272, "rank": 40}, {"lang": "mr", "title": "जीवनसत्त्व", "views": 182357, "rank": 25}], "all_lang_codes": ["id", "hi", "hu", "sr", "bn", "kk", "uz", "hy", "az", "ka", "mr", "lv", "te", "ky", "kn", "si", "eu", "as", "tg", "or", "pa", "tk", "jv", "km", "ps", "sco", "oc", "war", "su", "ia", "so", "yi", "tt", "bcl", "scn", "bh", "dv", "ht", "pnb", "ba", "wa", "lmo", "sah", "fo", "yo", "xmf", "bjn", "rue", "cv", "hak", "frr", "cdo", "lo", "tyv", "nov", "dty", "ks", "kaa"]}, {"qid": "Q529", "label": "Louis Pasteur", "num_langs": 57, "total_views": 10420561, "top_langs": [{"lang": "es", "title": "Louis Pasteur", "views": 6097574, "rank": 24}, {"lang": "fr", "title": "Louis Pasteur", "views": 3372415, "rank": 17}, {"lang": "vi", "title": "Louis Pasteur", "views": 365099, "rank": 48}, {"lang": "th", "title": "หลุยส์ ปาสเตอร์", "views": 353774, "rank": 48}, {"lang": "ca", "title": "Louis Pasteur", "views": 74940, "rank": 39}, {"lang": "arz", "title": "لوى باستور", "views": 31019, "rank": 22}, {"lang": "ast", "title": "Louis Pasteur", "views": 13021, "rank": 35}, {"lang": "gl", "title": "Louis Pasteur", "views": 9126, "rank": 35}, {"lang": "sco", "title": "Louis Pasteur", "views": 4293, "rank": 48}, {"lang": "azb", "title": "لویی پاستور", "views": 4261, "rank": 26}], "all_lang_codes": ["es", "fr", "vi", "th", "ca", "arz", "gl", "ast", "azb", "sco", "oc", "tt", "lb", "om", "min", "pnb", "ba", "lmo", "ilo", "mg", "fo", "yo", "mzn", "xmf", "zh-classical", "hif", "rue", "ceb", "gd", "hak", "bxr", "kab", "za", "fiu-vro", "mai", "mt", "pms", "mwl", "szl", "vep", "kw", "dty", "tcy", "kbp", "ce", "gom", "ie", "jbo", "frp", "kaa", "vo", "pcd", "olo", "shi", "knc", "btm", "rki"]}, {"qid": "Q871", "label": "Arsenic", "num_langs": 57, "total_views": 261078, "top_langs": [{"lang": "et", "title": "Arseen", "views": 101377, "rank": 6}, {"lang": "hif", "title": "Arsenic", "views": 7193, "rank": 10}, {"lang": "vep", "title": "Arsen", "views": 5745, "rank": 5}, {"lang": "nds", "title": "Arsen", "views": 5700, "rank": 19}, {"lang": "roa-rup", "title": "Arsenic", "views": 5583, "rank": 5}, {"lang": "stq", "title": "Arsen", "views": 5561, "rank": 6}, {"lang": "fur", "title": "Arsenic", "views": 4743, "rank": 9}, {"lang": "yo", "title": "Arsenic", "views": 4543, "rank": 10}, {"lang": "lij", "title": "Arsenico", "views": 4462, "rank": 7}, {"lang": "ceb", "title": "Arsenico", "views": 4328, "rank": 13}], "all_lang_codes": ["et", "io", "oc", "so", "gn", "br", "scn", "bh", "lb", "nds", "ht", "li", "min", "pnb", "lmo", "fo", "yo", "zh-classical", "sa", "hif", "ceb", "pam", "cv", "bo", "gd", "hak", "frr", "cdo", "sc", "ary", "lij", "lg", "pms", "vep", "ug", "fur", "gv", "ban", "roa-rup", "kw", "nov", "kbp", "stq", "co", "jbo", "os", "myv", "awa", "anp", "mdf", "olo", "mrj", "blk", "kv", "xal", "koi", "tok"]}, {"qid": "Q12214", "label": "Smallpox", "num_langs": 56, "total_views": 32925619, "top_langs": [{"lang": "en", "title": "Smallpox", "views": 16311468, "rank": 40}, {"lang": "ja", "title": "天然痘", "views": 4348236, "rank": 11}, {"lang": "fr", "title": "Variole", "views": 3310445, "rank": 18}, {"lang": "it", "title": "Vaiolo", "views": 2385402, "rank": 25}, {"lang": "zh", "title": "天花", "views": 2123340, "rank": 29}, {"lang": "pt", "title": "Varíola", "views": 1573694, "rank": 41}, {"lang": "sv", "title": "Smittkoppor", "views": 549038, "rank": 39}, {"lang": "ko", "title": "천연두", "views": 411849, "rank": 34}, {"lang": "el", "title": "Ευλογιά", "views": 390304, "rank": 28}, {"lang": "bg", "title": "Едра шарка", "views": 354546, "rank": 33}], "all_lang_codes": ["en", "fr", "ja", "it", "pt", "zh", "sv", "ko", "el", "bg", "hr", "no", "da", "ca", "sl", "et", "zh-yue", "eu", "ur", "gu", "ast", "is", "ga", "als", "an", "zh-min-nan", "yi", "tt", "gn", "scn", "qu", "dv", "pnb", "wa", "ilo", "sah", "jam", "bat-smg", "gd", "hak", "frr", "cdo", "kab", "sc", "fiu-vro", "eml", "pms", "ay", "fur", "tcy", "kbp", "chr", "os", "nv", "anp", "nah"]}, {"qid": "Q2845", "label": "Cannabis (drug)", "num_langs": 55, "total_views": 51718019, "top_langs": [{"lang": "en", "title": "Cannabis (drug)", "views": 17264188, "rank": 35}, {"lang": "ru", "title": "Марихуана", "views": 6399498, "rank": 19}, {"lang": "es", "title": "Cannabis (psicotrópico)", "views": 5051351, "rank": 40}, {"lang": "fa", "title": "ماری‌جوآنا", "views": 4078505, "rank": 8}, {"lang": "ja", "title": "大麻", "views": 4065994, "rank": 14}, {"lang": "zh", "title": "大麻", "views": 2778666, "rank": 13}, {"lang": "pl", "title": "Marihuana", "views": 1824850, "rank": 20}, {"lang": "id", "title": "Ganja", "views": 1168672, "rank": 12}, {"lang": "vi", "title": "Cần sa (chất kích thích)", "views": 945026, "rank": 8}, {"lang": "tr", "title": "Esrar", "views": 943729, "rank": 17}], "all_lang_codes": ["en", "es", "ru", "ja", "fa", "pl", "zh", "sv", "cs", "tr", "id", "fi", "hi", "ko", "hu", "vi", "ro", "bg", "hr", "no", "sk", "da", "ms", "sh", "tl", "lv", "af", "my", "eo", "jv", "km", "io", "su", "tt", "scn", "min", "lmo", "fo", "xmf", "ln", "zh-classical", "bjn", "jam", "diq", "fiu-vro", "ig", "mai", "pms", "vls", "jbo", "os", "ik", "mi", "sm", "dtp"]}, {"qid": "Q79793", "label": "Measles", "num_langs": 55, "total_views": 11306280, "top_langs": [{"lang": "ru", "title": "Корь", "views": 6379790, "rank": 20}, {"lang": "cs", "title": "Spalničky", "views": 658407, "rank": 35}, {"lang": "he", "title": "חצבת", "views": 651694, "rank": 17}, {"lang": "hu", "title": "Kanyaró", "views": 508544, "rank": 31}, {"lang": "bg", "title": "Дребна шарка", "views": 475662, "rank": 15}, {"lang": "ro", "title": "Rujeolă", "views": 396568, "rank": 40}, {"lang": "el", "title": "Ιλαρά", "views": 341047, "rank": 45}, {"lang": "sh", "title": "Morbili", "views": 333719, "rank": 1}, {"lang": "kk", "title": "Қызылша (медицина)", "views": 243519, "rank": 41}, {"lang": "sk", "title": "Osýpky", "views": 178765, "rank": 40}], "all_lang_codes": ["ru", "cs", "he", "hu", "ro", "el", "bg", "sk", "kk", "hy", "sl", "sh", "sq", "ka", "et", "mk", "af", "zh-yue", "si", "eu", "ast", "ckb", "ne", "be", "or", "tk", "km", "als", "be-x-old", "bh", "lb", "dv", "sn", "sah", "ln", "bjn", "sd", "cv", "bo", "kab", "sc", "ig", "eml", "map-bms", "pms", "ay", "ny", "csb", "wo", "tw", "din", "awa", "kcg", "nia", "krc"]}, {"qid": "Q133780", "label": "Plague (disease)", "num_langs": 54, "total_views": 36799471, "top_langs": [{"lang": "ru", "title": "Чума", "views": 7768658, "rank": 8}, {"lang": "de", "title": "Pest", "views": 6325130, "rank": 16}, {"lang": "ja", "title": "ペスト", "views": 5009574, "rank": 9}, {"lang": "fr", "title": "Peste", "views": 2952365, "rank": 23}, {"lang": "it", "title": "Peste", "views": 2790954, "rank": 18}, {"lang": "pl", "title": "Dżuma", "views": 2578498, "rank": 4}, {"lang": "nl", "title": "Pest (ziekte)", "views": 1616324, "rank": 3}, {"lang": "ar", "title": "طاعون", "views": 1504991, "rank": 38}, {"lang": "hu", "title": "Pestis", "views": 948051, "rank": 4}, {"lang": "cs", "title": "Mor", "views": 859011, "rank": 21}], "all_lang_codes": ["de", "ru", "fr", "ja", "it", "pl", "ar", "nl", "sv", "cs", "tr", "fi", "hu", "el", "bg", "sr", "hr", "da", "lt", "sl", "et", "ur", "arz", "gu", "ast", "eo", "nn", "la", "be", "azb", "als", "io", "be-x-old", "fy", "scn", "lb", "dv", "pnb", "xmf", "bjn", "bat-smg", "frr", "kab", "za", "eml", "vec", "nds-nl", "vls", "os", "av", "awa", "bew", "rki", "rsk"]}, {"qid": "Q1566", "label": "Tobacco", "num_langs": 53, "total_views": 1109594, "top_langs": [{"lang": "sq", "title": "Duhani", "views": 345606, "rank": 7}, {"lang": "kk", "title": "Темекі", "views": 264834, "rank": 33}, {"lang": "mr", "title": "तंबाखू", "views": 189185, "rank": 23}, {"lang": "kn", "title": "ತಂಬಾಕು", "views": 39604, "rank": 35}, {"lang": "as", "title": "ধঁপাত", "views": 27543, "rank": 8}, {"lang": "my", "title": "ဆေးလိပ်", "views": 25582, "rank": 35}, {"lang": "ur", "title": "تمباکو", "views": 19671, "rank": 40}, {"lang": "eu", "title": "Tabako", "views": 16059, "rank": 37}, {"lang": "ilo", "title": "Tabako", "views": 14524, "rank": 4}, {"lang": "eo", "title": "Tabako", "views": 10550, "rank": 9}], "all_lang_codes": ["kk", "sq", "mr", "kn", "eu", "ur", "my", "eo", "as", "pa", "ga", "am", "azb", "als", "io", "oc", "an", "be-x-old", "so", "fy", "yi", "br", "li", "new", "pnb", "sn", "ilo", "mg", "fo", "zu", "bjn", "bat-smg", "lfn", "bxr", "za", "fiu-vro", "eml", "mai", "mwl", "ban", "roa-rup", "vls", "dty", "tcy", "kbp", "ang", "gom", "awa", "nrm", "anp", "pdc", "ami", "tay"]}, {"qid": "Q1106", "label": "Xenon", "num_langs": 53, "total_views": 239394, "top_langs": [{"lang": "zh-min-nan", "title": "Xenon", "views": 10405, "rank": 3}, {"lang": "stq", "title": "Xenon", "views": 9448, "rank": 2}, {"lang": "ceb", "title": "Xenon", "views": 9426, "rank": 4}, {"lang": "gv", "title": "Xenon", "views": 9423, "rank": 3}, {"lang": "sco", "title": "Xenon", "views": 9408, "rank": 15}, {"lang": "gl", "title": "Xenon", "views": 9150, "rank": 33}, {"lang": "nds", "title": "Xenon", "views": 8930, "rank": 6}, {"lang": "hak", "title": "Xenon", "views": 8585, "rank": 1}, {"lang": "ia", "title": "Xenon", "views": 8382, "rank": 12}, {"lang": "oc", "title": "Xenon", "views": 8329, "rank": 5}], "all_lang_codes": ["gl", "nn", "ga", "sco", "oc", "an", "war", "ia", "zh-min-nan", "gn", "scn", "bh", "lb", "nds", "li", "lmo", "fo", "yo", "zh-classical", "sa", "hif", "ceb", "cv", "bo", "gd", "hak", "frr", "cdo", "gan", "sc", "ary", "lij", "pms", "vep", "ug", "fur", "gv", "ban", "roa-rup", "kw", "nov", "kbp", "stq", "co", "jbo", "os", "myv", "anp", "cu", "olo", "mrj", "kv", "xal"]}, {"qid": "Q41112", "label": "Schizophrenia", "num_langs": 52, "total_views": 78639409, "top_langs": [{"lang": "en", "title": "Schizophrenia", "views": 23585216, "rank": 16}, {"lang": "ru", "title": "Шизофрения", "views": 9983638, "rank": 5}, {"lang": "de", "title": "Schizophrenie", "views": 6883491, "rank": 11}, {"lang": "ja", "title": "統合失調症", "views": 5749943, "rank": 4}, {"lang": "fr", "title": "Schizophrénie", "views": 4880906, "rank": 4}, {"lang": "fa", "title": "اسکیزوفرنی", "views": 4195278, "rank": 6}, {"lang": "it", "title": "Schizofrenia", "views": 2836327, "rank": 16}, {"lang": "pl", "title": "Schizofrenia", "views": 2510767, "rank": 6}, {"lang": "zh", "title": "精神分裂症", "views": 2371337, "rank": 19}, {"lang": "ar", "title": "فصام", "views": 2113417, "rank": 15}], "all_lang_codes": ["en", "de", "ru", "fr", "ja", "it", "pt", "fa", "pl", "zh", "ar", "nl", "sv", "cs", "tr", "he", "id", "fi", "ko", "ro", "el", "bg", "hr", "no", "sk", "da", "az", "ms", "lt", "sl", "sh", "sq", "ka", "et", "mk", "lv", "arz", "is", "ckb", "wuu", "als", "ku", "mzn", "lfn", "ary", "lg", "gcr", "vep", "ny", "wo", "rn", "shi"]}, {"qid": "Q47657", "label": "Blood type", "num_langs": 52, "total_views": 39789609, "top_langs": [{"lang": "es", "title": "Grupo sanguíneo", "views": 6465907, "rank": 21}, {"lang": "ru", "title": "Группа крови", "views": 6160208, "rank": 25}, {"lang": "de", "title": "Blutgruppe", "views": 4175014, "rank": 50}, {"lang": "it", "title": "Gruppo sanguigno", "views": 2606512, "rank": 21}, {"lang": "zh", "title": "血型", "views": 1708904, "rank": 41}, {"lang": "cs", "title": "Krevní skupina", "views": 1567397, "rank": 3}, {"lang": "ar", "title": "فئات الدم", "views": 1407420, "rank": 40}, {"lang": "pl", "title": "Grupy krwi", "views": 1373805, "rank": 48}, {"lang": "hi", "title": "रक्त समूह", "views": 1341759, "rank": 13}, {"lang": "id", "title": "Golongan darah", "views": 1038586, "rank": 19}], "all_lang_codes": ["es", "de", "ru", "it", "pl", "zh", "ar", "nl", "sv", "cs", "tr", "he", "id", "fi", "hi", "hu", "vi", "ro", "el", "bg", "sk", "kk", "uz", "hy", "ta", "az", "ms", "ca", "lt", "sl", "sq", "bs", "mk", "mr", "te", "kn", "ur", "my", "gu", "nn", "tg", "nds", "rw", "rue", "cv", "sc", "hyw", "gom", "mdf", "shi", "blk", "rsk"]}];
+
+const MAX_LANGS = 337;
+
+function formatNum(n) {
+  if (n >= 1e9) return (n / 1e9).toFixed(1) + 'B';
+  if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
+  if (n >= 1e3) return (n / 1e3).toFixed(1) + 'K';
+  return n.toLocaleString();
+}
+
+function formatViews(n) {
+  return n.toLocaleString();
+}
+
+let currentSort = 'langs';
+let openRows = new Set();
+
+function render(filter = '') {
+  const tbody = document.getElementById('tbody');
+  let items = [...DATA];
+
+  if (filter) {
+    const q = filter.toLowerCase();
+    items = items.filter(d => d.label.toLowerCase().includes(q) || d.qid.toLowerCase().includes(q));
+  }
+
+  if (currentSort === 'langs') items.sort((a, b) => b.num_langs - a.num_langs);
+  else if (currentSort === 'views') items.sort((a, b) => b.total_views - a.total_views);
+  else if (currentSort === 'alpha') items.sort((a, b) => a.label.localeCompare(b.label));
+
+  let html = '';
+  items.forEach((d, i) => {
+    const rank = i + 1;
+    const pct = ((d.num_langs / MAX_LANGS) * 100).toFixed(0);
+    const isOpen = openRows.has(d.qid);
+    const rankClass = rank <= 3 ? ' rank-top3' : '';
+
+    html += `<tr>
+      <td class="rank-cell${rankClass}">${rank}</td>
+      <td class="article-name"><a href="https://www.wikidata.org/wiki/${d.qid}" target="_blank" rel="noopener">${d.label}</a></td>
+      <td class="num-cell"><span class="lang-count">${d.num_langs}</span></td>
+      <td><div class="lang-bar-wrap"><div class="lang-bar-bg"><div class="lang-bar-fill" style="width:${pct}%"></div></div><span class="lang-bar-pct">${pct}%</span></div></td>
+      <td class="num-cell">${formatNum(d.total_views)}</td>
+      <td><button class="expand-btn" data-qid="${d.qid}">${isOpen ? '&minus;' : '+'}</button></td>
+    </tr>`;
+
+    // Detail row
+    html += `<tr class="detail-row${isOpen ? ' open' : ''}" id="detail-${d.qid}"><td colspan="6">`;
+    html += `<div class="detail-header">Top 10 languages by views</div>`;
+    html += `<div class="detail-grid">`;
+    d.top_langs.forEach(l => {
+      html += `<div class="detail-lang">
+        <span class="dl-code">${l.lang}</span>
+        <span class="dl-title" title="${l.title}">${l.title}</span>
+        <span class="dl-views">${formatNum(l.views)}</span>
+      </div>`;
+    });
+    html += `</div>`;
+    html += `<div class="all-langs"><strong>All ${d.num_langs} editions:</strong> ${d.all_lang_codes.map(c => '<code>' + c + '</code>').join(' ')}</div>`;
+    html += `</td></tr>`;
+  });
+
+  tbody.innerHTML = html;
+
+  // Re-attach expand listeners
+  tbody.querySelectorAll('.expand-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const qid = btn.getAttribute('data-qid');
+      if (openRows.has(qid)) openRows.delete(qid);
+      else openRows.add(qid);
+      render(document.getElementById('search').value);
+    });
+  });
+}
+
+// Sort buttons
+document.querySelectorAll('.sort-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentSort = btn.getAttribute('data-sort');
+    render(document.getElementById('search').value);
+  });
+});
+
+// Search
+document.getElementById('search').addEventListener('input', (e) => {
+  render(e.target.value);
+});
+
+// Initial render
+render();
+</script>
+</body>
+</html>
