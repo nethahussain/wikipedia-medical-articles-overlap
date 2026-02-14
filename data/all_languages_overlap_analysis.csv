@@ -1,0 +1,1930 @@
+Wikidata_QID,English_Label,Num_Languages,Total_Views_All_Langs,Languages,Top5_Languages_Detail
+Q1072,Heart,174,27589720,"af, als, am, an, ang, ann, anp, ar, arc, as, ast, atj, av, ay, azb, ba, bat-smg, bdr, be, be-x-old, bew, bg, bh, bjn, bn, bo, br, bs, btm, bxr, ca, cbk-zam, cdo, ce, ceb, ckb, co, cs, cv, cy, diq, dv, el, eml, eo, es, et, eu, fa, fiu-vro, fj, fo, fy, ga, gcr, gl, gn, gom, ha, hak, hi, hif, hr, ht, hu, hy, hyw, ia, iba, id, ie, ilo, inh, io, is, jbo, jv, ka, kbp, kge, kk, kn, kv, kw, ky, la, lb, lbe, lfn, li, lmo, ln, lo, lt, lv, map-bms, mdf, mg, mhr, mk, mr, mrj, ms, mt, nah, nap, nds, ne, new, nn, nqo, nrm, oc, om, or, pa, pag, pam, pnb, ps, pt, qu, rki, rn, ro, roa-rup, rue, rw, sa, sah, sc, scn, sco, sd, se, shi, si, simple, sk, sl, sn, so, sq, su, sv, sw, szl, szy, ta, te, tg, th, ti, tr, trv, tt, tw, ug, ur, uz, vec, vep, vi, vls, vo, war, xal, xh, xmf, yi, yo, za, zgh, zh-min-nan","es:#22(6,208,596); fa:#38(2,085,079); ar:#21(1,932,884); hi:#7(1,635,140); pt:#40(1,577,868)"
+Q7873,Blood,160,10586999,"als, am, ami, an, ang, ann, arc, as, ast, atj, av, az, azb, ba, ban, bar, bat-smg, bcl, be, be-x-old, bew, bh, bn, bo, br, bxr, ca, cbk-zam, cdo, ce, ceb, chr, ckb, cu, cv, cy, da, dag, diq, dv, el, eo, et, eu, ext, fiu-vro, fj, fo, frr, fur, fy, ga, gcr, gd, gl, gn, gom, gu, hak, hi, hif, hr, ht, hy, hyw, ia, iba, id, ie, ilo, inh, io, iu, jv, ka, kab, kbp, kge, kk, km, kn, knc, ku, kus, kw, ky, la, lb, lbe, li, lmo, ln, lt, lv, mad, mdf, mg, mhr, mk, mr, mt, my, nds, ne, new, nia, oc, om, or, pa, pam, pap, pnb, ps, qu, ro, roa-rup, rue, sa, sah, scn, sco, sd, se, shi, simple, sk, sl, sn, so, sq, sr, su, sw, szy, tcy, te, tg, th, tok, tt, tw, tyv, ug, ur, uz, vec, vep, vi, vls, vo, war, wo, xh, xmf, yi, yo, za, zh-min-nan, zu","hi:#21(1,154,056); id:#32(805,232); kk:#3(769,339); ro:#20(590,213); bn:#9(533,154)"
+Q12199,HIV/AIDS,152,49925634,"af, als, am, anp, ar, ary, arz, as, az, ba, bat-smg, be, be-x-old, bg, blk, bm, bn, bo, br, bxr, cdo, ce, ckb, cv, cy, din, diq, dty, dv, el, en, eo, es, ext, fa, fiu-vro, fo, fr, fur, fy, ga, gan, gcr, gd, gn, gom, gor, gu, ha, hak, he, hi, hif, ht, hu, hy, ia, iba, id, ig, ilo, is, it, jam, jv, ka, kaa, kbp, kg, ki, kk, km, kn, ko, ks, ku, lb, lg, li, lmo, ln, lo, lt, lv, mad, mai, mhr, mk, mr, mt, nds-nl, ne, new, nl, nn, nv, oc, or, pa, pap, pcm, pnb, ps, qu, ro, rue, sa, sah, sc, scn, sco, sd, sh, shi, si, simple, sl, sn, so, sq, sr, su, sw, ta, te, tg, th, tk, tl, tly, ts, tt, tum, tw, ur, uz, ve, vec, vi, wa, war, wuu, xmf, yi, yo, za, zgh, zh, zh-classical, zh-min-nan, zh-yue, zu","en:#50(15,753,466); es:#33(5,288,734); zh:#5(3,725,505); ar:#10(2,558,263); fa:#20(2,512,415)"
+Q84263196,COVID-19,143,44688859,"ami, an, ang, anp, ary, arz, as, ast, atj, av, awa, azb, bcl, be, be-x-old, bh, bjn, blk, bo, br, btm, bug, bxr, ca, cdo, chr, crh, cs, cu, cv, cy, dag, din, diq, dz, el, eml, en, eo, es, et, eu, ff, fr, frp, frr, fy, ga, gan, gl, gn, gor, gpe, gu, guc, guw, gv, ha, hak, haw, hif, ht, ia, is, it, iu, jv, kab, kcg, ki, km, kn, knc, ko, ks, ku, la, lb, li, lmo, ln, lo, mai, mhr, mi, min, ms, mzn, nds, nds-nl, nl, nr, nrm, ny, oc, or, pa, pap, pl, pnb, ps, pwn, qu, rm, roa-rup, sah, sc, sco, sd, shn, si, sk, sn, su, syl, szl, szy, tay, tcy, te, tet, tl, to, tok, tr, trv, ts, tt, tum, tw, ug, wa, war, wuu, xmf, yo, za, zgh, zh, zh-classical, zh-min-nan, zh-yue, zu","en:#47(16,034,479); es:#3(12,508,915); it:#8(3,315,600); zh:#14(2,752,599); fr:#36(2,534,544)"
+Q5873,Sexual intercourse,136,175542463,"af, als, am, an, ar, ary, arz, as, ast, az, azb, ba, ban, bar, bcl, be, be-x-old, bg, bh, bn, bo, br, bs, btm, bxr, ca, cdo, ceb, ckb, cs, cu, cv, cy, da, de, diq, el, en, eo, es, et, eu, fa, fr, fy, ga, gan, gd, gl, glk, gn, hak, he, hi, hr, hsb, ht, hy, ia, id, ilo, io, is, it, iu, ja, jbo, jv, ka, kaa, kn, ko, ksh, ku, la, li, lmo, ln, lo, mad, mai, mg, mi, mr, ms, mt, my, mzn, ne, new, nl, nn, ny, om, or, pap, pl, ps, pt, qu, ro, ru, sa, sah, scn, sco, sd, sh, si, simple, sl, sn, sq, sr, sw, ta, te, th, tk, tl, tn, tr, tt, tum, ur, uz, vi, war, wuu, xmf, za, zh, zh-classical, zh-min-nan, zh-yue, zu","en:#1(43,759,801); fa:#1(32,634,745); ja:#1(20,499,417); de:#3(10,506,424); ru:#9(7,675,015)"
+Q808,Virus,136,44725553,"als, am, an, ang, ar, arc, as, ast, az, azb, ba, bat-smg, bcl, be, be-x-old, bg, bh, bn, bo, bxr, ca, cdo, ckb, csb, cv, cy, dag, dv, es, et, eu, ext, fo, fr, frr, fy, ga, gcr, gl, gn, gor, gv, hak, he, hi, hif, hr, ht, hu, hy, hyw, ia, id, ie, ilo, inh, io, is, it, ja, jv, ka, kaa, kbp, ki, kk, ko, kw, ky, la, lb, lfn, lg, lij, lmo, ln, lo, lt, lv, mad, mg, min, mk, myv, nds, new, nl, nn, oc, om, pam, pap, pl, pnb, ps, pt, qu, rki, rn, ro, ru, rue, sah, scn, sco, sd, sh, si, simple, sk, sl, so, sq, sr, su, sv, tcy, tg, th, tok, tpi, tr, tt, tyv, ug, uz, vi, wa, war, xmf, yi, yo, za, zh, zh-classical, zh-min-nan","es:#9(9,416,377); ru:#32(5,656,117); ja:#45(2,642,464); it:#23(2,464,073); id:#1(2,366,997)"
+Q12204,Tuberculosis,135,75860858,"af, als, am, an, anp, ar, arz, as, ast, awa, ay, az, ba, bat-smg, be, be-x-old, bg, bjn, blk, bm, bn, bo, br, bxr, ca, cs, cv, cy, da, dag, de, dty, el, en, es, et, eu, fi, fiu-vro, fo, fr, fy, gcr, gd, gl, gn, gpe, gu, gv, hak, he, hi, hif, hu, hy, hyw, ia, id, ilo, is, it, ja, jam, jv, ka, kbp, kk, kn, ko, ku, ky, lb, lfn, lg, li, lmo, ln, lo, lt, lv, mk, mr, mt, my, nah, ne, new, nl, no, nv, ny, or, pa, pl, pnb, ps, pt, qu, ro, ru, rue, sa, sah, sc, scn, si, sk, sl, smn, sq, sr, su, sv, sw, szl, ta, te, tg, th, tk, tl, trv, tt, tw, tyv, ur, uz, wa, war, wo, wuu, xh, yi, zh-min-nan, zh-yue","en:#12(25,907,588); de:#5(8,658,342); ru:#17(6,564,376); es:#27(5,707,584); it:#12(3,047,715)"
+Q7186,Marie Curie,132,79479258,"als, alt, an, ann, arz, as, ay, azb, ba, ban, bar, bat-smg, bcl, be, bew, bh, bi, br, btm, bxr, ca, ce, ceb, crh, cs, csb, da, de, diq, dtp, dty, el, en, eo, es, eu, ext, fo, fr, frr, fy, ga, gan, gcr, gd, gl, gn, gpe, hak, he, hif, hr, ht, ia, iba, ilo, io, is, it, jam, jbo, kaa, kbp, km, kn, knc, ko, ks, ku, kw, lad, lb, lij, lmo, mad, mai, map-bms, mg, min, mt, my, mzn, nah, nds, nds-nl, ne, new, nl, nn, no, oc, olo, om, or, pa, pam, pcd, pl, pms, pnb, pt, qu, ro, roa-rup, rue, sa, sah, scn, sco, sd, si, simple, smn, sr, sv, tcy, te, th, tn, tok, tr, tyv, udm, vep, vi, vo, xmf, yi, yo, zea, zh-classical, zh-min-nan","en:#9(28,035,376); es:#1(15,404,214); fr:#1(8,685,766); pl:#1(5,940,082); de:#25(5,175,786)"
+Q10876,Bacteria,129,24769339,"ace, als, am, anp, ar, arc, ary, as, ast, ay, az, azb, ba, bat-smg, bcl, be, be-x-old, bn, br, ca, cdo, ceb, chr, ckb, cs, cy, da, dv, eo, es, et, eu, ext, fiu-vro, fo, frr, fy, ga, gcr, gd, gl, gv, hak, he, hi, hif, hr, hsb, ht, hu, hy, ia, id, ilo, inh, io, is, jam, jv, ka, kaa, ki, kk, ko, ku, kw, ky, lfn, lg, li, lij, lld, lmo, lt, lv, mg, min, mk, mr, mzn, nap, nds, new, nl, nn, nrm, oc, om, pa, pap, pnb, ps, qu, ro, rue, rw, sa, sah, sc, scn, sco, sd, sh, si, simple, sk, sl, so, su, tg, th, tok, tr, tt, ur, uz, vec, vep, vi, vo, wa, war, wuu, xmf, yi, za, zh-classical, zh-min-nan, zu","es:#7(9,744,037); ar:#31(1,625,348); id:#7(1,396,722); hi:#14(1,332,281); kk:#1(880,747)"
+Q9215,Sigmund Freud,128,71210707,"als, am, an, ar, arc, arz, ay, azb, ba, bar, bat-smg, bcl, be, be-x-old, bew, bh, br, btm, bxr, ca, cdo, ce, chr, ckb, co, crh, cs, cv, da, de, diq, el, en, eo, es, eu, ext, fa, fo, fr, fur, fy, ga, gan, gcr, gd, gl, gom, gv, haw, he, hif, hr, ht, ia, ie, ilo, io, is, it, jam, jbo, jv, ka, kaa, kab, kbp, km, knc, ko, koi, ku, kw, lb, lfn, li, lij, mad, map-bms, mg, mwl, myv, mzn, nds-nl, new, nl, no, nrm, os, pa, pag, pam, pl, pms, pnb, ps, pt, qu, ro, roa-rup, ru, rue, sah, sc, scn, sco, se, shi, si, sl, sv, szl, szy, tr, tt, ug, ur, vep, vo, war, xmf, yi, yo, za, zea, zgh, zh, zh-min-nan","en:#17(23,405,623); es:#5(10,759,680); de:#17(5,878,680); ru:#37(5,401,876); fr:#12(3,855,851)"
+Q12078,Cancer,128,11735883,"af, als, am, an, anp, ar, arc, arz, as, az, azb, ba, bat-smg, bcl, be, be-x-old, bg, bh, bn, bo, br, bxr, cdo, ckb, cs, cy, dag, diq, dty, dv, el, eo, et, eu, ext, fiu-vro, frr, fy, ga, gan, gcr, gd, gl, gn, gpe, gu, guw, gv, ha, hak, he, hif, ht, hy, hyw, ia, iba, id, ilo, inh, io, is, jam, jv, ka, kbp, kk, kn, knc, ks, ku, la, lg, li, lt, mk, mr, my, nds-nl, ne, new, nn, oc, olo, om, or, pam, pnb, ps, qu, rki, ro, rue, sa, sco, sd, se, si, simple, sk, skr, sn, so, sq, su, szy, ta, tcy, te, tg, tl, tok, tpi, ts, tt, tw, vec, vi, vo, wa, war, wuu, xmf, yi, za, zh, zh-classical, zh-min-nan","ar:#11(2,419,060); zh:#42(1,708,318); vi:#16(733,263); cs:#39(619,089); id:#49(613,519)"
+Q11190,Medicine,125,2226199,"als, am, an, arc, ary, ast, av, ay, ba, bat-smg, bcl, be, be-x-old, bh, bi, bm, bpy, br, bs, bxr, cdo, ce, ceb, chr, ckb, co, csb, cv, cy, diq, eo, eu, ext, fiu-vro, fo, frp, fur, fy, ga, gcr, gd, gl, gor, gv, hak, hif, ht, hyw, ia, ie, ilo, inh, io, is, iu, jam, jv, kaa, kab, kk, ks, ku, kw, ky, la, lad, lb, lfn, li, lij, lo, mhr, min, ms, mt, mwl, my, nap, nds, nds-nl, nn, nov, oc, om, or, os, pa, pcd, pi, ps, qu, rm, rue, sa, sah, sc, scn, sco, sd, shi, simple, so, stq, su, ta, tg, ti, tly, tok, ts, tt, tum, ur, uz, vec, vep, vo, wa, war, wo, wuu, xmf, yi, za, zh-min-nan","kk:#35(258,239); ta:#23(231,531); uz:#39(167,622); ms:#50(139,668); simple:#41(124,624)"
+Q12147,Health,113,12690504,"af, als, am, an, as, ast, az, ba, ban, bat-smg, bcl, be, be-x-old, bjn, blk, bpy, br, bxr, ca, ceb, chr, ckb, co, cu, cv, cy, eml, eo, es, eu, ext, fiu-vro, fj, frp, fur, ga, gcr, gd, gl, gn, hak, haw, hi, hif, ht, ia, id, ig, ilo, inh, io, is, jam, kcg, kk, km, kn, knc, krc, ku, ky, la, li, lmo, lo, lv, mdf, mg, mr, ms, mwl, my, ne, new, nn, nrm, oc, or, pa, pam, pcm, pfl, pi, pnb, ps, qu, rue, sa, sc, scn, sco, sd, sh, si, simple, sn, so, sq, su, sw, tg, ti, tl, ts, tt, tum, tyv, ur, vep, war, yi, zea, zh-min-nan","es:#16(7,250,628); hi:#20(1,157,930); id:#22(924,736); mr:#7(389,668); kk:#30(297,403)"
+Q81068910,COVID-19 pandemic,111,99431169,"af, als, am, ami, an, ang, as, awa, azb, ban, bat-smg, bcl, be, be-x-old, bh, bjn, bo, br, bug, bxr, cdo, ce, ceb, cv, cy, dag, de, diq, dsb, dty, en, es, fr, frp, ga, gan, gn, gv, hak, haw, he, hif, hsb, ht, ia, iu, jbo, kaa, kab, km, ko, kus, lb, lij, lmo, lo, lt, lv, min, ms, mt, mwl, my, nl, ny, pap, pcm, pl, pnb, pt, qu, ru, sah, sc, sco, sd, shi, shn, si, simple, so, szl, ta, tg, th, ti, tk, tl, tn, tok, tpi, tr, ts, tw, ug, ur, uz, ve, vec, vi, war, wo, wuu, xh, yi, yo, zh, zh-classical, zh-min-nan, zh-yue, zu","en:#2(42,276,897); ru:#1(13,270,371); zh:#1(10,822,723); de:#6(8,500,509); es:#15(7,369,932)"
+Q7817,World Health Organization,107,19162857,"ab, als, am, an, as, ba, ban, bbc, bcl, be, be-x-old, bh, bi, bjn, bn, bo, br, btm, bxr, ce, ckb, crh, cv, dag, dty, eml, en, eo, eu, fiu-vro, fo, frp, frr, fy, gcr, gl, gn, gv, ha, hak, hi, hif, ia, iba, ie, ilo, io, is, jam, kaa, kab, kbp, kcg, ki, km, knc, krc, ku, kus, kw, la, lb, lfn, li, lmo, lo, min, mt, ne, new, nn, ny, oc, or, pa, pap, pms, ps, rki, rue, sa, sah, sc, scn, sd, shn, si, smn, sn, so, su, szl, ti, tk, tr, tt, ug, vec, vep, vi, war, wuu, xmf, yi, yo, zh-classical, zh-yue","en:#46(16,050,230); hi:#17(1,201,913); tr:#46(564,266); vi:#33(466,182); bn:#34(254,492)"
+Q12206,Diabetes,105,18791263,"als, am, an, ar, arz, as, awa, azb, ba, ban, bat-smg, be, be-x-old, bg, bh, blk, bpy, br, bxr, ce, ceb, ckb, cv, din, dv, eo, eu, fo, ga, gcr, gn, he, hi, hr, hu, hy, hyw, ia, iba, id, ilo, io, jam, jv, ka, kcg, kk, km, kn, ko, ks, ku, kw, ky, la, lb, lg, li, lij, lt, lv, min, mr, my, ne, new, nia, nn, om, or, os, pa, pam, pap, pnb, ps, qu, ru, rue, sa, se, sh, shi, shn, si, sl, so, sq, su, syl, ta, te, tg, th, tk, tt, ug, ur, uz, war, xmf, yi, zh, zh-min-nan, zh-yue","ru:#31(5,782,101); zh:#7(3,410,537); ar:#17(2,069,466); hi:#32(854,183); id:#33(798,990)"
+Q12156,Malaria,99,8869088,"als, an, ann, anp, as, awa, ba, bat-smg, be-x-old, bh, bn, br, bxr, ca, cdo, chr, cy, din, dv, ee, el, eo, eu, ext, fiu-vro, fo, fr, fy, ga, gcr, gd, gl, gn, gpe, gu, ha, hak, hi, ht, hyw, ia, ig, ilo, io, is, jam, kbp, kn, knc, ku, lfn, lmo, ln, mad, mg, min, mr, ms, mt, my, new, nia, nn, nso, om, or, pa, pcm, pms, pnb, ps, pt, qu, rue, sa, sc, scn, sd, si, simple, sk, su, sw, tcy, te, tg, tly, ts, tt, tw, vep, wo, wuu, xh, yi, yo, za, zh-min-nan, zu","fr:#21(3,200,757); pt:#15(2,138,776); hi:#24(1,109,828); el:#43(343,522); bn:#30(274,428)"
+Q4,Death,99,1384633,"als, am, an, arc, ary, arz, as, ast, av, ba, bar, bat-smg, be, be-x-old, bh, bo, br, bs, btm, bug, bxr, cdo, ce, ceb, cu, cy, diq, eo, ext, fy, ga, gan, gcr, gn, guw, ha, hak, hif, ht, hyw, ia, iba, ilo, inh, io, iu, kab, kbp, kcg, ki, km, ku, kw, la, li, lij, ln, mg, mr, mrj, mt, myv, nah, new, nia, oc, pa, pam, pap, pcm, pnb, ps, qu, roa-rup, rue, sah, scn, sco, sd, simple, sn, so, su, szl, tcy, tok, tt, tw, ur, vep, vi, wa, wuu, yi, za, zh-classical, zh-min-nan, zh-yue, zu","vi:#27(528,906); simple:#40(126,537); mr:#48(93,685); bs:#26(81,393); zh-yue:#12(59,948)"
+Q514,Anatomy,95,1284809,"als, an, arc, as, ast, av, awa, az, azb, ba, ban, bat-smg, bcl, be, be-x-old, bh, bjn, bo, br, ce, ckb, cv, cy, da, diq, eml, eo, ext, fiu-vro, fj, frp, fur, fy, gcr, gd, gor, hif, ht, ia, ik, ilo, inh, io, jam, jv, kaa, kab, knc, ks, ku, kw, ky, la, lb, lfn, li, mad, mdf, mg, mhr, min, mt, mwl, my, nds, new, nn, nov, nqo, nrm, oc, om, os, pam, pnb, ps, qu, roa-rup, rue, sah, sc, scn, sco, stq, su, th, tt, vec, vep, vo, wa, war, xmf, yi, zh-min-nan","th:#24(432,116); az:#42(171,015); da:#48(130,904); ky:#29(73,282); my:#14(47,163)"
+Q12136,Disease,95,1105166,"als, an, ang, arc, ary, as, av, ay, azb, ba, bat-smg, be, be-x-old, bh, bjn, bm, bo, br, bxr, ca, cdo, ckb, cy, dag, eo, eu, ext, fiu-vro, fj, fy, ga, gan, gcr, gl, gn, hak, hif, ht, hyw, ia, ilo, inh, io, iu, jam, kab, ks, kw, la, lfn, lg, li, ln, mai, map-bms, mg, min, ms, myv, nah, ne, nn, oc, olo, pa, pnb, ps, qu, roa-rup, rue, sah, scn, sd, shi, so, szy, ta, tg, tok, ts, tt, tw, uz, vec, vep, wa, war, wuu, xh, yi, yo, za, zgh, zh-min-nan, zu","uz:#47(159,391); ta:#49(155,599); ms:#49(140,094); ca:#14(114,214); tg:#12(23,011)"
+Q706,Calcium,90,1489170,"am, an, anp, ary, arz, awa, azb, ba, ban, bar, be-x-old, bg, bh, blk, bo, cdo, ceb, chr, ckb, co, dv, eo, et, eu, ext, fj, fo, frr, fur, ga, gan, gd, gn, gv, hak, haw, hif, ht, ia, io, jbo, ka, kbp, ki, kk, ku, kv, kw, la, lb, lfn, lg, li, lij, lmo, mdf, mi, mrj, nah, nds, new, nov, nv, oc, olo, os, pms, qu, roa-rup, sa, sah, sc, scn, sco, shi, so, stq, su, th, tok, tt, ug, vep, vo, xal, yi, yo, zgh, zh-classical, zh-min-nan","th:#49(353,674); kk:#24(328,557); bg:#49(297,043); ka:#49(104,150); et:#43(52,821)"
+Q11995,Pregnancy,87,9431908,"af, als, as, az, azb, ba, ban, be, be-x-old, bjn, bn, bo, br, bxr, ca, cdo, ce, ckb, cy, eml, eo, et, eu, fa, fat, fiu-vro, fy, ga, gcr, gd, gl, gn, gom, ha, hi, hif, ht, hy, ie, ig, ilo, io, jam, kab, kk, kn, kw, ky, la, lb, li, ln, mad, mk, my, ne, ny, oc, or, pa, pam, pnb, pt, qu, rue, scn, sco, sd, simple, sn, syl, szy, ta, tcy, te, th, ti, tk, tl, tt, tw, ur, uz, vec, wa, xmf, zh-min-nan","fa:#46(1,878,252); pt:#35(1,616,073); hi:#19(1,184,855); ta:#1(678,575); bn:#10(527,400)"
+Q8011,Avicenna,82,14882253,"als, an, ar, arz, az, azb, ba, bar, bat-smg, bew, bh, bi, bjn, bn, br, btm, bxr, ce, ceb, ckb, crh, cv, cy, diq, eo, ext, fa, ff, ga, gan, gcr, gl, glk, gor, ha, hif, ia, id, ilo, inh, jam, jv, kaa, kbp, knc, ku, kw, la, li, lld, lmo, mad, min, mwl, myv, nds, oc, pms, pnb, rue, sa, sah, sd, skr, so, su, syl, tg, tk, tly, tr, tt, tyv, ug, ur, uz, vep, war, xmf, yo, za, zh-min-nan","fa:#3(5,252,730); ar:#2(4,323,486); id:#2(2,180,434); uz:#1(960,642); tr:#28(702,066)"
+Q7365,Muscle,75,3735494,"als, am, an, arc, as, av, ba, bat-smg, bcl, be, be-x-old, bew, bh, br, bs, bxr, ca, cdo, ce, chr, ckb, cy, diq, eo, fiu-vro, fj, fy, ga, gcr, hif, ht, ia, iba, id, ilo, io, is, jv, kab, kbp, kk, ku, la, lb, lbe, lfn, li, ln, lo, lt, lv, mg, mhr, pag, pnb, qu, ro, rue, sah, sd, se, sh, sl, so, su, th, tt, ug, uz, vls, wa, yi, yo, za, zh-min-nan","id:#23(910,304); kk:#5(677,000); th:#16(530,427); ro:#39(407,069); uz:#12(304,670)"
+Q12192,Pneumonia,74,49830602,"af, als, am, ar, ast, awa, az, ba, bat-smg, bg, bn, bxr, ca, ce, cs, da, dv, dz, el, en, es, fi, gcr, gpe, he, hif, hr, hu, hy, hyw, id, ilo, is, kab, kk, km, ky, la, lb, lij, lld, lt, lv, min, mk, new, oc, or, pdc, ps, rn, ro, ru, sah, si, sk, sl, sq, sv, sw, ta, te, tg, tk, tl, tt, uz, vec, wa, wuu, xmf, yi, zh, zh-yue","en:#13(24,372,468); ru:#14(7,033,400); es:#46(4,919,205); zh:#17(2,622,842); ar:#35(1,531,430)"
+Q153,Ethanol,74,39426687,"als, an, ast, awa, azb, ba, bar, bat-smg, bcl, be, be-x-old, bg, bo, br, bs, ca, ceb, cs, da, de, el, eo, es, et, eu, fi, fr, frr, fy, gl, gn, hif, hr, hu, id, ilo, it, ja, jv, knc, ko, kw, lb, li, lmo, lt, lv, ms, new, nl, nn, no, pl, pnb, ps, qu, ro, ru, sah, sh, sk, sl, sr, stq, sv, th, tt, tyv, vep, war, yi, zh, zh-classical, zh-min-nan","ru:#33(5,579,859); de:#22(5,571,509); es:#41(5,050,946); ja:#22(3,605,154); fr:#35(2,547,060)"
+Q42005,Black Death,69,70862874,"als, an, arz, ba, be, be-x-old, br, ca, cdo, cy, da, el, en, es, fi, fiu-vro, fo, fr, fur, fy, ga, gcr, gd, got, hak, he, hr, hyw, is, it, jam, ka, kab, kbd, kbp, ko, ku, lad, li, lld, lv, mai, mt, mwl, nah, nds, new, nia, nl, nn, no, os, pl, pt, ro, sc, scn, sco, sk, smn, sv, szl, tr, vi, wa, war, xmf, zh, zh-yue","en:#4(32,712,145); es:#2(14,215,028); fr:#9(4,010,744); it:#6(3,445,991); zh:#11(2,821,734)"
+Q10737,Suicide,69,16872732,"als, an, ar, as, ast, azb, ba, bar, bat-smg, bcl, be-x-old, bm, bn, bo, br, btm, bxr, ce, diq, eo, es, fi, fiu-vro, fo, fy, gcr, gd, gu, hi, hif, ht, hu, ie, ilo, inh, ja, jam, kw, la, lb, li, my, nds-nl, new, nl, no, nr, ny, or, pap, pl, pnb, ps, pt, qu, rn, sah, sc, si, simple, th, tl, tt, ur, wa, wo, yi, za, zh-classical","es:#44(5,029,283); ja:#39(2,770,019); pt:#16(2,105,175); pl:#50(1,360,885); ar:#46(1,338,960)"
+Q8452,Abortion,67,11662313,"anp, ba, bat-smg, be-x-old, btm, bxr, ce, dag, diq, dz, eml, eo, es, ext, fiu-vro, fo, fy, ga, gcr, gn, guw, ha, hif, hr, ht, hyw, ia, ig, ilo, iu, jam, kbp, knc, ku, ky, la, lb, li, lmo, mai, mk, mt, my, nds-nl, ne, ny, pam, pms, pnb, pt, qu, rue, sc, sh, si, simple, sn, sw, szl, ta, tcy, tk, tl, tw, ur, yi, yo","es:#12(7,626,572); pt:#13(2,182,487); tl:#8(434,156); hr:#23(283,952); ta:#19(246,196)"
+Q2840,Influenza,67,8095820,"als, an, ast, awa, ay, ba, bat-smg, blk, bo, br, bxr, ca, csb, dv, eu, fj, frp, frr, fy, gcr, gl, gn, guc, ha, ht, id, ilo, ja, jam, jv, kaa, kab, kk, ku, ky, ln, lv, map-bms, mg, min, nds, nl, nv, oc, or, pap, pms, pnb, qu, rn, roa-rup, rue, sah, sd, so, sw, th, tk, tl, ts, tt, tyv, vec, vls, wa, xmf, zh","ja:#36(2,786,365); zh:#40(1,719,083); nl:#13(1,024,701); id:#27(851,884); th:#7(652,666)"
+Q39631,Medical doctor,65,1154172,"af, ami, arc, azb, bat-smg, bbc, be, be-x-old, bew, bjn, bn, bo, bxr, cbk-zam, cdo, chy, crh, eo, fo, fy, gcr, gd, glk, got, hak, ia, io, jam, ki, ks, ku, la, lb, lmo, ln, mdf, mg, min, mos, mt, nds, new, nn, oc, os, pa, pcd, qu, rmy, rue, scn, sd, sn, su, szy, th, ti, tok, tyv, wa, yi, yo, za, zh-classical, zh-min-nan","th:#15(560,201); bn:#49(206,583); af:#21(103,765); ln:#2(13,482); su:#3(12,462)"
+Q57751738,Coronavirus,62,69645873,"ang, ar, ary, ay, az, azb, bbc, bjn, bn, ca, ckb, cs, da, en, fa, fr, ga, glk, gn, gor, gu, haw, hi, ht, hu, id, ig, kab, kcg, kn, ko, la, lmo, mai, min, mr, mt, mzn, nds-nl, ne, nl, or, pa, pap, pl, pt, qu, ro, sa, si, simple, sl, sv, syl, tcy, ti, tr, ts, ug, ur, vec, vi","en:#3(38,965,730); fr:#2(5,637,687); fa:#4(5,201,209); pt:#6(2,693,465); ar:#14(2,137,706)"
+Q5887,Orgasm,62,56001008,"af, an, ar, ast, az, bat-smg, bcl, be, be-x-old, bn, bo, bs, cs, cy, de, en, eo, eu, ext, fa, fi, fy, ga, he, hr, hsb, hu, hy, ia, id, ie, ja, jv, ka, ko, ku, la, lt, mzn, nds, pl, ps, qu, ro, ru, sah, sc, sco, sh, simple, sk, sl, sr, su, tok, tr, vi, wuu, zh, zh-classical, zh-yue, zu","en:#29(18,029,974); ru:#23(6,240,722); ja:#8(5,167,318); de:#35(4,719,593); fa:#10(3,936,847)"
+Q7162,Genetics,62,3830793,"am, an, av, avk, ba, ban, be, br, bs, ce, chr, cy, diq, eo, eu, ext, fy, ga, gcr, gd, gor, hi, ht, ia, id, ie, io, jam, jbo, jv, ki, kk, km, ku, ky, la, lfn, lg, lld, lo, mad, mdf, mhr, min, nov, oc, om, os, pap, pnb, qu, rue, sah, sco, sl, th, tyv, uz, vi, yi, yo, zh-min-nan","hi:#34(830,761); id:#38(696,320); th:#13(583,619); vi:#22(564,473); kk:#15(431,286)"
+Q1103,Iodine,62,409756,"am, an, anp, ary, azb, ba, ban, be-x-old, bh, bi, bo, ca, cdo, ceb, co, cv, diq, dv, fo, frr, fur, gan, gd, gv, hak, hif, ia, io, jbo, jv, kbp, kv, kw, lg, li, lij, lld, lmo, mrj, myv, nds, nn, nov, olo, os, pms, pnb, roa-rup, sa, scn, skr, sl, so, stq, su, tt, tyv, ug, vep, xal, yo, zh-classical","sl:#33(92,028); ca:#38(77,494); an:#5(16,194); vep:#1(12,578); stq:#1(12,482)"
+Q16917,Hospital,61,549499,"ami, an, ang, arc, ban, bcl, be, be-x-old, bh, br, bxr, ce, ceb, chy, cv, cy, dag, eo, fat, fy, ga, gan, gl, gn, gu, guw, hak, ht, ia, iba, ie, io, iu, jv, kn, ks, ku, la, lad, lb, lmo, ln, lo, qu, rmy, roa-rup, scn, sd, simple, sm, sn, so, szl, tn, trv, tw, vec, vls, wa, war, yi","simple:#30(160,104); kn:#11(102,427); bh:#4(26,397); gu:#39(23,677); iu:#4(11,145)"
+Q12184,Pandemic,60,16834530,"an, ang, ba, ban, bcl, bh, bo, ca, ce, cv, da, dag, de, el, frr, hak, hu, ia, ie, ilo, it, ja, ka, kab, knc, lb, li, lmo, min, mwl, nah, nds, nl, no, os, pap, pl, pt, rue, sah, sc, se, sk, smn, sn, sv, szl, szy, tl, tt, tw, ug, ve, vec, vep, xh, xmf, yo, za, zu","de:#40(4,503,671); ja:#26(3,342,055); it:#26(2,384,896); pl:#34(1,558,865); pt:#48(1,481,570)"
+Q38404,Autism,59,62915719,"af, ar, ary, az, bat-smg, bg, ckb, cs, da, de, dv, el, en, et, eu, fa, fi, fo, fr, gcr, gpe, he, hr, hu, hy, ia, is, it, ja, jam, jbo, ka, ku, lfn, lt, lv, mk, ms, nl, no, or, pdc, pt, rn, ro, ru, sc, sl, so, sq, sr, sv, tk, tr, wa, war, xh, zh, zh-yue","en:#45(16,089,337); ru:#3(10,398,224); de:#10(7,550,630); it:#10(3,204,315); fr:#29(2,798,440)"
+Q12140,Medication,59,392929,"als, an, as, azb, ba, bat-smg, bdr, be, be-x-old, bh, bo, br, bxr, cv, cy, dty, eo, fiu-vro, fo, fy, gcr, gl, gn, gpe, guw, ha, hif, hyw, ia, iba, ik, io, iu, jam, kaa, kge, knc, ku, kv, lmo, ln, mdf, mg, myv, oc, pam, pnb, ps, qu, sah, scn, szy, tt, tw, uz, vec, vep, war, yi","uz:#50(152,671); an:#4(16,834); bo:#1(10,523); hif:#5(9,935); iu:#6(9,928)"
+Q34956,Vitamin,58,6665405,"as, az, ba, bcl, bh, bjn, bn, cdo, cv, dty, dv, eu, fo, frr, hak, hi, ht, hu, hy, ia, id, jv, ka, kaa, kk, km, kn, ks, ky, lmo, lo, lv, mr, nov, oc, or, pa, pnb, ps, rue, sah, scn, sco, si, so, sr, su, te, tg, tk, tt, tyv, uz, wa, war, xmf, yi, yo","hi:#5(2,121,312); id:#30(823,184); kk:#4(732,947); hu:#32(499,885); bn:#24(341,299)"
+Q529,Louis Pasteur,57,10420561,"arz, ast, azb, ba, btm, bxr, ca, ce, ceb, dty, es, fiu-vro, fo, fr, frp, gd, gl, gom, hak, hif, ie, ilo, jbo, kaa, kab, kbp, knc, kw, lb, lmo, mai, mg, min, mt, mwl, mzn, oc, olo, om, pcd, pms, pnb, rki, rue, sco, shi, szl, tcy, th, tt, vep, vi, vo, xmf, yo, za, zh-classical","es:#24(6,097,574); fr:#17(3,372,415); vi:#48(365,099); th:#48(353,774); ca:#39(74,940)"
+Q871,Arsenic,57,261078,"anp, ary, awa, ban, bh, blk, bo, br, cdo, ceb, co, cv, et, fo, frr, fur, gd, gn, gv, hak, hif, ht, io, jbo, kbp, koi, kv, kw, lb, lg, li, lij, lmo, mdf, min, mrj, myv, nds, nov, oc, olo, os, pam, pms, pnb, roa-rup, sa, sc, scn, so, stq, tok, ug, vep, xal, yo, zh-classical","et:#6(101,377); hif:#10(7,193); vep:#5(5,745); nds:#19(5,700); roa-rup:#5(5,583)"
+Q12214,Smallpox,56,32925619,"als, an, anp, ast, ay, bat-smg, bg, ca, cdo, chr, da, dv, el, eml, en, et, eu, fiu-vro, fr, frr, fur, ga, gd, gn, gu, hak, hr, ilo, is, it, ja, jam, kab, kbp, ko, nah, no, nv, os, pms, pnb, pt, qu, sah, sc, scn, sl, sv, tcy, tt, ur, wa, yi, zh, zh-min-nan, zh-yue","en:#40(16,311,468); ja:#11(4,348,236); fr:#18(3,310,445); it:#25(2,385,402); zh:#29(2,123,340)"
+Q2845,Cannabis (drug),55,51718019,"af, bg, bjn, cs, da, diq, dtp, en, eo, es, fa, fi, fiu-vro, fo, hi, hr, hu, id, ig, ik, io, ja, jam, jbo, jv, km, ko, lmo, ln, lv, mai, mi, min, ms, my, no, os, pl, pms, ro, ru, scn, sh, sk, sm, su, sv, tl, tr, tt, vi, vls, xmf, zh, zh-classical","en:#35(17,264,188); ru:#19(6,399,498); es:#40(5,051,351); fa:#8(4,078,505); ja:#14(4,065,994)"
+Q79793,Measles,55,11306280,"af, als, ast, awa, ay, be, be-x-old, bg, bh, bjn, bo, ckb, cs, csb, cv, din, dv, el, eml, et, eu, he, hu, hy, ig, ka, kab, kcg, kk, km, krc, lb, ln, map-bms, mk, ne, nia, ny, or, pms, ro, ru, sah, sc, sd, sh, si, sk, sl, sn, sq, tk, tw, wo, zh-yue","ru:#20(6,379,790); cs:#35(658,407); he:#17(651,694); hu:#31(508,544); bg:#15(475,662)"
+Q133780,Plague (disease),54,36799471,"als, ar, arz, ast, av, awa, azb, bat-smg, be, be-x-old, bew, bg, bjn, cs, da, de, dv, el, eml, eo, et, fi, fr, frr, fy, gu, hr, hu, io, it, ja, kab, la, lb, lt, nds-nl, nl, nn, os, pl, pnb, rki, rsk, ru, scn, sl, sr, sv, tr, ur, vec, vls, xmf, za","ru:#8(7,768,658); de:#16(6,325,130); ja:#9(5,009,574); fr:#23(2,952,365); it:#18(2,790,954)"
+Q1566,Tobacco,53,1109594,"als, am, ami, an, ang, anp, as, awa, azb, ban, bat-smg, be-x-old, bjn, br, bxr, dty, eml, eo, eu, fiu-vro, fo, fy, ga, gom, ilo, io, kbp, kk, kn, lfn, li, mai, mg, mr, mwl, my, new, nrm, oc, pa, pdc, pnb, roa-rup, sn, so, sq, tay, tcy, ur, vls, yi, za, zu","sq:#7(345,606); kk:#33(264,834); mr:#23(189,185); kn:#35(39,604); as:#8(27,543)"
+Q1106,Xenon,53,239394,"an, anp, ary, ban, bh, bo, cdo, ceb, co, cu, cv, fo, frr, fur, ga, gan, gd, gl, gn, gv, hak, hif, ia, jbo, kbp, kv, kw, lb, li, lij, lmo, mrj, myv, nds, nn, nov, oc, olo, os, pms, roa-rup, sa, sc, scn, sco, stq, ug, vep, war, xal, yo, zh-classical, zh-min-nan","zh-min-nan:#3(10,405); stq:#2(9,448); ceb:#4(9,426); gv:#3(9,423); sco:#15(9,408)"
+Q41112,Schizophrenia,52,78639409,"als, ar, ary, arz, az, bg, ckb, cs, da, de, el, en, et, fa, fi, fr, gcr, he, hr, id, is, it, ja, ka, ko, ku, lfn, lg, lt, lv, mk, ms, mzn, nl, no, ny, pl, pt, rn, ro, ru, sh, shi, sk, sl, sq, sv, tr, vep, wo, wuu, zh","en:#16(23,585,216); ru:#5(9,983,638); de:#11(6,883,491); ja:#4(5,749,943); fr:#4(4,880,906)"
+Q47657,Blood type,52,39789609,"ar, az, bg, blk, bs, ca, cs, cv, de, el, es, fi, gom, gu, he, hi, hu, hy, hyw, id, it, kk, kn, lt, mdf, mk, mr, ms, my, nds, nl, nn, pl, ro, rsk, ru, rue, rw, sc, shi, sk, sl, sq, sv, ta, te, tg, tr, ur, uz, vi, zh","es:#21(6,465,907); ru:#25(6,160,208); de:#50(4,175,014); it:#21(2,606,512); zh:#41(1,708,904)"
+Q12202,Stroke,48,3298847,"af, als, an, ast, ba, bat-smg, bg, blk, bo, ceb, chr, csb, dv, eo, fo, hif, hr, io, jam, ka, kv, la, ln, lo, lt, min, ms, my, nds, oc, or, pam, pl, pnb, sah, sd, shn, sl, tt, tyv, ug, vec, vi, wa, war, xmf, yi, za","pl:#33(1,587,266); vi:#45(387,605); bg:#39(330,907); hr:#31(236,236); ms:#40(157,375)"
+Q11364,Hormone,48,2586850,"als, an, ary, ast, bn, ca, cy, eu, frr, gl, hak, hi, hif, ht, ig, ilo, is, jv, ka, kaa, kk, ks, ku, la, lmo, lo, mt, new, nn, om, pam, pnb, ps, rue, sd, sh, sn, sq, su, tg, tok, tyv, ug, ur, uz, vec, vep, war","hi:#39(795,282); bn:#18(393,368); kk:#22(371,095); sq:#16(249,416); uz:#23(218,179)"
+Q12171,Menstruation,47,9818445,"af, arc, as, awa, az, ban, bg, bn, ca, cdo, cs, dag, diq, eml, fa, ha, he, hy, id, ie, jv, ka, kaa, kk, kn, lg, ms, mzn, ne, nr, or, ps, sk, sw, szy, ta, tcy, tg, th, tl, tum, tyv, ur, uz, vi, za, zh-classical","fa:#14(2,992,068); id:#26(864,671); cs:#36(645,044); kk:#10(572,581); vi:#23(545,678)"
+Q39222,Rabies,47,5932476,"ab, am, bcl, bn, din, diq, eml, gpe, gu, ia, ig, ja, ka, ky, lij, ln, mai, map-bms, mr, my, myv, ne, nso, ny, om, rki, rw, sah, scn, se, shi, si, sn, tet, th, ti, tk, ts, tw, tyv, ug, wa, xh, yo, za, zgh, zh","ja:#34(2,971,547); zh:#43(1,702,192); th:#46(355,600); bn:#38(239,198); ka:#32(144,370)"
+Q12090,Cholera,47,1506057,"ace, am, an, anp, ary, arz, as, ast, av, bew, bo, br, bxr, cdo, ckb, cy, din, dv, el, eml, fiu-vro, hak, hif, ilo, jam, krc, ks, ku, lb, lg, mai, ms, mt, new, or, pcm, pms, ps, ro, sa, sah, tg, th, tt, tw, wa, za","ro:#30(443,290); el:#36(368,872); th:#41(360,529); ms:#39(157,678); ast:#12(25,033)"
+Q36956,Leprosy,46,25763006,"anp, awa, bo, cs, csb, da, dag, din, dty, en, et, ff, fi, fiu-vro, gu, ig, is, ja, kbp, kn, lfn, min, mr, ne, nia, no, nso, ny, om, or, ro, sa, sah, sc, scn, si, sn, sr, sv, te, tr, ts, tw, ur, xh, yo","en:#44(16,121,687); ja:#5(5,721,020); fi:#16(606,650); sv:#28(605,963); cs:#48(587,418)"
+Q51993,Ebola,43,145763,"am, bm, bxr, ckb, dag, din, ee, ff, gl, gn, ha, ig, kaa, kbp, km, ks, lg, ln, lo, mai, nds-nl, nr, nso, ny, om, pap, rki, rmy, rn, rw, smn, sn, ti, tn, ts, tw, ug, ve, wa, wo, xh, yo, zu","ckb:#24(14,075); gl:#34(9,131); tn:#3(8,507); rw:#7(7,303); ve:#4(5,841)"
+Q521,Physiology,42,1077071,"als, anp, azb, be, be-x-old, cdo, cy, eo, fy, ga, gv, ia, id, io, jv, kk, km, ks, ku, kw, lfn, li, lij, mdf, mhr, min, nds, nov, oc, om, pnb, rki, rue, sah, scn, su, tg, tt, wa, xmf, yi, zh-min-nan","id:#39(673,174); kk:#48(219,966); tg:#11(24,757); min:#5(14,725); km:#19(9,310)"
+Q178275,Spanish flu,41,86854427,"ast, ca, chy, cs, da, de, el, en, es, fi, fr, frr, fy, gl, he, hr, hu, hyw, is, it, ja, lfn, lij, lmo, ln, lo, lt, mai, nl, no, pt, ro, ru, sc, sk, sl, smn, sr, sv, tr, tyv","en:#5(32,369,310); de:#4(10,138,371); es:#13(7,611,086); it:#2(5,996,147); ru:#28(5,918,266)"
+Q41576,Cocaine,41,48397940,"arz, ast, bg, bs, cs, da, de, el, en, eo, es, fa, fi, fo, fr, frr, gd, gpe, he, hr, hu, io, is, it, ks, lb, lg, lmo, lt, mzn, nl, no, pl, pt, ro, sk, sl, sr, su, tr, zh-classical","en:#26(19,160,891); de:#21(5,605,082); es:#29(5,604,172); fr:#41(2,456,896); it:#24(2,385,840)"
+Q82069695,SARS-CoV-2,41,4832255,"als, ary, azb, ban, be-x-old, bjn, br, cdo, cv, de, frr, hak, hy, hyw, ia, kab, km, la, lb, lmo, lo, min, nds, or, pap, qu, sah, sco, sd, se, shn, szl, te, tpi, trv, tum, vec, xmf, yo, zh-classical, zh-min-nan","de:#47(4,204,701); te:#4(351,035); hy:#42(126,435); la:#29(7,880); sco:#18(7,452)"
+Q12174,Obesity,41,430325,"als, an, anp, arz, ba, bar, be-x-old, bh, blk, br, bxr, co, cy, dv, eu, fiu-vro, fo, fy, ga, gcr, guc, hyw, jam, knc, lg, ms, mzn, new, pnb, qu, sa, sn, syl, szy, tt, tw, vep, wa, war, yi, zh-min-nan","ms:#12(287,758); arz:#41(18,439); eu:#27(18,046); an:#27(5,683); als:#49(5,318)"
+Q15787,HIV,40,6255138,"af, am, ban, be, bn, bxr, cv, diq, fiu-vro, fy, gl, hi, hy, id, ilo, it, iu, kaa, kn, ks, ln, lt, mad, mhr, mk, ne, or, pa, ps, ro, rw, si, su, sw, tg, tk, tl, vi, yo, zh-min-nan","it:#33(2,212,772); id:#18(1,055,000); hi:#43(772,978); ro:#37(415,913); vi:#44(400,542)"
+Q14076,Condom,40,3922149,"als, arz, bar, bcl, bn, bo, br, ckb, diq, eml, fa, fy, ga, gu, ht, ig, kaa, kg, ksh, ku, lmo, ln, my, mzn, nn, or, ps, sco, si, simple, szl, tok, ur, vi, vo, wa, xmf, yi, zh-classical, zh-min-nan","fa:#28(2,413,510); bn:#5(600,734); vi:#49(364,469); simple:#29(172,451); gu:#5(123,180)"
+Q12152,Myocardial infarction,40,3187327,"ar, az, ba, be-x-old, bg, blk, ce, ceb, ckb, diq, dv, gcr, gu, ha, ht, hy, jam, kn, knc, ku, kw, li, lt, new, or, pa, pam, pnb, ro, sa, sah, shn, si, szl, ta, tok, tt, uz, vec, yi","ar:#49(1,306,068); ro:#27(465,977); bg:#28(383,854); uz:#36(173,185); az:#48(163,560)"
+Q41571,Epilepsy,39,3932321,"als, ary, as, ay, az, bar, bat-smg, bg, bjn, blk, cdo, cy, din, el, et, hr, hy, ka, la, lg, lt, min, mk, nds, ne, nia, nn, nrm, pa, ro, sh, sk, sl, sq, sr, szy, tr, ur, wuu","tr:#42(605,718); ro:#21(575,489); bg:#20(430,171); el:#49(331,641); sq:#12(287,535)"
+Q41478,Hemorrhoid,38,12232180,"am, ar, az, bcl, bew, bg, bjn, bn, ckb, dv, fa, ha, he, hi, hy, kaa, kn, lg, ln, mk, mr, nds-nl, ne, nqo, pa, sw, ta, tcy, te, tg, tk, tl, tw, tyv, ur, wuu, zh, zh-yue","hi:#3(2,507,453); fa:#21(2,496,921); zh:#27(2,145,403); ar:#32(1,591,322); mr:#1(661,445)"
+Q12187,Antibiotic,38,1513670,"an, ary, azb, ba, ban, bn, br, ca, eml, ext, fo, frr, ga, gcr, hif, jam, ks, la, lfn, li, ln, lo, mdf, mg, oc, pnb, ps, rki, sah, sco, se, sw, th, tt, uz, vi, wa, za","vi:#30(496,102); th:#40(362,977); bn:#43(215,901); uz:#29(183,717); sw:#29(87,882)"
+Q79817,Cannabis,38,1278587,"ang, azb, bar, bat-smg, bn, diq, eo, et, frr, gd, got, hsb, ilo, inh, io, is, koi, kv, la, lij, mg, mi, mrj, my, myv, new, oc, os, sco, sm, stq, ta, tok, tr, tt, tum, vec, xmf","tr:#29(700,000); bn:#35(249,250); ta:#50(150,701); et:#47(52,092); my:#44(21,766)"
+Q41083,Syphilis,36,32035731,"am, ary, az, bar, bew, bg, bn, cs, da, de, dv, el, et, fr, hu, it, ja, jam, ksh, li, mad, my, ne, pa, pl, rki, ro, ru, sg, sl, smn, sr, sw, tk, tyv, zh","ru:#12(7,210,288); de:#29(4,914,047); ja:#15(4,031,376); fr:#20(3,261,089); it:#17(2,810,430)"
+Q161790,Asperger syndrome,35,114437085,"ar, bs, ca, cs, da, de, el, en, es, et, fi, fr, gl, he, hr, hu, it, ja, ko, lt, nl, no, pl, pms, pt, ru, sc, sh, sk, sl, sv, tr, wuu, zh, zh-yue","en:#6(31,338,210); de:#2(13,697,581); es:#4(11,804,242); it:#1(10,074,084); ru:#6(8,810,957)"
+Q57055,Paracetamol,35,50236586,"ar, ast, blk, bpy, bs, da, dag, el, en, es, fi, fr, frr, guw, hr, id, it, ja, kn, ko, ks, lmo, lv, nl, ps, ru, rw, sco, sl, sr, su, th, tr, vi, zh","en:#30(17,902,441); es:#11(7,693,612); ru:#38(5,384,612); zh:#9(3,010,151); fr:#28(2,818,860)"
+Q11081,Alzheimer's disease,35,11013896,"ba, bat-smg, be, bg, bxr, ca, ce, da, et, eu, fy, gan, gcr, gl, hif, hr, hyw, ilo, jam, ka, lb, ms, mzn, no, pnb, ro, ru, rue, sah, sl, sq, sr, ug, zh, zh-yue","ru:#18(6,532,121); zh:#32(1,998,773); ro:#24(534,361); bg:#48(297,045); sr:#19(254,904)"
+Q38933,Fever,35,3035725,"af, am, arc, as, az, bcl, blk, bn, ckb, el, gu, ha, hu, hyw, kab, kn, ks, ln, lo, my, new, nia, nl, no, ps, roa-rup, sa, scn, simple, tcy, te, tg, vec, wa, yo","nl:#34(833,062); el:#22(440,097); hu:#47(410,781); az:#12(346,321); bn:#40(222,181)"
+Q39833,Microorganism,35,2265021,"am, bcl, bew, bh, cdo, dag, fiu-vro, gv, hi, id, inh, io, ka, kaa, kn, ku, lg, li, lmo, ln, ms, nv, om, ps, rki, sah, sco, se, si, simple, stq, uz, wa, xmf, za","hi:#40(790,561); id:#48(618,741); simple:#15(240,487); uz:#35(173,736); ms:#44(152,627)"
+Q34777,X-ray,35,1613119,"ban, bat-smg, br, cdo, ckb, frr, ga, gan, gcr, gv, hif, ht, jam, ks, lbe, lij, lv, mai, mzn, om, pa, pms, pnb, rki, ro, sah, scn, sk, th, tt, ug, vi, wa, yi, za","vi:#24(543,593); th:#33(378,600); ro:#45(375,317); sk:#48(160,723); lv:#40(50,091)"
+Q47092,Rape,34,12878489,"ar, ary, arz, as, be-x-old, bn, bo, br, cdo, ckb, cy, eo, fa, frp, fy, gn, ht, ja, ko, la, li, mai, mr, ms, ne, om, ps, qu, tw, vi, yi, za, zh-yue, zu","fa:#11(3,721,310); ja:#21(3,643,268); ar:#3(3,288,116); vi:#6(962,066); ko:#39(392,394)"
+Q131123,Air pollution,34,11924089,"af, ar, as, bh, ca, dag, eu, gu, hi, id, ig, kn, ky, mk, mr, ms, ne, pa, ro, rw, sa, sd, simple, sq, sr, ta, tcy, te, th, tok, vi, wa, xh, yi","hi:#4(2,307,875); ar:#37(1,519,027); id:#14(1,119,884); ms:#1(1,100,748); simple:#2(972,750)"
+Q41861,Hypertension,34,3648817,"as, ba, bar, bew, bh, blk, bpy, ceb, diq, dv, gcr, ha, hi, id, lo, lv, mk, mr, my, new, or, pam, ps, qu, ro, sw, ta, tg, th, tl, trv, tt, tw, zh-yue","hi:#47(745,413); id:#46(640,248); ta:#2(559,739); th:#20(479,522); ro:#47(366,697)"
+Q8386,Drug,33,8389830,"af, am, ami, bcl, br, bs, ca, cdo, es, eu, fo, ga, gcr, gl, ht, iba, jam, ku, mg, min, ms, new, nr, pcm, ro, scn, sco, sq, su, sw, szy, war, zu","es:#20(6,476,645); ro:#19(596,283); sq:#1(533,200); ms:#25(218,315); bs:#11(106,903)"
+Q44727,Chickenpox,33,7293643,"af, ary, ast, bar, bg, ckb, csb, din, fa, gom, hi, hu, hy, ka, kab, ky, lg, lo, mk, mr, or, ro, si, sk, sl, sw, ta, te, th, tk, uz, vi, wuu","fa:#50(1,834,849); hi:#44(764,164); bg:#8(568,896); sk:#4(441,517); hu:#49(406,125)"
+Q35869,Asthma,33,642420,"awa, az, bar, bcl, bdr, bjn, bo, cdo, ceb, chr, ff, ga, gcr, gu, ha, hak, hyw, kab, new, oc, or, pa, pam, rn, sa, se, si, simple, so, te, tk, tl, wa","az:#38(179,995); tl:#48(129,237); simple:#50(108,312); te:#33(81,294); si:#39(37,430)"
+Q40924,Urine,33,96636,"am, ay, ban, bcl, bjn, cdo, ce, chr, cv, dv, eml, eo, fiu-vro, gan, gd, guw, ha, ie, ik, kbp, kcg, kge, qu, sah, sco, sn, so, szy, tok, tyv, war, xh, za","am:#31(8,893); xh:#6(7,681); sco:#20(7,028); ie:#3(5,814); war:#23(5,778)"
+Q1578,Cigarette,32,3164526,"ace, ban, bar, bat-smg, bcl, bew, bo, cdo, ckb, frp, glk, gv, hyw, id, jv, li, lmo, min, ms, roa-rup, rue, so, su, szl, szy, th, tl, tr, vec, vi, vls, xh","id:#11(1,240,655); tr:#32(675,297); vi:#31(489,587); th:#39(363,684); ms:#32(180,402)"
+Q12198,Sexually transmitted infection,32,2369696,"af, arz, as, ba, bat-smg, bxr, dag, dv, eu, gu, guw, hu, hy, jam, ka, kk, ksh, ln, lo, my, or, si, smn, sn, sw, ta, te, tl, ur, vec, za, zh-yue","hu:#50(401,915); kk:#23(337,589); tl:#11(306,727); ta:#18(246,853); af:#7(195,505)"
+Q998,Infant,32,1170537,"ary, ay, bar, be-x-old, crh, diq, fy, gan, gcr, gd, gn, hak, iba, iu, kab, kk, kus, ky, lb, lmo, new, pdc, qu, simple, sn, so, sq, su, szy, ts, uz, yi","uz:#6(416,412); kk:#42(238,740); sq:#21(230,696); simple:#44(119,492); ky:#23(80,657)"
+Q134808,Vaccine,32,614737,"an, anp, ba, be-x-old, bo, bxr, ca, cdo, dag, eu, fur, hif, ht, hyw, jam, kab, km, lmo, min, oc, pms, rue, sah, sc, tg, tw, tyv, vec, vep, vi, xh, zu","vi:#38(434,783); ca:#45(70,324); eu:#15(21,128); km:#13(16,013); tg:#40(10,014)"
+Q7178,International Red Cross and Red Crescent Movement,32,101952,"ab, ace, anp, arz, ba, bat-smg, btm, ce, crh, ext, fiu-vro, fo, gcr, guc, hif, hyw, ilo, io, jam, km, kw, lmo, new, nrm, pa, pms, rue, sa, sah, so, vec, wa","arz:#36(19,365); so:#20(7,723); anp:#1(7,439); pa:#39(6,631); km:#26(6,261)"
+Q47715,Down syndrome,31,24245939,"ar, az, bg, cs, da, de, dtp, dv, et, ff, gpe, he, hu, hy, ja, ka, kk, lt, nl, no, pl, ro, ru, se, sk, sl, sq, sr, sv, tr, vi","ru:#36(5,404,488); de:#38(4,585,215); ja:#30(3,184,692); ar:#25(1,840,464); pl:#22(1,772,851)"
+Q40878,Diarrhea,31,727122,"af, ang, ay, ce, dag, din, dv, ee, fj, gd, gu, ht, hy, ig, ln, map-bms, mr, ms, my, myv, nso, or, ps, si, so, tok, tw, wo, xh, yo, zu","mr:#18(234,373); ms:#48(145,734); hy:#49(117,067); af:#44(66,583); si:#50(30,892)"
+Q131755,Bipolar disorder,30,63633809,"ar, bg, cs, de, el, en, et, fa, fi, fr, he, hu, id, is, it, lfn, mk, ms, nl, no, pap, pl, ro, ru, sh, sk, sr, sv, tr, wo","en:#14(23,806,167); de:#8(8,036,190); ru:#27(5,963,036); fa:#12(3,298,362); fr:#22(3,115,884)"
+Q11085,Parkinson's disease,30,45212038,"ar, be, ckb, co, cs, de, dv, eml, en, et, fa, gpe, hr, ig, ja, jam, la, lv, mk, nl, olo, ro, ru, sh, sl, ta, ur, yo, zh, zh-min-nan","en:#23(19,758,209); ru:#15(6,729,436); de:#32(4,795,056); zh:#6(3,512,088); ja:#32(3,139,934)"
+Q83345,Circumcision,29,18159154,"als, ast, be-x-old, bm, br, ce, eo, es, fa, fi, hi, hr, hu, it, ko, mg, nup, pl, pt, rmy, ro, rw, sd, sh, sn, tl, tr, ur, zu","es:#36(5,140,558); it:#20(2,628,165); fa:#23(2,468,671); pt:#21(1,929,635); hi:#9(1,557,680)"
+Q37103,Florence Nightingale,29,3445135,"ami, as, bat-smg, bcl, dtp, eml, ext, frp, gan, hif, ja, kw, mai, mg, min, ne, nov, pms, rki, sa, sc, sd, se, simple, skr, tcy, vec, xmf, zh-classical","ja:#28(3,260,096); simple:#47(112,076); ne:#8(24,941); as:#46(8,067); gan:#11(4,915)"
+Q5445,Anemia,28,3112662,"az, ban, bg, bn, eu, hy, ka, kk, ks, ky, lg, lv, mad, mk, ms, nn, or, pa, ps, rw, sc, sk, so, sq, ta, tg, tk, uz","bg:#16(468,440); ka:#3(319,944); ms:#16(277,382); kk:#38(249,631); ta:#17(248,272)"
+Q9530,Breathing,28,1848723,"btm, ca, cdo, ce, et, eu, hy, hyw, ilo, jbo, kk, kn, knc, ky, lij, lt, mdf, mk, my, nds-nl, pam, qu, rue, sk, sn, szy, uz, za","kk:#6(608,535); sk:#16(269,823); lt:#11(233,246); uz:#33(180,496); hy:#43(126,428)"
+Q12190,Penicillin,26,10852307,"an, ast, ca, da, el, es, fo, gl, guw, hak, ilo, knc, kw, my, no, pt, rki, ro, sh, sl, sr, sv, szy, tr, wuu, za","es:#25(5,927,742); pt:#20(1,975,491); tr:#45(581,785); sv:#34(568,836); ro:#38(415,712)"
+Q179515,Maslow's hierarchy of needs,25,44777515,"arz, ast, ca, da, eml, en, es, fo, fr, he, hu, id, ka, km, lv, ms, nl, no, pt, simple, sl, sn, th, tr, vi","en:#21(21,519,155); es:#8(9,510,152); fr:#11(3,946,889); pt:#17(2,070,597); id:#6(1,400,576)"
+Q178190,Obsessive–compulsive disorder,25,25629445,"ace, ar, bar, bg, crh, el, fi, he, hr, hu, is, it, ja, mt, mzn, pl, ru, sh, sr, ti, tr, vi, wo, xh, zh","ru:#2(10,653,363); ja:#42(2,676,368); ar:#18(2,022,914); it:#49(1,960,443); zh:#46(1,681,902)"
+Q30953,Dengue fever,25,8489686,"awa, bcl, bh, bjn, bn, din, dtp, dv, es, gn, gu, hi, kge, km, kn, map-bms, mr, my, or, pa, pap, si, simple, tl, ur","es:#38(5,114,338); bn:#2(1,063,297); hi:#29(900,298); tl:#9(400,403); mr:#9(316,339)"
+Q132325,Ayurveda,25,1930085,"as, awa, ban, bcl, bh, dty, gom, gu, hi, kn, mai, mr, ne, new, oc, pa, pi, pnb, sa, scn, sd, si, te, tok, xmf","hi:#12(1,356,883); mr:#27(179,294); te:#32(81,563); kn:#19(66,188); gu:#14(64,380)"
+Q5264,Hippocrates,25,411655,"an, anp, ast, awa, ba, bat-smg, bpy, ce, cv, diq, el, fiu-vro, gv, kw, lfn, lij, mai, mg, myv, new, oc, pnb, rue, sa, skr","el:#41(349,742); ast:#38(12,202); an:#48(4,077); oc:#40(3,838); new:#21(3,393)"
+Q8277,Multiple sclerosis,24,44866183,"bg, bs, cs, da, de, el, en, fi, fr, he, hr, hu, it, lfn, lt, lv, mk, no, pl, ru, sl, sq, sr, wuu","en:#22(20,102,133); de:#14(6,625,631); ru:#41(5,302,650); fr:#27(2,848,242); it:#27(2,336,342)"
+Q42844,Major depressive disorder,24,10669723,"cs, de, eml, et, fi, frr, gu, he, kab, ku, mzn, pap, pl, rm, rn, se, sk, th, tl, tok, tr, vi, wo, zh-min-nan","de:#34(4,782,418); pl:#15(2,004,808); tr:#35(664,173); cs:#40(617,481); th:#10(605,286)"
+Q42982,Allergy,24,642680,"az, ba, bcl, bjn, chr, fiu-vro, gcr, gu, hak, ht, hy, hyw, kaa, kab, kn, ln, min, new, oc, se, su, tt, vec, xmf","az:#10(355,507); hy:#20(178,217); kn:#42(35,152); gu:#40(23,378); su:#26(5,874)"
+Q69488,MDMA,23,41041361,"ast, bar, cs, da, de, en, fi, fr, gpe, he, hr, hu, is, lt, lv, nl, no, pl, ru, sk, sr, sv, tr","en:#24(19,672,476); ru:#35(5,467,720); de:#23(5,459,652); fr:#42(2,410,900); pl:#35(1,554,221)"
+Q42395,White blood cell,23,4793188,"bs, ca, dv, et, ext, hak, hi, hr, id, is, ka, kk, kn, lij, lt, lv, mr, pam, sk, ta, te, th, ug","id:#13(1,154,214); hi:#26(996,394); th:#9(642,755); kk:#21(374,739); hr:#40(222,277)"
+Q12195,Polio,23,4563774,"ast, cv, da, gu, ha, hif, hyw, it, ks, kw, lfn, ln, mr, oc, pdc, pl, pms, sah, su, ur, vep, wa, zh-yue","it:#40(2,121,955); pl:#14(2,034,152); da:#42(135,711); mr:#36(121,481); gu:#22(41,215)"
+Q86,Headache,23,310388,"arc, az, azb, bar, blk, din, dv, guw, hyw, ilo, knc, kw, ky, lg, min, my, myv, nds-nl, os, sa, tk, tw, udm","az:#39(179,439); ky:#45(52,172); my:#31(26,940); tk:#18(24,548); azb:#25(4,440)"
+Q12131,Disability,23,80355,"als, an, ang, as, ba, be-x-old, bjn, br, bxr, cdo, hif, iba, io, jam, knc, li, oc, pnb, rw, scn, so, tw, yi","as:#49(7,888); als:#19(6,945); so:#26(6,297); ang:#2(6,028); oc:#28(5,415)"
+Q48143,Meningitis,22,7133062,"af, am, ar, bat-smg, bg, ckb, din, el, ff, fur, hr, ig, it, ks, nl, ny, ro, sl, sq, sw, wo, xmf","it:#22(2,534,185); ar:#27(1,705,293); nl:#43(755,326); el:#12(551,835); ro:#46(370,236)"
+Q82642,Blood pressure,22,4645510,"af, ar, as, bh, ceb, dv, et, fi, hy, id, ig, kn, ks, ky, lt, mk, mt, nds, ne, pam, sr, sv","ar:#29(1,670,352); id:#28(846,369); sv:#21(701,781); fi:#18(584,678); sr:#42(199,410)"
+Q101274,Protozoa,22,1364985,"blk, ca, eu, frr, gv, id, io, jv, lg, li, lld, lv, mg, nds, om, os, rki, roa-tara, sc, su, wa, war","id:#15(1,104,882); ca:#21(104,378); lv:#16(70,915); eu:#43(15,470); jv:#4(9,480)"
+Q12125,Common cold,22,311148,"ay, bxr, ceb, eml, gn, hif, hyw, ilo, km, lg, nap, nds-nl, pms, roa-rup, si, su, sw, te, vls, xmf, zh-min-nan, zh-yue","sw:#17(138,605); te:#36(76,812); si:#48(31,907); zh-yue:#40(24,608); gn:#14(7,802)"
+Q2138622,Nutrition,21,9987196,"af, ast, bcl, ca, dty, es, eu, fur, gcr, gn, hi, jam, kn, lb, map-bms, my, qu, su, szy, ta, war","es:#10(8,645,244); hi:#35(818,952); ta:#37(189,439); ca:#25(94,727); af:#34(78,802)"
+Q12135,Mental disorder,21,684439,"bat-smg, cdo, diq, dty, eml, fiu-vro, he, jam, kbp, km, mai, min, ne, pap, pnb, sa, tg, tl, tok, zh-min-nan, zh-yue","he:#49(438,723); tl:#35(154,814); zh-yue:#28(28,808); tg:#37(11,008); ne:#40(10,400)"
+Q34581,Childbirth,21,450069,"ba, bs, cdo, ce, ceb, fy, gn, ha, ig, kab, ky, mr, ny, pcm, qu, sn, tk, trv, tw, ur, wa","ky:#2(222,469); mr:#47(95,319); bs:#48(57,032); ur:#32(21,552); tk:#37(11,364)"
+Q7087,Consciousness,21,149309,"am, anp, awa, bat-smg, diq, gan, gcr, jam, kab, kbp, ky, la, lfn, lld, ln, mai, mwl, pap, sa, ts, ur","ky:#31(65,510); ur:#16(31,802); am:#27(10,530); la:#24(8,218); pap:#9(4,771)"
+Q37501,Glasses,21,32715,"ary, bar, cdo, ce, cv, gan, gom, km, mrj, myv, nah, nap, nia, nso, sc, stq, szl, tpi, tyv, vep, zh-classical","stq:#10(3,220); km:#41(2,262); szl:#13(2,252); zh-classical:#42(2,029); gan:#29(2,027)"
+Q12133,Deafness,21,27626,"anp, bo, bxr, ceb, dty, ff, fiu-vro, gd, guw, hak, haw, hyw, kbp, knc, pcd, so, tok, tw, vec, xal, zu","so:#43(3,853); ceb:#19(3,256); haw:#5(1,957); zu:#27(1,899); ff:#3(1,721)"
+Q191924,Methamphetamine,20,36189704,"af, bcl, bs, chy, cs, de, eml, en, fi, fr, gpe, hu, ja, ms, pl, simple, sk, tok, tr, zh-classical","en:#28(18,466,424); de:#19(5,766,689); ja:#24(3,521,863); fr:#50(2,288,425); pl:#44(1,424,952)"
+Q18216,Aspirin,20,15014292,"ar, bat-smg, bs, chy, da, es, ht, hyw, inh, ko, mwl, mzn, ro, ru, sco, sv, ug, vi, wa, zh-classical","ru:#24(6,183,990); es:#48(4,887,826); ar:#33(1,591,092); ko:#10(680,435); sv:#48(510,253)"
+Q170304,Dopamine,20,12849518,"ar, ban, be-x-old, cy, da, dv, et, fi, gl, he, ko, lt, pl, ru, sh, sk, su, sv, war, zh","ru:#49(4,882,728); zh:#33(1,969,009); pl:#38(1,527,285); ar:#45(1,349,999); he:#15(670,801)"
+Q182155,Shingles,20,9574912,"af, be-x-old, cdo, cs, da, et, he, it, ko, ks, ne, nl, pa, pl, sv, sw, wuu, zh, zh-classical, zh-yue","zh:#21(2,302,210); it:#48(1,972,103); pl:#39(1,525,346); nl:#39(788,681); he:#12(702,895)"
+Q167178,Scabies,20,8629229,"ast, ay, bcl, be, bn, de, din, fi, it, ka, kcg, lv, my, nia, sk, sl, so, sq, tl, xh","de:#36(4,646,368); it:#35(2,189,029); fi:#36(494,471); bn:#21(376,641); ka:#18(192,230)"
+Q128581,Breast cancer,20,2562307,"af, ar, bat-smg, ckb, diq, fo, ha, hy, mad, mai, mk, rki, rw, sd, se, skr, sq, ta, tcy, tl","ar:#43(1,378,535); tl:#12(294,425); sq:#14(269,300); ta:#24(228,797); hy:#25(158,617)"
+Q133244,Jaundice,20,2203878,"af, as, av, awa, bn, bpy, gu, hi, hyw, kn, ky, nds, or, shi, simple, so, ta, te, tw, za","hi:#27(985,494); bn:#20(382,909); ta:#39(184,419); simple:#26(181,905); te:#8(180,595)"
+Q8778,Galen,20,81217,"btm, ce, cy, ga, hif, ilo, knc, ku, kw, lfn, lmo, mad, mg, nds, oc, pms, rue, skr, war, zh-min-nan","oc:#12(7,180); hif:#12(7,136); ilo:#13(6,880); cy:#18(6,746); ga:#9(6,709)"
+Q179452,Amphetamine,19,15194056,"cs, da, de, fi, fo, got, hu, is, lfn, lt, lv, no, pl, ru, sco, sr, sv, th, zh-min-nan","ru:#50(4,878,539); de:#31(4,861,013); pl:#16(1,998,743); fi:#5(777,432); cs:#47(593,476)"
+Q175621,Vitamin D,19,14195311,"ar, az, cs, dv, fa, fr, hy, ka, kaa, mr, nl, ru, sh, sk, sq, ta, tyv, ug, wuu","ru:#44(4,975,822); fr:#47(2,337,147); fa:#36(2,133,276); ar:#34(1,538,686); cs:#19(895,543)"
+Q12167,Malnutrition,19,471315,"anp, bxr, dty, ee, gu, ha, ig, knc, ln, mr, ne, nso, or, pa, tl, wo, xh, yo, zu","tl:#21(207,601); mr:#29(172,048); gu:#27(34,733); ne:#26(12,941); dty:#3(6,620)"
+Q12128,Dentistry,19,55777,"ba, ce, csb, hif, iu, kaa, knc, ku, li, new, oc, pnb, qu, tly, tt, vep, wa, yi, zh-min-nan","iu:#8(8,041); csb:#3(4,568); zh-min-nan:#24(4,128); hif:#29(3,857); ba:#23(3,824)"
+Q388162,Flea,19,39188,"an, arc, bo, ceb, csb, frr, gn, kw, la, mg, mhr, nv, os, szl, szy, tay, vep, war, za","la:#40(6,603); an:#21(6,489); war:#18(6,065); gn:#30(4,291); frr:#29(2,259)"
+Q57109,Josef Mengele,18,41968831,"cs, da, de, en, fi, fr, he, hu, it, nl, no, nqo, pl, pt, rmy, sk, sr, sv","en:#20(21,839,504); de:#20(5,679,125); fr:#26(2,874,309); it:#19(2,690,113); pl:#18(1,992,416)"
+Q83864,Menstrual cycle,18,7393668,"ar, bs, ckb, he, hi, hu, kn, ko, lt, mad, mk, mr, ne, sh, sq, tcy, wuu, zgh","ar:#9(2,596,865); hi:#11(1,397,904); mr:#2(627,638); ko:#13(618,848); he:#24(571,677)"
+Q101065,Puberty,18,2007606,"als, bar, be, bew, bn, bo, br, cy, eo, gpe, ha, ia, id, mr, nds, sco, simple, sq","id:#20(939,719); bn:#22(363,536); simple:#11(264,396); sq:#18(240,839); mr:#32(140,979)"
+Q15326,Alcoholism,18,821118,"cv, fy, ga, gcr, hif, hr, kn, ky, ln, mt, os, rn, rue, sah, sc, smn, ta, tl","hr:#28(249,940); tl:#17(236,379); ta:#29(209,127); ky:#49(50,499); kn:#29(47,702)"
+Q7193,Microbiology,18,132924,"fo, ga, gv, ilo, io, lmo, mai, new, nov, pnb, ps, rki, rue, sd, si, tg, tt, wa","si:#18(59,245); gv:#2(10,917); tg:#39(10,259); ps:#10(9,683); new:#3(9,291)"
+Q40821,Surgery,18,51053,"anp, arc, bew, bh, dty, fiu-vro, fj, kbp, lfn, li, mhr, min, nds, new, pi, ps, qu, sa","nds:#3(11,623); new:#18(3,604); li:#40(3,403); pi:#2(3,276); arc:#12(3,150)"
+Q181923,Attention deficit hyperactivity disorder,17,38407285,"bg, cs, de, en, fi, gpe, hr, hu, it, lfn, nr, pl, ru, sv, zh, zh-classical, zh-yue","en:#38(16,527,930); ru:#11(7,278,668); de:#39(4,558,648); zh:#16(2,703,918); it:#50(1,945,613)"
+Q208373,Female genital mutilation,17,6628618,"ar, ckb, fa, gur, ht, ig, ko, ku, mad, mai, ny, rw, si, sn, so, tl, ur","ar:#5(3,187,090); fa:#25(2,455,471); ko:#5(761,188); tl:#44(133,017); si:#49(31,807)"
+Q988343,Blood vessel,17,1658157,"am, dv, eu, fiu-vro, id, inh, kk, ks, ksh, ln, lv, om, sn, so, tg, th, xh","id:#41(671,483); th:#11(603,981); kk:#34(258,897); lv:#33(55,708); am:#20(17,474)"
+Q83319,Typhoid fever,17,1530038,"as, bxr, ckb, csb, din, gu, ha, hi, ln, mr, or, pcm, sd, sw, ta, te, zh-classical","hi:#46(747,284); te:#5(217,248); ta:#30(207,312); sw:#19(122,561); mr:#37(118,234)"
+Q122224,Birth control,17,262708,"anp, bo, eu, ext, frr, gn, gu, ig, jam, mad, mg, mwl, nrm, ny, sn, tw, uz","uz:#27(189,616); eu:#14(22,179); gu:#48(15,664); sn:#15(6,644); mg:#14(4,948)"
+Q10304508,Tick,17,219260,"arc, ay, azb, bat-smg, ceb, co, csb, et, gd, gl, gn, kw, lbe, mg, nds, sc, sl","sl:#29(93,750); et:#15(80,465); gl:#23(10,438); azb:#13(5,961); gn:#22(5,253)"
+Q3503092,Perspiration,17,21708,"av, awa, ay, ban, bew, bh, cdo, cv, dag, gan, hyw, kab, kbp, lbe, os, pdc, szy","bh:#34(2,929); gan:#26(2,575); ay:#20(1,803); cdo:#45(1,610); ban:#16(1,595)"
+Q208166,Borderline personality disorder,16,51554730,"cs, de, el, en, fr, he, hu, it, ja, ko, mzn, nl, no, pap, pl, sr","en:#11(26,472,231); de:#9(7,983,135); ja:#23(3,547,588); fr:#16(3,412,163); it:#15(2,843,246)"
+Q201989,Lyme disease,16,45321856,"bg, de, el, en, et, fi, fr, it, lo, lt, nr, pl, rsk, ru, sl, wuu","en:#19(22,800,616); ru:#13(7,062,481); de:#49(4,186,723); fr:#8(4,054,162); it:#4(3,883,288)"
+Q8388,Pedophilia,16,9964570,"ary, ast, es, fa, gd, gl, ia, id, ie, io, lmo, ms, mt, simple, tr, zea","es:#37(5,126,443); fa:#29(2,385,103); tr:#7(1,252,454); id:#42(662,110); ms:#13(286,238)"
+Q100159,Euthanasia,16,9085072,"anp, ast, es, eu, gv, hr, ka, ko, lij, lv, pt, th, tl, tr, vls, zh-classical","es:#32(5,320,903); pt:#36(1,614,542); tr:#27(713,931); ko:#33(419,364); th:#37(371,803)"
+Q4340209,Depression (mood),16,6671776,"als, ary, ceb, ckb, ext, kbp, ko, lg, ln, nds-nl, nr, nrm, rki, ru, vep, xh","ru:#26(6,150,317); ko:#30(441,038); ckb:#3(55,821); als:#27(6,391); nds-nl:#9(3,421)"
+Q29496,Leukemia,16,4056007,"az, ckb, el, hr, ig, ka, ks, mk, nds, rki, rue, sh, sr, ta, za, zh","zh:#23(2,250,067); el:#23(419,961); az:#14(340,663); sr:#18(256,089); hr:#43(212,058)"
+Q39978,Nostradamus,16,2576459,"bcl, diq, fr, frp, jv, lmo, mg, mzn, nds-nl, nrm, pcd, pms, rue, se, vec, war","fr:#38(2,521,171); se:#1(8,670); jv:#18(7,251); diq:#4(6,948); lmo:#5(6,927)"
+Q154430,Anxiety,16,2146049,"as, bat-smg, bs, ckb, gan, hr, inh, io, ku, lg, pap, ro, sh, tr, tw, wa","hr:#2(661,284); ro:#16(624,423); tr:#43(593,310); sh:#11(151,709); bs:#31(74,437)"
+Q219067,Exercise,16,1707173,"ang, anp, fy, hi, hif, jam, kaa, kk, mr, ne, or, pa, sa, th, yi, zu","hi:#48(737,761); th:#32(392,000); mr:#11(306,982); kk:#49(218,430); ne:#35(11,344)"
+Q41532,Carl Jung,16,1506389,"als, arz, bar, diq, gd, kab, kbp, kw, lfn, lij, lmo, mg, pms, pt, sc, zh-min-nan","pt:#50(1,455,890); arz:#45(17,537); als:#35(6,118); bar:#28(3,394); zh-min-nan:#48(2,671)"
+Q159532,Betel,16,784451,"ace, ban, bbc, ceb, dtp, gom, hsb, id, kge, mad, mai, nia, pwn, su, tcy, tpi","id:#36(765,807); tpi:#2(5,270); su:#41(4,575); tcy:#17(1,886); bbc:#1(1,192)"
+Q492,Memory,16,432052,"ay, bar, bo, gn, ia, is, kaa, la, lfn, lv, mwl, mzn, pap, qu, rki, uz","uz:#10(336,036); lv:#50(46,670); is:#12(16,702); la:#50(5,973); ia:#48(3,792)"
+Q166231,Infection,16,292336,"as, ay, bs, fj, ht, io, kab, lfn, li, om, pnb, rn, si, vec, xh, yi","si:#4(139,778); bs:#21(91,542); as:#20(16,542); ht:#2(13,980); xh:#11(4,432)"
+Q35805,Cough,16,169835,"ary, ay, bdr, blk, bxr, cv, din, ff, ha, kab, mzn, roa-rup, sa, szy, tcy, te","te:#13(142,638); ha:#23(6,294); bdr:#1(5,201); sa:#46(1,822); ay:#23(1,703)"
+Q43012,Leech,16,66160,"alt, ban, bjn, dty, eml, ext, gn, min, mrj, ne, nia, nv, os, pcd, szy, za","bjn:#1(20,193); ne:#30(12,043); ext:#4(8,531); min:#12(7,609); gn:#16(6,314)"
+Q486851,Sleep paralysis,15,22399577,"ar, ary, da, es, fi, fr, he, hu, iba, lt, no, pt, ru, sr, sv","ru:#16(6,604,498); es:#26(5,851,496); ar:#8(2,659,409); fr:#39(2,484,662); pt:#27(1,744,977)"
+Q191779,Tourette syndrome,15,17242831,"ar, cs, el, fi, he, it, lt, lv, mt, no, pt, ro, ru, sc, sl","ru:#30(5,855,031); it:#3(4,677,165); pt:#22(1,884,947); ar:#36(1,520,880); cs:#17(920,568)"
+Q207367,Infectious mononucleosis,15,11535829,"cs, de, el, et, he, hr, is, it, lv, mk, nl, sh, sk, sl, sr","de:#24(5,212,000); it:#37(2,168,899); nl:#47(740,033); el:#8(699,925); cs:#33(678,026)"
+Q41630,Psychoanalysis,15,1783658,"als, arz, bar, be-x-old, dtp, is, kbp, km, lij, mzn, pt, rki, scn, si, tpi","pt:#44(1,559,313); si:#2(156,287); arz:#30(22,932); is:#23(12,288); als:#37(6,068)"
+Q6853,Hepatitis B,15,1550535,"as, az, bg, blk, bn, ig, ms, my, ne, ny, ps, rn, so, te, wo","bn:#11(462,495); bg:#47(302,756); az:#24(234,179); ms:#28(205,955); te:#7(190,934)"
+Q223569,Women's rights,15,400065,"ang, bcl, ckb, dag, lfn, mad, my, pa, pap, rw, skr, ta, tcy, tly, ur","ta:#14(293,475); ur:#4(55,206); my:#42(21,948); ckb:#37(11,218); pa:#32(7,441)"
+Q186969,Ibuprofen,14,16425418,"bs, da, es, hy, min, mwl, pt, ru, rw, sco, th, tr, wuu, zh","ru:#42(5,197,979); es:#35(5,181,187); zh:#10(2,960,070); pt:#29(1,680,020); tr:#36(661,005)"
+Q124490,Violence,14,5465892,"af, be, bo, csb, es, fy, ie, ka, km, lb, nn, pms, rue, sn","es:#43(5,032,740); af:#4(215,148); ka:#38(131,017); km:#5(50,983); nn:#40(7,609)"
+Q46452,Opium,14,3689157,"blk, cdo, fa, got, hi, lo, my, nn, pa, simple, th, tl, zh-classical, zh-yue","fa:#32(2,171,778); hi:#36(811,066); th:#42(359,286); simple:#34(137,816); tl:#47(129,432)"
+Q181138,Veganism,14,2975072,"ang, ceb, ckb, diq, eo, fr, fur, gl, ia, lb, li, lv, no, ug","fr:#30(2,710,198); no:#49(164,073); lv:#43(48,971); eo:#7(12,454); gl:#26(10,152)"
+Q940,Narcotic,14,2278565,"diq, eml, fiu-vro, fo, hy, jv, ka, lt, min, my, su, szl, th, vi","vi:#9(940,337); th:#3(824,111); ka:#34(140,663); hy:#46(124,509); lt:#48(117,834)"
+Q131742,Hepatitis,14,1485900,"bg, din, ext, ha, hu, jv, ky, la, mr, or, sco, sq, sw, war","hu:#22(589,769); bg:#46(303,005); mr:#14(257,446); sq:#41(150,844); sw:#32(81,409)"
+Q180686,PubMed,14,194050,"ast, be, cy, eo, eu, gl, ilo, is, nn, nup, pap, tg, wuu, zh-min-nan","ast:#19(19,316); be:#1(18,570); ilo:#3(18,298); nn:#7(17,914); eu:#32(17,026)"
+Q9655,Artery,14,191987,"an, arc, ce, dag, fiu-vro, fj, ks, lfn, lt, nds, nn, om, pms, sd","lt:#28(158,607); nn:#24(9,796); an:#36(4,856); lfn:#10(3,425); nds:#38(3,062)"
+Q127076,Vomiting,14,23837,"cdo, ce, dv, eml, guc, haw, ilo, iu, mhr, myv, mzn, sn, su, tcy","su:#7(9,561); sn:#42(2,360); dv:#44(2,119); eml:#19(1,751); cdo:#42(1,643)"
+Q1472,Crohn's disease,13,37861861,"cs, de, en, fr, gu, he, hr, it, lfn, mk, nl, sk, wuu","en:#18(23,372,857); de:#27(4,923,064); it:#7(3,357,573); fr:#19(3,287,118); cs:#12(951,558)"
+Q131191,Body mass index,13,32296958,"bar, be-x-old, de, dv, en, fo, fr, gu, jbo, ko, pl, ru, vi","en:#36(16,854,989); ru:#40(5,346,471); de:#28(4,919,889); fr:#24(2,902,754); pl:#47(1,382,194)"
+Q133087,Gout,13,14488660,"bg, cs, gu, hak, it, nl, pl, ru, sk, sl, ta, wuu, zh","ru:#22(6,280,720); it:#39(2,127,509); zh:#30(2,102,672); pl:#46(1,391,207); nl:#48(737,486)"
+Q132971,Dyslexia,13,9822943,"arz, bg, chr, csb, et, id, ka, lt, ms, ru, sk, sr, wuu","ru:#10(7,544,896); id:#47(633,920); bg:#17(456,978); ms:#14(284,758); sr:#11(274,857)"
+Q178436,Constipation,13,1832474,"bew, bn, gu, hi, kcg, kk, lg, mg, myv, ne, nn, se, te","hi:#22(1,131,594); bn:#31(270,385); kk:#47(223,555); te:#16(131,184); gu:#19(45,815)"
+Q430024,Human eye,13,1206069,"av, bew, dv, hi, hy, ik, kn, ku, lbe, lt, new, pa, si","hi:#42(775,226); lt:#16(191,272); hy:#36(133,197); kn:#37(38,623); si:#36(38,195)"
+Q43656,Cholesterol,13,904529,"bg, cv, dv, eu, jv, ko, ks, lo, rn, rw, su, wa, war","ko:#20(475,752); bg:#29(368,071); eu:#23(18,402); jv:#5(9,170); su:#15(7,756)"
+Q134859,Whooping cough,13,654218,"bg, chr, csb, din, glk, ig, km, ny, sh, tk, uz, wo, wuu","bg:#30(360,202); uz:#48(157,838); sh:#33(102,904); tk:#33(14,306); wuu:#41(6,565)"
+Q50265665,Insulin,13,325104,"ast, ban, bar, ca, da, dv, ia, lv, min, nn, pam, ps, sco","da:#36(139,985); ca:#40(74,822); lv:#48(47,575); ast:#49(10,610); nn:#23(9,879)"
+Q105726,Urination,13,175038,"bar, br, cy, eo, gan, jv, kge, nds, qu, ug, za, zh-classical, zh-yue","zh-yue:#7(83,736); eo:#2(29,154); cy:#3(13,399); qu:#2(11,351); gan:#4(9,763)"
+Q157661,Hepatitis A,13,108902,"ace, am, dag, ee, ha, ig, ky, nso, ny, om, wo, xh, zu","ky:#47(51,531); ha:#5(19,041); am:#25(11,543); om:#8(6,109); xh:#8(5,218)"
+Q83364,Vegetarianism,13,79690,"ang, cdo, diq, eo, fiu-vro, gd, jbo, lv, mai, mwl, olo, tcy, ug","lv:#42(49,147); eo:#28(6,710); mwl:#7(5,553); jbo:#10(2,769); diq:#24(2,495)"
+Q162668,Visual perception,13,56394,"ang, br, eu, fiu-vro, ga, kab, oc, qu, sco, sd, so, yi, zh-min-nan","eu:#40(15,801); sco:#49(4,186); ang:#6(4,166); qu:#22(3,975); ga:#36(3,893)"
+Q207684,Lobotomy,12,30174798,"cs, da, de, en, fi, it, nl, pl, sh, sk, sr, vep","en:#31(17,849,592); de:#30(4,880,546); it:#38(2,138,007); pl:#13(2,061,862); nl:#7(1,217,824)"
+Q167934,Serotonin,12,5735936,"ast, da, el, et, ext, fi, fr, ko, nl, no, sv, war","fr:#40(2,475,791); nl:#22(913,983); sv:#31(593,219); ko:#17(527,387); fi:#42(476,692)"
+Q169234,Abu Bakr al-Razi,12,4647757,"ar, arz, ce, diq, fa, glk, ha, kaa, mzn, ps, skr, tg","fa:#18(2,580,609); ar:#20(1,969,331); arz:#13(61,867); tg:#19(19,269); ha:#20(6,752)"
+Q121041,Appendicitis,12,3055563,"ar, az, bg, ka, kk, ky, lt, mt, tk, tl, tly, uz","ar:#44(1,360,859); bg:#27(387,791); lt:#10(256,839); kk:#39(249,409); ka:#19(191,213)"
+Q199678,Vitamin C,12,2687639,"ban, bh, dv, hy, jv, rw, sq, tyv, ug, vi, wuu, zh","zh:#36(1,942,728); vi:#35(440,279); sq:#42(145,222); hy:#38(130,264); wuu:#28(8,589)"
+Q101896,Gonorrhea,12,1079638,"bn, csb, ha, hu, ksh, mg, nqo, si, smn, sw, tg, ur","hu:#18(658,879); bn:#50(199,558); sw:#25(93,970); si:#25(52,451); ur:#19(28,066)"
+Q60168,Heroin,12,1004707,"arz, ast, bar, fo, hr, ki, mzn, no, sv, tyv, wuu, zh-classical","sv:#46(518,894); hr:#30(241,241); no:#40(174,492); arz:#20(37,551); ast:#25(15,352)"
+Q156421,Artemisia (plant),12,447117,"az, ceb, hsb, inh, kk, nap, nv, os, rsk, sah, szy, zgh","kk:#50(217,244); az:#31(209,340); sah:#1(15,095); os:#19(863); ceb:#45(791)"
+Q192995,Vaccination,12,203769,"ban, dty, fiu-vro, gcr, gu, ht, kbp, lb, ln, min, simple, vls","simple:#36(135,632); gu:#18(51,620); lb:#38(2,939); ht:#40(2,732); min:#45(2,017)"
+Q162297,Hygiene,12,152723,"fj, gu, ha, ht, jam, kbp, ky, lo, pi, rw, sc, tyv","gu:#9(71,401); ky:#39(56,384); ha:#17(7,383); ht:#36(2,849); pi:#5(2,668)"
+Q28086552,Nicotine,12,133513,"an, azb, bs, ce, gv, hif, kw, rue, su, war, wuu, za","bs:#18(94,914); wuu:#36(7,751); an:#19(7,240); su:#22(6,315); war:#36(5,222)"
+Q221159,Schistosomiasis,12,49112,"am, arz, din, ig, nr, nso, ny, om, rn, sn, ts, xh","arz:#38(19,155); am:#24(11,764); sn:#25(4,035); ny:#5(3,150); xh:#21(2,533)"
+Q156584,Euphorbiaceae,12,47483,"bcl, ceb, frr, hsb, jv, koi, kv, la, mg, os, so, su","su:#20(6,809); jv:#23(6,674); bcl:#15(6,657); la:#39(6,626); frr:#7(6,122)"
+Q128538,Luke the Evangelist,12,43788,"am, arc, bo, csb, frp, iba, lij, mg, nia, pms, sc, tw","am:#11(29,876); mg:#27(2,532); sc:#30(1,736); arc:#23(1,597); lij:#26(1,581)"
+Q319877,Alprazolam,11,16651193,"azb, es, fa, fi, fr, it, lv, no, pl, pt, sr","es:#42(5,050,276); fa:#13(3,181,945); fr:#49(2,317,565); it:#46(2,026,942); pt:#47(1,496,427)"
+Q1485,Lupus,11,13971258,"bg, bs, de, he, it, my, ru, sh, simple, sr, wuu","ru:#39(5,368,712); de:#33(4,785,957); it:#41(2,106,543); he:#35(498,900); bg:#11(492,915)"
+Q23118,LSD,11,12771529,"ast, es, fo, he, hu, lt, no, ru, scn, tok, tr","es:#30(5,569,454); ru:#46(4,957,588); hu:#15(701,300); tr:#34(666,769); he:#25(558,993)"
+Q835,Mikhail Bulgakov,11,8509416,"alt, ce, hsb, kw, mzn, os, pms, ru, scn, tt, udm","ru:#7(8,495,028); scn:#47(2,912); tt:#42(2,642); udm:#1(1,815); os:#15(1,452)"
+Q161238,Magnetic resonance imaging,11,4840424,"ary, cs, de, gan, gcr, hak, is, jam, ks, lb, stq","de:#48(4,189,687); cs:#38(620,401); is:#29(11,198); stq:#8(4,085); gan:#21(3,472)"
+Q1318776,Testosterone,11,4066474,"als, br, cv, fa, gl, hr, ku, la, nn, pnb, pt","fa:#34(2,153,632); pt:#32(1,635,380); hr:#36(225,687); als:#10(9,614); gl:#40(8,588)"
+Q92251,Noise pollution,11,2809681,"as, bew, bh, bn, gu, hi, kn, mr, ms, sa, te","hi:#10(1,401,117); mr:#3(605,421); bn:#42(218,729); ms:#27(212,747); kn:#7(147,097)"
+Q331283,Leishmaniasis,11,1595271,"am, din, ig, nr, nso, ny, om, pt, ts, tw, xh","pt:#39(1,580,154); am:#45(4,562); ig:#21(1,823); om:#32(1,495); nso:#9(1,461)"
+Q127398,Maimonides,11,1385011,"btm, ceb, cv, cy, gd, he, lad, nn, sco, war, yi","he:#2(1,341,012); nn:#47(7,073); gd:#4(7,037); sco:#21(6,992); war:#15(6,321)"
+Q170082,Psychosis,11,819162,"arz, ban, br, fi, is, kbp, koi, mwl, pap, sk, sq","fi:#39(477,596); sk:#49(158,913); sq:#47(130,142); arz:#34(19,872); is:#8(18,718)"
+Q47912,Lung cancer,11,737640,"arz, az, bg, cv, mk, nv, rki, rw, se, sl, tcy","bg:#43(319,110); az:#44(168,297); mk:#7(127,980); sl:#48(78,924); arz:#21(31,375)"
+Q83042,Neurology,11,117287,"bs, jv, la, li, nds, new, pi, rue, sa, tt, xh","bs:#28(77,768); la:#17(9,349); jv:#8(8,697); nds:#25(4,681); li:#24(4,211)"
+Q7867,Psychiatry,11,27321,"fy, ga, hyw, ia, ku, li, mzn, pms, rki, vec, yi","ia:#49(3,755); ga:#46(3,316); li:#42(3,300); fy:#41(3,265); yi:#45(3,025)"
+Q44512,Epidemic,11,22405,"cv, dag, ext, fy, inh, kab, li, rue, shi, vec, zgh","li:#23(4,499); rue:#18(3,747); fy:#44(3,181); vec:#23(2,058); cv:#25(2,002)"
+Q76469,Tears,11,10764,"arc, av, bug, gor, ik, kbp, lbe, mzn, roa-rup, sn, vec","sn:#33(3,115); arc:#32(1,062); lbe:#7(958); bug:#3(957); mzn:#46(901)"
+Q183134,Sepsis,10,24402624,"cv, en, is, ja, ka, lv, nup, pl, sk, war","en:#27(18,985,106); ja:#27(3,267,563); pl:#24(1,721,749); sk:#32(195,755); ka:#33(143,399)"
+Q206901,ALS,10,15053737,"cs, de, et, fi, fr, hu, it, sk, sl, sr","de:#15(6,349,399); fr:#13(3,720,777); it:#36(2,171,866); cs:#11(956,967); fi:#7(674,547)"
+Q240126,Bullying,10,5712557,"af, ar, bew, ki, ms, pfl, pt, ro, simple, sq","pt:#10(2,322,035); ar:#24(1,886,968); ro:#18(601,666); ms:#11(294,792); sq:#13(282,522)"
+Q37193,Robert Koch,10,4368149,"ay, bxr, ceb, de, gd, haw, ie, mg, mzn, yo","de:#43(4,356,944); yo:#31(2,111); gd:#36(1,806); ay:#25(1,648); mzn:#36(1,499)"
+Q133981,First aid,10,2404613,"az, hi, kk, ky, mr, ne, sa, simple, ur, uz","hi:#45(758,272); kk:#14(434,947); simple:#5(357,964); uz:#11(327,657); az:#21(244,394)"
+Q188840,Medicinal plants,10,1281445,"as, ay, az, be, gn, hyw, kk, pdc, udm, uz","kk:#8(578,356); az:#16(309,060); uz:#14(286,448); gn:#1(85,953); as:#41(8,632)"
+Q173253,Sense,10,547620,"arc, et, fiu-vro, kab, kk, lfn, sd, sn, sr, wa","sr:#20(253,282); kk:#46(224,428); et:#42(52,999); fiu-vro:#18(3,464); sn:#35(2,921)"
+Q6473911,Herpes,10,449176,"bew, bjn, br, et, ht, kn, mk, ta, te, tg","ta:#42(172,164); et:#19(75,593); te:#43(68,914); mk:#49(68,660); kn:#36(39,239)"
+Q101991,Inflammation,10,380537,"fj, gn, kab, ko, min, nds, nn, se, tyv, wa","ko:#45(355,938); nn:#20(10,325); min:#40(2,766); gn:#47(2,508); nds:#50(2,469)"
+Q178623,Kidney stone disease,10,267042,"af, am, ban, bh, ckb, hyw, lg, lij, mr, vo","mr:#39(111,005); af:#29(87,757); am:#3(47,658); ckb:#22(14,708); bh:#31(3,059)"
+Q37064,Alexander Fleming,10,124636,"ca, cy, gd, gl, gu, guw, mg, szy, tcy, yo","ca:#33(81,658); gu:#42(21,079); gl:#50(8,173); cy:#41(5,022); tcy:#7(3,361)"
+Q40867,Poison,10,43781,"an, blk, chr, ha, ku, my, qu, srn, szy, wa","my:#38(23,624); an:#39(4,475); ha:#36(4,182); ku:#45(2,834); qu:#47(2,678)"
+Q202864,Zika virus,10,22872,"eml, frr, ig, lo, mzn, nso, ny, ts, xh, xmf","ts:#6(8,227); xmf:#17(3,048); frr:#27(2,467); xh:#27(1,950); nso:#10(1,374)"
+Q48422,Cadaver,10,20063,"ang, ay, dty, kcg, ln, nap, nds-nl, roa-rup, sn, vo","sn:#18(5,411); ay:#12(2,845); nds-nl:#17(1,760); ln:#50(1,676); ang:#17(1,625)"
+Q30314010,Social distancing,10,17420,"bjn, dag, ff, gor, km, lmo, pap, sd, xh, yo","xh:#17(3,300); pap:#21(2,297); lmo:#49(1,794); sd:#32(1,752); dag:#14(1,571)"
+Q407541,Fentanyl,9,38275267,"da, de, en, es, gpe, it, nl, pl, sv","en:#15(23,664,251); es:#47(4,911,364); de:#45(4,276,027); it:#32(2,256,939); pl:#42(1,497,359)"
+Q83741704,COVID-19 pandemic by country and territory,9,25112867,"bjn, en, ht, kab, pt, sd, ug, vi, zh","en:#32(17,706,161); zh:#2(4,238,008); vi:#3(1,695,025); pt:#49(1,465,125); ht:#49(2,218)"
+Q1060310,Narcissistic personality disorder,9,22812871,"af, da, en, et, fi, gpe, he, ja, sv","en:#48(15,969,743); ja:#18(3,890,096); sv:#2(1,469,064); fi:#8(673,455); he:#29(535,398)"
+Q1097630,Intersex,9,18153164,"ca, el, en, eu, fi, la, nl, olo, zu","en:#42(16,200,684); nl:#29(858,053); fi:#23(557,782); el:#27(394,386); ca:#18(108,052)"
+Q8392,Zoophilia,9,9526162,"ast, es, gl, pt, scn, sco, simple, vi, xmf","es:#18(7,004,480); pt:#23(1,882,735); vi:#37(437,764); simple:#42(122,069); ast:#4(41,922)"
+Q180266,Scarlet fever,9,9485342,"bg, chr, csb, de, el, et, it, ka, sh","de:#18(5,804,400); it:#42(2,096,753); bg:#1(896,885); el:#47(334,473); ka:#21(165,064)"
+Q366886,Psychopathy,9,8894069,"arz, et, fi, he, is, ja, ko, sr, sv","ja:#2(5,810,368); sv:#10(832,971); fi:#13(630,386); he:#43(461,940); arz:#1(404,635)"
+Q103191,Homeostasis,9,7087557,"ary, cy, es, id, jv, lfn, ms, nds, war","es:#23(6,110,512); id:#44(655,971); ms:#10(298,784); cy:#22(6,338); war:#25(5,689)"
+Q83030,Dementia,9,5481864,"bg, diq, lb, mk, mt, ru, sq, trv, za","ru:#48(4,908,522); bg:#32(356,161); sq:#50(128,748); mk:#40(77,834); lb:#44(2,618)"
+Q327658,List of phobias,9,3748632,"cs, et, hu, ka, lv, pt, sk, sr, vep","pt:#33(1,620,222); cs:#42(611,822); hu:#23(579,992); ka:#6(277,563); sk:#17(247,340)"
+Q101971,Wart,9,1996238,"av, bcl, lbe, my, myv, sn, tl, wuu, zh","zh:#45(1,691,291); tl:#18(232,586); my:#26(29,758); bcl:#2(27,250); wuu:#33(8,009)"
+Q182353,Sexual reproduction,9,1850137,"ast, eu, fiu-vro, hi, hif, kab, kk, simple, th","hi:#30(896,883); th:#45(358,324); simple:#8(288,713); kk:#37(253,141); eu:#5(35,740)"
+Q181394,Nutrient,9,1145876,"as, ca, dv, eu, ga, hi, lt, si, so","hi:#41(775,507); lt:#32(147,962); ca:#7(141,972); si:#38(37,711); eu:#50(14,239)"
+Q2270,Benzene,9,806949,"ba, bcl, lb, lmo, pnb, ro, sco, vi, zh-classical","vi:#41(421,099); ro:#48(364,316); sco:#42(4,490); zh-classical:#18(3,630); lb:#37(2,952)"
+Q184674,Erectile dysfunction,9,782299,"arz, bn, eml, nqo, ps, si, so, ur, zu","bn:#6(559,943); arz:#5(118,929); si:#22(53,831); ur:#10(36,339); so:#36(4,959)"
+Q183130,Gastritis,9,530331,"ay, az, hy, ka, lij, nds-nl, nqo, sw, tyv","az:#41(174,368); ka:#36(137,214); hy:#37(132,482); sw:#31(81,697); nqo:#5(1,195)"
+Q133076,Hernia,9,527645,"bew, bjn, bn, lg, new, nqo, sh, szl, te","bn:#27(307,929); sh:#30(107,071); te:#27(89,674); bjn:#4(13,642); new:#15(4,282)"
+Q18225,Vitamin A,9,152957,"ban, dv, jbo, mr, or, rw, scn, tyv, ug","mr:#34(134,405); or:#45(4,448); scn:#50(2,858); rw:#22(2,752); jbo:#15(2,170)"
+Q192497,Datura,9,115412,"ceb, csb, la, mg, myv, os, te, udm, war","te:#25(90,407); la:#49(6,012); ceb:#11(5,587); war:#27(5,516); mg:#13(5,198)"
+Q160184,Flatulence,9,80384,"ay, ceb, ie, ilo, ky, lg, min, nap, so","ky:#35(60,263); min:#10(7,820); so:#32(5,393); nap:#7(1,659); ay:#32(1,378)"
+Q33196,Embryo,9,76893,"arc, ceb, ie, inh, ky, om, pms, vec, zh-min-nan","ky:#32(63,807); zh-min-nan:#16(4,548); arc:#16(2,364); ceb:#26(1,799); pms:#23(1,761)"
+Q276469,Blister,9,19095,"av, ay, bar, ks, lbe, mzn, nrm, szl, vls","av:#1(8,181); szl:#7(3,988); bar:#46(2,066); vls:#19(1,321); ay:#35(1,085)"
+Q1137321,Onchocerciasis,9,11704,"ig, nr, nso, ny, om, sn, ts, tw, xh","xh:#24(2,102); sn:#50(1,919); ts:#19(1,853); tw:#12(1,325); ig:#31(1,196)"
+Q158289,Hypericum perforatum,9,11530,"azb, co, csb, fiu-vro, frp, hsb, nv, os, roa-rup","azb:#16(5,690); roa-rup:#24(1,190); csb:#24(1,042); fiu-vro:#47(832); os:#20(779)"
+Q320,Michelle Bachelet,9,7009,"ami, cbk-zam, ilo, lad, pam, skr, szy, tay, trv","ilo:#47(1,229); pam:#50(1,132); szy:#13(1,092); cbk-zam:#4(1,045); trv:#5(949)"
+Q540571,Fibromyalgia,8,31371839,"de, en, fr, gpe, it, mad, nl, no","en:#33(17,688,760); de:#12(6,834,234); it:#11(3,184,562); fr:#37(2,533,394); nl:#17(949,422)"
+Q184627,Human papillomavirus infection,8,11179665,"es, it, mad, mk, rki, si, sr, zh","es:#19(6,797,518); it:#44(2,081,119); zh:#35(1,966,658); sr:#38(208,399); mk:#26(90,303)"
+Q205764,Endometriosis,8,10154743,"bg, de, fr, he, it, ka, mad, nn","de:#41(4,406,068); fr:#43(2,388,642); it:#43(2,090,285); he:#16(663,382); bg:#23(418,873)"
+Q202387,Post-traumatic stress disorder,8,5687763,"he, lfn, ln, mzn, no, rn, ru, wo","ru:#47(4,915,658); he:#28(539,853); no:#23(212,158); ln:#4(7,836); mzn:#9(5,524)"
+Q185137,Thalassemia,8,3827371,"az, bn, el, ms, sc, si, ur, zh","zh:#28(2,126,979); ms:#3(527,576); bn:#12(461,476); el:#33(378,783); az:#19(268,756)"
+Q191521,Sildenafil,8,3495869,"arz, bcl, fa, ha, ig, ta, tr, wuu","fa:#30(2,376,538); tr:#38(657,619); ta:#8(341,665); arz:#10(83,231); wuu:#6(25,032)"
+Q221668,Urinary tract infection,8,1842694,"bn, dty, ha, hy, pa, sw, ta, tl","tl:#1(873,465); bn:#25(328,921); ta:#13(297,702); sw:#14(159,513); hy:#26(156,492)"
+Q154869,Hepatitis C,8,1191477,"az, fur, hu, hy, ka, my, ug, yo","hu:#26(561,460); ka:#10(235,046); az:#32(206,185); hy:#32(140,526); my:#16(44,361)"
+Q3378593,Substance dependence,8,812754,"an, az, hif, ka, ky, os, simple, uz","az:#33(204,945); uz:#31(181,569); simple:#27(173,303); ka:#41(121,908); an:#2(66,311)"
+Q123414,Stress (biology),8,562760,"co, jam, ku, ln, mr, sq, uz, vec","sq:#25(204,958); mr:#28(177,584); uz:#43(164,732); ln:#10(5,061); ku:#49(2,776)"
+Q129279,Dysentery,8,511711,"anp, bew, bn, fiu-vro, kbp, ne, sw, za","bn:#16(423,855); sw:#35(73,150); ne:#37(10,989); za:#44(1,116); fiu-vro:#44(1,036)"
+Q133823,Migraine,8,474545,"ary, lg, mad, or, sq, sw, ta, xmf","sq:#26(198,220); ta:#35(193,559); sw:#34(74,457); or:#46(4,222); xmf:#41(1,705)"
+Q177708,Menopause,8,240028,"als, dv, ie, kn, mdf, rw, sq, tcy","sq:#31(185,680); kn:#45(33,385); rw:#6(10,084); als:#22(6,866); dv:#40(2,285)"
+Q181754,Heart failure,8,210380,"af, bxr, inh, ks, lfn, ln, mk, pam","af:#16(111,873); mk:#28(87,344); bxr:#12(4,430); pam:#28(2,361); ln:#35(2,115)"
+Q36855,Swine influenza,8,187017,"af, bat-smg, bm, lo, mai, mt, pap, pdc","af:#9(177,844); bat-smg:#34(2,244); pdc:#7(2,075); bm:#8(1,711); pap:#28(974)"
+Q170990,Arthritis,8,110718,"arc, blk, hak, km, lg, mk, ne, pa","mk:#30(85,207); ne:#32(11,650); pa:#28(7,685); km:#40(2,427); lg:#21(1,614)"
+Q47051,Prion,8,51644,"br, ht, ia, jv, lmo, nn, oc, wuu","wuu:#18(10,521); nn:#49(6,989); jv:#21(6,906); ia:#18(6,763); oc:#16(6,292)"
+Q164655,Abscess,8,31598,"ay, bjn, br, ce, gn, ht, nia, scn","gn:#6(11,426); br:#9(6,254); nia:#1(3,682); scn:#46(2,927); bjn:#25(2,870)"
+Q31207,Health care,8,30244,"be, bxr, fj, hak, ig, mg, pa, yi","pa:#35(7,229); be:#28(5,921); bxr:#13(4,390); mg:#15(4,197); yi:#20(4,001)"
+Q80061,Nobel Prize in Physiology or Medicine,8,24774,"be, dty, gd, mai, nds, scn, yo, zh-min-nan","be:#39(4,840); gd:#14(3,591); scn:#43(3,113); nds:#40(2,935); mai:#11(2,744)"
+Q614304,Pharmacy,8,23592,"diq, gcr, hak, hyw, kaa, rw, su, wa","su:#12(7,991); gcr:#2(5,503); diq:#17(3,363); wa:#38(2,408); hak:#27(2,379)"
+Q79928,Acne,8,18478,"ace, bjn, la, lg, lij, nia, rki, rw","la:#43(6,492); rw:#19(3,367); ace:#7(2,426); lg:#18(1,883); lij:#22(1,851)"
+Q14819852,Birth,8,17713,"cu, gan, gn, guw, ln, mg, tt, za","tt:#11(4,869); gn:#37(3,236); gan:#25(2,711); mg:#25(2,661); ln:#41(1,818)"
+Q10379,Cardiology,8,16876,"ia, kaa, min, nds, pi, sa, tly, xmf","ia:#36(4,465); min:#33(3,236); nds:#41(2,739); xmf:#31(2,235); sa:#44(1,967)"
+Q81938,Pain,8,14958,"bat-smg, ce, hyw, ik, la, myv, se, sn","la:#36(6,737); sn:#41(2,407); bat-smg:#38(2,124); hyw:#35(1,063); se:#31(831)"
+Q12029,Addiction,8,14724,"bew, ce, gcr, ilo, knc, mzn, new, war","war:#49(3,814); mzn:#17(3,434); new:#34(2,727); ilo:#45(1,848); knc:#4(1,162)"
+Q160289,Hearing,8,11246,"ay, fiu-vro, fj, guw, kab, pcd, so, zu","so:#42(3,918); fiu-vro:#36(1,829); ay:#22(1,730); kab:#44(1,314); pcd:#9(923)"
+Q156091,Atropa bella-donna,8,7808,"ceb, co, csb, hsb, kw, os, pcd, sa","sa:#18(2,957); csb:#23(1,204); pcd:#11(809); ceb:#48(711); hsb:#12(708)"
+Q2485083,Suicide methods,7,56759607,"en, fa, hi, pt, ru, ta, tr","en:#8(29,287,777); ru:#4(10,347,874); fa:#2(7,313,817); pt:#2(3,500,820); tr:#2(3,207,419)"
+Q164654,Penile–vaginal intercourse,7,9272724,"be, be-x-old, de, hsb, pt, tl, xmf","de:#13(6,695,938); pt:#9(2,359,539); tl:#45(132,615); hsb:#1(27,595); be-x-old:#1(26,393)"
+Q476112,Human height,7,4247508,"ay, hr, nl, no, pt, sv, vep","pt:#34(1,616,632); sv:#3(1,280,400); nl:#31(855,818); no:#12(257,904); hr:#33(232,463)"
+Q201928,Amoxicillin,7,3597127,"ar, az, blk, bs, ln, th, zh","zh:#50(1,589,689); ar:#47(1,335,883); th:#35(373,196); az:#45(167,135); bs:#7(125,740)"
+Q186470,Tonsillitis,7,3365531,"af, bg, et, hy, ja, nn, rw","ja:#44(2,653,804); bg:#37(336,405); hy:#17(187,951); et:#8(99,354); af:#48(61,132)"
+Q191282,First Opium War,7,2213703,"bcl, tl, wuu, za, zh, zh-classical, zh-yue","zh:#34(1,966,746); tl:#36(152,307); zh-yue:#11(65,052); bcl:#6(11,075); wuu:#17(11,025)"
+Q103177,SARS,7,2179628,"cdo, he, hyw, kab, lmo, zh, zh-yue","zh:#47(1,663,721); he:#47(454,205); zh-yue:#14(55,392); lmo:#47(1,875); kab:#28(1,656)"
+Q104085,Asbestos,7,819985,"da, et, fi, ig, io, li, sco","fi:#15(618,726); da:#44(133,791); et:#40(53,781); sco:#32(5,406); li:#35(3,715)"
+Q155857,Rubella,7,701130,"af, ky, lb, mr, sh, tg, tk","mr:#10(310,719); ky:#5(138,550); sh:#19(124,381); af:#26(100,168); tg:#29(12,579)"
+Q173022,Bronchitis,7,633586,"az, kk, km, lv, nn, rn, tk","kk:#26(314,516); az:#25(229,856); lv:#34(53,041); tk:#21(21,876); nn:#22(10,035)"
+Q318529,Safe sex,7,599930,"ast, bar, bn, eo, gn, gu, my","bn:#17(413,701); gu:#13(64,956); my:#8(59,778); ast:#2(48,281); eo:#41(5,727)"
+Q176741,Mumps,7,497422,"af, bcl, din, mdf, mr, ta, tk","mr:#20(203,487); ta:#44(171,397); af:#27(99,163); tk:#35(11,941); bcl:#10(9,043)"
+Q167844,Conjunctivitis,7,475383,"blk, gan, ne, nia, skr, te, tl","tl:#10(388,011); te:#40(74,318); ne:#33(11,576); nia:#9(732); blk:#27(308)"
+Q150839,Salmonella,7,403197,"el, fo, ga, gl, jv, oc, war","el:#37(364,133); gl:#46(8,358); fo:#8(6,716); jv:#24(6,469); ga:#11(6,205)"
+Q5906358,Healthy diet,7,382452,"ab, iba, ms, nso, simple, ve, zu","simple:#21(213,456); ms:#35(167,843); zu:#48(795); ve:#6(212); ab:#7(79)"
+Q771035,Traditional medicine,7,166532,"am, as, guc, ha, inh, ky, mg","ky:#14(98,953); am:#9(31,265); as:#16(19,303); ha:#8(13,928); mg:#35(1,773)"
+Q156537,Domestic violence,7,149981,"km, ln, mai, ne, pap, pcm, te","te:#31(85,525); ne:#6(32,711); km:#9(27,788); ln:#43(1,807); mai:#20(1,719)"
+Q1221899,Gynaecology,7,80048,"bo, lld, ln, mad, min, pi, te","te:#44(67,363); min:#24(4,677); bo:#32(2,470); pi:#10(2,219); ln:#42(1,808)"
+Q7208,Pathology,7,60301,"arz, li, pi, ps, rki, xmf, zh-min-nan","arz:#18(44,753); li:#20(4,839); ps:#39(3,604); pi:#6(2,658); zh-min-nan:#50(2,616)"
+Q130365,Riboflavin,7,31870,"fo, lb, lo, rw, sco, su, tyv","sco:#17(7,902); su:#19(6,867); lb:#7(6,829); fo:#9(6,617); tyv:#22(1,712)"
+Q129104,Anthrax,7,27775,"is, kw, om, ps, sah, scn, tok","is:#46(9,773); om:#4(8,678); scn:#27(3,848); ps:#47(3,153); sah:#45(1,802)"
+Q128570,Bioinformatics,7,25303,"io, jv, ki, lb, lfn, li, nov","jv:#38(5,238); nov:#7(4,479); lb:#21(4,286); io:#34(3,432); li:#44(3,202)"
+Q186517,Parasitism,7,20986,"ary, frr, gd, kw, nn, om, qu","nn:#35(8,398); om:#11(4,434); qu:#45(2,721); gd:#26(2,354); frr:#39(1,440)"
+Q174876,Breastfeeding,7,20191,"be, br, ln, mai, nia, tcy, xh","be:#8(10,611); br:#50(3,070); ln:#36(2,024); xh:#26(1,956); tcy:#25(1,258)"
+Q133696,Color blindness,7,18473,"ary, cdo, cv, gd, ku, sco, zh-classical","sco:#26(6,201); zh-classical:#20(3,508); ku:#48(2,781); gd:#32(1,948); cv:#32(1,595)"
+Q212980,Psychologist,7,17276,"bo, fj, hyw, kaa, kbp, ksh, tg","tg:#42(8,938); bo:#31(2,483); ksh:#10(1,774); fj:#8(1,272); kbp:#30(1,189)"
+Q202883,Veterinarian,7,15754,"diq, fo, gd, ia, se, tyv, vec","ia:#22(5,773); fo:#37(2,561); gd:#29(2,082); vec:#24(1,873); diq:#47(1,567)"
+Q130768,Smoke,7,14573,"arc, ay, bh, bjn, oc, roa-rup, tly","oc:#17(6,229); bh:#37(2,685); roa-rup:#20(1,549); bjn:#38(1,512); arc:#29(1,297)"
+Q181600,Patient,7,9025,"bjn, dag, dga, inh, mg, sd, ti","ti:#10(2,529); sd:#33(1,736); bjn:#39(1,505); mg:#43(1,306); dag:#20(1,148)"
+Q1225041,Gaslighting,6,30853674,"en, he, ko, la, pfl, sv","en:#10(27,890,290); ko:#2(1,758,731); sv:#26(637,100); he:#26(555,225); la:#37(6,658)"
+Q407592,Tramadol,6,23467492,"ar, en, fa, fr, mzn, nl","en:#41(16,270,098); fr:#25(2,884,518); fa:#40(2,013,916); ar:#41(1,394,134); nl:#24(902,023)"
+Q243547,Ketamine,6,20936550,"en, kcg, nl, sh, sv, zh-classical","en:#25(19,575,091); nl:#46(748,903); sv:#45(526,221); sh:#50(84,151); zh-classical:#43(2,022)"
+Q129029,Bhopal disaster,6,18603201,"awa, en, hi, mai, mr, simple","en:#37(16,692,553); hi:#15(1,317,600); simple:#3(484,415); mr:#41(107,407); mai:#24(1,152)"
+Q179945,Psoriasis,6,8808717,"awa, fa, ka, ru, sq, te","ru:#29(5,918,229); fa:#26(2,445,833); te:#10(169,425); sq:#45(137,549); ka:#37(136,779)"
+Q535691,Teenage pregnancy,6,5736723,"es, nr, nso, rw, simple, zu","es:#31(5,406,536); simple:#7(323,251); rw:#23(2,712); zu:#19(2,562); nso:#7(1,637)"
+Q185034,Sickle cell disease,6,2433318,"fr, gu, nn, or, pms, rn","fr:#44(2,384,507); gu:#35(24,680); nn:#14(13,851); or:#17(7,787); rn:#17(1,440)"
+Q48385308,Bed bug,6,1850543,"dag, din, fa, kcg, kw, pcd","fa:#48(1,847,664); kcg:#11(847); dag:#35(755); din:#34(479); kw:#33(439)"
+Q544006,Anxiety disorder,6,1785888,"ms, nr, ny, pap, ti, zh","zh:#49(1,594,627); ms:#30(189,368); ny:#19(1,354); ti:#23(237); pap:#43(234)"
+Q154874,Yellow fever,6,1624852,"csb, din, ht, lg, pt, ti","pt:#37(1,609,822); lg:#3(7,271); ht:#44(2,518); ti:#13(2,161); din:#16(1,762)"
+Q101452,2009 swine flu pandemic,6,975306,"gu, is, mg, nah, nl, rn","nl:#25(895,001); gu:#10(67,866); is:#50(9,364); rn:#16(1,494); mg:#49(1,133)"
+Q188419,Life expectancy,6,810000,"eu, fo, gan, kab, km, sv","sv:#12(779,955); eu:#26(18,247); km:#32(3,605); fo:#30(3,406); gan:#24(2,898)"
+Q156103,Gastroenteritis,6,675265,"bxr, gn, ko, kw, tl, trv","ko:#32(430,525); tl:#16(238,938); gn:#50(2,239); bxr:#42(1,653); trv:#3(1,597)"
+Q182581,Immunity (medicine),6,565058,"awa, kaa, kk, lfn, tg, uz","kk:#20(381,021); uz:#42(165,750); tg:#22(15,866); lfn:#43(1,435); awa:#19(626)"
+Q199804,Chronic obstructive pulmonary disease,6,510586,"bar, ne, sco, se, sw, ta","ta:#10(328,268); sw:#11(164,437); ne:#49(9,301); sco:#31(5,513); bar:#41(2,396)"
+Q233309,Brain tumor,6,267869,"kn, mk, rw, sq, szy, tcy","sq:#48(129,058); mk:#20(102,060); kn:#50(30,039); rw:#15(4,028); tcy:#13(2,122)"
+Q474191,Diet (nutrition),6,251253,"da, fur, gl, gn, pa, xh","da:#12(228,925); pa:#22(8,968); gl:#39(8,632); gn:#46(2,539); xh:#23(2,112)"
+Q58952,Hiccup,6,133776,"blk, mr, my, sd, srn, vec","mr:#49(91,882); my:#28(29,723); srn:#1(8,946); vec:#26(1,560); sd:#47(1,145)"
+Q153356,Chlamydia,6,129547,"ht, li, rki, sh, smn, tk","sh:#48(86,911); tk:#11(35,237); li:#45(3,170); ht:#26(3,105); smn:#7(1,061)"
+Q131749,Anorexia nervosa,6,119457,"ext, gd, mad, rki, se, sh","sh:#23(116,012); gd:#44(1,336); ext:#29(1,321); se:#42(510); mad:#25(251)"
+Q105650,Urology,6,90889,"bs, jv, nds, pi, sa, tly","bs:#30(76,833); jv:#33(5,561); nds:#24(4,759); pi:#18(1,822); sa:#47(1,721)"
+Q317309,Mental health,6,72826,"awa, bjn, hyw, kn, rn, sa","kn:#20(64,275); rn:#6(3,365); sa:#29(2,235); awa:#12(1,103); hyw:#40(998)"
+Q32566,CT scan,6,71689,"ary, bs, hak, ks, ksh, sd","bs:#43(59,249); ks:#1(4,193); ksh:#4(3,996); hak:#29(2,201); sd:#50(1,073)"
+Q199602,Itch,6,71005,"ay, eml, sn, szy, te, tw","te:#49(64,255); sn:#40(2,488); ay:#27(1,582); eml:#28(1,391); tw:#26(762)"
+Q131656,Pesticide,6,70152,"gom, my, rki, rue, sc, si","si:#35(39,812); my:#41(22,033); gom:#3(4,532); sc:#19(2,230); rue:#45(1,500)"
+Q9690,Fatigue,6,37471,"anp, ary, dag, kab, olo, zh-yue","zh-yue:#21(33,723); kab:#50(1,122); olo:#10(981); ary:#43(719); dag:#42(643)"
+Q1321695,Egg cell,6,25034,"got, gu, mdf, om, sn, war","gu:#47(15,874); war:#26(5,594); sn:#47(2,002); got:#2(1,104); om:#49(346)"
+Q82494,National Center for Biotechnology Information,6,18134,"be-x-old, frr, ilo, inh, kbd, pcd","ilo:#23(3,980); pcd:#4(3,325); be-x-old:#22(3,316); frr:#18(3,229); kbd:#2(2,904)"
+Q43522,Antonie van Leeuwenhoek,6,15264,"btm, gan, gv, mg, szy, yo","gan:#5(9,089); gv:#10(3,045); mg:#45(1,234); yo:#50(1,179); szy:#28(580)"
+Q133805,Epidemiology,6,13629,"ia, kab, sa, tt, vec, wa","ia:#41(4,216); wa:#32(2,587); tt:#48(2,421); sa:#26(2,375); kab:#45(1,312)"
+Q101929,Immunology,6,11812,"fur, lb, lfn, nds, rki, xmf","nds:#33(3,469); lb:#42(2,709); fur:#14(2,120); lfn:#30(1,762); xmf:#42(1,701)"
+Q8071861,Zika fever,6,10314,"am, gn, nr, om, pap, ti","am:#49(4,364); gn:#40(3,056); ti:#19(1,311); om:#42(821); nr:#4(508)"
+Q83428,Paracelsus,6,10292,"ary, cv, diq, gd, mdf, mg","gd:#23(2,530); diq:#31(2,249); mdf:#4(2,017); cv:#36(1,435); mg:#47(1,192)"
+Q3097999,Pit latrine,6,9627,"ee, ig, nso, wo, xh, zu","zu:#12(3,616); xh:#31(1,545); ee:#6(1,190); wo:#18(1,121); nso:#13(1,089)"
+Q161067,Kava,6,9125,"bi, fj, hsb, szl, to, ty","bi:#5(3,018); fj:#4(1,909); to:#2(1,896); szl:#20(1,226); hsb:#13(697)"
+Q182448,Lawsonia inermis,6,8306,"am, bm, gor, gv, os, tcy","am:#43(4,653); gv:#16(1,984); gor:#12(542); os:#28(390); tcy:#38(386)"
+Q187882,Freckle,6,7545,"av, bar, csb, lbe, nds-nl, vec","bar:#25(4,015); nds-nl:#28(793); csb:#35(731); vec:#46(690); av:#17(673)"
+Q48196,Stem cell,6,6839,"blk, hak, nds, rki, se, ug","nds:#35(3,369); hak:#38(1,582); se:#29(874); ug:#35(673); blk:#25(312)"
+Q1348567,Vitellaria,6,6785,"bm, din, gpe, nqo, sg, wo","bm:#6(3,609); gpe:#14(1,125); nqo:#7(779); wo:#22(638); din:#39(337)"
+Q117749,Hepatitis B vaccine,6,4178,"bpy, ig, lij, ny, wo, yo","yo:#41(1,471); ny:#30(770); lij:#37(725); ig:#50(550); wo:#28(506)"
+Q474187,Thirst,6,3720,"bew, ext, glk, gom, shi, sn","sn:#48(1,953); gom:#18(925); ext:#39(389); glk:#11(262); shi:#22(97)"
+Q27485,Botfly,6,2813,"mhr, mrj, nv, os, udm, vep",udm:#4(689); nv:#15(543); os:#26(499); mrj:#10(443); mhr:#15(374)
+Q382370,Mpox,6,2326,"fur, lo, nr, pap, pwn, xh",pap:#32(831); pwn:#2(606); nr:#6(406); lo:#42(256); xh:#40(125)
+Q180556,Helicobacter pylori,5,7571589,"es, new, war, zh, zh-yue","es:#34(5,214,585); zh:#20(2,322,183); zh-yue:#31(28,254); war:#46(4,066); new:#39(2,501)"
+Q1073121,Heart rate,5,4503974,"bs, eml, fr, ko, sq","fr:#14(3,636,201); ko:#24(458,486); sq:#10(301,527); bs:#12(105,924); eml:#15(1,836)"
+Q134649,Diphtheria,5,4449217,"csb, de, jv, lv, ms","de:#46(4,218,943); ms:#34(170,705); lv:#35(52,869); jv:#36(5,479); csb:#22(1,221)"
+Q382641,Phimosis,5,4402595,"be, ja, nds, pl, zu","ja:#37(2,773,907); pl:#31(1,618,647); be:#34(5,025); nds:#46(2,599); zu:#22(2,417)"
+Q208726,Genital wart,5,4283854,"fa, mad, mzn, tl, zh","zh:#22(2,259,643); fa:#45(1,878,969); tl:#40(140,531); mzn:#11(4,527); mad:#42(184)"
+Q662860,Smoking,5,2360136,"ar, ky, ms, se, zu","ar:#19(2,017,272); ms:#20(240,381); ky:#15(97,820); zu:#18(2,841); se:#9(1,822)"
+Q319312,Premature ejaculation,5,1883647,"bn, hi, ps, si, ur","hi:#23(1,112,783); bn:#4(661,443); si:#19(58,751); ur:#9(45,009); ps:#21(5,661)"
+Q8084905,Autoimmune disease,5,1062266,"gpe, hr, is, lfn, nl","nl:#36(826,452); hr:#39(223,023); is:#40(10,334); lfn:#35(1,585); gpe:#19(872)"
+Q59736,Ignaz Semmelweis,5,957175,"hu, kw, lij, mg, sc","hu:#3(952,900); mg:#40(1,366); lij:#32(1,336); sc:#43(1,240); kw:#37(333)"
+Q162908,Electrolyte,5,849967,"gor, id, myv, se, zh-classical","id:#29(840,620); gor:#5(5,619); zh-classical:#47(1,664); se:#16(1,415); myv:#19(649)"
+Q134990,Hippocratic Oath,5,640515,"hr, rue, skr, tt, vi","vi:#42(412,182); hr:#38(223,861); tt:#39(2,790); rue:#46(1,369); skr:#11(313)"
+Q3184856,Substance abuse,5,633111,"af, hyw, ms, ta, xh","af:#3(248,236); ta:#27(214,637); ms:#36(165,708); xh:#15(3,575); hyw:#41(955)"
+Q840143,Streptococcal pharyngitis,5,475537,"gn, mk, sw, tl, yo","tl:#30(187,231); sw:#16(140,129); mk:#4(139,123); gn:#24(4,754); yo:#12(4,300)"
+Q2845322,Anandi Gopal Joshi,5,425670,"gu, mai, mr, pa, tcy","mr:#8(370,313); gu:#26(34,757); pa:#5(19,838); mai:#46(611); tcy:#40(151)"
+Q166019,Bleeding,5,384462,"arc, ary, az, dag, uz","az:#34(199,206); uz:#30(181,966); arc:#21(1,766); dag:#33(788); ary:#42(736)"
+Q194101,Dwarfism,5,378370,"da, fur, hsb, myv, no","no:#29(195,552); da:#22(182,141); myv:#31(333); fur:#23(262); hsb:#22(82)"
+Q172941,Peptic ulcer disease,5,305799,"af, cv, hyw, se, ta","ta:#25(226,800); af:#38(75,172); se:#18(1,359); cv:#43(1,250); hyw:#23(1,218)"
+Q1142924,University of Malaya,5,250768,"ban, dtp, iba, mad, ms","ms:#18(249,749); ban:#41(291); iba:#7(282); mad:#28(224); dtp:#5(222)"
+Q183344,Sinusitis,5,205784,"ia, lg, ms, ne, rw","ms:#37(162,875); ne:#4(33,692); ia:#30(4,802); lg:#13(3,035); rw:#35(1,380)"
+Q79460,Antibody,5,179633,"bs, ca, dv, kaa, nds","bs:#13(105,538); ca:#48(68,774); nds:#39(2,999); dv:#49(2,049); kaa:#21(273)"
+Q5609817,Athlete's foot,5,162061,"bew, dag, lg, my, zh-yue","zh-yue:#3(95,846); my:#7(64,123); dag:#26(1,022); lg:#32(938); bew:#39(132)"
+Q219615,University of Barcelona,5,122172,"ban, ca, ceb, gd, pap","ca:#12(118,927); gd:#50(1,197); pap:#33(821); ceb:#44(802); ban:#31(425)"
+Q162555,Oncology,5,104623,"bs, fy, pi, rw, sa","bs:#33(72,977); rw:#2(21,759); fy:#14(5,834); pi:#11(2,068); sa:#40(1,985)"
+Q114085,Rhinitis,5,93024,"ksh, ky, myv, rue, tg","ky:#24(78,941); tg:#33(11,693); rue:#48(1,324); ksh:#16(702); myv:#28(364)"
+Q178059,Paraphilia,5,67335,"arz, fy, gl, mzn, xmf","arz:#16(50,178); gl:#41(8,585); mzn:#13(4,138); fy:#47(2,797); xmf:#45(1,637)"
+Q160402,Perception,5,60505,"azb, la, rm, si, tg","si:#41(35,988); tg:#28(12,611); la:#46(6,237); azb:#35(3,622); rm:#3(2,047)"
+Q557919,MedlinePlus,5,35164,"ba, be, cy, gl, xmf","gl:#43(8,504); be:#13(8,044); cy:#13(7,670); xmf:#5(5,525); ba:#9(5,421)"
+Q181032,Neurosis,5,32456,"arz, kaa, kbp, koi, mzn","arz:#25(27,510); kaa:#10(1,635); mzn:#38(1,394); koi:#5(1,143); kbp:#35(774)"
+Q180152,Vitiligo,5,28377,"bcl, eo, ha, sco, war","bcl:#18(6,278); eo:#38(6,057); sco:#28(5,979); ha:#29(5,049); war:#38(5,014)"
+Q170065,Pathogen,5,26719,"cy, min, nia, sd, sn","min:#3(17,621); cy:#42(4,497); sn:#46(2,089); sd:#31(1,862); nia:#13(650)"
+Q107462,Har Gobind Khorana,5,25481,"awa, gom, gu, mai, skr","gu:#49(15,512); mai:#2(8,074); gom:#15(1,194); awa:#28(428); skr:#12(273)"
+Q50018,International Classification of Diseases,5,22258,"eo, frr, ia, jv, oc","eo:#46(5,356); frr:#13(4,754); jv:#44(4,553); ia:#47(3,836); oc:#41(3,759)"
+Q1816679,Areca nut,5,19242,"bi, gu, haw, iba, mai","gu:#45(16,802); bi:#7(948); mai:#42(755); haw:#8(708); iba:#24(29)"
+Q7202,Molecular biology,5,14026,"fur, lb, lfn, nov, pap","pap:#10(4,202); nov:#9(4,007); lb:#48(2,537); lfn:#20(2,447); fur:#19(833)"
+Q737460,Visual impairment,5,13161,"anp, dty, jam, ln, szy","dty:#4(5,483); jam:#24(3,365); ln:#29(2,793); szy:#18(825); anp:#19(695)"
+Q160105,Cervical cancer,5,10389,"ha, mad, rw, se, za","rw:#12(4,369); ha:#35(4,325); za:#47(1,053); se:#44(428); mad:#34(214)"
+Q171171,Dermatology,5,9751,"gv, io, lfn, new, tly","io:#47(3,140); new:#41(2,440); gv:#14(2,283); lfn:#32(1,651); tly:#5(237)"
+Q83187,Thiamine,5,9559,"fo, lb, lo, rw, tyv","lb:#45(2,605); fo:#38(2,559); rw:#26(2,228); tyv:#16(1,838); lo:#34(329)"
+Q117484,Dandruff,5,8820,"am, bjn, gor, myv, sc","am:#40(5,590); bjn:#41(1,320); sc:#42(1,288); myv:#32(316); gor:#14(306)"
+Q87719492,COVID-19 vaccine,5,8540,"bjn, kab, sd, ts, ug","ts:#12(4,120); kab:#43(1,326); sd:#48(1,140); ug:#26(1,131); bjn:#49(823)"
+Q161437,Ophthalmology,5,7700,"km, pi, sa, tly, xmf","pi:#8(2,326); sa:#38(2,030); xmf:#40(1,739); km:#48(1,380); tly:#7(225)"
+Q1782980,University of Lagos,5,7288,"ff, gpe, ig, pcm, yo","ig:#6(3,102); yo:#25(2,377); gpe:#18(925); pcm:#12(516); ff:#9(368)"
+Q170912,Sexology,5,6842,"bo, kaa, map-bms, pap, zu","pap:#18(2,492); bo:#38(1,948); map-bms:#10(1,331); zu:#44(968); kaa:#36(103)"
+Q152393,Alfred Adler,5,6797,"co, mg, mzn, pms, yo","yo:#37(1,665); co:#12(1,550); mzn:#40(1,384); mg:#44(1,248); pms:#41(950)"
+Q175854,Phobia,5,6575,"gom, lfn, mai, rki, vep","gom:#10(2,154); lfn:#29(1,981); vep:#20(1,278); mai:#29(1,118); rki:#21(44)"
+Q127724,Cataract,5,6009,"bcl, csb, ki, tw, za","bcl:#47(2,550); csb:#10(1,746); za:#43(1,124); tw:#38(580); ki:#21(9)"
+Q253671,Birch bark,5,5145,"atj, olo, sah, udm, vep","sah:#46(1,781); atj:#4(1,324); vep:#26(848); udm:#5(626); olo:#12(566)"
+Q13107184,Pharmacy (shop),5,4813,"csb, ext, mhr, nrm, tly","ext:#30(1,303); csb:#20(1,233); mhr:#11(1,085); nrm:#14(959); tly:#6(233)"
+Q238584,R. D. Laing,5,3255,"co, fur, nap, pms, vec",fur:#18(870); vec:#49(635); nap:#18(619); co:#19(603); pms:#50(528)
+Q515610,Jasminum officinale,5,1629,"ceb, co, ks, os, rsk",ceb:#49(709); ks:#31(488); rsk:#5(177); co:#25(170); os:#39(85)
+Q407988,Clonazepam,4,12326118,"azb, es, fa, pt","es:#14(7,535,077); fa:#16(2,607,227); pt:#14(2,180,222); azb:#36(3,592)"
+Q4105337,Psychological resilience,4,11819714,"ca, es, it, pt","es:#17(7,041,148); pt:#7(2,498,426); it:#34(2,191,100); ca:#29(89,040)"
+Q6581577,School bullying,4,10170082,"ca, es, eu, iba","es:#6(10,079,245); ca:#43(72,498); eu:#25(18,318); iba:#27(21)"
+Q421095,Metoclopramide,4,7492418,"azb, es, fa, su","es:#50(4,797,525); fa:#15(2,686,072); su:#38(4,891); azb:#32(3,930)"
+Q165399,Azithromycin,4,6456203,"azb, fa, hr, pt","fa:#7(4,181,877); pt:#26(1,754,502); hr:#3(514,996); azb:#21(4,828)"
+Q422112,Methylphenidate,4,5884289,"da, de, fi, nl","de:#44(4,329,920); nl:#45(751,819); fi:#12(641,929); da:#27(160,621)"
+Q778502,Vaginal discharge,4,5442297,"hy, ja, mad, tl","ja:#10(4,670,446); tl:#7(531,578); hy:#10(239,958); mad:#18(315)"
+Q190564,Huntington's disease,4,5283850,"bs, de, no, pms","de:#26(5,019,703); no:#50(163,382); bs:#17(99,496); pms:#30(1,269)"
+Q407617,Sertraline,4,4516679,"ast, fa, pt, sv","fa:#27(2,429,534); pt:#46(1,504,179); sv:#33(569,063); ast:#29(13,903)"
+Q178194,Cystic fibrosis,4,3293416,"el, fr, mk, sq","fr:#31(2,696,922); el:#42(346,331); sq:#43(139,638); mk:#14(110,525)"
+Q187440,Hives,4,2787663,"ace, ky, sd, zh","zh:#15(2,731,712); ky:#43(52,383); ace:#8(2,102); sd:#38(1,466)"
+Q45127,ICD-10,4,2687487,"hr, pl, sl, th","pl:#29(1,629,473); hr:#4(491,732); th:#18(485,494); sl:#43(80,788)"
+Q208414,Lymphoma,4,2627490,"fr, rki, szy, za","fr:#32(2,625,814); za:#46(1,092); szy:#31(539); rki:#20(45)"
+Q16499,Hyperthyroidism,4,2582907,"dv, sq, sv, zh","zh:#38(1,850,219); sv:#50(504,060); sq:#22(226,027); dv:#29(2,601)"
+Q1148004,Aedes aegypti,4,1853368,"ceb, kge, pap, pt","pt:#25(1,852,259); ceb:#47(714); pap:#40(254); kge:#8(141)"
+Q6835895,Michalina Wisłocka,4,1447445,"mt, myv, pl, szl","pl:#43(1,445,472); szl:#24(1,004); myv:#17(659); mt:#32(310)"
+Q852163,Low back pain,4,1407917,"hr, sw, szl, tl","tl:#3(669,892); hr:#9(389,529); sw:#3(348,125); szl:#40(371)"
+Q407784,Child development,4,1327725,"hi, skr, tn, ur","hi:#16(1,271,720); ur:#5(53,973); tn:#8(1,774); skr:#13(258)"
+Q207051,Taurine,4,1247221,"da, no, ro, sv","sv:#42(534,563); ro:#49(363,659); no:#26(200,583); da:#32(148,416)"
+Q1144334,Leukorrhea,4,1206094,"bh, hi, nqo, tcy","hi:#18(1,193,403); bh:#6(10,940); nqo:#6(1,176); tcy:#35(575)"
+Q842790,List of countries by life expectancy,4,1039432,"el, lt, lv, no","el:#20(450,523); no:#10(267,036); lt:#9(265,619); lv:#31(56,254)"
+Q191733,Pulse,4,939042,"av, lt, sk, sv","sv:#29(602,177); sk:#43(171,920); lt:#24(163,216); av:#8(1,729)"
+Q949302,Skin condition,4,758823,"hi, lfn, szy, tg","hi:#49(736,493); tg:#15(20,536); lfn:#37(1,519); szy:#46(275)"
+Q81225,Morphine,4,644178,"arz, gd, hu, ilo","hu:#27(551,201); arz:#9(89,169); ilo:#40(2,306); gd:#41(1,502)"
+Q1253087,Pinworm (parasite),4,604480,"ceb, cs, is, szy","cs:#46(593,586); is:#47(9,736); ceb:#46(716); szy:#36(442)"
+Q183206,B vitamins,4,564346,"ka, km, ko, ug","ko:#31(437,099); ka:#42(121,370); km:#30(4,489); ug:#23(1,388)"
+Q28693,Miscarriage,4,432835,"ha, kn, sw, ta","ta:#12(314,830); sw:#30(81,880); kn:#46(32,932); ha:#50(3,193)"
+Q55076544,Cyanide,4,408516,"km, rki, th, zh-yue","th:#36(372,237); zh-yue:#22(33,539); km:#38(2,687); rki:#11(53)"
+Q465016,Health effects of tobacco,4,346076,"bn, km, rw, sw","bn:#47(209,544); km:#3(73,791); sw:#44(62,034); rw:#49(707)"
+Q105397,Hookah,4,320149,"arz, bew, so, sr","sr:#44(195,428); arz:#6(118,328); so:#27(6,251); bew:#35(142)"
+Q468579,Wan Azizah Wan Ismail,4,306831,"bdr, dtp, iba, ms","ms:#8(306,258); iba:#11(223); dtp:#6(191); bdr:#4(159)"
+Q303555,Hypoactive sexual desire disorder,4,289835,"diq, sh, skr, sr","sr:#41(199,462); sh:#47(88,581); diq:#49(1,562); skr:#17(230)"
+Q189588,Stomach cancer,4,242393,"az, cv, mk, rki","az:#43(168,737); mk:#44(72,470); cv:#44(1,154); rki:#36(32)"
+Q53467,Blood donation,4,221378,"kn, mr, pa, te","mr:#50(89,118); te:#48(64,649); kn:#22(58,319); pa:#21(9,292)"
+Q684924,Rheumatism,4,215921,"as, io, tk, uz","uz:#44(163,083); tk:#9(37,747); as:#32(11,089); io:#24(4,002)"
+Q1229994,Paranoia,4,196247,"arz, bar, kbp, sh","sh:#7(173,719); arz:#40(18,662); bar:#33(2,936); kbp:#33(930)"
+Q168805,Gangrene,4,190139,"bs, scn, sh, tyv","bs:#19(94,777); sh:#44(90,656); scn:#23(4,091); tyv:#40(615)"
+Q179217,Coagulation,4,156299,"ang, bew, om, sh","sh:#12(151,039); om:#22(2,635); ang:#11(2,477); bew:#30(148)"
+Q7212330,Tobacco smoking,4,154855,"gcr, gu, kn, sd","kn:#8(111,953); gu:#23(39,623); sd:#23(2,403); gcr:#50(876)"
+Q243257,Chikungunya,4,143260,"mr, pap, rki, so","mr:#38(114,941); so:#3(20,358); pap:#2(7,909); rki:#12(52)"
+Q192373,World AIDS Day,4,140326,"ban, ky, or, tn","ky:#6(135,842); or:#48(4,119); ban:#34(339); tn:#28(26)"
+Q9654,Thoracic diaphragm,4,137789,"arc, bs, cv, fiu-vro","bs:#6(130,082); cv:#9(3,981); fiu-vro:#27(2,334); arc:#26(1,392)"
+Q10686316,Vertigo,4,127281,"ang, mk, sw, trv","mk:#47(69,780); sw:#47(55,270); ang:#14(1,777); trv:#10(454)"
+Q193918,Boil,4,117785,"am, kcg, sw, tg","sw:#41(66,248); am:#5(39,219); tg:#32(11,745); kcg:#19(573)"
+Q1909343,Dermatophytosis,4,112890,"dag, din, rki, te","te:#19(111,276); dag:#32(797); din:#31(765); rki:#13(52)"
+Q181257,Prostate cancer,4,112151,"af, ckb, gpe, rki","af:#25(100,267); ckb:#39(11,023); gpe:#23(782); rki:#3(79)"
+Q189331,Arrhythmia,4,107325,"et, inh, pam, tg","et:#9(95,228); tg:#45(8,659); pam:#22(3,025); inh:#26(413)"
+Q107231,Paralysis,4,100660,"ay, nds, rw, te","te:#22(92,308); rw:#11(4,387); nds:#43(2,727); ay:#34(1,238)"
+Q180762,Angina,4,87302,"af, ku, myv, pam","af:#33(81,268); ku:#46(2,832); pam:#32(1,950); myv:#11(1,252)"
+Q223254,Otitis media,4,81048,"ace, af, ay, ckb","af:#45(65,542); ckb:#26(13,308); ace:#11(1,326); ay:#37(872)"
+Q177635,Nephrology,4,67234,"bs, ceb, pam, pi","bs:#40(61,538); ceb:#25(1,922); pi:#15(1,916); pam:#34(1,858)"
+Q777087,Echinococcosis,4,59475,"dag, km, ky, om","ky:#40(55,856); km:#47(1,560); om:#33(1,446); dag:#49(613)"
+Q128406,Pharmacology,4,48005,"azb, min, my, ps","my:#19(38,274); min:#28(3,632); ps:#46(3,179); azb:#44(2,920)"
+Q87718451,COVID-19 pandemic in Nigeria,4,44396,"ga, ha, ig, yo","yo:#1(35,157); ga:#28(4,070); ha:#48(3,269); ig:#19(1,900)"
+Q207642,Khat,4,42504,"am, ceb, ki, so","am:#12(27,758); so:#9(13,904); ceb:#42(827); ki:#20(15)"
+Q35830,Sneeze,4,28332,"bew, bjn, guc, zh-yue","zh-yue:#36(26,532); bjn:#34(1,553); bew:#32(145); guc:#8(102)"
+Q976338,Tampon,4,21254,"als, cy, jv, mad","als:#26(6,448); cy:#34(5,330); jv:#41(4,880); mad:#3(4,596)"
+Q22728,Breast milk,4,20780,"pfl, qu, tk, tn","tk:#31(15,095); qu:#19(4,100); pfl:#4(947); tn:#10(638)"
+Q181322,Insecticide,4,18211,"la, oc, pa, za","la:#38(6,637); pa:#49(5,188); oc:#31(5,080); za:#40(1,306)"
+Q476921,Kidney failure,4,16933,"ban, bm, ckb, nia","ckb:#23(14,385); bm:#9(1,556); ban:#29(545); nia:#18(447)"
+Q332154,Ageing,4,13038,"ext, gcr, sco, so","sco:#35(5,242); so:#50(3,451); ext:#17(2,802); gcr:#22(1,543)"
+Q200253,Traditional Chinese medicine,4,11359,"cdo, gan, hyw, zh-classical","zh-classical:#6(5,551); gan:#23(3,215); cdo:#40(1,686); hyw:#45(907)"
+Q7168,Histology,4,11041,"azb, lb, se, xmf","azb:#15(5,772); lb:#43(2,631); xmf:#35(1,963); se:#35(675)"
+Q181391,Hair loss,4,10842,"av, gan, lbe, so","so:#17(8,122); gan:#33(1,378); lbe:#12(785); av:#18(557)"
+Q838000,Ephedra (plant),4,10229,"ceb, hsb, nv, os","nv:#1(7,162); hsb:#7(1,315); ceb:#38(1,132); os:#22(620)"
+Q4618975,Doctor (title),4,9541,"hak, pap, vec, yi","yi:#16(4,362); pap:#20(2,316); hak:#33(1,993); vec:#38(870)"
+Q182895,Maxilla,4,9272,"arc, ary, ce, la","la:#35(7,002); arc:#31(1,203); ary:#41(743); ce:#48(324)"
+Q203133,African trypanosomiasis,4,8315,"dag, ig, rw, ti","rw:#13(4,135); ig:#20(1,852); ti:#16(1,709); dag:#48(619)"
+Q213713,Developmental biology,4,7774,"fur, ht, nov, tay","nov:#10(3,710); ht:#38(2,764); fur:#20(792); tay:#3(508)"
+Q1022113,Cubic centimetre,4,7699,"ary, frr, hak, ku","ku:#43(2,902); ary:#12(2,185); hak:#45(1,473); frr:#46(1,139)"
+Q131130,Anesthesia,4,7609,"bew, bh, gan, gd","bh:#20(4,143); gan:#31(1,844); gd:#43(1,434); bew:#20(188)"
+Q184753,Wound,4,7519,"eml, iba, ik, roa-rup","ik:#2(4,347); eml:#18(1,761); roa-rup:#21(1,374); iba:#21(37)"
+Q185196,Midwife,4,7159,"arc, eml, sn, szl","sn:#30(3,336); arc:#24(1,482); eml:#32(1,303); szl:#22(1,038)"
+Q189603,Public health,4,6908,"bjn, rki, se, zh-min-nan","se:#5(2,979); zh-min-nan:#45(2,754); bjn:#43(1,133); rki:#22(42)"
+Q388646,Dracunculiasis,4,6283,"dag, glk, om, ti","om:#23(2,580); ti:#12(2,168); dag:#15(1,487); glk:#12(48)"
+Q49330,Médecins Sans Frontières,4,6212,"ab, arc, din, rw","din:#11(2,125); rw:#31(1,694); arc:#22(1,597); ab:#4(796)"
+Q77604,Radiology,4,5868,"bpy, hak, io, ks","io:#50(3,122); hak:#46(1,449); bpy:#8(683); ks:#25(614)"
+Q169251,Sadness,4,5477,"ay, bo, jbo, lg","ay:#26(1,628); bo:#42(1,533); jbo:#18(1,307); lg:#31(1,009)"
+Q853930,Starvation,4,5109,"anp, dty, fiu-vro, nv","fiu-vro:#38(1,592); dty:#21(1,560); nv:#9(1,439); anp:#27(518)"
+Q6804161,Measles vaccine,4,4867,"ny, sn, ti, wo","sn:#44(2,319); ti:#20(1,225); ny:#32(731); wo:#25(592)"
+Q90416196,Face masks during the COVID-19 pandemic,4,4867,"ff, tw, xh, zu","xh:#18(2,887); zu:#38(1,077); tw:#29(662); ff:#16(241)"
+Q1419347,Postpartum infections,4,4765,"ig, ny, sn, tw","sn:#45(2,116); ig:#26(1,486); ny:#31(738); tw:#48(425)"
+Q206060,Scar,4,4169,"bjn, kcg, szl, tum","szl:#14(2,156); bjn:#40(1,384); tum:#6(370); kcg:#29(259)"
+Q47790,Tetanus,4,4164,"bo, lg, se, zea","zea:#7(1,380); bo:#49(1,116); se:#21(1,063); lg:#43(605)"
+Q141180,Vitamin E,4,3849,"ban, lo, tyv, ug","tyv:#19(1,735); ug:#22(1,477); ban:#33(340); lo:#36(297)"
+Q26870,Sucking louse,4,3425,"kv, os, szl, vep","szl:#12(2,283); kv:#7(522); vep:#35(474); os:#36(146)"
+Q207848,Arnica montana,4,2601,"frp, os, rm, stq","rm:#4(1,343); stq:#13(736); frp:#16(480); os:#40(42)"
+Q80887,Contursi Terme,4,1651,"lld, nap, roa-tara, vo",nap:#13(837); roa-tara:#1(575); vo:#19(142); lld:#12(97)
+Q1777115,Toxicodendron,4,1080,"koi, kv, mrj, udm",udm:#9(300); kv:#9(299); koi:#7(273); mrj:#12(208)
+Q20855162,Susan Ofori-Atta,4,903,"fat, ff, gpe, ty",gpe:#25(627); fat:#2(124); ff:#38(102); ty:#2(50)
+Q631822,Striped field mouse,4,886,"avk, csb, nv, os",csb:#40(563); avk:#3(114); os:#37(111); nv:#17(98)
+Q573246,Anthony Fauci,3,15911946,"en, lo, sco","en:#49(15,899,646); sco:#12(11,583); lo:#24(717)"
+Q64513386,Bulimia nervosa,3,5069858,"es, se, sh","es:#45(4,976,326); sh:#42(93,170); se:#47(362)"
+Q297453,Grégory Lemarchal,3,4613946,"fr, lo, vo","fr:#6(4,613,444); lo:#32(420); vo:#46(82)"
+Q83871,Benzodiazepine,3,3576317,"fi, it, sv","it:#28(2,287,135); sv:#19(715,101); fi:#20(574,081)"
+Q422244,Fluoxetine,3,2572394,"fa, min, wuu","fa:#19(2,560,104); wuu:#19(10,129); min:#43(2,161)"
+Q1216998,Neoplasm,3,2268174,"it, lmo, szl","it:#31(2,265,525); lmo:#46(1,905); szl:#33(744)"
+Q189511,Electronic cigarette,3,1898821,"km, ny, zh","zh:#37(1,889,826); km:#20(8,717); ny:#39(278)"
+Q860973,Lists of diseases,3,1689763,"hi, ko, simple","hi:#38(798,078); ko:#15(544,582); simple:#6(347,103)"
+Q102331,Sócrates,3,1599461,"ay, pt, szl","pt:#38(1,598,695); szl:#35(518); ay:#41(248)"
+Q217519,Bubonic plague,3,1573487,"ast, nv, pt","pt:#45(1,526,616); ast:#3(45,591); nv:#10(1,280)"
+Q187706,Vitamin B12,3,1402089,"ar, rw, ur","ar:#42(1,381,746); ur:#50(17,519); rw:#21(2,824)"
+Q407535,Oxycodone,3,1089634,"fi, ks, sv","sv:#32(591,854); fi:#33(497,420); ks:#48(360)"
+Q3294779,Hasri Ainun Habibie,3,1065231,"ban, id, jv","id:#17(1,059,927); jv:#40(5,103); ban:#45(201)"
+Q205398,Social work,3,982711,"diq, hi, nr","hi:#28(980,698); diq:#40(1,878); nr:#12(135)"
+Q210402,Diazepam,3,925206,"bn, fi, no","fi:#44(470,486); bn:#33(255,250); no:#27(199,470)"
+Q210420,Corticosteroid,3,820129,"hr, sk, sr","hr:#14(330,620); sr:#14(267,838); sk:#26(221,671)"
+Q500816,Polycystic ovary syndrome,3,643630,"bn, gpe, ta","ta:#7(351,406); bn:#28(291,898); gpe:#50(326)"
+Q671930,Mehriban Aliyeva,3,597874,"az, bew, skr","az:#2(597,737); skr:#26(72); bew:#47(65)"
+Q6501338,Attention,3,567476,"kaa, kk, uz","uz:#7(338,820); kk:#44(228,291); kaa:#18(365)"
+Q494348,Cyberbullying,3,495585,"ko, nr, sc","ko:#19(494,103); sc:#37(1,402); nr:#13(80)"
+Q389735,Cardiovascular disease,3,440734,"dty, kbp, sq","sq:#3(437,647); dty:#19(1,681); kbp:#28(1,406)"
+Q16501,Hypothyroidism,3,419930,"ta, te, tk","ta:#9(336,847); te:#38(75,733); tk:#45(7,350)"
+Q372752,Prostatitis,3,375725,"kk, tg, tk","kk:#27(313,613); tk:#3(53,838); tg:#46(8,274)"
+Q2142347,Environmental factor,3,356985,"ig, ky, uz","uz:#19(236,222); ky:#9(119,843); ig:#39(920)"
+Q556281,Uterine fibroid,3,315541,"mk, ta, tk","ta:#33(197,446); mk:#46(71,715); tk:#5(46,380)"
+Q155098,Leptospirosis,3,306241,"am, ms, pam","ms:#9(300,505); am:#48(4,463); pam:#47(1,273)"
+Q468787,Hematoma,3,301444,"bs, sh, sl","sh:#13(150,091); sl:#47(79,638); bs:#34(71,715)"
+Q13258,Synesthesia,3,284714,"ca, gl, hr","hr:#46(203,758); ca:#44(71,164); gl:#29(9,792)"
+Q1983841,Viral hepatitis,3,276352,"bo, tk, uz","uz:#21(222,509); tk:#4(51,557); bo:#36(2,286)"
+Q1460420,Emergency management,3,272386,"gu, si, ta","ta:#45(166,168); si:#9(81,785); gu:#38(24,433)"
+Q1095194,Circumlocution,3,242647,"be, kk, mdf","kk:#43(236,651); be:#29(5,921); mdf:#21(75)"
+Q3041498,Eye disease,3,237681,"sq, sw, tg","sq:#39(162,008); sw:#43(62,298); tg:#27(13,375)"
+Q1280670,Family planning,3,198378,"mr, ne, sw","mr:#35(133,521); sw:#50(50,484); ne:#24(14,373)"
+Q697117,Disc herniation,3,197900,"ban, mk, sh","sh:#29(109,734); mk:#27(87,852); ban:#38(314)"
+Q229256,Dermatitis,3,192456,"ckb, gn, hy","hy:#21(174,767); ckb:#25(14,012); gn:#33(3,677)"
+Q184559,Arteriosclerosis,3,172466,"af, haw, ka","ka:#50(100,791); af:#42(70,649); haw:#6(1,026)"
+Q949149,Sanitation,3,171311,"dag, ne, sw","sw:#13(160,621); ne:#47(9,516); dag:#18(1,174)"
+Q422252,Dexamethasone,3,152997,"dz, hy, wuu","hy:#35(135,279); wuu:#9(17,540); dz:#6(178)"
+Q2453464,Colitis,3,149881,"is, lg, sq","sq:#44(138,875); is:#39(10,393); lg:#42(613)"
+Q5781808,Back pain,3,110709,"gu, ne, te","te:#39(74,587); gu:#32(26,384); ne:#46(9,738)"
+Q1179623,Physical disability,3,110511,"ff, kn, te","te:#35(79,554); kn:#49(30,483); ff:#7(474)"
+Q2910873,Anatomical terminology,3,91978,"av, bs, lfn","bs:#22(90,309); lfn:#41(1,455); av:#26(214)"
+Q3129936,Parasitic worm,3,88800,"bxr, sd, tk","tk:#1(86,476); sd:#39(1,423); bxr:#49(901)"
+Q156050,Brucellosis,3,80037,"ky, mt, tk","ky:#33(62,885); tk:#25(16,737); mt:#31(415)"
+Q205130,Vitamin B6,3,79288,"mk, rw, tyv","mk:#41(76,276); rw:#33(1,585); tyv:#28(1,427)"
+Q932068,Environmental health,3,78515,"af, bjn, ig","af:#37(76,485); bjn:#44(1,057); ig:#37(973)"
+Q188008,Shortness of breath,3,74056,"ig, kab, te","te:#41(71,858); kab:#35(1,492); ig:#43(706)"
+Q97154240,Pfizer–BioNTech COVID-19 vaccine,3,70781,"bxr, ug, zh-yue","zh-yue:#10(69,473); bxr:#50(870); ug:#50(438)"
+Q844935,Coronary artery disease,3,67908,"blk, my, ug","my:#5(65,664); ug:#16(1,772); blk:#19(472)"
+Q2364836,Cold sore,3,60813,"af, blk, myv","af:#50(60,301); myv:#30(353); blk:#33(159)"
+Q835061,Mastitis,3,53261,"ay, ky, mai","ky:#44(52,183); ay:#38(604); mai:#50(474)"
+Q133948,Antioxidant,3,47922,"ext, jv, kn","kn:#39(37,764); jv:#14(7,953); ext:#22(2,205)"
+Q752693,Fontanelle,3,40609,"csb, sn, zh-yue","zh-yue:#35(26,698); sn:#3(13,382); csb:#41(529)"
+Q233249,World No Tobacco Day,3,29336,"ab, as, km","as:#10(27,161); km:#43(2,029); ab:#6(146)"
+Q2006818,Cramp,3,28060,"bew, eml, my","my:#34(26,538); eml:#30(1,379); bew:#34(143)"
+Q181354,Biotin,3,23035,"jv, su, wuu","wuu:#16(11,329); su:#23(6,096); jv:#32(5,610)"
+Q199897,Medical Subject Headings,3,22480,"be, cy, gl","gl:#11(12,860); be:#32(5,131); cy:#43(4,489)"
+Q163865,Scurvy,3,21847,"als, frr, is","is:#17(14,084); als:#23(6,645); frr:#47(1,118)"
+Q133772,Tooth decay,3,21048,"ay, tg, zh-min-nan","tg:#25(14,314); zh-min-nan:#15(4,967); ay:#21(1,767)"
+Q17652193,Nutritional science,3,20614,"lo, sc, zh-min-nan","lo:#4(9,214); sc:#3(8,636); zh-min-nan:#44(2,764)"
+Q372713,Pacemaker,3,19299,"fy, nn, war","nn:#45(7,216); fy:#12(6,174); war:#20(5,909)"
+Q170617,Glucagon,3,17844,"oc, pam, su","pam:#7(6,508); su:#27(5,682); oc:#24(5,654)"
+Q221441,Pellagra,3,14799,"fur, oc, vec","vec:#3(8,555); oc:#27(5,499); fur:#21(745)"
+Q214090,Place of articulation,3,11980,"hsb, pa, zgh","pa:#14(11,702); zgh:#10(166); hsb:#21(112)"
+Q5450499,List of Nobel laureates in Physiology or Medicine,3,11233,"be, io, za","be:#42(4,802); io:#23(4,082); za:#26(2,349)"
+Q193078,Injury in humans,3,10223,"ia, kcg, sah","ia:#17(6,787); sah:#38(2,011); kcg:#4(1,425)"
+Q159701,Glaucoma,3,9734,"pap, pms, wuu","wuu:#46(5,869); pap:#15(2,670); pms:#31(1,195)"
+Q205972,Alcohol intoxication,3,9362,"bo, eml, iu","iu:#9(6,572); eml:#26(1,504); bo:#47(1,286)"
+Q309252,Physical fitness,3,9056,"diq, jam, lo","diq:#13(3,834); jam:#21(3,497); lo:#17(1,725)"
+Q11088,Coeliac disease,3,8714,"eml, pms, wuu","wuu:#40(6,597); pms:#32(1,187); eml:#48(930)"
+Q653197,Rash,3,8522,"cy, gd, kcg","cy:#23(6,286); gd:#34(1,835); kcg:#27(401)"
+Q202173,Stye,3,8379,"bcl, chr, zgh","bcl:#12(7,134); chr:#19(767); zgh:#5(478)"
+Q180481,Ambulance,3,7781,"csb, kge, lo","kge:#1(4,512); lo:#15(1,866); csb:#17(1,403)"
+Q186205,Food energy,3,7218,"bh, frr, vep","bh:#16(4,578); vep:#17(1,342); frr:#43(1,298)"
+Q182442,Plastic surgery,3,6394,"pi, sa, sd","pi:#9(2,288); sd:#28(2,058); sa:#35(2,048)"
+Q79785,Electrocardiography,3,5988,"gan, ks, ku","ku:#50(2,719); gan:#27(2,505); ks:#15(764)"
+Q79749,Blood plasma,3,5409,"ary, mdf, om","om:#12(4,277); ary:#33(944); mdf:#14(188)"
+Q123028,Pediatrics,3,5400,"new, pi, vec","pi:#7(2,333); new:#46(2,240); vec:#40(827)"
+Q188504,Alternative medicine,3,5036,"diq, inh, jam","jam:#44(2,374); diq:#33(2,159); inh:#22(503)"
+Q102034,Ronald Ross,3,5012,"awa, gom, or","or:#50(4,040); awa:#23(504); gom:#22(468)"
+Q422917,Cannabidiol,3,4998,"azb, co, zu","azb:#45(2,832); co:#15(1,174); zu:#42(992)"
+Q246068,Cysticercosis,3,4987,"dag, om, ti","om:#25(2,179); ti:#11(2,169); dag:#43(639)"
+Q105196,Organ transplantation,3,4899,"hak, nrm, pi","pi:#20(1,789); nrm:#9(1,694); hak:#47(1,416)"
+Q154865,Botulism,3,4811,"av, fo, lij","fo:#33(3,119); lij:#34(1,196); av:#21(496)"
+Q154723,Viktor Frankl,3,4750,"ceb, mzn, sc","mzn:#18(2,882); sc:#50(1,051); ceb:#43(817)"
+Q121713,Acupuncture,3,4682,"chr, hyw, new","new:#40(2,458); chr:#16(1,323); hyw:#47(901)"
+Q1541064,Sense of smell,3,4625,"fiu-vro, nap, pam","pam:#31(2,011); fiu-vro:#41(1,341); nap:#11(1,273)"
+Q1169487,University of Ibadan,3,4285,"dag, gpe, pcm","gpe:#6(3,065); dag:#37(671); pcm:#11(549)"
+Q30715691,Vitamin B3,3,4172,"rw, tyv, ug","rw:#29(1,836); tyv:#18(1,809); ug:#43(527)"
+Q1785966,Physical strength,3,3917,"arc, bar, kcg","bar:#49(1,847); arc:#25(1,461); kcg:#17(609)"
+Q189598,Mineral (nutrient),3,3642,"inh, tyv, xh","tyv:#17(1,818); xh:#30(1,620); inh:#33(204)"
+Q40852,Edward Jenner,3,3380,"frr, pam, szy","pam:#33(1,940); frr:#50(1,019); szy:#39(421)"
+Q798309,BCG vaccine,3,3376,"ln, ny, wo","ln:#39(1,875); ny:#26(978); wo:#27(523)"
+Q166543,General anaesthesia,3,3368,"hyw, inh, zea","zea:#5(1,947); hyw:#24(1,212); inh:#31(209)"
+Q179661,Therapy,3,3220,"anp, inh, tw","inh:#13(1,304); anp:#7(1,106); tw:#23(810)"
+Q736798,Herd immunity,3,3214,"nia, pap, vls","vls:#11(2,508); nia:#16(590); pap:#48(116)"
+Q2836,Aphasia,3,3137,"gv, kcg, rue","gv:#20(1,465); rue:#50(1,210); kcg:#24(462)"
+Q168403,Myopia,3,2879,"bew, za, zh-classical","zh-classical:#49(1,643); za:#42(1,124); bew:#44(112)"
+Q127060,Folate,3,2771,"frr, gd, lo","gd:#42(1,450); frr:#49(1,058); lo:#40(263)"
+Q6817090,Meningococcal vaccine,3,2390,"ig, ny, wo",ny:#27(978); ig:#41(782); wo:#24(630)
+Q477918,Aedes albopictus,3,2216,"ceb, nv, ts","ceb:#31(1,425); nv:#14(669); ts:#27(122)"
+Q182338,Vitamin K,3,2158,"ban, lo, tyv","tyv:#25(1,566); ban:#36(321); lo:#38(271)"
+Q692077,Nevus,3,2154,"av, ce, lbe",lbe:#11(876); av:#16(680); ce:#33(598)
+Q381481,Airborne transmission,3,1996,"dag, ff, xh","xh:#33(1,119); dag:#39(651); ff:#18(226)"
+Q16196017,Tedros Adhanom Ghebreyesus,3,1861,"frp, ie, ug",ie:#14(757); frp:#13(580); ug:#44(524)
+Q7170955,Pertussis vaccine,3,1845,"ig, ny, wo",ny:#33(682); ig:#45(598); wo:#26(565)
+Q30041,Hirudo medicinalis,3,1743,"ceb, mrj, olo","ceb:#36(1,243); mrj:#11(407); olo:#15(93)"
+Q3553093,Hepatitis A vaccine,3,1706,"ig, ny, wo",ig:#42(736); ny:#34(612); wo:#29(358)
+Q1812946,Cholera vaccine,3,1517,"lij, ti, ts",ti:#22(901); lij:#47(370); ts:#24(246)
+Q206077,Tablet (pharmacy),3,1431,"kcg, nap, nia",nap:#14(750); kcg:#21(510); nia:#25(171)
+Q3243680,Introduction to genetics,3,1324,"blk, mt, rki","mt:#21(1,041); blk:#29(236); rki:#17(47)"
+Q216054,Adhesive bandage,3,1323,"bew, csb, roa-rup",roa-rup:#27(621); csb:#39(618); bew:#46(84)
+Q109739412,SARS-CoV-2 Omicron variant,3,1261,"gv, lo, pap",pap:#31(849); lo:#39(264); gv:#31(148)
+Q10282403,Surgical mask,3,1183,"bew, nia, shi",nia:#15(604); shi:#17(393); bew:#21(186)
+Q18231,Alcoholics Anonymous,3,1139,"smn, szl, tok",szl:#30(898); smn:#14(227); tok:#28(14)
+Q476734,World Health Day,3,1130,"dty, iba, mai",mai:#49(554); dty:#27(537); iba:#19(39)
+Q271779,Respirator,3,555,"bew, shi, zgh",shi:#16(394); bew:#40(131); zgh:#15(30)
+Q262547,Anthocyanin,2,81501166,"de, ext","de:#1(81,499,089); ext:#24(2,077)"
+Q560107,Trypophobia,2,20993229,"en, es","en:#43(16,183,590); es:#49(4,809,639)"
+Q410352,Gabapentin,2,19541611,"en, fa","en:#34(17,593,155); fa:#42(1,948,456)"
+Q1215575,Naproxen,2,8267139,"es, fa","es:#28(5,673,778); fa:#17(2,593,361)"
+Q696490,Panic attack,2,6359394,"mzn, ru","ru:#21(6,355,065); mzn:#12(4,329)"
+Q1046580,Naswar,2,5530998,"ru, ur","ru:#34(5,512,907); ur:#47(18,091)"
+Q1527888,Pancreatitis,2,5083023,"hy, ru","ru:#45(4,958,209); hy:#45(124,814)"
+Q98270627,Sputnik V COVID-19 vaccine,2,5013198,"lo, ru","ru:#43(5,012,575); lo:#28(623)"
+Q169569,Metronidazole,2,4310315,"azb, fa","fa:#5(4,304,218); azb:#10(6,097)"
+Q205214,Guillain–Barré syndrome,2,4191573,"ja, pms","ja:#13(4,190,552); pms:#38(1,021)"
+Q15681785,Haruko Obokata,2,4026216,"ja, ug","ja:#16(4,025,536); ug:#34(680)"
+Q423364,Propranolol,2,3997090,"fa, pam","fa:#9(3,994,175); pam:#23(2,915)"
+Q1066907,Longevity,2,3914933,"ban, ja","ja:#17(3,914,783); ban:#48(150)"
+Q1826263,Gestaltzerfall,2,3806272,"ja, ko","ja:#38(2,773,438); ko:#3(1,032,834)"
+Q182207,Coitus interruptus,2,3749116,"ja, ur","ja:#19(3,728,574); ur:#35(20,542)"
+Q2211650,Sadomasochism,2,3430822,"ar, fa","fa:#44(1,935,652); ar:#39(1,495,170)"
+Q338857,Minamata disease,2,3118379,"ja, pms","ja:#33(3,117,686); pms:#47(693)"
+Q18657,Dissociative identity disorder,2,2858175,"ja, tok","ja:#35(2,858,161); tok:#29(14)"
+Q838966,Irritable bowel syndrome,2,2730307,"ar, gpe","ar:#7(2,727,397); gpe:#7(2,910)"
+Q2919015,Magdi Yacoub,2,2511993,"ar, arz","ar:#12(2,289,083); arz:#3(222,910)"
+Q1412895,Penile fracture,2,2482906,"fa, zu","fa:#22(2,481,866); zu:#41(1,040)"
+Q256602,Ciprofloxacin,2,2459976,"azb, fa","fa:#24(2,455,990); azb:#30(3,986)"
+Q1070684,Ketogenic diet,2,2202617,"zh, zh-yue","zh:#26(2,170,067); zh-yue:#23(32,550)"
+Q168161,Zbigniew Religa,2,2136494,"pl, szl","pl:#12(2,134,941); szl:#17(1,553)"
+Q1142751,Norovirus,2,1809908,"no, zh","zh:#48(1,641,567); no:#46(168,341)"
+Q327988,Occupational burnout,2,1680446,"mzn, pt","pt:#30(1,678,979); mzn:#37(1,467)"
+Q1154321,Tonsil stones,2,1200744,"ko, sv","sv:#11(813,413); ko:#42(387,331)"
+Q939018,Intubation,2,1126697,"sr, tr","tr:#18(940,806); sr:#49(185,891)"
+Q694554,Emergency telephone number,2,1115370,"id, ko","id:#40(672,610); ko:#28(442,760)"
+Q629029,Occupational safety and health,2,942433,"id, rue","id:#21(939,650); rue:#27(2,783)"
+Q73984,Disinfectant,2,917234,"id, uz","id:#37(732,630); uz:#28(184,604)"
+Q190161,Streptococcus,2,799554,"cs, sq","cs:#37(641,713); sq:#40(157,841)"
+Q463478,Aletta Jacobs,2,793107,"nds-nl, nl","nl:#40(785,354); nds-nl:#5(7,753)"
+Q52849,Ankylosing spondylitis,2,776214,"cs, no","cs:#44(603,040); no:#43(173,174)"
+Q188724,Nonsteroidal anti-inflammatory drug,2,658470,"hy, vi","vi:#26(531,743); hy:#41(126,727)"
+Q270673,Personality disorder,2,612682,"cs, sc","cs:#43(611,557); sc:#47(1,125)"
+Q215620,Heart valve,2,552030,"bs, th","th:#25(426,390); bs:#8(125,640)"
+Q745865,Trichomoniasis,2,443136,"hu, tk","hu:#41(433,628); tk:#38(9,508)"
+Q162272,Viral hemorrhagic fever,2,427578,"ts, vi","vi:#40(427,431); ts:#26(147)"
+Q161393,Influenza A virus subtype H1N1,2,340545,"el, gan","el:#46(338,568); gan:#30(1,977)"
+Q189389,Aneurysm,2,321575,"bg, pam","bg:#41(320,419); pam:#49(1,156)"
+Q273510,Candidiasis,2,310929,"bg, lg","bg:#44(306,708); lg:#8(4,221)"
+Q376666,Cholecystitis,2,297162,"kaa, kk","kk:#31(296,944); kaa:#24(218)"
+Q977090,Vaginal yeast infection,2,286449,"hy, tw","hy:#6(285,909); tw:#42(540)"
+Q3706669,Psychoactive drug,2,244347,"sk, tok","sk:#20(244,306); tok:#5(41)"
+Q631173,List of plants used in herbalism,2,236760,"az, or","az:#27(223,822); or:#6(12,938)"
+Q1147899,Road safety,2,222195,"fj, ta","ta:#26(222,037); fj:#19(158)"
+Q2995419,Contagious disease,2,213328,"bew, bn","bn:#45(213,085); bew:#12(243)"
+Q168800,Anaphylaxis,2,205023,"tl, yo","tl:#24(199,960); yo:#8(5,063)"
+Q154878,Toxoplasmosis,2,203688,"km, sk","sk:#30(201,553); km:#42(2,135)"
+Q160649,Typhus,2,200150,"ps, sr","sr:#45(194,554); ps:#22(5,596)"
+Q167191,Child abuse,2,198276,"af, si","si:#5(133,574); af:#46(64,702)"
+Q466060,The Canon of Medicine,2,190133,"tg, uz","uz:#32(181,439); tg:#44(8,694)"
+Q209733,Myalgic encephalomyelitis/chronic fatigue syndrome,2,189924,"is, no","no:#36(178,109); is:#25(11,815)"
+Q68833,Bone fracture,2,187395,"ckb, uz","uz:#34(177,510); ckb:#50(9,885)"
+Q1542839,Glomerular filtration rate,2,186991,"bs, sl","bs:#15(104,027); sl:#40(82,964)"
+Q186161,Ionizing radiation,2,183804,"lt, om","lt:#20(180,818); om:#20(2,986)"
+Q274493,Antiseptic,2,173472,"bar, uz","uz:#37(171,028); bar:#39(2,444)"
+Q147778,Cirrhosis,2,170197,"ace, uz","uz:#40(167,326); ace:#5(2,871)"
+Q1458579,University of Putra Malaysia,2,157265,"dtp, ms","ms:#41(157,137); dtp:#10(128)"
+Q188605,Emphysema,2,150586,"nn, simple","simple:#37(133,263); nn:#8(17,323)"
+Q827023,Lesion,2,143737,"bs, eo","bs:#4(137,176); eo:#29(6,561)"
+Q987664,Delusions of grandeur,2,137347,"nn, simple","simple:#38(129,715); nn:#39(7,632)"
+Q506652,Pyelonephritis,2,125322,"mk, my","mk:#32(83,860); my:#17(41,462)"
+Q132621,Adrenaline,2,108346,"bh, sh","sh:#32(105,034); bh:#27(3,312)"
+Q1194557,Laryngitis,2,107088,"as, mk","mk:#22(97,981); as:#40(9,107)"
+Q183560,Intellectual disability,2,105659,"bs, ff","bs:#14(105,464); ff:#20(195)"
+Q861699,Herbal medicine,2,104696,"diq, kn","kn:#10(102,606); diq:#37(2,090)"
+Q749115,Postpartum period,2,96647,"ky, sd","ky:#16(95,471); sd:#46(1,176)"
+Q1430548,Effects of climate change,2,95841,"gu, kn","kn:#16(71,352); gu:#37(24,489)"
+Q183425,Abdominal pain,2,76393,"ha, mk","mk:#48(69,139); ha:#18(7,254)"
+Q689985,Lipoma,2,74979,"bs, io","bs:#36(69,492); io:#8(5,487)"
+Q107244,Monocyte,2,66875,"lv, nds","lv:#25(61,017); nds:#18(5,858)"
+Q849032,Organ donation,2,66674,"anp, te","te:#45(66,148); anp:#25(526)"
+Q7416997,Sanduk Ruit,2,64956,"mai, ne","ne:#1(63,831); mai:#27(1,125)"
+Q215210,Dietary fiber,2,61707,"et, lo","et:#32(61,482); lo:#48(225)"
+Q864088,Female condom,2,61583,"diq, sw","sw:#45(59,279); diq:#30(2,304)"
+Q537297,Heartburn,2,55593,"bjn, sw","sw:#49(53,870); bjn:#33(1,723)"
+Q6627854,List of medical roots and affixes,2,53224,"lfn, ur","ur:#7(51,596); lfn:#34(1,628)"
+Q319146,Ibn al-Nafis,2,49525,"arz, skr","arz:#17(49,276); skr:#14(249)"
+Q1628262,Hormonal intrauterine device,2,48019,"lv, mad","lv:#47(47,843); mad:#47(176)"
+Q929737,Liver disease,2,44736,"tg, tk","tk:#17(24,652); tg:#16(20,084)"
+Q23797,Contact lens,2,32974,"nds-nl, sco","sco:#2(31,639); nds-nl:#22(1,335)"
+Q190512,Tear gas,2,32125,"ban, zh-yue","zh-yue:#25(31,826); ban:#39(299)"
+Q88965331,Moncef Slaoui,2,29547,"ary, shi","ary:#1(28,171); shi:#5(1,376)"
+Q185325,Cardiopulmonary resuscitation,2,29141,"se, zh-yue","zh-yue:#29(28,401); se:#33(740)"
+Q275419,Hypotension,2,27548,"bpy, zh-yue","zh-yue:#33(27,092); bpy:#10(456)"
+Q156102,Smegma,2,27423,"bar, zh-yue","zh-yue:#44(20,840); bar:#9(6,583)"
+Q842428,Ascariasis,2,26599,"dag, so","so:#1(25,550); dag:#25(1,049)"
+Q105434,Hypochondriasis,2,26220,"ast, nds","ast:#31(13,645); nds:#1(12,575)"
+Q2085267,Pharyngitis,2,26154,"km, nn","nn:#5(19,498); km:#24(6,656)"
+Q311495,Al-Zahrawi,2,25167,"skr, ur","ur:#25(24,317); skr:#2(850)"
+Q77128,Ruth Pfau,2,22570,"skr, ur","ur:#29(22,504); skr:#28(66)"
+Q61335,Pre-eclampsia,2,20449,"arz, mad","arz:#31(20,234); mad:#33(215)"
+Q3632356,John Gilchrist (linguist),2,20429,"skr, ur","ur:#39(19,711); skr:#4(718)"
+Q6673122,Thyroid disease,2,19397,"as, pa","as:#29(11,805); pa:#29(7,592)"
+Q650766,Tinea capitis,2,17857,"bjn, nia","bjn:#2(17,627); nia:#24(230)"
+Q83873573,COVID-19 pandemic in Nepal,2,17694,"mai, ne","ne:#17(16,914); mai:#40(780)"
+Q143252,Polytetrafluoroethylene,2,16998,"azb, cv","cv:#1(13,252); azb:#34(3,746)"
+Q926462,Tinea versicolor,2,16263,"bcl, bjn","bjn:#5(9,790); bcl:#17(6,473)"
+Q463891,Virginia Apgar,2,14774,"be, mg","be:#4(13,452); mg:#42(1,322)"
+Q4833866,B. P. Koirala Institute of Health Sciences,2,14172,"dty, ne","ne:#27(12,408); dty:#18(1,764)"
+Q974135,Chemotherapy,2,13607,"diq, gl","gl:#14(11,723); diq:#39(1,884)"
+Q1122544,DrugBank,2,13600,"bar, frr","bar:#8(6,869); frr:#3(6,731)"
+Q4027534,Sucrose,2,12641,"frr, nn","nn:#19(10,737); frr:#32(1,904)"
+Q190875,Cortisol,2,11702,"cv, is","is:#35(10,450); cv:#42(1,252)"
+Q216935,Lidocaine,2,11426,"lij, nn","nn:#17(10,884); lij:#44(542)"
+Q184084,Thiamine deficiency,2,11266,"fo, sco","sco:#30(5,641); fo:#14(5,625)"
+Q211509,Oseltamivir,2,11198,"oc, zh-min-nan","zh-min-nan:#13(5,802); oc:#29(5,396)"
+Q58702,Mortality rate,2,11124,"ne, wa","ne:#50(9,289); wa:#50(1,835)"
+Q251347,Haloperidol,2,10915,"bar, cy","cy:#32(5,472); bar:#17(5,443)"
+Q978237,Giuseppe Pitrè,2,10595,"nap, scn","scn:#4(9,904); nap:#16(691)"
+Q88027839,List of deaths due to COVID-19,2,10571,"bjn, ts","ts:#5(8,386); bjn:#27(2,185)"
+Q19275831,Choking,2,9433,"am, km","am:#35(6,741); km:#37(2,692)"
+Q816422,Dysmenorrhea,2,9036,"as, tw","as:#44(8,364); tw:#28(672)"
+Q192102,Skin cancer,2,8673,"ha, rw","ha:#31(4,970); rw:#17(3,703)"
+Q143925,Toothache,2,8080,"lg, tk","tk:#46(7,350); lg:#38(730)"
+Q81166,Mustard gas,2,7794,"vls, zh-classical","vls:#3(6,041); zh-classical:#45(1,753)"
+Q333203,Weaning,2,6905,"jv, mad","jv:#30(6,047); mad:#9(858)"
+Q180614,Melanoma,2,6661,"cy, mai","cy:#25(5,990); mai:#45(671)"
+Q855523,Denatured alcohol,2,6530,"bew, jv","jv:#25(6,396); bew:#38(134)"
+Q1209744,Uterine cancer,2,6431,"rw, tcy","rw:#10(4,421); tcy:#14(2,010)"
+Q718113,Weight loss,2,6394,"bar, lb","bar:#29(3,237); lb:#33(3,157)"
+Q383027,Sushruta,2,6186,"awa, sa","sa:#6(5,766); awa:#29(420)"
+Q852376,Convulsion,2,6068,"kcg, sn","sn:#19(5,307); kcg:#12(761)"
+Q180507,Radiation therapy,2,6055,"an, pi","an:#34(4,969); pi:#30(1,086)"
+Q86901049,COVID-19 testing,2,5605,"dag, ts","ts:#11(4,622); dag:#27(983)"
+Q423071,Midazolam,2,5599,"dz, min","min:#19(5,404); dz:#5(195)"
+Q1853585,Mohel,2,5516,"eo, rmy","eo:#50(5,245); rmy:#6(271)"
+Q192717,Streptomycin,2,5450,"cy, rki","cy:#33(5,414); rki:#29(36)"
+Q415625,Paromomycin,2,5444,"cy, nso","cy:#38(5,156); nso:#17(288)"
+Q121176,Nursing,2,5409,"bew, io","io:#12(5,182); bew:#15(227)"
+Q152487,Steatopygia,2,5408,"ext, ksh","ksh:#5(3,594); ext:#26(1,814)"
+Q1869874,Insomnia,2,5385,"dv, zh-classical","zh-classical:#26(3,049); dv:#37(2,336)"
+Q83223,Asclepius,2,5370,"co, lij","lij:#9(3,915); co:#13(1,455)"
+Q269829,Placebo,2,5258,"mzn, olo","olo:#3(3,276); mzn:#29(1,982)"
+Q649558,Chagas disease,2,5136,"om, ti","om:#14(3,401); ti:#15(1,735)"
+Q200117,In vitro fertilisation,2,5049,"mt, ps","ps:#38(3,771); mt:#19(1,278)"
+Q9687,Traffic collision,2,4614,"ksh, wa","ksh:#7(2,571); wa:#45(2,043)"
+Q11343419,Rape of males,2,4465,"ary, zu","zu:#13(3,613); ary:#39(852)"
+Q86913546,COVID-19 pandemic in Indonesia,2,4367,"bjn, su","su:#50(3,570); bjn:#50(797)"
+Q162112,Norman Bethune,2,4261,"hsb, zh-classical","zh-classical:#16(3,752); hsb:#16(509)"
+Q189553,Otorhinolaryngology,2,4033,"pi, sa","pi:#12(2,056); sa:#41(1,977)"
+Q181802,Prosthesis,2,4005,"ext, mzn","mzn:#23(2,677); ext:#28(1,328)"
+Q4693015,Agnes Binagwaho,2,3963,"gpe, mos","gpe:#5(3,871); mos:#2(92)"
+Q836356,Croup,2,3856,"anp, gn","gn:#34(3,391); anp:#29(465)"
+Q218706,Erythropoietin,2,3807,"fur, szl","szl:#9(3,249); fur:#22(558)"
+Q318005,Nocturnal enuresis,2,3768,"gan, tyv","gan:#17(3,692); tyv:#49(76)"
+Q356405,Bloodletting,2,3688,"bo, fiu-vro","bo:#20(2,911); fiu-vro:#48(777)"
+Q111140,Endothelium,2,3686,"nds, se","nds:#36(3,306); se:#46(380)"
+Q15989108,Western African Ebola epidemic,2,3680,"nah, zea","nah:#7(2,109); zea:#6(1,571)"
+Q162564,Ultrasound,2,3678,"lmo, se","lmo:#25(3,011); se:#37(667)"
+Q84497471,Li Wenliang,2,3576,"vo, zh-classical","zh-classical:#23(3,266); vo:#16(310)"
+Q930752,Medical specialty,2,3543,"gpe, yi","yi:#40(3,204); gpe:#48(339)"
+Q17593925,Ameyo Adadevoh,2,3485,"ff, pcm","pcm:#3(3,314); ff:#24(171)"
+Q152596,Pacifier,2,3397,"ksh, szl","szl:#11(2,486); ksh:#14(911)"
+Q165328,Osteoporosis,2,3373,"dv, mad","dv:#19(3,064); mad:#19(309)"
+Q774306,Surgeon,2,3205,"arc, mt","arc:#15(2,481); mt:#27(724)"
+Q166376,Doping in sport,2,3102,"pms, vls","vls:#15(1,616); pms:#28(1,486)"
+Q33226,Speech–language pathology,2,3012,"kaa, li","li:#49(2,914); kaa:#37(98)"
+Q183257,Psychotherapy,2,2864,"hyw, kbp","kbp:#20(1,688); hyw:#26(1,176)"
+Q1471642,Micropenis,2,2753,"rn, zu","zu:#20(2,560); rn:#25(193)"
+Q3896379,Paronychia,2,2696,"ace, csb","ace:#9(1,881); csb:#29(815)"
+Q211346,Psychiatrist,2,2645,"jbo, srn","jbo:#17(1,545); srn:#3(1,100)"
+Q87058723,COVID-19 pandemic in Morocco,2,2599,"ary, shi","ary:#18(1,824); shi:#10(775)"
+Q62736,Osteoarthritis,2,2440,"lij, se","lij:#28(1,427); se:#22(1,013)"
+Q842811,Dietitian,2,2439,"diq, szy","diq:#38(2,049); szy:#40(390)"
+Q165135,Goitre,2,2382,"pam, szy","pam:#30(2,112); szy:#47(270)"
+Q654426,Psychological trauma,2,2371,"ary, eml","ary:#21(1,309); eml:#40(1,062)"
+Q57089,Paul Ehrlich,2,2351,"gd, szl","gd:#45(1,322); szl:#23(1,029)"
+Q209789,Belching,2,2306,"kcg, nds-nl","nds-nl:#18(1,712); kcg:#18(594)"
+Q615057,Anesthesiology,2,2287,"gom, pi","pi:#29(1,178); gom:#17(1,109)"
+Q3525265,Ministry of Health and Family Welfare,2,2255,"awa, bh","bh:#44(2,079); awa:#32(176)"
+Q271993,Hyperglycemia,2,2203,"kcg, pam","pam:#42(1,569); kcg:#16(634)"
+Q152234,Edema,2,2198,"hif, ksh","ksh:#11(1,770); hif:#48(428)"
+Q185557,Excretion,2,2185,"ki, pam","pam:#37(1,772); ki:#9(413)"
+Q804521,Bacterial vaginosis,2,2159,"rki, ti","ti:#14(2,132); rki:#43(27)"
+Q49325,Albert Schweitzer,2,2121,"ie, yo","yo:#39(1,604); ie:#16(517)"
+Q495146,Trichinosis,2,2100,"km, lij","km:#44(1,710); lij:#46(390)"
+Q85438966,SARS-CoV-1,2,2100,"kab, ug","kab:#34(1,519); ug:#41(581)"
+Q208376,Positron emission tomography,2,2093,"hak, ks","hak:#50(1,388); ks:#19(705)"
+Q245341,Radiography,2,2054,"ks, nrm","nrm:#10(1,620); ks:#34(434)"
+Q179399,Infertility,2,2042,"szy, zu","zu:#29(1,618); szy:#38(424)"
+Q178061,Shock (circulatory),2,2015,"lij, ug","lij:#33(1,222); ug:#31(793)"
+Q216685,Orthopedic surgery,2,1996,"kaa, pi","pi:#19(1,821); kaa:#28(175)"
+Q1549428,Steatorrhea,2,1907,"mwl, pam","pam:#43(1,492); mwl:#28(415)"
+Q558075,Sexual violence,2,1785,"bew, mai","mai:#21(1,293); bew:#3(492)"
+Q4927787,Blood blister,2,1737,"nds-nl, vls","nds-nl:#24(1,165); vls:#22(572)"
+Q162339,Stethoscope,2,1722,"csb, hsb",csb:#28(888); hsb:#10(834)
+Q552461,Hand washing,2,1679,"bjn, crh","bjn:#36(1,524); crh:#10(155)"
+Q161566,Symphytum,2,1675,"hsb, os","os:#16(1,255); hsb:#18(420)"
+Q321458,Sun tanning,2,1460,"gan, vep",vep:#29(761); gan:#34(699)
+Q1058438,Risk assessment,2,1433,"ext, se",ext:#33(793); se:#38(640)
+Q1774784,Clitoromegaly,2,1391,"mad, zu","zu:#35(1,192); mad:#38(199)"
+Q182899,Quarantine,2,1382,"nds-nl, pap",nds-nl:#30(741); pap:#34(641)
+Q179630,Syndrome,2,1374,"ary, fj",ary:#40(829); fj:#14(545)
+Q8285,Myasthenia gravis,2,1337,"pms, zea",zea:#9(808); pms:#49(529)
+Q845787,Histrionic personality disorder,2,1335,"mzn, tcy",mzn:#48(832); tcy:#37(503)
+Q1054718,Kidney disease,2,1326,"nqo, tw",nqo:#8(759); tw:#39(567)
+Q192692,Nightmare,2,1311,"arc, tok","arc:#30(1,293); tok:#20(18)"
+Q207092,Erysipelas,2,1294,"csb, os",csb:#25(968); os:#30(326)
+Q220551,Diabetes insipidus,2,1293,"lij, rw",rw:#45(829); lij:#45(464)
+Q309035,Deodorant,2,1246,"bew, iba","iba:#2(1,052); bew:#17(194)"
+Q105943,Pus,2,1241,"kbp, roa-rup",roa-rup:#25(903); kbp:#44(338)
+Q4902157,MERS-related coronavirus,2,1239,"ks, lo",ks:#17(755); lo:#29(484)
+Q2915349,Neurodiversity,2,1223,"jbo, skr","jbo:#19(1,148); skr:#24(75)"
+Q183605,Blood transfusion,2,1222,"fur, gom","gom:#16(1,124); fur:#27(98)"
+Q3315316,Ministry of Health (Morocco),2,1093,"ary, shi",ary:#49(582); shi:#13(511)
+Q549378,Body louse,2,1060,"ban, csb",csb:#34(741); ban:#37(319)
+Q235693,Menstrual pad,2,995,"bjn, tyv",bjn:#47(891); tyv:#48(104)
+Q1667685,Gas stove,2,994,"csb, szy",csb:#31(759); szy:#48(235)
+Q186889,Nausea,2,990,"myv, tw",myv:#24(551); tw:#47(439)
+Q31173413,Bulantrisna Djelantik,2,967,"ban, dtp",ban:#23(829); dtp:#9(138)
+Q178266,Herbicide,2,927,"mdf, tyv",tyv:#37(855); mdf:#22(72)
+Q754396,Gas mask,2,924,"bew, szl",szl:#32(803); bew:#42(121)
+Q172341,Ovarian cancer,2,850,"mad, tcy",tcy:#34(677); mad:#50(173)
+Q182180,Yawn,2,794,"lld, nap",nap:#17(631); lld:#11(163)
+Q7758678,Nyctalopia,2,787,"csb, shi",csb:#45(456); shi:#18(331)
+Q468771,Ascaris lumbricoides,2,774,"ks, szy",ks:#33(438); szy:#43(336)
+Q349185,Wrinkle,2,773,"se, syl",se:#40(559); syl:#2(214)
+Q28091751,Agnes Yewande Savage,2,729,"ff, ig",ig:#48(554); ff:#23(175)
+Q1364801,Sleep deprivation,2,728,"iba, trv",trv:#8(706); iba:#26(22)
+Q184630,Potassium chloride,2,713,"av, gv",av:#19(529); gv:#30(184)
+Q324634,Mammography,2,688,"ks, se",ks:#50(352); se:#48(336)
+Q202758,Hypoglycemia,2,635,"szy, tw",tw:#50(419); szy:#50(216)
+Q278515,Galactorrhea,2,612,"glk, mad",mad:#15(333); glk:#10(279)
+Q179951,Strabismus,2,579,"ce, gan",ce:#45(412); gan:#38(167)
+Q162784,Ephedra distachya,2,539,"co, hsb",hsb:#20(303); co:#23(236)
+Q375620,Petasites hybridus,2,511,"co, csb",csb:#44(462); co:#26(49)
+Q230299,Nellie Bly,2,448,"kw, skr",kw:#34(396); skr:#32(52)
+Q318192,Robert Recorde,2,445,"kw, pcd",pcd:#14(267); kw:#45(178)
+Q1494682,Heavy menstrual bleeding,2,438,"mad, mwl",mwl:#33(262); mad:#48(176)
+Q3174392,Human feces,2,399,"rn, zgh",zgh:#7(289); rn:#26(110)
+Q12421818,Injury,2,398,"fj, ve",ve:#5(275); fj:#22(123)
+Q24939367,Rukhmabai,2,394,"anp, skr",anp:#34(326); skr:#27(68)
+Q116857938,Toyin Ajayi,2,369,"ff, tn",tn:#13(279); ff:#48(90)
+Q958057,Vilma Hugonnai,2,358,"myv, tyv",myv:#34(183); tyv:#46(175)
+Q21664817,Angeliki Panagiotatou,2,355,"mt, myv",mt:#36(238); myv:#35(117)
+Q172275,Chloroform,2,350,"blk, rki",blk:#24(329); rki:#49(21)
+Q234572,Elizabeth Blackwell,2,312,"dtp, frp",frp:#17(259); dtp:#14(53)
+Q60771414,Blanche Huber,2,308,"mt, tn",mt:#37(211); tn:#25(97)
+Q29351060,Matilda J. Clerk,2,274,"ff, ty",ff:#17(236); ty:#4(38)
+Q864601,Biomedicine,2,274,"blk, rki",blk:#28(243); rki:#37(31)
+Q64399449,Siviwe Gwarube,2,255,"nso, tn",nso:#18(228); tn:#27(27)
+Q1588755,Thrombus,2,212,"bew, mdf",bew:#43(118); mdf:#19(94)
+Q1191065,Heat illness,2,188,"gan, trv",trv:#14(108); gan:#40(80)
+Q3595473,Hawa Abdi,2,184,"dtp, vo",vo:#18(150); dtp:#21(34)
+Q123265885,Nasser Hospital,2,95,"dtp, iba",iba:#17(61); dtp:#22(34)
+Q65212656,Indonesia Hospital,2,71,"dtp, iba",dtp:#18(38); iba:#22(33)
+Q2395341,Tasuku Honjo,1,29626373,en,"en:#7(29,626,373)"
+Q935761,Adderall,1,16431868,en,"en:#39(16,431,868)"
+Q83889294,COVID-19 pandemic in Germany,1,8315991,de,"de:#7(8,315,991)"
+Q175111,Hanging,1,5616362,ja,"ja:#6(5,616,362)"
+Q652744,"Hand, foot, and mouth disease",1,4646224,de,"de:#37(4,646,224)"
+Q11094,Hashimoto's thyroiditis,1,4374793,de,"de:#42(4,374,793)"
+Q356114,Hideyo Noguchi,1,4329434,ja,"ja:#12(4,329,434)"
+Q186676,Stuttering,1,3649255,ja,"ja:#20(3,649,255)"
+Q83873593,COVID-19 pandemic in France,1,3475051,fr,"fr:#15(3,475,051)"
+Q2637106,Scintillating scotoma,1,3430906,ja,"ja:#25(3,430,906)"
+Q467265,Savant syndrome,1,3189246,ja,"ja:#29(3,189,246)"
+Q460167,Ménière's disease,1,3171562,ja,"ja:#31(3,171,562)"
+Q2758894,Tetrasomy X,1,3078929,ar,"ar:#6(3,078,929)"
+Q574567,Life extension,1,2852260,pl,"pl:#3(2,852,260)"
+Q1446169,Collagen disease,1,2675793,ja,"ja:#43(2,675,793)"
+Q80917,Shinya Yamanaka,1,2638814,ja,"ja:#46(2,638,814)"
+Q1153419,Interstitial lung disease,1,2585830,ja,"ja:#48(2,585,830)"
+Q1226826,Diogenes syndrome,1,2557296,fr,"fr:#34(2,557,296)"
+Q548871,Anisakis,1,2495642,ja,"ja:#49(2,495,642)"
+Q407204,Sodium hypochlorite,1,2422565,ja,"ja:#50(2,422,565)"
+Q690708,Mahidol Adulyadej,1,2355467,th,"th:#1(2,355,467)"
+Q2667159,Reflex syncope,1,2328872,fr,"fr:#48(2,328,872)"
+Q2625219,Vaccine Revolt,1,2267934,pt,"pt:#12(2,267,934)"
+Q76823546,The Oath of Love,1,2236881,zh,"zh:#24(2,236,881)"
+Q1238934,Urethral sounding,1,2223612,fa,"fa:#31(2,223,612)"
+Q410011,Ondansetron,1,2163736,fa,"fa:#33(2,163,736)"
+Q409672,Citalopram,1,2139932,fa,"fa:#35(2,139,932)"
+Q178566,Chlordiazepoxide,1,2084097,fa,"fa:#39(2,084,097)"
+Q158013,Legionella,1,2010196,it,"it:#47(2,010,196)"
+Q646522,Prostate massage,1,1980328,fa,"fa:#41(1,980,328)"
+Q6503924,Chemical nomenclature,1,1718956,id,"id:#3(1,718,956)"
+Q5331908,Ebolavirus,1,1697451,zh,"zh:#44(1,697,451)"
+Q87250695,COVID-19 pandemic in Poland,1,1668766,pl,"pl:#26(1,668,766)"
+Q83873057,COVID-19 pandemic in Vietnam,1,1561945,vi,"vi:#4(1,561,945)"
+Q1104126,Classic autism,1,1519379,pl,"pl:#40(1,519,379)"
+Q532978,Hickey,1,1304176,ar,"ar:#50(1,304,176)"
+Q853451,Men who have sex with men,1,1230038,tr,"tr:#8(1,230,038)"
+Q3003251,Indonesian Red Cross Society,1,883763,id,"id:#25(883,763)"
+Q55604588,Ayushman Bharat Yojana,1,868177,hi,"hi:#31(868,177)"
+Q86756826,COVID-19 pandemic in the Netherlands,1,831642,nl,"nl:#35(831,642)"
+Q87473205,COVID-19 pandemic in Turkey,1,791077,tr,"tr:#21(791,077)"
+Q412174,Pregabalin,1,783430,tr,"tr:#22(783,430)"
+Q2982590,Gazi Yaşargil,1,783386,tr,"tr:#23(783,386)"
+Q2505089,Uğur Şahin,1,781699,tr,"tr:#24(781,699)"
+Q4200627,Diponegoro University,1,778653,id,"id:#35(778,653)"
+Q4977696,Bea Uusma,1,766930,sv,"sv:#14(766,930)"
+Q302248,Calendar-based contraceptive methods,1,723406,sw,"sw:#1(723,406)"
+Q1414765,Factitious disorder imposed on another,1,720979,sv,"sv:#18(720,979)"
+Q3427336,Human reproduction,1,711119,th,"th:#5(711,119)"
+Q4254860,List of epidemics and pandemics,1,697618,tr,"tr:#30(697,618)"
+Q834390,Influenza A virus,1,684185,ko,"ko:#9(684,185)"
+Q87070975,COVID-19 pandemic in Israel,1,678174,he,"he:#14(678,174)"
+Q284321,Mefenamic acid,1,658700,id,"id:#43(658,700)"
+Q324089,Antihistamine,1,626612,tr,"tr:#39(626,612)"
+Q86919406,COVID-19 pandemic in the Czech Republic,1,617043,cs,"cs:#41(617,043)"
+Q118418,Antisocial personality disorder,1,611871,hu,"hu:#20(611,871)"
+Q1292082,Sore throat,1,611676,tl,"tl:#4(611,676)"
+Q23806133,Azerbaijan Red Crescent Society,1,594120,az,"az:#3(594,120)"
+Q3523981,Composition of the human body,1,573595,kk,"kk:#9(573,595)"
+Q408535,Quetiapine,1,573575,fi,"fi:#21(573,575)"
+Q188121,Staphylococcus aureus,1,569692,ro,"ro:#23(569,692)"
+Q6649966,Hải Thượng Lãn Ông,1,569495,vi,"vi:#21(569,495)"
+Q1851928,Health promotion,1,532939,kk,"kk:#11(532,939)"
+Q86459400,Anders Tegnell,1,530011,sv,"sv:#44(530,011)"
+Q215946,Agent Orange,1,527804,vi,"vi:#28(527,804)"
+Q1260023,Drug test,1,519348,fi,"fi:#28(519,348)"
+Q407721,Buprenorphine,1,495012,fi,"fi:#35(495,012)"
+Q2079801,Ministry of Health (Israel),1,493095,he,"he:#37(493,095)"
+Q88608397,Katalin Karikó,1,487681,hu,"hu:#33(487,681)"
+Q174723,Codeine,1,475692,fi,"fi:#43(475,692)"
+Q1123139,Ketosis,1,465072,fi,"fi:#46(465,072)"
+Q6524621,Leon Dănăilă,1,458228,ro,"ro:#28(458,228)"
+Q16140713,Lalana Kongtoranin,1,455644,th,"th:#22(455,644)"
+Q467056,Pearly penile papules,1,445289,ko,"ko:#26(445,289)"
+Q256698,Residency (medicine),1,445224,ko,"ko:#27(445,224)"
+Q19062,Raed Arafat,1,420136,ro,"ro:#35(420,136)"
+Q781118,Universal design,1,398463,ko,"ko:#38(398,463)"
+Q1762220,Skene's gland,1,389319,ko,"ko:#41(389,319)"
+Q37830054,Sotiris Tsiodras,1,388390,el,"el:#29(388,390)"
+Q123920,Alexandre Yersin,1,387557,vi,"vi:#46(387,557)"
+Q83873556,COVID-19 pandemic in Malaysia,1,386846,ms,"ms:#5(386,846)"
+Q175827,Stomach disease,1,382098,kk,"kk:#19(382,098)"
+Q670052,Good Samaritan law,1,377467,ko,"ko:#43(377,467)"
+Q4383725,Hanoi Medical University,1,375577,vi,"vi:#47(375,577)"
+Q187255,Rheumatoid arthritis,1,374787,ta,"ta:#5(374,787)"
+Q3641768,Globus pharyngeus,1,370159,th,"th:#38(370,159)"
+Q85988778,Noor Hisham Abdullah,1,369755,ms,"ms:#6(369,755)"
+Q910721,Đặng Thùy Trâm,1,363061,vi,"vi:#50(363,061)"
+Q774347,Consanguinity,1,359857,lt,"lt:#3(359,857)"
+Q18388380,Phramongkutklao College of Medicine,1,354348,th,"th:#47(354,348)"
+Q51916573,Influenza B virus,1,347551,ko,"ko:#47(347,551)"
+Q738153,Ileus,1,342332,el,"el:#44(342,332)"
+Q5241284,Ganira Pashayeva,1,341097,az,"az:#13(341,097)"
+Q1144618,Familial Mediterranean fever,1,339986,hy,"hy:#2(339,986)"
+Q87068864,COVID-19 pandemic in Greece,1,332599,el,"el:#48(332,599)"
+Q265799,Human genetics,1,298704,kk,"kk:#28(298,704)"
+Q326648,Salmonellosis,1,295987,bg,"bg:#50(295,987)"
+Q4062333,Zarifa Aliyeva,1,288875,az,"az:#17(288,875)"
+Q87358172,Søren Brostrøm,1,286952,da,"da:#4(286,952)"
+Q574360,Spasm,1,277165,tl,"tl:#13(277,165)"
+Q4794291,Camilla Stoltenberg,1,276507,no,"no:#9(276,507)"
+Q942976,Pap test,1,276313,sr,"sr:#9(276,313)"
+Q5070802,Emergency,1,265774,kk,"kk:#32(265,774)"
+Q352585,Frequent urination,1,255893,tl,"tl:#15(255,893)"
+Q509122,Avoidant personality disorder,1,251412,no,"no:#14(251,412)"
+Q211709,Blood cell,1,245438,kk,"kk:#40(245,438)"
+Q621414,Medical thermometer,1,240199,simple,"simple:#16(240,199)"
+Q6171655,Death zone,1,239129,simple,"simple:#17(239,129)"
+Q11123394,Cancer and nausea,1,234164,sh,"sh:#4(234,164)"
+Q1207503,Dhaka Medical College Hospital,1,227550,bn,"bn:#39(227,550)"
+Q6742015,Malaysian Red Crescent Society,1,225416,ms,"ms:#21(225,416)"
+Q1444125,National University of Malaysia,1,220645,ms,"ms:#24(220,645)"
+Q723758,Asepsis,1,218900,uz,"uz:#22(218,900)"
+Q84055544,COVID-19 pandemic in the Philippines,1,213321,tl,"tl:#19(213,321)"
+Q2256736,Abdominal aortic aneurysm,1,211882,sr,"sr:#36(211,882)"
+Q1243807,Tinea cruris,1,199089,tl,"tl:#25(199,089)"
+Q1273048,Mean corpuscular hemoglobin concentration,1,195591,hr,"hr:#50(195,591)"
+Q109916446,Branimir Nestorović,1,194029,sr,"sr:#48(194,029)"
+Q192309,Tinnitus,1,192821,sq,"sq:#28(192,821)"
+Q914070,Mads Gilbert,1,191043,no,"no:#31(191,043)"
+Q185935,Mania,1,189872,no,"no:#32(189,872)"
+Q4470771,Centipede bite,1,188978,tl,"tl:#29(188,978)"
+Q17350745,Zlatibor Lončar,1,185640,sr,"sr:#50(185,640)"
+Q3643653,HIV/AIDS in South Africa,1,182931,af,"af:#8(182,931)"
+Q2654782,List of paraphilias,1,179787,no,"no:#34(179,787)"
+Q52848,Spondyloarthritis,1,178571,sq,"sq:#35(178,571)"
+Q19484,Metformin,1,178239,ta,"ta:#40(178,239)"
+Q1963588,Hematologic disease,1,177759,sq,"sq:#36(177,759)"
+Q3045040,Oxygen saturation (medicine),1,173561,no,"no:#42(173,561)"
+Q988405,Essential hypertension,1,165798,uz,"uz:#41(165,798)"
+Q261327,Thrombosis,1,163755,sk,"sk:#46(163,755)"
+Q1509074,Wound healing,1,163040,bs,"bs:#2(163,040)"
+Q1973130,Universiti Sains Malaysia,1,156847,ms,"ms:#42(156,847)"
+Q5442760,Female genital disease,1,156713,uz,"uz:#49(156,713)"
+Q844590,Body dysmorphic disorder,1,155434,simple,"simple:#31(155,434)"
+Q2717322,Natural family planning,1,154620,sw,"sw:#15(154,620)"
+Q425832,Rh blood group system,1,151013,lt,"lt:#29(151,013)"
+Q203174,Thalidomide,1,143545,da,"da:#34(143,545)"
+Q147362,Ovarian cyst,1,139500,hy,"hy:#33(139,500)"
+Q13693745,Cognitive therapy,1,136987,da,"da:#40(136,987)"
+Q3234995,Vitamin B12 deficiency,1,127587,hy,"hy:#40(127,587)"
+Q87250838,COVID-19 pandemic in Lithuania,1,125112,lt,"lt:#43(125,112)"
+Q4138762,Vitamin D deficiency,1,125089,hy,"hy:#44(125,089)"
+Q711849,Median lethal dose,1,119055,simple,"simple:#45(119,055)"
+Q1128996,Dysplasia,1,117232,bs,"bs:#9(117,232)"
+Q193211,Cyst,1,114812,lt,"lt:#49(114,812)"
+Q876887,Cellulitis,1,114457,sh,"sh:#24(114,457)"
+Q275792,Saline (medicine),1,113694,sh,"sh:#25(113,694)"
+Q1363819,Red blood cell distribution width,1,113383,sh,"sh:#26(113,383)"
+Q188874,Colorectal cancer,1,111132,af,"af:#18(111,132)"
+Q861028,Hemangioma,1,110505,ka,"ka:#46(110,505)"
+Q356033,Adenocarcinoma,1,109690,bs,"bs:#10(109,690)"
+Q1615191,Cardiac catheterization,1,99654,sh,"sh:#38(99,654)"
+Q815753,Filariasis,1,98438,mr,"mr:#44(98,438)"
+Q189643,Delusion,1,95476,mr,"mr:#46(95,476)"
+Q911386,Stomatitis,1,95348,ky,"ky:#17(95,348)"
+Q484797,Anal fissure,1,94052,mk,"mk:#23(94,052)"
+Q1340700,Long-term effects of alcohol,1,93259,sw,"sw:#26(93,259)"
+Q220570,Pulmonary embolism,1,92769,sl,"sl:#30(92,769)"
+Q917620,Onychomycosis,1,92152,zh-yue,"zh-yue:#5(92,152)"
+Q835718,Opportunistic infection,1,91147,sw,"sw:#28(91,147)"
+Q539795,Angioplasty,1,90123,zh-yue,"zh-yue:#6(90,123)"
+Q3320678,Yellapragada Subbarow,1,90010,te,"te:#26(90,010)"
+Q605709,Fibrosis,1,89486,bs,"bs:#23(89,486)"
+Q1189184,Management of tuberculosis,1,89045,te,"te:#28(89,045)"
+Q4777842,Anupama Niranjana,1,88414,kn,"kn:#13(88,414)"
+Q24291756,Oriol Mitjà,1,87575,ca,"ca:#31(87,575)"
+Q409860,Lugol's iodine,1,85606,sh,"sh:#49(85,606)"
+Q87204911,COVID-19 pandemic in Estonia,1,84206,et,"et:#14(84,206)"
+Q7375868,Rubbing alcohol,1,83543,zh-yue,"zh-yue:#8(83,543)"
+Q1877550,Lung abscess,1,82334,ky,"ky:#22(82,334)"
+Q203516,Birth rate,1,81246,ca,"ca:#34(81,246)"
+Q854573,Acute pancreatitis,1,80182,sl,"sl:#44(80,182)"
+Q933382,Calcification,1,78180,bs,"bs:#27(78,180)"
+Q3918988,Reference ranges for blood tests,1,73529,ps,"ps:#1(73,529)"
+Q1416096,Intracranial pressure,1,71107,sw,"sw:#36(71,107)"
+Q266018,Acute coronary syndrome,1,70552,sw,"sw:#38(70,552)"
+Q87066621,COVID-19 pandemic in Latvia,1,70233,lv,"lv:#18(70,233)"
+Q1370346,Baby colic,1,67427,sw,"sw:#40(67,427)"
+Q7233562,Post-nasal drip,1,66614,mk,"mk:#50(66,614)"
+Q4914906,Bioidentical hormone replacement therapy,1,66155,sw,"sw:#42(66,155)"
+Q976163,Polyhydramnios,1,65271,te,"te:#46(65,271)"
+Q2348411,Miracle Mineral Supplement,1,63937,et,"et:#30(63,937)"
+Q496359,Systole,1,61253,bs,"bs:#41(61,253)"
+Q835051,Hyperplasia,1,59500,bs,"bs:#42(59,500)"
+Q2622199,Upper respiratory tract infection,1,59401,ky,"ky:#36(59,401)"
+Q432083,Intramuscular injection,1,59065,bs,"bs:#44(59,065)"
+Q24639958,Anda Čakša,1,58890,lv,"lv:#27(58,890)"
+Q640448,Intravenous therapy,1,57930,zh-yue,"zh-yue:#13(57,930)"
+Q1762339,Deep vein thrombosis,1,55119,sw,"sw:#48(55,119)"
+Q1992236,Pinworm infection,1,54789,ky,"ky:#41(54,789)"
+Q538432,Synovitis,1,49206,lv,"lv:#41(49,206)"
+Q419559,Phenibut,1,48453,lv,"lv:#45(48,453)"
+Q84146057,COVID-19 pandemic in Hong Kong,1,45004,zh-yue,"zh-yue:#16(45,004)"
+Q59075,Introduction to viruses,1,44771,si,"si:#31(44,771)"
+Q88097247,COVID-19 pandemic in Gujarat,1,44100,gu,"gu:#20(44,100)"
+Q15697866,Kuntala Kumari Sabat,1,43775,or,"or:#1(43,775)"
+Q1520176,Unani medicine,1,32424,ur,"ur:#14(32,424)"
+Q1077209,Wellness (alternative medicine),1,31665,ne,"ne:#7(31,665)"
+Q424156,Tadalafil,1,29244,arz,"arz:#24(29,244)"
+Q189956,Aphthous stomatitis,1,29199,zh-yue,"zh-yue:#27(29,199)"
+Q4294347,Ministry of Health (Myanmar),1,27401,my,"my:#30(27,401)"
+Q6627858,List of medical schools in Egypt,1,27242,arz,"arz:#27(27,242)"
+Q11072,Amnesia,1,26909,arz,"arz:#28(26,909)"
+Q3339235,Neurological disorder,1,26870,tg,"tg:#8(26,870)"
+Q424161,Vardenafil,1,25401,arz,"arz:#29(25,401)"
+Q383126,Chronic condition,1,24071,pam,"pam:#1(24,071)"
+Q2829099,Aklilu Lemma,1,23909,am,"am:#14(23,909)"
+Q3595652,Gripe water,1,23092,zh-yue,"zh-yue:#41(23,092)"
+Q10963733,"University of Medicine 1, Yangon",1,23083,my,"my:#39(23,083)"
+Q372701,Esophageal cancer,1,22791,tk,"tk:#19(22,791)"
+Q4449705,Avicenna Tajik State Medical University,1,22624,tg,"tg:#13(22,624)"
+Q2561634,Radicular pain,1,21555,tk,"tk:#22(21,555)"
+Q147101,Aciclovir,1,21238,wuu,"wuu:#8(21,238)"
+Q87250860,COVID-19 pandemic in Luxembourg,1,20882,lb,"lb:#1(20,882)"
+Q319595,Presbyopia,1,20348,zh-yue,"zh-yue:#45(20,348)"
+Q1458153,Medical certificate,1,19555,zh-yue,"zh-yue:#49(19,555)"
+Q631521,Teratology,1,19432,eu,"eu:#19(19,432)"
+Q4712977,Genitourinary system,1,19269,tg,"tg:#18(19,269)"
+Q424163,Orlistat,1,18808,arz,"arz:#39(18,808)"
+Q337188,Scopolamine,1,17211,ast,"ast:#22(17,211)"
+Q1483951,Malignancy,1,17078,nn,"nn:#9(17,078)"
+Q574415,Delayed onset muscle soreness,1,16912,vec,"vec:#1(16,912)"
+Q437458,Elderly care,1,16799,pa,"pa:#8(16,799)"
+Q6946,Cytomegalovirus,1,16389,tk,"tk:#26(16,389)"
+Q1343674,Pediculosis,1,15777,tk,"tk:#29(15,777)"
+Q13948235,"Bachelor of Medicine, Bachelor of Surgery",1,15519,arz,"arz:#48(15,519)"
+Q480700,Otitis,1,15258,tk,"tk:#30(15,258)"
+Q19109595,Alcohols (medicine),1,14544,arz,"arz:#50(14,544)"
+Q1140495,Pulse oximetry,1,14286,is,"is:#16(14,286)"
+Q5449573,Protamine,1,13747,gl,"gl:#10(13,747)"
+Q2624485,Varices,1,13174,tk,"tk:#34(13,174)"
+Q271021,Cephalosporin,1,12975,wuu,"wuu:#13(12,975)"
+Q1143025,Oral cancer,1,12265,ha,"ha:#9(12,265)"
+Q130971,Mycobacterium tuberculosis,1,12212,km,"km:#15(12,212)"
+Q475510,Intestinal parasite infection,1,12152,rw,"rw:#3(12,152)"
+Q212894,Snuff (tobacco),1,12083,bar,"bar:#2(12,083)"
+Q3221083,Motor neuron diseases,1,12024,is,"is:#24(12,024)"
+Q207550,Infarction,1,11682,xmf,"xmf:#2(11,682)"
+Q87820769,COVID-19 pandemic in Odisha,1,11634,or,"or:#7(11,634)"
+Q3666590,Hawler Medical University,1,10986,ckb,"ckb:#40(10,986)"
+Q771438,Bristol stool scale,1,10686,ast,"ast:#47(10,686)"
+Q7829430,Touton giant cell,1,10454,gl,"gl:#22(10,454)"
+Q11848548,Licensed practical nurse,1,10448,is,"is:#36(10,448)"
+Q170102,Scrapie,1,10429,is,"is:#37(10,429)"
+Q87665038,COVID-19 pandemic in Ethiopia,1,10410,am,"am:#28(10,410)"
+Q650187,Phosphatidylcholine,1,9895,gl,"gl:#28(9,895)"
+Q4771357,Anterior interosseous nerve,1,9732,gl,"gl:#30(9,732)"
+Q263962,Transcranial magnetic stimulation,1,9028,bar,"bar:#6(9,028)"
+Q492248,Hartmann's operation,1,8815,nn,"nn:#31(8,815)"
+Q62858714,Dinesh Sharma (academic),1,8678,pa,"pa:#23(8,678)"
+Q221226,The Hallmarks of Cancer,1,8559,ha,"ha:#13(8,559)"
+Q192093,Anatomical Therapeutic Chemical Classification System,1,8445,frr,"frr:#2(8,445)"
+Q1779148,Colectomy,1,8240,nn,"nn:#36(8,240)"
+Q659584,Molluscum contagiosum,1,8215,tk,"tk:#40(8,215)"
+Q4294274,Ministry of Health (Turkmenistan),1,8023,tk,"tk:#42(8,023)"
+Q970208,Liver failure,1,7988,so,"so:#18(7,988)"
+Q1783924,Head and neck cancer,1,7922,ha,"ha:#14(7,922)"
+Q468641,Constantine the African,1,7687,scn,"scn:#9(7,687)"
+Q633403,Asthenia,1,7529,nn,"nn:#41(7,529)"
+Q598976,Medical microbiology,1,7110,km,"km:#22(7,110)"
+Q1072278,Body shape,1,7002,sn,"sn:#14(7,002)"
+Q188269,Interferon,1,6912,jv,"jv:#20(6,912)"
+Q107055182,SARS-CoV-2 Delta variant,1,6841,lo,"lo:#7(6,841)"
+Q1396630,Peter Buck (anthropologist),1,6809,mi,"mi:#1(6,809)"
+Q424976,Retinol,1,6772,lb,"lb:#8(6,772)"
+Q324464,Testicular cancer,1,6722,rw,"rw:#9(6,722)"
+Q106016986,List of COVID-19 vaccine authorizations,1,6718,bxr,"bxr:#4(6,718)"
+Q87743866,COVID-19 pandemic in Wales,1,6705,cy,"cy:#19(6,705)"
+Q212809,Endoscopy,1,6580,la,"la:#41(6,580)"
+Q415178,Ivermectin,1,6547,wuu,"wuu:#42(6,547)"
+Q89753133,COVID-19 pandemic in Turkmenistan,1,6455,tk,"tk:#49(6,455)"
+Q515848,Internal carotid artery,1,6414,new,"new:#5(6,414)"
+Q588259,Hans Rosling,1,6358,azb,"azb:#8(6,358)"
+Q259346,Sputum,1,6191,bar,"bar:#11(6,191)"
+Q56853086,EssilorLuxottica,1,6155,eo,"eo:#36(6,155)"
+Q53926008,Nipah virus infection,1,6150,bh,"bh:#14(6,150)"
+Q103537,Antigen,1,6097,min,"min:#14(6,097)"
+Q86948603,COVID-19 pandemic in Portugal,1,6090,mwl,"mwl:#5(6,090)"
+Q1128431,Vaginismus,1,6084,tk,"tk:#50(6,084)"
+Q410412,Carbamazepine,1,6028,wuu,"wuu:#44(6,028)"
+Q2469782,Alpha wave,1,5854,wuu,"wuu:#47(5,854)"
+Q277954,Estrogen,1,5854,wuu,"wuu:#48(5,854)"
+Q1077823,Somnolence,1,5835,nap,"nap:#3(5,835)"
+Q189522,Quinine,1,5618,oc,"oc:#25(5,618)"
+Q337554,Heat stroke,1,5617,or,"or:#29(5,617)"
+Q708800,Medical laboratory scientist,1,5611,bpy,"bpy:#4(5,611)"
+Q412515,Bisoprolol,1,5318,cy,"cy:#35(5,318)"
+Q412208,Lisinopril,1,5194,cy,"cy:#36(5,194)"
+Q7331102,Alcohol abuse,1,5188,pa,"pa:#50(5,188)"
+Q1907986,Breast pain,1,5138,ha,"ha:#27(5,138)"
+Q381271,Crab louse,1,4957,su,"su:#35(4,957)"
+Q87186365,COVID-19 pandemic in the Republic of Ireland,1,4790,ga,"ga:#17(4,790)"
+Q3851652,Breast augmentation,1,4787,fy,"fy:#23(4,787)"
+Q857300,Abdominal thrusts,1,4699,am,"am:#42(4,699)"
+Q411457,Trazodone,1,4571,ig,"ig:#3(4,571)"
+Q203601,Pneumothorax,1,4567,lij,"lij:#6(4,567)"
+Q87250788,COVID-19 pandemic in Belarus,1,4521,be,"be:#47(4,521)"
+Q87743871,COVID-19 pandemic in Northern Ireland,1,4458,ga,"ga:#20(4,458)"
+Q1144039,Inguinal hernia,1,4431,nap,"nap:#5(4,431)"
+Q2608022,Contraceptive sponge,1,4351,ha,"ha:#34(4,351)"
+Q3355478,Medical prescription,1,4349,bcl,"bcl:#28(4,349)"
+Q1128437,Contact tracing,1,4294,dag,"dag:#3(4,294)"
+Q1481398,Henipavirus,1,4272,bh,"bh:#19(4,272)"
+Q163901,Cefixime,1,4139,azb,"azb:#28(4,139)"
+Q84167106,COVID-19 pandemic in the United Kingdom,1,4108,ga,"ga:#25(4,108)"
+Q28971,Impetigo,1,4068,scn,"scn:#24(4,068)"
+Q6859652,Millimetre of mercury,1,4022,be-x-old,"be-x-old:#16(4,022)"
+Q84104992,COVID-19 pandemic in Italy,1,4009,ga,"ga:#30(4,009)"
+Q653318,Silicosis,1,3979,pcd,"pcd:#3(3,979)"
+Q2752427,Medical research,1,3975,new,"new:#17(3,975)"
+Q47564,Mediterranean diet,1,3949,nap,"nap:#6(3,949)"
+Q580754,Self-defeating personality disorder,1,3929,mzn,"mzn:#14(3,929)"
+Q413486,Diphenhydramine,1,3844,azb,"azb:#33(3,844)"
+Q522163,Sydenham's chorea,1,3825,nds-nl,"nds-nl:#8(3,825)"
+Q816759,Beta blocker,1,3816,pam,"pam:#16(3,816)"
+Q275466,Embolism,1,3792,nds,"nds:#32(3,792)"
+Q113627276,Julião Menezes,1,3779,gom,"gom:#7(3,779)"
+Q84166704,COVID-19 pandemic in Spain,1,3672,ga,"ga:#38(3,672)"
+Q816658,Bencao Gangmu,1,3554,zh-classical,"zh-classical:#19(3,554)"
+Q2346266,Dental trauma,1,3551,ha,"ha:#42(3,551)"
+Q424167,Finasteride,1,3545,xmf,"xmf:#12(3,545)"
+Q83493517,Timeline of the COVID-19 pandemic,1,3543,sd,"sd:#14(3,543)"
+Q2006636,Waterborne disease,1,3516,dv,"dv:#14(3,516)"
+Q15664953,Baba Raghav Das Medical College,1,3478,bh,"bh:#26(3,478)"
+Q48566781,Chlordiazepoxide/clidinium bromide,1,3476,azb,"azb:#37(3,476)"
+Q267505,Dying,1,3447,fy,"fy:#38(3,447)"
+Q96419281,Origin of SARS-CoV-2,1,3437,ha,"ha:#44(3,437)"
+Q407781,Dextromethorphan,1,3436,azb,"azb:#38(3,436)"
+Q411456,Methocarbamol,1,3417,azb,"azb:#39(3,417)"
+Q2044946,Right to die,1,3405,ha,"ha:#46(3,405)"
+Q2296168,Medical laboratory,1,3403,km,"km:#34(3,403)"
+Q83888864,COVID-19 pandemic in Cambodia,1,3278,km,"km:#35(3,278)"
+Q214746,Biostatistics,1,3230,io,"io:#41(3,230)"
+Q2264130,Trichuriasis,1,3200,om,"om:#17(3,200)"
+Q3705876,Dermatomycosis,1,3166,frr,"frr:#21(3,166)"
+Q580689,Biological engineering,1,3134,io,"io:#49(3,134)"
+Q3025883,Type 2 diabetes,1,3105,pam,"pam:#21(3,105)"
+Q187526,Melanin,1,3039,om,"om:#19(3,039)"
+Q684782,Goose bumps,1,3038,vec,"vec:#15(3,038)"
+Q2522,Dioxins and dioxin-like compounds,1,3031,scn,"scn:#45(3,031)"
+Q620958,Penis enlargement,1,3027,zu,"zu:#16(3,027)"
+Q7239894,Pregnancy rate,1,3018,tn,"tn:#5(3,018)"
+Q162606,Endocrinology,1,2980,min,"min:#38(2,980)"
+Q97270,Thomas C. Südhof,1,2959,yo,"yo:#19(2,959)"
+Q256966,Nitpicking,1,2903,bar,"bar:#34(2,903)"
+Q78482,Fritz Pregl,1,2834,gd,"gd:#20(2,834)"
+Q775927,Tinea corporis,1,2813,kab,"kab:#10(2,813)"
+Q424227,Bronchiolitis,1,2805,mg,"mg:#22(2,805)"
+Q87709760,COVID-19 pandemic in Curaçao,1,2755,pap,"pap:#13(2,755)"
+Q339557,Human biology,1,2745,nov,"nov:#12(2,745)"
+Q222046,Genomics,1,2738,nov,"nov:#13(2,738)"
+Q105688,Hypoxia (medicine),1,2730,nds,"nds:#42(2,730)"
+Q254327,Anorexia (symptom),1,2679,bar,"bar:#36(2,679)"
+Q318506,Deepak Chopra,1,2677,pam,"pam:#25(2,677)"
+Q213098,Progeria,1,2552,bo,"bo:#28(2,552)"
+Q426921,Artemisinin,1,2542,zh-classical,"zh-classical:#32(2,542)"
+Q490608,Pubarche,1,2541,nds,"nds:#47(2,541)"
+Q23988333,Tanveer Abbasi,1,2539,sd,"sd:#22(2,539)"
+Q1930909,Mycoplasma genitalium,1,2498,bh,"bh:#39(2,498)"
+Q1131260,Keloid,1,2453,bjn,"bjn:#26(2,453)"
+Q4998855,Buried penis,1,2446,zu,"zu:#21(2,446)"
+Q2925049,Fe del Mundo,1,2384,bcl,"bcl:#49(2,384)"
+Q87906931,COVID-19 pandemic in the Faroe Islands,1,2356,fo,"fo:#43(2,356)"
+Q422665,Trimethoprim,1,2338,fo,"fo:#44(2,338)"
+Q1154055,Osteochondrosis,1,2336,cv,"cv:#20(2,336)"
+Q315940,John Langdon Down,1,2266,xmf,"xmf:#30(2,266)"
+Q7739,Arsenic trioxide,1,2256,zh-classical,"zh-classical:#39(2,256)"
+Q2920250,Autistic rights movement,1,2254,jbo,"jbo:#14(2,254)"
+Q2558350,Cracked nipple,1,2240,ht,"ht:#46(2,240)"
+Q743868,Panoramic radiograph,1,2228,lij,"lij:#19(2,228)"
+Q200656,Diuretic,1,2211,pam,"pam:#29(2,211)"
+Q420054,Topical medication,1,2195,mzn,"mzn:#26(2,195)"
+Q4948876,Botswana–Harvard AIDS Institute Partnership,1,2194,tn,"tn:#6(2,194)"
+Q286567,Terminologia Anatomica,1,2168,bh,"bh:#41(2,168)"
+Q4838281,Baby Gender Mentor,1,2165,om,"om:#26(2,165)"
+Q1477327,Fecal impaction,1,2140,bar,"bar:#44(2,140)"
+Q727096,Birth defect,1,2137,om,"om:#27(2,137)"
+Q201561,Diagnostic and Statistical Manual of Mental Disorders,1,2123,mzn,"mzn:#28(2,123)"
+Q163648,DDT,1,2121,sc,"sc:#23(2,121)"
+Q407324,Phencyclidine,1,2120,bar,"bar:#45(2,120)"
+Q1291366,Hypopigmentation,1,2086,om,"om:#29(2,086)"
+Q189488,Willem Einthoven,1,2036,mg,"mg:#32(2,036)"
+Q3241045,Disease outbreak,1,2007,dag,"dag:#8(2,007)"
+Q119440382,Nandipha Magudumana,1,1983,tn,"tn:#7(1,983)"
+Q57985154,Charles Daniel Marivate,1,1972,ts,"ts:#18(1,972)"
+Q219621,René Laennec,1,1971,sa,"sa:#43(1,971)"
+Q189967,Karyotype,1,1966,vls,"vls:#12(1,966)"
+Q88082922,COVID-19 pandemic in Sint Maarten,1,1951,pap,"pap:#23(1,951)"
+Q103824,Hematology,1,1892,pi,"pi:#16(1,892)"
+Q1342955,Penile cancer,1,1884,zu,"zu:#28(1,884)"
+Q90085156,Impact of the COVID-19 pandemic on the environment,1,1877,xh,"xh:#29(1,877)"
+Q124407,Type 1 diabetes,1,1853,pam,"pam:#35(1,853)"
+Q326643,Hepatitis E,1,1847,ace,"ace:#10(1,847)"
+Q131543,Electroconvulsive therapy,1,1834,bar,"bar:#50(1,834)"
+Q193840,Asphyxia,1,1827,ay,"ay:#19(1,827)"
+Q120569,Gastroenterology,1,1822,pi,"pi:#17(1,822)"
+Q207172,Scalpel,1,1821,pam,"pam:#36(1,821)"
+Q7935312,Virus inactivation,1,1804,om,"om:#30(1,804)"
+Q204711,Food and Drug Administration,1,1801,yo,"yo:#33(1,801)"
+Q159557,Coma,1,1797,roa-rup,"roa-rup:#18(1,797)"
+Q6500773,General practitioner,1,1783,pi,"pi:#21(1,783)"
+Q188449,Neurosurgery,1,1782,pi,"pi:#22(1,782)"
+Q673083,Gingivitis,1,1767,lij,"lij:#23(1,767)"
+Q190528,Endorphins,1,1760,mzn,"mzn:#32(1,760)"
+Q628764,Occupational medicine,1,1733,pi,"pi:#23(1,733)"
+Q815614,MKUltra,1,1718,cv,"cv:#29(1,718)"
+Q381899,Fibrinogen,1,1684,om,"om:#31(1,684)"
+Q855769,Strain (biology),1,1684,kab,"kab:#27(1,684)"
+Q884825,DRF Luftrettung,1,1673,frr,"frr:#35(1,673)"
+Q125367,Carbon monoxide poisoning,1,1667,vls,"vls:#14(1,667)"
+Q422273,Clindamycin,1,1661,min,"min:#50(1,661)"
+Q202218,Diethyl ether,1,1659,zh-classical,"zh-classical:#48(1,659)"
+Q379842,Tetrodotoxin,1,1649,frr,"frr:#36(1,649)"
+Q1938952,Whole grain,1,1649,rn,"rn:#14(1,649)"
+Q209642,Music therapy,1,1648,fur,"fur:#15(1,648)"
+Q424165,Minoxidil,1,1631,xmf,"xmf:#46(1,631)"
+Q273924,Glycemic index,1,1605,pam,"pam:#40(1,605)"
+Q3560939,Inactivated vaccine,1,1598,km,"km:#46(1,598)"
+Q332428,Overweight,1,1597,ang,"ang:#18(1,597)"
+Q130741,Hallucination,1,1596,diq,"diq:#44(1,596)"
+Q1138584,Balanitis,1,1576,zu,"zu:#31(1,576)"
+Q2861470,Emergency medicine,1,1576,pi,"pi:#24(1,576)"
+Q88225303,COVID-19 pandemic in Madagascar,1,1572,yo,"yo:#40(1,572)"
+Q626292,Sugar substitute,1,1571,chy,"chy:#5(1,571)"
+Q958822,Maternity hospital,1,1552,ce,"ce:#12(1,552)"
+Q6452285,Ulcer (dermatology),1,1544,lg,"lg:#22(1,544)"
+Q327657,Rheumatology,1,1543,pi,"pi:#25(1,543)"
+Q374232,Lentivirus,1,1524,frr,"frr:#37(1,524)"
+Q60661815,Digital media use and mental health,1,1521,gpe,"gpe:#11(1,521)"
+Q7708739,Recreational drug use,1,1511,gv,"gv:#19(1,511)"
+Q179996,Methadone,1,1510,mzn,"mzn:#34(1,510)"
+Q169994,Smog,1,1480,frr,"frr:#38(1,480)"
+Q1682107,Jan Palfijn,1,1470,vls,"vls:#17(1,470)"
+Q203337,Pulmonology,1,1470,pi,"pi:#26(1,470)"
+Q170885,Essential oil,1,1455,tyv,"tyv:#27(1,455)"
+Q162657,Neurotransmitter,1,1438,lfn,"lfn:#42(1,438)"
+Q21005,Threshold limit value,1,1432,frr,"frr:#40(1,432)"
+Q1414480,Paraphimosis,1,1422,zu,"zu:#32(1,422)"
+Q13445028,Oral hygiene,1,1413,lij,"lij:#29(1,413)"
+Q268667,Atopic dermatitis,1,1410,lij,"lij:#30(1,410)"
+Q1263617,Common bile duct,1,1400,pam,"pam:#44(1,400)"
+Q494230,Medical school,1,1394,hak,"hak:#49(1,394)"
+Q736715,Chronic kidney disease,1,1386,pam,"pam:#45(1,386)"
+Q615166,Catherine Verfaillie,1,1386,vls,"vls:#18(1,386)"
+Q9050242,Nise da Silveira,1,1385,eml,"eml:#29(1,385)"
+Q633581,Cryonics,1,1368,mwl,"mwl:#18(1,368)"
+Q244408,Diclofenac,1,1358,guw,"guw:#2(1,358)"
+Q2197452,Callus,1,1348,nds-nl,"nds-nl:#21(1,348)"
+Q1868462,Local anesthetic,1,1347,lij,"lij:#31(1,347)"
+Q7024374,Far Eastern University – Nicanor Reyes Medical Foundation,1,1344,pam,"pam:#46(1,344)"
+Q27261089,Semaglutide,1,1340,gpe,"gpe:#12(1,340)"
+Q3299670,Blue zone,1,1332,sc,"sc:#40(1,332)"
+Q4824610,Australian Red Cross,1,1322,ti,"ti:#18(1,322)"
+Q655286,Gates Foundation,1,1321,pms,"pms:#29(1,321)"
+Q5088289,Chauncy Maples,1,1319,ny,"ny:#21(1,319)"
+Q3545481,Surgical oncology,1,1315,pi,"pi:#27(1,315)"
+Q3380154,Philippe Langlois,1,1315,nrm,"nrm:#11(1,315)"
+Q969096,Marie Simon,1,1305,hsb,"hsb:#9(1,305)"
+Q87708719,COVID-19 pandemic in Aruba,1,1302,pap,"pap:#25(1,302)"
+Q407418,Menthol,1,1301,frr,"frr:#42(1,301)"
+Q6868,Varicella zoster virus,1,1298,ace,"ace:#12(1,298)"
+Q407752,Neurotoxin,1,1297,gv,"gv:#22(1,297)"
+Q1908194,Vulvar cancer,1,1283,zu,"zu:#34(1,283)"
+Q1430816,Pediatric surgery,1,1278,pi,"pi:#28(1,278)"
+Q5031399,Cancer Association of Botswana,1,1275,tn,"tn:#9(1,275)"
+Q16775468,Elephantiasis,1,1259,rw,"rw:#37(1,259)"
+Q7653906,Social insurance,1,1256,csb,"csb:#19(1,256)"
+Q409192,Ketoprofen,1,1254,mwl,"mwl:#19(1,254)"
+Q886837,Blood test,1,1247,gom,"gom:#14(1,247)"
+Q4411598,Rotavirus vaccine,1,1245,yo,"yo:#47(1,245)"
+Q261659,Nanomedicine,1,1244,pam,"pam:#48(1,244)"
+Q326638,Rift Valley fever,1,1232,om,"om:#37(1,232)"
+Q238948,Mary Mallon,1,1226,gd,"gd:#48(1,226)"
+Q1145271,Schola Medica Salernitana,1,1222,nap,"nap:#12(1,222)"
+Q84081307,COVID-19 pandemic in Taiwan,1,1218,szy,"szy:#11(1,218)"
+Q233976,Frederick Gowland Hopkins,1,1209,yo,"yo:#48(1,209)"
+Q553079,Caregiver,1,1208,eml,"eml:#35(1,208)"
+Q192639,Glycoside,1,1207,tyv,"tyv:#31(1,207)"
+Q1147223,Whiplash (medicine),1,1203,nds-nl,"nds-nl:#23(1,203)"
+Q422669,Nitrofurantoin,1,1201,rw,"rw:#38(1,201)"
+Q2602563,Human nutrition,1,1180,ksh,"ksh:#12(1,180)"
+Q5803863,Penile discharge,1,1171,zu,"zu:#36(1,171)"
+Q46994,Telehealth,1,1166,km,"km:#50(1,166)"
+Q87714704,COVID-19 pandemic in Rwanda,1,1159,rw,"rw:#39(1,159)"
+Q741713,Panic disorder,1,1158,rn,"rn:#19(1,158)"
+Q6554101,Medical device,1,1152,hyw,"hyw:#27(1,152)"
+Q21136,Lethal dose,1,1151,frr,"frr:#45(1,151)"
+Q232583,Marcello Malpighi,1,1149,eml,"eml:#36(1,149)"
+Q860447,Emergency medical services,1,1149,mhr,"mhr:#9(1,149)"
+Q320011,Coprophagia,1,1139,pms,"pms:#34(1,139)"
+Q504775,Bladder cancer,1,1139,tcy,"tcy:#26(1,139)"
+Q189580,Acromegaly,1,1136,sc,"sc:#46(1,136)"
+Q235007,Cardiac surgery,1,1133,cv,"cv:#46(1,133)"
+Q11000047,Health system,1,1125,sc,"sc:#48(1,125)"
+Q27031231,Christine Kaseba,1,1121,ny,"ny:#24(1,121)"
+Q5467540,Forced pregnancy,1,1114,mai,"mai:#30(1,114)"
+Q1248662,Lucille Teasdale-Corti,1,1108,eml,"eml:#38(1,108)"
+Q177895,Astigmatism,1,1100,pms,"pms:#35(1,100)"
+Q520181,Hand sanitizer,1,1099,dag,"dag:#23(1,099)"
+Q152409,Zyklon B,1,1096,ksh,"ksh:#13(1,096)"
+Q17067160,Intraocular hemorrhage,1,1091,hyw,"hyw:#32(1,091)"
+Q2276095,Pattern hair loss,1,1088,eml,"eml:#39(1,088)"
+Q213410,Polyploidy,1,1079,stq,"stq:#12(1,079)"
+Q1325542,Stent,1,1079,chr,"chr:#17(1,079)"
+Q477415,Amputation,1,1076,ff,"ff:#5(1,076)"
+Q720988,Human genome,1,1073,cv,"cv:#50(1,073)"
+Q699462,Revenue stamp,1,1073,mt,"mt:#20(1,073)"
+Q423762,Paclitaxel,1,1065,vec,"vec:#34(1,065)"
+Q671776,Muteness,1,1060,ff,"ff:#6(1,060)"
+Q1583202,Foreskin restoration,1,1051,zu,"zu:#40(1,051)"
+Q112070734,2022–2023 mpox outbreak,1,1043,bjn,"bjn:#45(1,043)"
+Q624029,Medicine in the medieval Islamic world,1,1037,glk,"glk:#5(1,037)"
+Q202420,Cesare Lombroso,1,1036,pms,"pms:#37(1,036)"
+Q11002196,Mammaplasty,1,1033,eml,"eml:#41(1,033)"
+Q186005,Physical therapy,1,1032,nds-nl,"nds-nl:#25(1,032)"
+Q193166,Choline,1,1022,tyv,"tyv:#34(1,022)"
+Q17626455,Frances Ames,1,1014,ig,"ig:#36(1,014)"
+Q24033173,.med,1,1011,eml,"eml:#42(1,011)"
+Q154666,Bovine spongiform encephalopathy,1,1008,za,"za:#48(1,008)"
+Q202837,Cardiac arrest,1,1006,mai,"mai:#34(1,006)"
+Q6935478,Mumps vaccine,1,987,ti,ti:#21(987)
+Q5290213,Domestic violence and pregnancy,1,986,mai,mai:#35(986)
+Q17052573,National Health Laboratory Service,1,986,gpe,gpe:#16(986)
+Q1648484,Duchenne muscular dystrophy,1,971,pms,pms:#40(971)
+Q123811,Elisabeth Kübler-Ross,1,966,eml,eml:#43(966)
+Q131273,Naegleria fowleri,1,962,eml,eml:#44(962)
+Q237229,Metacarpal bones,1,951,arc,arc:#33(951)
+Q907325,Magnetic resonance angiography,1,951,ks,ks:#11(951)
+Q120958755,Piero Mozzi,1,950,eml,eml:#46(950)
+Q274029,Els Borst,1,948,zea,zea:#8(948)
+Q1134891,Pica (disorder),1,947,eml,eml:#47(947)
+Q813243,Ventilator,1,947,dag,dag:#28(947)
+Q592442,Prognosis,1,940,gpe,gpe:#17(940)
+Q14594748,Webbed penis,1,927,zu,zu:#45(927)
+Q541987,Trypanosoma,1,927,dag,dag:#29(927)
+Q574491,Bruise,1,923,eml,eml:#49(923)
+Q308978,Pressure ulcer,1,922,eml,eml:#50(922)
+Q3543611,2009 swine flu pandemic in the Philippines,1,921,ceb,ceb:#41(921)
+Q422416,Estradiol,1,920,glk,glk:#6(920)
+Q718753,Drug interaction,1,912,se,se:#25(912)
+Q1520446,Occupational noise,1,909,szl,szl:#28(909)
+Q388801,Furosemide,1,908,rw,rw:#42(908)
+Q87763738,COVID-19 pandemic in Karnataka,1,907,tcy,tcy:#30(907)
+Q20311061,Healthcare in Rwanda,1,906,rw,rw:#43(906)
+Q841408,Ethnobotany,1,906,ig,ig:#40(906)
+Q6844,Hepatitis B virus,1,905,wo,wo:#20(905)
+Q164778,Rotavirus,1,905,se,se:#26(905)
+Q690200,Radiobiology,1,904,pms,pms:#43(904)
+Q272436,Allergic rhinitis,1,901,szl,szl:#29(901)
+Q932510,General surgery,1,896,pi,pi:#31(896)
+Q156104,Nasal cavity,1,894,ary,ary:#36(894)
+Q154558,Corn (pathology),1,891,ksh,ksh:#15(891)
+Q1036696,Hypothermia,1,890,se,se:#28(890)
+Q191514,Cerbera odollam,1,889,to,to:#3(889)
+Q222634,Cleft lip and cleft palate,1,886,co,co:#16(886)
+Q192423,Nicotinamide,1,878,tyv,tyv:#36(878)
+Q21173843,Tumor necrosis factor,1,876,ext,ext:#32(876)
+Q844770,Cotton wool,1,869,ce,ce:#27(869)
+Q126888,Artificial heart,1,865,hyw,hyw:#49(865)
+Q16483,Graves' disease,1,862,gpe,gpe:#20(862)
+Q23749262,Penile injury,1,859,zu,zu:#46(859)
+Q2723068,Hypochondrium,1,858,arc,arc:#34(858)
+Q76509,Karl Jaspers,1,857,pms,pms:#44(857)
+Q105046325,Hutton Ayikwei Addy,1,851,gpe,gpe:#21(851)
+Q77409,Oswald Schmiedeberg,1,850,fiu-vro,fiu-vro:#45(850)
+Q3964845,Slow-wave sleep,1,841,cu,cu:#8(841)
+Q13181748,Tilganga Institute of Ophthalmology,1,837,mai,mai:#39(837)
+Q6085295,Preputioplasty,1,824,zu,zu:#47(824)
+Q100256343,Daniel Ngamije,1,814,rw,rw:#46(814)
+Q107674451,COVID-19 lab leak theory,1,812,pdc,pdc:#9(812)
+Q808132,Barefoot,1,808,pdc,pdc:#10(808)
+Q7075149,Obligate nasal breathing,1,807,xh,xh:#34(807)
+Q89404,Jacob L. Moreno,1,801,lad,lad:#7(801)
+Q612681,Anuria,1,798,lg,lg:#35(798)
+Q193566,Incubation period,1,791,awa,awa:#16(791)
+Q1290616,Epidemic typhus,1,787,csb,csb:#30(787)
+Q64497848,Gbenga Ogedegbe,1,783,pcm,pcm:#9(783)
+Q1350326,Frostbite,1,782,ik,ik:#4(782)
+Q2360849,Strongyloidiasis,1,779,rn,rn:#20(779)
+Q624758,Psychopathology,1,772,kbp,kbp:#36(772)
+Q14859627,Vasodilation,1,772,co,co:#17(772)
+Q311187,Francesco Redi,1,769,mwl,mwl:#21(769)
+Q692573,Cold turkey,1,765,vls,vls:#21(765)
+Q412158,Pregnenolone,1,763,nds-nl,nds-nl:#29(763)
+Q821711,Plague of Justinian,1,758,mai,mai:#41(758)
+Q1385195,Extracorporeal membrane oxygenation,1,758,tcy,tcy:#32(758)
+Q22080012,"University of Medical Sciences, Ondo",1,758,gpe,gpe:#24(758)
+Q935129,Postpartum depression,1,757,tcy,tcy:#33(757)
+Q215574,Mario Capecchi,1,755,vec,vec:#43(755)
+Q84055514,COVID-19 pandemic in India,1,749,mai,mai:#43(749)
+Q574942,Hypertonia,1,749,mt,mt:#26(749)
+Q180442,World Medical Association,1,748,rw,rw:#48(748)
+Q223911,Sarcoma,1,747,szy,szy:#22(747)
+Q1067560,Vital signs,1,745,chr,chr:#20(745)
+Q273318,Syringe,1,743,csb,csb:#32(743)
+Q273219,António Egas Moniz,1,742,mwl,mwl:#22(742)
+Q852186,Mushroom poisoning,1,742,csb,csb:#33(742)
+Q164790,Albert Sabin,1,738,mwl,mwl:#23(738)
+Q753904,Rheumatic fever,1,734,om,om:#43(734)
+Q916280,Restless legs syndrome,1,732,lg,lg:#37(732)
+Q1647794,Breast cyst,1,713,mai,mai:#44(713)
+Q1988216,Oxygen therapy,1,712,lij,lij:#38(712)
+Q137106,Howard Florey,1,711,se,se:#34(711)
+Q577902,Magen David Adom,1,706,lad,lad:#8(706)
+Q506616,Drowning,1,703,ext,ext:#34(703)
+Q767485,Respiratory failure,1,703,lij,lij:#39(703)
+Q93128,William Harvey,1,702,ce,ce:#31(702)
+Q3776837,Chordee,1,701,zu,zu:#49(701)
+Q207877,Phosphine,1,700,xh,xh:#35(700)
+Q182672,Zoonosis,1,695,kcg,kcg:#13(695)
+Q1501844,Semen analysis,1,691,ext,ext:#35(691)
+Q666011,Psychedelia,1,685,ary,ary:#44(685)
+Q38579,Cynophobia,1,674,vep,vep:#32(674)
+Q1146379,Comedo,1,668,csb,csb:#36(668)
+Q68854,Snakebite,1,665,lg,lg:#40(665)
+Q646347,Indoor tanning,1,663,zea,zea:#10(663)
+Q2874649,Awa Marie Coll-Seck,1,661,wo,wo:#21(661)
+Q87866152,COVID-19 lockdowns,1,659,ug,ug:#37(659)
+Q1784782,Venereology,1,657,tyv,tyv:#39(657)
+Q931309,Medical imaging,1,657,ks,ks:#22(657)
+Q662185,Choanal atresia,1,656,xh,xh:#36(656)
+Q18975243,Coronavirus diseases,1,655,kcg,kcg:#14(655)
+Q249978,Eva Klein,1,653,myv,myv:#18(653)
+Q83873577,COVID-19 pandemic in the United States,1,652,ug,ug:#38(652)
+Q152121,Eurotransplant,1,650,ksh,ksh:#17(650)
+Q125676207,"Federal University of Health Sciences, Azare",1,644,dag,dag:#41(644)
+Q7461716,Wilhelmus Zakaria Johannes,1,644,ban,ban:#26(644)
+Q729735,Chronic myelogenous leukemia,1,642,mwl,mwl:#24(642)
+Q463557,Rand Paul,1,640,bi,bi:#8(640)
+Q410358,Salbutamol,1,637,ary,ary:#45(637)
+Q97154233,CoronaVac,1,636,lo,lo:#27(636)
+Q525512,Pathogen transmission,1,636,dag,dag:#45(636)
+Q5428384,Face shield,1,633,dag,dag:#46(633)
+Q713874,John Forbes Royle,1,631,ilo,ilo:#49(631)
+Q2458539,Skin infection,1,631,lg,lg:#41(631)
+Q468414,Angiography,1,629,ks,ks:#24(629)
+Q152289,Hemispatial neglect,1,625,ksh,ksh:#18(625)
+Q1132870,Tourniquet,1,622,chr,chr:#22(622)
+Q213151,Kwashiorkor,1,619,lij,lij:#42(619)
+Q216866,Conjoined twins,1,619,csb,csb:#38(619)
+Q690838,Vasectomy,1,615,ary,ary:#47(615)
+Q5977995,Xinjiang Medical University,1,613,ug,ug:#39(613)
+Q92307203,Case fatality rate,1,608,dag,dag:#50(608)
+Q622427,Ptosis (eyelid),1,607,ext,ext:#37(607)
+Q15138772,Lochia,1,603,arc,arc:#35(603)
+Q10916362,Dizziness,1,603,tw,tw:#34(603)
+Q623031,Liver cancer,1,599,tw,tw:#35(599)
+Q88460663,COVID-19 pandemic in Myanmar,1,599,shn,shn:#8(599)
+Q297776,Dioscorides,1,595,mwl,mwl:#25(595)
+Q202013,Nosebleed,1,591,szy,szy:#27(591)
+Q941910,WHO classification of tumours of the central nervous system,1,587,anp,anp:#23(587)
+Q232336,Sabina Spielrein,1,586,myv,myv:#22(586)
+Q503968,Sphygmomanometer,1,585,pms,pms:#48(585)
+Q7239891,Pregnancy from rape,1,584,mai,mai:#47(584)
+Q2510520,Splinter,1,579,nds-nl,nds-nl:#31(579)
+Q422225,Actinic keratosis,1,576,lij,lij:#43(576)
+Q6719390,MV Chauncy Maples,1,575,ny,ny:#35(575)
+Q5467518,Forced circumcision,1,574,ig,ig:#47(574)
+Q155768,Joseph Lister,1,570,szy,szy:#29(570)
+Q18702358,Womey massacre,1,569,gpe,gpe:#26(569)
+Q763244,Blood bank,1,569,gom,gom:#20(569)
+Q188638,Mood disorder,1,566,kcg,kcg:#20(566)
+Q1066061,Diverticulitis,1,564,gpe,gpe:#27(564)
+Q1547639,Patellar reflex,1,564,se,se:#39(564)
+Q827390,Gastrectomy,1,563,kw,kw:#28(563)
+Q2137327,Menstrual disorder,1,558,tw,tw:#40(558)
+Q859247,Lazaretto,1,555,co,co:#20(555)
+Q1406569,Leper colony,1,555,os,os:#25(555)
+Q28578,Appetite,1,546,ext,ext:#38(546)
+Q16035842,Hearing loss,1,538,mwl,mwl:#26(538)
+Q2197000,Exhalation,1,533,ay,ay:#39(533)
+Q1364965,Obstetrical forceps,1,530,chr,chr:#23(530)
+Q1458711,Harm reduction,1,528,ug,ug:#42(528)
+Q196788,Cervical intraepithelial neoplasia,1,522,szy,szy:#33(522)
+Q4198174,Izhevsk State Medical Academy,1,522,udm,udm:#6(522)
+Q6623793,List of human disease case fatality rates,1,519,se,se:#41(519)
+Q7089955,Omdurman Islamic University,1,510,gpe,gpe:#29(510)
+Q120424,Balsam of Peru,1,509,csb,csb:#42(509)
+Q282142,Glioblastoma,1,506,gpe,gpe:#30(506)
+Q557429,Acute (medicine),1,506,kcg,kcg:#22(506)
+Q50410669,Disease X,1,503,kcg,kcg:#23(503)
+Q104853646,Bayelsa Medical University,1,502,gpe,gpe:#32(502)
+Q514110,Grunya Sukhareva,1,499,myv,myv:#26(499)
+Q1898104,Myeloproliferative neoplasm,1,497,szl,szl:#36(497)
+Q1707504,Gutter oil,1,496,ami,ami:#9(496)
+Q85173778,COVID-19 misinformation,1,492,ug,ug:#46(492)
+Q696265,Mosquito net,1,492,rn,rn:#22(492)
+Q730937,Trichinella spiralis,1,487,csb,csb:#43(487)
+Q520127,Periodontal disease,1,486,trv,trv:#9(486)
+Q17231052,N95 respirator,1,483,co,co:#21(483)
+Q274095,Rigor mortis,1,480,chr,chr:#24(480)
+Q411478,Fluconazole,1,479,nso,nso:#15(479)
+Q737510,Pulmonary aspiration,1,475,ay,ay:#40(475)
+Q424049,Loratadine,1,475,mwl,mwl:#27(475)
+Q506319,Generic drug,1,475,bpy,bpy:#9(475)
+Q28209496,Remdesivir,1,472,ug,ug:#47(472)
+Q1996053,Chronic pancreatitis,1,460,szy,szy:#35(460)
+Q559926,Maurice Bucaille,1,459,av,av:#22(459)
+Q1163564,Screening (medicine),1,455,se,se:#43(455)
+Q2300099,Gastrointestinal disease,1,455,tw,tw:#46(455)
+Q659001,Whitlow,1,453,csb,csb:#46(453)
+Q193216,Trachoma,1,449,awa,awa:#26(449)
+Q3875054,Neuro-oncology,1,444,mt,mt:#30(444)
+Q1135338,Bell's palsy,1,444,ug,ug:#49(444)
+Q948232,Coal tar,1,444,skr,skr:#7(444)
+Q3306168,C. Everett Koop,1,443,ace,ace:#14(443)
+Q87775025,Moderna COVID-19 vaccine,1,438,lo,lo:#30(438)
+Q266332,Compulsive behavior,1,438,nap,nap:#19(438)
+Q4517638,Calomel,1,437,csb,csb:#47(437)
+Q33244,Trypanosoma brucei,1,436,roa-tara,roa-tara:#3(436)
+Q28406142,Lagos State University College of Medicine,1,433,gpe,gpe:#36(433)
+Q214209,Peter Medawar,1,433,gom,gom:#23(433)
+Q1424434,Réseau Sentinelles,1,432,co,co:#22(432)
+Q120666157,Diagnosis of autism,1,431,gpe,gpe:#37(431)
+Q492762,Recall bias,1,431,pfl,pfl:#5(431)
+Q2141001,Chilblains,1,424,kcg,kcg:#25(424)
+Q1550742,Genu varum,1,422,nds-nl,nds-nl:#32(422)
+Q862034,Rockefeller Foundation,1,422,gom,gom:#24(422)
+Q948318,Polycythemia vera,1,420,szl,szl:#38(420)
+Q1414967,Radiocontrast agent,1,420,ks,ks:#35(420)
+Q1818307,Lentigo,1,414,vls,vls:#23(414)
+Q535364,Angelman syndrome,1,414,gpe,gpe:#40(414)
+Q606216,Ageusia,1,413,mwl,mwl:#29(413)
+Q2306782,Hypochromic anemia,1,413,csb,csb:#48(413)
+Q6425732,Kofo Abayomi,1,413,kcg,kcg:#26(413)
+Q909741,Temperature measurement,1,410,gom,gom:#25(410)
+Q736776,Tennis elbow,1,406,se,se:#45(406)
+Q42616004,Autoimmune disease in women,1,404,mad,mad:#12(404)
+Q103598,Luc Montagnier,1,404,vo,vo:#13(404)
+Q46006,Boswellia,1,403,gv,gv:#28(403)
+Q7117196,Pundalik Gaitonde,1,399,gom,gom:#26(399)
+Q834280,Bupropion,1,397,ks,ks:#37(397)
+Q3420507,Ray Farquharson,1,396,tn,tn:#11(396)
+Q87976629,COVID-19 pandemic in Zambia,1,396,ny,ny:#36(396)
+Q2200381,Neurogenic shock,1,394,csb,csb:#49(394)
+Q87746177,COVID-19 pandemic in Hawaii,1,392,haw,haw:#10(392)
+Q3648090,Libyan International Medical University,1,391,gpe,gpe:#41(391)
+Q1192036,Microsleep,1,390,mhr,mhr:#14(390)
+Q59268468,P. S. Ramani,1,388,gom,gom:#27(388)
+Q380295,Barhebraeus,1,386,arc,arc:#36(386)
+Q514030,Mbarara University,1,386,gpe,gpe:#42(386)
+Q1024492,Computed tomography angiography,1,381,ks,ks:#43(381)
+Q10400561,Actinomucor elegans,1,374,szl,szl:#39(374)
+Q2329068,African traditional medicine,1,374,nso,nso:#16(374)
+Q568378,Emaciation,1,371,szy,szy:#42(371)
+Q9206884,Medical diagnosis,1,368,gpe,gpe:#44(368)
+Q1805666,Blood lancet,1,368,ce,ce:#46(368)
+Q205835,Snoring,1,363,myv,myv:#29(363)
+Q193045,Tetracycline,1,362,guw,guw:#13(362)
+Q3115198,Wolfiporia extensa,1,361,szl,szl:#41(361)
+Q2671076,Information-theoretic death,1,360,mwl,mwl:#30(360)
+Q30254007,Jos University Teaching Hospital,1,360,gpe,gpe:#46(360)
+Q1811189,Obstructed labour,1,359,mad,mad:#14(359)
+Q131924,Cryptococcus neoformans,1,357,szl,szl:#42(357)
+Q6849688,Contrast agent,1,356,ks,ks:#49(356)
+Q620462,Thanatology,1,352,mwl,mwl:#31(352)
+Q945238,Peripheral neuropathy,1,352,gpe,gpe:#47(352)
+Q741964,Search and rescue,1,349,iu,iu:#16(349)
+Q94857,Peganum harmala,1,347,hsb,hsb:#19(347)
+Q2140711,Dancing mania,1,345,nds-nl,nds-nl:#33(345)
+Q7277881,"RTS,S",1,343,ny,ny:#37(343)
+Q1774898,Clinic,1,342,nia,nia:#20(342)
+Q107302308,Wellbeing services counties,1,341,smn,smn:#12(341)
+Q210427,Cerebral palsy,1,338,ce,ce:#47(338)
+Q95042269,Oxford–AstraZeneca COVID-19 vaccine,1,337,gag,gag:#1(337)
+Q637883,Endoscopic retrograde cholangiopancreatography,1,336,mwl,mwl:#32(336)
+Q920542,Samuel George Morton,1,333,gpe,gpe:#49(333)
+Q815819,Atrial fibrillation,1,327,inh,inh:#27(327)
+Q4794092,Ogino Ginko,1,325,nqo,nqo:#11(325)
+Q160821,Vibrio cholerae,1,323,av,av:#24(323)
+Q3513591,Birthmark,1,321,gor,gor:#13(321)
+Q2704244,Alternaria alternata,1,319,szl,szl:#43(319)
+Q2909116,Limp,1,316,ff,ff:#11(316)
+Q62584211,Simon Onwu,1,315,pcm,pcm:#14(315)
+Q211514,Frederik van Eeden,1,313,vo,vo:#15(313)
+Q18683756,Abdulmumini Hassan Rafindadi,1,313,igl,igl:#1(313)
+Q76560,Antidepressant,1,310,pap,pap:#37(310)
+Q5205754,DNA digital data storage,1,309,pcd,pcd:#13(309)
+Q89164046,COVID-19 pandemic in Botswana,1,304,tn,tn:#12(304)
+Q194168,Antidote,1,300,kcg,kcg:#28(300)
+Q411417,Cefalexin,1,300,guw,guw:#15(300)
+Q6741353,Malaria vaccine,1,299,ny,ny:#38(299)
+Q216997,Menstrual cup,1,298,smn,smn:#13(298)
+Q754424,Apnea,1,297,ik,ik:#9(297)
+Q208562,Marfan syndrome,1,295,lij,lij:#48(295)
+Q558070,Pelvic inflammatory disease,1,295,mad,mad:#23(295)
+Q5300189,Doubt Is Their Product,1,295,pfl,pfl:#6(295)
+Q76495,Constantine Hering,1,291,ie,ie:#18(291)
+Q816459,Ben Carson,1,286,pcm,pcm:#15(286)
+Q3218739,Laure-Marie Kawanda,1,280,kg,kg:#3(280)
+Q7287916,Ralph Northam,1,274,kw,kw:#41(274)
+Q18749082,Harriet Mayanja-Kizza,1,266,lg,lg:#48(266)
+Q2261128,Gabriele d'Annunzio University,1,265,ace,ace:#15(265)
+Q7863610,U937 (cell line),1,264,ext,ext:#41(264)
+Q693908,Arnica,1,263,lld,lld:#10(263)
+Q2069249,Stachybotrys chartarum,1,262,szl,szl:#44(262)
+Q1025306,Ernst Muldashev,1,262,mhr,mhr:#18(262)
+Q57248493,Irene Condachi,1,261,mt,mt:#34(261)
+Q478389,Kyphosis,1,261,myv,myv:#33(261)
+Q78479,Julius Wagner-Jauregg,1,255,mt,mt:#35(255)
+Q75901226,Oladipo Ogunlesi,1,254,ff,ff:#14(254)
+Q1129007,Angioedema,1,254,ff,ff:#15(254)
+Q1364270,Hypertrophic cardiomyopathy,1,254,inh,inh:#28(254)
+Q1671046,Whole-body vibration,1,251,mwl,mwl:#34(251)
+Q2351083,Metabolic disorder,1,249,kcg,kcg:#30(249)
+Q1549382,Asymptomatic carrier,1,248,ami,ami:#11(248)
+Q5567335,Glaydah Namukasa,1,247,lg,lg:#49(247)
+Q6451172,Morgue,1,247,kcg,kcg:#31(247)
+Q1790295,Suction,1,243,gan,gan:#35(243)
+Q228036,Caesarean section,1,242,mad,mad:#26(242)
+Q1137072,Hindbrain,1,242,inh,inh:#29(242)
+Q98733574,Monica Musenero,1,241,lg,lg:#50(241)
+Q673068,Rega (air rescue),1,240,frp,frp:#18(240)
+Q4926898,Blissful ignorance effect,1,239,pfl,pfl:#7(239)
+Q134478,Pneumocystis jirovecii,1,237,szl,szl:#45(237)
+Q2268776,Lying (position),1,234,guc,guc:#5(234)
+Q153678,2008 Zimbabwean cholera outbreak,1,233,ksh,ksh:#19(233)
+Q2244564,Honoria Acosta-Sison,1,232,tyv,tyv:#44(232)
+Q4746476,Aminu Safana,1,231,guw,guw:#17(231)
+Q4153921,Dagestan State Medical University,1,230,ce,ce:#50(230)
+Q150630,Camillo Golgi,1,230,skr,skr:#16(230)
+Q179894,Pantothenic acid,1,228,lo,lo:#47(228)
+Q1476188,Resusci Anne,1,226,lij,lij:#50(226)
+Q3064664,DSM-5,1,226,ban,ban:#43(226)
+Q271759,Porphyria,1,226,kw,kw:#44(226)
+Q492514,Menarche,1,224,mad,mad:#29(224)
+Q268828,Crutch,1,223,szy,szy:#49(223)
+Q660910,Neurophysiology,1,223,anp,anp:#38(223)
+Q1033379,Medical cannabis,1,223,mi,mi:#5(223)
+Q1001150,Fibrillation,1,222,inh,inh:#30(222)
+Q7218,Toxicology,1,222,nqo,nqo:#13(222)
+Q1362721,Tuberous sclerosis,1,220,dz,dz:#4(220)
+Q764068,Agaricus subrufescens,1,217,szl,szl:#46(217)
+Q899868,Intrauterine device,1,217,mad,mad:#32(217)
+Q1444064,Walker (mobility),1,215,ff,ff:#19(215)
+Q944142,Suicidal ideation,1,215,nso,nso:#19(215)
+Q3301793,Hydrocele testis,1,213,din,din:#44(213)
+Q1411725,Crawling (human),1,213,kcg,kcg:#32(213)
+Q6797306,Mayinga N'Seka,1,212,kg,kg:#4(212)
+Q5446479,Fibrothorax,1,211,kaa,kaa:#25(211)
+Q518978,World Tuberculosis Day,1,210,ab,ab:#5(210)
+Q6301957,Jibril Aminu,1,208,guw,guw:#19(208)
+Q28664564,Asiyat Tutaeva,1,207,inh,inh:#32(207)
+Q12271808,Anastasia Golovina,1,206,mt,mt:#39(206)
+Q2339132,Postpartum psychosis,1,206,mad,mad:#37(206)
+Q970203,Milk allergy,1,204,nup,nup:#2(204)
+Q3243069,Red meat,1,204,zgh,zgh:#9(204)
+Q374418,Glottis,1,203,av,av:#27(203)
+Q4903638,Bicipital tenosynovitis,1,201,jbo,jbo:#22(201)
+Q1858291,Hot flash,1,200,bbc,bbc:#5(200)
+Q143138,Candida tropicalis,1,192,szl,szl:#47(192)
+Q923164,Expressive aphasia,1,192,gv,gv:#29(192)
+Q768888,Miliaria,1,191,gan,gan:#37(191)
+Q5691285,Healthcare in Malawi,1,189,tum,tum:#7(189)
+Q4120645,Flu season,1,188,blk,blk:#31(188)
+Q474458,Erotic electrostimulation,1,186,kaa,kaa:#27(186)
+Q1188366,World Health Assembly,1,186,kus,kus:#4(186)
+Q11812511,Minister for Health (Ghana),1,186,dga,dga:#2(186)
+Q7209783,Polio in Pakistan,1,185,tn,tn:#15(185)
+Q881855,Molar pregnancy,1,185,mad,mad:#41(185)
+Q469723,Nadezhda Suslova,1,182,tyv,tyv:#45(182)
+Q898906,Iatrochemistry,1,182,blk,blk:#32(182)
+Q4519653,Self-care,1,182,ann,ann:#5(182)
+Q22530,Auguste Forel,1,181,ie,ie:#24(181)
+Q143790,Alien hand syndrome,1,181,pag,pag:#4(181)
+Q376680,Traumatology,1,181,tly,tly:#10(181)
+Q900189,HPV vaccine,1,180,mad,mad:#45(180)
+Q16728304,John Cunningham (physician),1,177,ff,ff:#22(177)
+Q3508797,Obstructive lung disease,1,176,se,se:#49(176)
+Q1068134,Morning sickness,1,176,mad,mad:#46(176)
+Q12509074,Dr. Cipto Mangunkusumo Hospital,1,175,bew,bew:#25(175)
+Q24897084,Roseline Konya,1,171,knc,knc:#17(171)
+Q5157010,Comprehensive metabolic panel,1,170,jbo,jbo:#23(170)
+Q920134,French paradox,1,170,nrm,nrm:#18(170)
+Q26703675,Masuma Anwar,1,169,skr,skr:#18(169)
+Q43402454,Borna Nyaoke-Anoke,1,168,tn,tn:#16(168)
+Q64853017,Fardosa Ahmed,1,166,tn,tn:#17(166)
+Q177254,Farsightedness,1,166,bew,bew:#26(166)
+Q5251660,Defocus aberration,1,165,kcg,kcg:#34(165)
+Q1318451,Transfusion medicine,1,165,krc,krc:#5(165)
+Q27777764,Nadine Caron,1,164,atj,atj:#5(164)
+Q83598,Hermann Joseph Muller,1,158,tn,tn:#18(158)
+Q25658398,Fatima Aziz,1,158,nup,nup:#3(158)
+Q311343,Malassezia furfur,1,157,szl,szl:#48(157)
+Q3292925,Maria Manaseina,1,155,tyv,tyv:#47(155)
+Q1788046,Traditional healers of Southern Africa,1,153,ts,ts:#25(153)
+Q2263705,Paul Farmer,1,152,vo,vo:#17(152)
+Q506253,Dendritic cell,1,152,smn,smn:#15(152)
+Q214403,Brine,1,152,kge,kge:#7(152)
+Q6900886,Monkeypox virus,1,148,tn,tn:#19(148)
+Q121740665,Tunji Alausa,1,148,ff,ff:#25(148)
+Q58305043,Dorothy Pantin,1,145,gv,gv:#32(145)
+Q118112188,Jonathan Jacob Meijer,1,143,nia,nia:#26(143)
+Q7577590,Spinnbarkeit,1,141,ff,ff:#26(141)
+Q19568850,Abortion in Botswana,1,140,tn,tn:#20(140)
+Q60694497,Gao Changqing,1,137,vo,vo:#20(137)
+Q474547,Tiberius Cornelis Winkler,1,137,vo,vo:#21(137)
+Q365909,Thomas Bartholin,1,136,gv,gv:#33(136)
+Q349843,Allied health professionals,1,136,kw,kw:#47(136)
+Q3746560,Phlegm,1,136,bew,bew:#37(136)
+Q3249647,Slave breeding in the United States,1,133,tn,tn:#21(133)
+Q144068,Candida parapsilosis,1,132,szl,szl:#49(132)
+Q18399739,Samarkand State Medical University,1,129,kaa,kaa:#31(129)
+Q13439429,Biomedical sciences,1,128,bew,bew:#41(128)
+Q22279468,Cecilia Omaile Ojabo,1,127,ff,ff:#27(127)
+Q12833763,Klas August Linderfelt,1,126,vo,vo:#22(126)
+Q58588,Johann Friedrich Blumenbach,1,126,knc,knc:#19(126)
+Q17626836,Bongani Mayosi,1,124,xh,xh:#41(124)
+Q622527,Self-harm,1,124,pap,pap:#47(124)
+Q274615,Kuru (disease),1,124,ki,ki:#12(124)
+Q174936,Glycogen,1,124,fj,fj:#21(124)
+Q180007,Syncope (medicine),1,124,bdr,bdr:#6(124)
+Q701216,Pharmacotherapy,1,123,kaa,kaa:#32(123)
+Q8031191,Women's health,1,122,ts,ts:#28(122)
+Q85760711,"Federal Medical Centre, Bida",1,122,ff,ff:#28(122)
+Q797668,Babesiosis,1,121,kaa,kaa:#33(121)
+Q5442904,Feminization (biology),1,120,kaa,kaa:#34(120)
+Q2473198,Bibian Mentel,1,120,vo,vo:#23(120)
+Q918396,National Health Service,1,120,syl,syl:#4(120)
+Q2901773,Bidhan Chandra Roy,1,119,dty,dty:#29(119)
+Q3570660,Xavier Dor,1,119,vo,vo:#24(119)
+Q23010232,Japan Agency for Medical Research and Development,1,119,ff,ff:#29(119)
+Q26923140,Emil J. Freireich,1,118,vo,vo:#25(118)
+Q3296177,Mary Esther Harding,1,118,avk,avk:#2(118)
+Q1172159,Pimple,1,117,ki,ki:#13(117)
+Q85005219,Lin Zhengbin,1,117,vo,vo:#26(117)
+Q20737451,Elizabeth Abimbola Awoliyi,1,117,ff,ff:#30(117)
+Q112859346,2022–2023 mpox outbreak in South Africa,1,115,tn,tn:#22(115)
+Q567576,Anomic aphasia,1,115,gv,gv:#35(115)
+Q23882823,Barbara Sampson,1,115,ff,ff:#31(115)
+Q507878,James Learmonth Gowans,1,114,vo,vo:#27(114)
+Q108167288,Tetiana Ostashchenko,1,112,mt,mt:#40(112)
+Q635495,Sleep-talking,1,111,ki,ki:#14(111)
+Q317196,Rheum,1,110,ki,ki:#15(110)
+Q97478873,Gladys Ejomi,1,109,tn,tn:#23(109)
+Q423888,Apitoxin,1,109,os,os:#38(109)
+Q1476366,Judith Esser-Mittag,1,109,vo,vo:#28(109)
+Q149791,Cryptococcus gattii,1,108,szl,szl:#50(108)
+Q85245727,Liang Wudong,1,108,vo,vo:#29(108)
+Q8009341,William Frankland (allergist),1,108,vo,vo:#30(108)
+Q423075,Cetirizine,1,108,blk,blk:#34(108)
+Q48699962,Harvey White (surgeon),1,107,ff,ff:#33(107)
+Q7412097,Samuel Manuwa,1,106,ff,ff:#34(106)
+Q55634823,Ada Sue Hinshaw,1,106,ff,ff:#35(106)
+Q23988363,Anne Ceridwen Rees,1,105,tn,tn:#24(105)
+Q1470152,Coronal plane,1,105,pap,pap:#50(105)
+Q6786626,Maternal health,1,105,dty,dty:#30(105)
+Q110974,James Black (pharmacologist),1,105,vo,vo:#31(105)
+Q3048515,Farquhar Buzzard,1,105,ff,ff:#36(105)
+Q66360952,Brain natriuretic peptide 32,1,104,kaa,kaa:#35(104)
+Q17386071,Huw Thomas (physician),1,103,ff,ff:#37(103)
+Q110463569,Arnold Aberman,1,103,guw,guw:#21(103)
+Q76432,Rudolf Virchow,1,102,ie,ie:#25(102)
+Q91252955,Manjeet Singh Riyat,1,102,vo,vo:#32(102)
+Q92404,Alexandra Kluge,1,102,vo,vo:#33(102)
+Q16948472,Mammaglobin,1,101,bbc,bbc:#6(101)
+Q4706601,Alan Farthing,1,100,ff,ff:#39(100)
+Q17109134,Lagos University Teaching Hospital,1,100,ff,ff:#40(100)
+Q77405,Marianne Koch,1,99,vo,vo:#34(99)
+Q18674317,Peter Freyer,1,99,ff,ff:#41(99)
+Q114564137,Mary E. Brunkow,1,99,smn,smn:#17(99)
+Q88719792,John F. Murray,1,97,vo,vo:#35(97)
+Q15995740,James Sherren,1,97,ff,ff:#42(97)
+Q5901709,"Horace Evans, 1st Baron Evans",1,96,ff,ff:#43(96)
+Q85853582,Jean Garrabé,1,95,vo,vo:#36(95)
+Q1666254,Intermittent fasting,1,94,xh,xh:#43(94)
+Q110966333,Wilmer Ophthalmological Institute,1,94,ff,ff:#44(94)
+Q107677600,Richard Cruise,1,94,ff,ff:#45(94)
+Q29642280,Tom Arie,1,92,vo,vo:#37(92)
+Q246070,Cystadenoma,1,92,ff,ff:#46(92)
+Q4088082,Blennorrhea,1,91,ff,ff:#47(91)
+Q924146,Rodenticide,1,91,mdf,mdf:#20(91)
+Q29642603,Peter Dunn (paediatrician),1,90,vo,vo:#38(90)
+Q105605,Jules A. Hoffmann,1,90,vo,vo:#39(90)
+Q11334968,Blue boy trial,1,90,ff,ff:#49(90)
+Q61161331,Stephen Schwartz (pathologist),1,89,vo,vo:#40(89)
+Q5381909,Eosinophiluria,1,89,ff,ff:#50(89)
+Q18347605,West African Ebola virus epidemic timeline,1,88,jbo,jbo:#24(88)
+Q6246522,John Mallard,1,86,vo,vo:#41(86)
+Q15825712,Leslie Iversen,1,86,vo,vo:#42(86)
+Q1536343,Reproductive rights,1,84,skr,skr:#21(84)
+Q42478807,Đuro Macut,1,83,ie,ie:#26(83)
+Q2057588,Patrick Forrest,1,83,vo,vo:#43(83)
+Q618211,Optometry,1,83,skr,skr:#23(83)
+Q424200,Snake venom,1,83,kge,kge:#10(83)
+Q84737258,Hong Ling (geneticist),1,82,vo,vo:#44(82)
+Q4793379,Valerie Beral,1,82,vo,vo:#45(82)
+Q8068279,Zebra (medicine),1,82,pfl,pfl:#8(82)
+Q75847,Harald zur Hausen,1,81,iba,iba:#16(81)
+Q335003,Michael DeBakey,1,79,tly,tly:#13(79)
+Q838960,Stretcher,1,79,tly,tly:#14(79)
+Q653971,Indigestion,1,78,ki,ki:#16(78)
+Q305641,Abasia,1,77,kaa,kaa:#40(77)
+Q29642269,Mary Anderson (gynaecologist),1,77,vo,vo:#47(77)
+Q11984849,Self-hatred,1,77,syl,syl:#9(77)
+Q4452982,Tashkent Medical Academy,1,76,kaa,kaa:#42(76)
+Q2055563,Harrison Allen,1,75,knc,knc:#24(75)
+Q114418346,William Anderson Soga,1,74,xh,xh:#44(74)
+Q5903802,Gender-affirming hormone therapy,1,74,tok,tok:#1(74)
+Q19668852,Asma Lamrabet,1,73,skr,skr:#25(73)
+Q12702379,Salma Ismail,1,72,dtp,dtp:#12(72)
+Q7298860,Raymond Hoffenberg,1,70,vo,vo:#48(70)
+Q983898,Maurice Hilleman,1,70,vo,vo:#49(70)
+Q658456,Jan Garavaglia,1,69,dtp,dtp:#13(69)
+Q17502433,Shimon Sakaguchi,1,68,smn,smn:#18(68)
+Q273791,Edith Lucie Bongo,1,67,tn,tn:#26(67)
+Q3426650,René Mornex,1,65,vo,vo:#50(65)
+Q238419,Wafa Sultan,1,64,nup,nup:#4(64)
+Q1563850,Cenn Fáelad mac Ailella,1,62,ang,ang:#22(62)
+Q7388707,SAPS III,1,62,nso,nso:#20(62)
+Q2436868,Henry Maudsley,1,60,skr,skr:#29(60)
+Q109968860,Roshanak Wardak,1,58,skr,skr:#30(58)
+Q193550,Macfarlane Burnet,1,58,skr,skr:#31(58)
+Q2661443,Endocrine disease,1,57,av,av:#28(57)
+Q6398896,Rosendo Ribeiro,1,56,ki,ki:#17(56)
+Q937024,Phenocopy,1,55,kaa,kaa:#45(55)
+Q57903326,Mosa Moshabela,1,53,xh,xh:#45(53)
+Q6958181,Nafis Sadik,1,51,skr,skr:#33(51)
+Q584135,Antitoxin,1,47,rki,rki:#18(47)
+Q3374535,Constance Calenda,1,46,dtp,dtp:#15(46)
+Q2937649,Captain Novolin,1,43,lld,lld:#13(43)
+Q276312,Marie Elizabeth Zakrzewska,1,43,dtp,dtp:#16(43)
+Q79134,Barbara Nath-Wiser,1,42,dtp,dtp:#17(42)
+Q30513802,Sarah Gilbert,1,41,skr,skr:#34(41)
+Q18151686,Liftware,1,39,kaa,kaa:#49(39)
+Q110981342,Faustina Oware-Gyekye,1,39,ty,ty:#3(39)
+Q977933,Manuel Elkin Patarroyo,1,38,dtp,dtp:#19(38)
+Q448115,Mara Selvini Palazzoli,1,38,dtp,dtp:#20(38)
+Q29446501,Anam Najam,1,38,skr,skr:#35(38)
+Q826522,Thyroid cancer,1,38,rki,rki:#25(38)
+Q7636989,Sumati Kshetramade,1,37,skr,skr:#36(37)
+Q212961,Pancreatic cancer,1,37,rki,rki:#27(37)
+Q467635,Multiple myeloma,1,34,rki,rki:#32(34)
+Q1575293,Liselotte Mettler,1,32,dtp,dtp:#23(32)
+Q32945224,Nadia Hashimi,1,32,skr,skr:#37(32)
+Q4793923,Barrie Lambert,1,31,dtp,dtp:#24(31)
+Q3335572,Nancy Olivieri,1,30,dtp,dtp:#25(30)
+Q1352013,John Crawfurd,1,30,skr,skr:#38(30)
+Q20676966,Vera Hingorani,1,28,skr,skr:#39(28)
+Q12242142,Death from laughter,1,27,iba,iba:#25(27)
+Q123231157,Margaret Lartey,1,27,mos,mos:#3(27)
+Q20679479,Mary Malahlela,1,25,tn,tn:#29(25)
+Q102,Pneumonoultramicroscopicsilicovolcanoconiosis,1,25,tok,tok:#11(25)
+Q111982305,Insulin icodec,1,24,pdc,pdc:#11(24)
+Q16196553,Vivian Lee,1,24,dtp,dtp:#26(24)
+Q47545624,Ernest Madu,1,23,igl,igl:#2(23)
+Q1369657,Broken heart,1,21,rki,rki:#50(21)
+Q10295820,Idiopathic hypoglycemia,1,20,av,av:#29(20)
+Q507027,Forebrain,1,20,zgh,zgh:#16(20)
+Q16150717,Tamara Awerbuch-Friedlander,1,20,mos,mos:#4(20)
+Q388626,Sleepwalking,1,19,iba,iba:#28(19)
+Q123910730,Blossom Maduafokwa,1,17,igl,igl:#3(17)
+Q20707611,Aphantasia,1,16,tok,tok:#23(16)
+Q20746284,Mwele Ntuli Malecela,1,16,mos,mos:#5(16)
+Q20685016,Olaitan Soyannwo,1,16,igl,igl:#4(16)
+Q2157975,Robert Noble (physician),1,14,knc,knc:#31(14)
+Q3386847,Venom,1,14,tok,tok:#30(14)
+Q104771220,Everywhere at the End of Time,1,13,tok,tok:#31(13)
+Q26466,World Diabetes Day,1,11,iba,iba:#31(11)
+Q4794049,Rina Moore,1,10,iba,iba:#32(10)
+Q827658,Sunscreen,1,7,tok,tok:#37(7)
+Q20806703,Ola Akinboboye,1,7,igl,igl:#5(7)
+Q184651,Toxin,1,4,ki,ki:#22(4)
