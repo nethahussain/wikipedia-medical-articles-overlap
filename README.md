@@ -21,12 +21,12 @@ This project analyzes pageview data from [WikiProject Medicine](https://mdwiki.t
 
 All charts are styled after *The Economist*.
 
+### Top 30 most universal medical articles (by language count)
+![Top 30 most universal articles](images/eco_fig1_universal_articles.png)
+
 ### Top 50 articles by total pageviews
 ![Top 25 by views](images/eco_fig20_top50_views.png)
 ![Ranks 26–50 by views](images/eco_fig21_top50_views.png)
-
-### Top 30 most universal medical articles (by language count)
-![Top 30 most universal articles](images/eco_fig1_universal_articles.png)
 
 ### Overlap distribution
 ![Overlap distribution](images/eco_fig2_overlap_distribution.png)
