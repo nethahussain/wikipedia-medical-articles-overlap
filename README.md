@@ -6,7 +6,7 @@ This project analyzes pageview data from [WikiProject Medicine](https://mdwiki.t
 
 ## Key Findings
 
->> ### [**Browse Top 50 by Language** &#x1F4AC;](https://nethahussain.github.io/wikipedia-medical-articles-overlap/top50_by_language.html)
+>### [**Browse Top 50 by Language** &#x1F4AC;](https://nethahussain.github.io/wikipedia-medical-articles-overlap/top50_by_language.html)
 > Pick any of 337 Wikipedia editions and see its most-read medical articles, with English labels and Wikidata links.
 >
 >### [**Explore the Top 50 Medical Articles Across All Wikipedias** &#x1F310;](https://nethahussain.github.io/wikipedia-medical-articles-overlap/top50_medical_articles.html)
