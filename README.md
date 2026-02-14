@@ -6,11 +6,12 @@ This project analyzes pageview data from [WikiProject Medicine](https://mdwiki.t
 
 ## Key Findings
 
-> ### [**Explore the Top 50 Medical Articles Across All Wikipedias** &#x1F310;](https://nethahussain.github.io/wikipedia-medical-articles-overlap/top50_medical_articles.html)
+>> ### [**Browse Top 50 by Language** &#x1F4AC;](https://nethahussain.github.io/wikipedia-medical-articles-overlap/top50_by_language.html)
+> Pick any of 337 Wikipedia editions and see its most-read medical articles, with English labels and Wikidata links.
+>
+>### [**Explore the Top 50 Medical Articles Across All Wikipedias** &#x1F310;](https://nethahussain.github.io/wikipedia-medical-articles-overlap/top50_medical_articles.html)
 > Interactive table with search, sorting, and per-language breakdowns — click to open directly in your browser.
 >
-> ### [**Browse Top 50 by Language** &#x1F4AC;](https://nethahussain.github.io/wikipedia-medical-articles-overlap/top50_by_language.html)
-> Pick any of 337 Wikipedia editions and see its most-read medical articles, with English labels and Wikidata links.
 
 - **1,929 unique medical articles** appear in the top 50 of at least one language edition
 - **865 articles (45%)** appear in two or more languages' top 50
