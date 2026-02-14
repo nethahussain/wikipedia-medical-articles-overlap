@@ -6,8 +6,8 @@ This project analyzes pageview data from [WikiProject Medicine](https://mdwiki.t
 
 ## Key Findings
 
-> ### [**Explore the Top 50 Medical Articles Across All Wikipedias** &#x1F310;](top50_medical_articles.html)
-> Interactive table with search, sorting, and per-language breakdowns — download the HTML file and open it in your browser.
+> ### [**Explore the Top 50 Medical Articles Across All Wikipedias** &#x1F310;](https://nethahussain.github.io/wikipedia-medical-articles-overlap/top50_medical_articles.html)
+> Interactive table with search, sorting, and per-language breakdowns — click to open directly in your browser.
 
 - **1,929 unique medical articles** appear in the top 50 of at least one language edition
 - **865 articles (45%)** appear in two or more languages' top 50
