@@ -529,7 +529,7 @@ print("Generating Fig 10: Cluster signature articles...")
 # Pick the 4 most interesting/large clusters
 show_clusters = sorted(cluster_names.keys(), key=lambda c: cluster_info[c]['size'], reverse=True)[:6]
 
-fig, axes = plt.subplots(2, 3, figsize=(14, 9))
+fig, axes = plt.subplots(2, 3, figsize=(14, 10))
 axes = axes.flatten()
 
 for idx, cid in enumerate(show_clusters):
@@ -572,18 +572,18 @@ for idx, cid in enumerate(show_clusters):
 
 fig.patch.set_facecolor(ECO_BG)
 fig.patches.append(mpatches.FancyBboxPatch(
-    (0.02, 0.96), 0.08, 0.02, boxstyle="square,pad=0",
+    (0.02, 0.98), 0.08, 0.02, boxstyle="square,pad=0",
     facecolor=ECO_RED, edgecolor='none', transform=fig.transFigure, zorder=10))
-fig.text(0.02, 0.935, 'What makes each cluster unique',
+fig.text(0.02, 0.965, 'What makes each cluster unique',
          fontsize=15, fontweight='bold', color=ECO_DARK, fontfamily='serif',
          ha='left', va='top', transform=fig.transFigure)
-fig.text(0.02, 0.895, 'Distinctive articles per cluster: "lift" measures how much more likely\nan article is to be in this cluster\'s top 50 vs. outside it. Percentage = cluster coverage.',
+fig.text(0.02, 0.930, 'Distinctive articles per cluster: "lift" measures how much more likely\nan article is to be in this cluster\'s top 50 vs. outside it. Percentage = cluster coverage.',
          fontsize=9.5, color=ECO_SUBTITLE, fontfamily='serif',
          ha='left', va='top', transform=fig.transFigure)
 fig.text(0.02, 0.01, 'Source: mdwiki.toolforge.org / Wikidata', fontsize=7,
          color=ECO_GREY, fontfamily='serif', ha='left', va='bottom', transform=fig.transFigure)
 
-plt.subplots_adjust(top=0.86, bottom=0.05, left=0.10, right=0.96, hspace=0.45, wspace=0.45)
+plt.subplots_adjust(top=0.87, bottom=0.05, left=0.10, right=0.96, hspace=0.45, wspace=0.45)
 fig.savefig(os.path.join(OUTPUT_DIR, 'eco_fig10_cluster_signatures.png'), dpi=150, facecolor=ECO_BG)
 plt.close()
 print("  Saved eco_fig10")
