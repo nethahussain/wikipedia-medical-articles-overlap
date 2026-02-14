@@ -1,0 +1,1405 @@
+{
+  "n_clusters": 8,
+  "n_languages_clustered": 237,
+  "clusters": {
+    "1": {
+      "name": "Major European",
+      "size": 35,
+      "members": [
+        "en",
+        "es",
+        "de",
+        "ru",
+        "fr",
+        "ja",
+        "it",
+        "pt",
+        "fa",
+        "pl",
+        "zh",
+        "ar",
+        "nl",
+        "sv",
+        "cs",
+        "tr",
+        "he",
+        "fi",
+        "ko",
+        "hu",
+        "ro",
+        "el",
+        "bg",
+        "sr",
+        "hr",
+        "no",
+        "sk",
+        "da",
+        "lt",
+        "sl",
+        "sh",
+        "et",
+        "zh-yue",
+        "ast",
+        "wuu"
+      ],
+      "family_composition": {
+        "Germanic": 6,
+        "Romance": 6,
+        "Slavic": 9,
+        "Japonic": 1,
+        "Indo-Iranian": 1,
+        "Sino-Tibetan": 1,
+        "Semitic": 2,
+        "Turkic": 1,
+        "Uralic": 3,
+        "Koreanic": 1,
+        "Hellenic": 1,
+        "Baltic": 1,
+        "Other": 2
+      },
+      "signature_articles": [
+        {
+          "qid": "Q57109",
+          "en_label": "Josef Mengele",
+          "freq_in_cluster": 0.457,
+          "freq_outside": 0.0,
+          "lift": 45.71
+        },
+        {
+          "qid": "Q201989",
+          "en_label": "Lyme disease",
+          "freq_in_cluster": 0.371,
+          "freq_outside": 0.005,
+          "lift": 24.84
+        },
+        {
+          "qid": "Q161790",
+          "en_label": "Asperger syndrome",
+          "freq_in_cluster": 0.857,
+          "freq_outside": 0.025,
+          "lift": 24.66
+        },
+        {
+          "qid": "Q207684",
+          "en_label": "Lobotomy",
+          "freq_in_cluster": 0.314,
+          "freq_outside": 0.005,
+          "lift": 21.02
+        },
+        {
+          "qid": "Q208166",
+          "en_label": "Borderline personality disorder",
+          "freq_in_cluster": 0.4,
+          "freq_outside": 0.01,
+          "lift": 20.1
+        },
+        {
+          "qid": "Q486851",
+          "en_label": "Sleep paralysis",
+          "freq_in_cluster": 0.371,
+          "freq_outside": 0.01,
+          "lift": 18.66
+        },
+        {
+          "qid": "Q69488",
+          "en_label": "MDMA",
+          "freq_in_cluster": 0.543,
+          "freq_outside": 0.02,
+          "lift": 18.22
+        },
+        {
+          "qid": "Q8277",
+          "en_label": "Multiple sclerosis",
+          "freq_in_cluster": 0.543,
+          "freq_outside": 0.025,
+          "lift": 15.62
+        },
+        {
+          "qid": "Q181923",
+          "en_label": "Attention deficit hyperactivity disorder",
+          "freq_in_cluster": 0.371,
+          "freq_outside": 0.015,
+          "lift": 14.95
+        },
+        {
+          "qid": "Q131755",
+          "en_label": "Bipolar disorder",
+          "freq_in_cluster": 0.657,
+          "freq_outside": 0.035,
+          "lift": 14.72
+        },
+        {
+          "qid": "Q207367",
+          "en_label": "Infectious mononucleosis",
+          "freq_in_cluster": 0.343,
+          "freq_outside": 0.015,
+          "lift": 13.8
+        },
+        {
+          "qid": "Q191779",
+          "en_label": "Tourette syndrome",
+          "freq_in_cluster": 0.343,
+          "freq_outside": 0.015,
+          "lift": 13.8
+        },
+        {
+          "qid": "Q178275",
+          "en_label": "Spanish flu",
+          "freq_in_cluster": 0.714,
+          "freq_outside": 0.069,
+          "lift": 9.01
+        },
+        {
+          "qid": "Q47715",
+          "en_label": "Down syndrome",
+          "freq_in_cluster": 0.571,
+          "freq_outside": 0.054,
+          "lift": 8.87
+        },
+        {
+          "qid": "Q178190",
+          "en_label": "Obsessive–compulsive disorder",
+          "freq_in_cluster": 0.429,
+          "freq_outside": 0.04,
+          "lift": 8.64
+        }
+      ],
+      "universal_articles": [
+        {
+          "qid": "Q41112",
+          "en_label": "Schizophrenia",
+          "coverage": 0.857
+        },
+        {
+          "qid": "Q161790",
+          "en_label": "Asperger syndrome",
+          "coverage": 0.857
+        },
+        {
+          "qid": "Q12204",
+          "en_label": "Tuberculosis",
+          "coverage": 0.857
+        },
+        {
+          "qid": "Q5873",
+          "en_label": "Sexual intercourse",
+          "coverage": 0.829
+        },
+        {
+          "qid": "Q38404",
+          "en_label": "Autism",
+          "coverage": 0.8
+        }
+      ]
+    },
+    "2": {
+      "name": "Diverse / Smaller languages",
+      "size": 31,
+      "members": [
+        "eo",
+        "la",
+        "be",
+        "cy",
+        "ga",
+        "als",
+        "io",
+        "oc",
+        "an",
+        "ia",
+        "be-x-old",
+        "zh-min-nan",
+        "ku",
+        "fy",
+        "yi",
+        "tt",
+        "br",
+        "qu",
+        "ht",
+        "li",
+        "pnb",
+        "ba",
+        "ilo",
+        "sah",
+        "hif",
+        "jam",
+        "bat-smg",
+        "rue",
+        "bxr",
+        "gcr",
+        "ce"
+      ],
+      "family_composition": {
+        "Constructed": 1,
+        "Romance": 3,
+        "Slavic": 1,
+        "Celtic": 3,
+        "Other": 19,
+        "Indo-Iranian": 1,
+        "Germanic": 2,
+        "Turkic": 1
+      },
+      "signature_articles": [
+        {
+          "qid": "Q12128",
+          "en_label": "Dentistry",
+          "freq_in_cluster": 0.355,
+          "freq_outside": 0.029,
+          "lift": 9.07
+        },
+        {
+          "qid": "Q12131",
+          "en_label": "Disability",
+          "freq_in_cluster": 0.419,
+          "freq_outside": 0.049,
+          "lift": 7.16
+        },
+        {
+          "qid": "Q521",
+          "en_label": "Physiology",
+          "freq_in_cluster": 0.581,
+          "freq_outside": 0.107,
+          "lift": 4.97
+        },
+        {
+          "qid": "Q12140",
+          "en_label": "Medication",
+          "freq_in_cluster": 0.742,
+          "freq_outside": 0.15,
+          "lift": 4.62
+        },
+        {
+          "qid": "Q7365",
+          "en_label": "Muscle",
+          "freq_in_cluster": 0.935,
+          "freq_outside": 0.209,
+          "lift": 4.28
+        },
+        {
+          "qid": "Q12174",
+          "en_label": "Obesity",
+          "freq_in_cluster": 0.516,
+          "freq_outside": 0.112,
+          "lift": 4.24
+        },
+        {
+          "qid": "Q7162",
+          "en_label": "Genetics",
+          "freq_in_cluster": 0.742,
+          "freq_outside": 0.165,
+          "lift": 4.24
+        },
+        {
+          "qid": "Q7178",
+          "en_label": "International Red Cross and Red Crescent Movement",
+          "freq_in_cluster": 0.323,
+          "freq_outside": 0.078,
+          "lift": 3.68
+        },
+        {
+          "qid": "Q11081",
+          "en_label": "Alzheimer's disease",
+          "freq_in_cluster": 0.419,
+          "freq_outside": 0.107,
+          "lift": 3.59
+        },
+        {
+          "qid": "Q514",
+          "en_label": "Anatomy",
+          "freq_in_cluster": 0.935,
+          "freq_outside": 0.282,
+          "lift": 3.21
+        },
+        {
+          "qid": "Q12187",
+          "en_label": "Antibiotic",
+          "freq_in_cluster": 0.419,
+          "freq_outside": 0.121,
+          "lift": 3.19
+        },
+        {
+          "qid": "Q10737",
+          "en_label": "Suicide",
+          "freq_in_cluster": 0.71,
+          "freq_outside": 0.214,
+          "lift": 3.17
+        },
+        {
+          "qid": "Q4",
+          "en_label": "Death",
+          "freq_in_cluster": 0.968,
+          "freq_outside": 0.301,
+          "lift": 3.11
+        },
+        {
+          "qid": "Q12136",
+          "en_label": "Disease",
+          "freq_in_cluster": 0.935,
+          "freq_outside": 0.291,
+          "lift": 3.11
+        },
+        {
+          "qid": "Q8452",
+          "en_label": "Abortion",
+          "freq_in_cluster": 0.677,
+          "freq_outside": 0.209,
+          "lift": 3.1
+        }
+      ],
+      "universal_articles": [
+        {
+          "qid": "Q7873",
+          "en_label": "Blood",
+          "coverage": 0.968
+        },
+        {
+          "qid": "Q4",
+          "en_label": "Death",
+          "coverage": 0.968
+        },
+        {
+          "qid": "Q11190",
+          "en_label": "Medicine",
+          "coverage": 0.968
+        },
+        {
+          "qid": "Q12078",
+          "en_label": "Cancer",
+          "coverage": 0.935
+        },
+        {
+          "qid": "Q7365",
+          "en_label": "Muscle",
+          "coverage": 0.935
+        },
+        {
+          "qid": "Q12136",
+          "en_label": "Disease",
+          "coverage": 0.935
+        },
+        {
+          "qid": "Q1072",
+          "en_label": "Heart",
+          "coverage": 0.935
+        },
+        {
+          "qid": "Q514",
+          "en_label": "Anatomy",
+          "coverage": 0.935
+        },
+        {
+          "qid": "Q9215",
+          "en_label": "Sigmund Freud",
+          "coverage": 0.903
+        },
+        {
+          "qid": "Q12147",
+          "en_label": "Health",
+          "coverage": 0.903
+        },
+        {
+          "qid": "Q12199",
+          "en_label": "HIV/AIDS",
+          "coverage": 0.903
+        },
+        {
+          "qid": "Q10876",
+          "en_label": "Bacteria",
+          "coverage": 0.871
+        },
+        {
+          "qid": "Q7186",
+          "en_label": "Marie Curie",
+          "coverage": 0.839
+        },
+        {
+          "qid": "Q12206",
+          "en_label": "Diabetes",
+          "coverage": 0.806
+        },
+        {
+          "qid": "Q11995",
+          "en_label": "Pregnancy",
+          "coverage": 0.806
+        }
+      ]
+    },
+    "3": {
+      "name": "Diverse / Smaller languages",
+      "size": 20,
+      "members": [
+        "yo",
+        "zh-classical",
+        "frr",
+        "gan",
+        "sc",
+        "ary",
+        "lij",
+        "pms",
+        "vep",
+        "ug",
+        "fur",
+        "gv",
+        "ban",
+        "kw",
+        "co",
+        "jbo",
+        "os",
+        "myv",
+        "knc",
+        "tok"
+      ],
+      "family_composition": {
+        "Niger-Congo": 1,
+        "Other": 19
+      },
+      "signature_articles": [
+        {
+          "qid": "Q1106",
+          "en_label": "Xenon",
+          "freq_in_cluster": 0.9,
+          "freq_outside": 0.129,
+          "lift": 6.47
+        },
+        {
+          "qid": "Q871",
+          "en_label": "Arsenic",
+          "freq_in_cluster": 0.9,
+          "freq_outside": 0.147,
+          "lift": 5.72
+        },
+        {
+          "qid": "Q1103",
+          "en_label": "Iodine",
+          "freq_in_cluster": 0.85,
+          "freq_outside": 0.171,
+          "lift": 4.71
+        },
+        {
+          "qid": "Q706",
+          "en_label": "Calcium",
+          "freq_in_cluster": 0.9,
+          "freq_outside": 0.281,
+          "lift": 3.09
+        },
+        {
+          "qid": "Q34777",
+          "en_label": "X-ray",
+          "freq_in_cluster": 0.35,
+          "freq_outside": 0.124,
+          "lift": 2.6
+        },
+        {
+          "qid": "Q12184",
+          "en_label": "Pandemic",
+          "freq_in_cluster": 0.4,
+          "freq_outside": 0.226,
+          "lift": 1.7
+        },
+        {
+          "qid": "Q529",
+          "en_label": "Louis Pasteur",
+          "freq_in_cluster": 0.35,
+          "freq_outside": 0.212,
+          "lift": 1.58
+        },
+        {
+          "qid": "Q9215",
+          "en_label": "Sigmund Freud",
+          "freq_in_cluster": 0.75,
+          "freq_outside": 0.479,
+          "lift": 1.53
+        },
+        {
+          "qid": "Q7817",
+          "en_label": "World Health Organization",
+          "freq_in_cluster": 0.55,
+          "freq_outside": 0.396,
+          "lift": 1.35
+        },
+        {
+          "qid": "Q8011",
+          "en_label": "Avicenna",
+          "freq_in_cluster": 0.4,
+          "freq_outside": 0.304,
+          "lift": 1.27
+        },
+        {
+          "qid": "Q7186",
+          "en_label": "Marie Curie",
+          "freq_in_cluster": 0.6,
+          "freq_outside": 0.493,
+          "lift": 1.19
+        },
+        {
+          "qid": "Q81068910",
+          "en_label": "COVID-19 pandemic",
+          "freq_in_cluster": 0.5,
+          "freq_outside": 0.415,
+          "lift": 1.18
+        },
+        {
+          "qid": "Q11190",
+          "en_label": "Medicine",
+          "freq_in_cluster": 0.5,
+          "freq_outside": 0.461,
+          "lift": 1.06
+        },
+        {
+          "qid": "Q4",
+          "en_label": "Death",
+          "freq_in_cluster": 0.4,
+          "freq_outside": 0.387,
+          "lift": 1.01
+        },
+        {
+          "qid": "Q84263196",
+          "en_label": "COVID-19",
+          "freq_in_cluster": 0.5,
+          "freq_outside": 0.493,
+          "lift": 0.99
+        }
+      ],
+      "universal_articles": [
+        {
+          "qid": "Q706",
+          "en_label": "Calcium",
+          "coverage": 0.9
+        },
+        {
+          "qid": "Q871",
+          "en_label": "Arsenic",
+          "coverage": 0.9
+        },
+        {
+          "qid": "Q1106",
+          "en_label": "Xenon",
+          "coverage": 0.9
+        },
+        {
+          "qid": "Q1103",
+          "en_label": "Iodine",
+          "coverage": 0.85
+        }
+      ]
+    },
+    "4": {
+      "name": "Diverse / Smaller languages",
+      "size": 47,
+      "members": [
+        "ca",
+        "eu",
+        "gl",
+        "is",
+        "ckb",
+        "nn",
+        "as",
+        "am",
+        "jv",
+        "azb",
+        "sco",
+        "war",
+        "su",
+        "so",
+        "gn",
+        "scn",
+        "bh",
+        "lb",
+        "nds",
+        "om",
+        "min",
+        "new",
+        "wa",
+        "lmo",
+        "mg",
+        "fo",
+        "xmf",
+        "ln",
+        "sa",
+        "sd",
+        "ceb",
+        "cv",
+        "lfn",
+        "bo",
+        "gd",
+        "hak",
+        "cdo",
+        "za",
+        "fiu-vro",
+        "ext",
+        "lg",
+        "dty",
+        "kbp",
+        "ks",
+        "rn",
+        "inh",
+        "anp"
+      ],
+      "family_composition": {
+        "Romance": 2,
+        "Other": 31,
+        "Germanic": 3,
+        "Indo-Iranian": 2,
+        "Afroasiatic": 2,
+        "Austronesian": 5,
+        "Celtic": 1,
+        "Niger-Congo": 1
+      },
+      "signature_articles": [
+        {
+          "qid": "Q1106",
+          "en_label": "Xenon",
+          "freq_in_cluster": 0.426,
+          "freq_outside": 0.137,
+          "lift": 2.9
+        },
+        {
+          "qid": "Q1103",
+          "en_label": "Iodine",
+          "freq_in_cluster": 0.468,
+          "freq_outside": 0.168,
+          "lift": 2.62
+        },
+        {
+          "qid": "Q871",
+          "en_label": "Arsenic",
+          "freq_in_cluster": 0.404,
+          "freq_outside": 0.163,
+          "lift": 2.33
+        },
+        {
+          "qid": "Q39631",
+          "en_label": "Medical doctor",
+          "freq_in_cluster": 0.426,
+          "freq_outside": 0.184,
+          "lift": 2.19
+        },
+        {
+          "qid": "Q529",
+          "en_label": "Louis Pasteur",
+          "freq_in_cluster": 0.383,
+          "freq_outside": 0.184,
+          "lift": 1.97
+        },
+        {
+          "qid": "Q12090",
+          "en_label": "Cholera",
+          "freq_in_cluster": 0.319,
+          "freq_outside": 0.153,
+          "lift": 1.96
+        },
+        {
+          "qid": "Q706",
+          "en_label": "Calcium",
+          "freq_in_cluster": 0.553,
+          "freq_outside": 0.279,
+          "lift": 1.91
+        },
+        {
+          "qid": "Q34956",
+          "en_label": "Vitamin",
+          "freq_in_cluster": 0.383,
+          "freq_outside": 0.205,
+          "lift": 1.78
+        },
+        {
+          "qid": "Q12136",
+          "en_label": "Disease",
+          "freq_in_cluster": 0.574,
+          "freq_outside": 0.326,
+          "lift": 1.71
+        },
+        {
+          "qid": "Q11190",
+          "en_label": "Medicine",
+          "freq_in_cluster": 0.702,
+          "freq_outside": 0.405,
+          "lift": 1.69
+        },
+        {
+          "qid": "Q808",
+          "en_label": "Virus",
+          "freq_in_cluster": 0.851,
+          "freq_outside": 0.495,
+          "lift": 1.69
+        },
+        {
+          "qid": "Q514",
+          "en_label": "Anatomy",
+          "freq_in_cluster": 0.553,
+          "freq_outside": 0.321,
+          "lift": 1.67
+        },
+        {
+          "qid": "Q10876",
+          "en_label": "Bacteria",
+          "freq_in_cluster": 0.787,
+          "freq_outside": 0.463,
+          "lift": 1.66
+        },
+        {
+          "qid": "Q16917",
+          "en_label": "Hospital",
+          "freq_in_cluster": 0.34,
+          "freq_outside": 0.195,
+          "lift": 1.66
+        },
+        {
+          "qid": "Q12156",
+          "en_label": "Malaria",
+          "freq_in_cluster": 0.596,
+          "freq_outside": 0.353,
+          "lift": 1.64
+        }
+      ],
+      "universal_articles": [
+        {
+          "qid": "Q808",
+          "en_label": "Virus",
+          "coverage": 0.851
+        },
+        {
+          "qid": "Q1072",
+          "en_label": "Heart",
+          "coverage": 0.851
+        }
+      ]
+    },
+    "5": {
+      "name": "Southeast Asian",
+      "size": 13,
+      "members": [
+        "id",
+        "vi",
+        "th",
+        "kk",
+        "uz",
+        "hy",
+        "az",
+        "sq",
+        "ka",
+        "mk",
+        "lv",
+        "ky",
+        "dv"
+      ],
+      "family_composition": {
+        "Austronesian": 1,
+        "Austroasiatic": 1,
+        "Tai-Kadai": 1,
+        "Turkic": 4,
+        "Armenian": 1,
+        "Albanian": 1,
+        "Kartvelian": 1,
+        "Slavic": 1,
+        "Baltic": 1,
+        "Other": 1
+      },
+      "signature_articles": [
+        {
+          "qid": "Q3378593",
+          "en_label": "Substance dependence",
+          "freq_in_cluster": 0.308,
+          "freq_outside": 0.018,
+          "lift": 11.05
+        },
+        {
+          "qid": "Q121041",
+          "en_label": "Appendicitis",
+          "freq_in_cluster": 0.385,
+          "freq_outside": 0.027,
+          "lift": 10.46
+        },
+        {
+          "qid": "Q133981",
+          "en_label": "First aid",
+          "freq_in_cluster": 0.308,
+          "freq_outside": 0.027,
+          "lift": 8.36
+        },
+        {
+          "qid": "Q5445",
+          "en_label": "Anemia",
+          "freq_in_cluster": 0.692,
+          "freq_outside": 0.085,
+          "lift": 7.3
+        },
+        {
+          "qid": "Q199678",
+          "en_label": "Vitamin C",
+          "freq_in_cluster": 0.308,
+          "freq_outside": 0.036,
+          "lift": 6.73
+        },
+        {
+          "qid": "Q988343",
+          "en_label": "Blood vessel",
+          "freq_in_cluster": 0.385,
+          "freq_outside": 0.049,
+          "lift": 6.51
+        },
+        {
+          "qid": "Q940",
+          "en_label": "Narcotic",
+          "freq_in_cluster": 0.308,
+          "freq_outside": 0.045,
+          "lift": 5.63
+        },
+        {
+          "qid": "Q42395",
+          "en_label": "White blood cell",
+          "freq_in_cluster": 0.462,
+          "freq_outside": 0.076,
+          "lift": 5.37
+        },
+        {
+          "qid": "Q175621",
+          "en_label": "Vitamin D",
+          "freq_in_cluster": 0.385,
+          "freq_outside": 0.062,
+          "lift": 5.31
+        },
+        {
+          "qid": "Q47715",
+          "en_label": "Down syndrome",
+          "freq_in_cluster": 0.538,
+          "freq_outside": 0.107,
+          "lift": 4.6
+        },
+        {
+          "qid": "Q82642",
+          "en_label": "Blood pressure",
+          "freq_in_cluster": 0.385,
+          "freq_outside": 0.076,
+          "lift": 4.48
+        },
+        {
+          "qid": "Q44727",
+          "en_label": "Chickenpox",
+          "freq_in_cluster": 0.538,
+          "freq_outside": 0.116,
+          "lift": 4.27
+        },
+        {
+          "qid": "Q179515",
+          "en_label": "Maslow's hierarchy of needs",
+          "freq_in_cluster": 0.385,
+          "freq_outside": 0.089,
+          "lift": 3.87
+        },
+        {
+          "qid": "Q9530",
+          "en_label": "Breathing",
+          "freq_in_cluster": 0.385,
+          "freq_outside": 0.098,
+          "lift": 3.55
+        },
+        {
+          "qid": "Q12171",
+          "en_label": "Menstruation",
+          "freq_in_cluster": 0.615,
+          "freq_outside": 0.165,
+          "lift": 3.51
+        }
+      ],
+      "universal_articles": [
+        {
+          "qid": "Q7873",
+          "en_label": "Blood",
+          "coverage": 1.0
+        },
+        {
+          "qid": "Q808",
+          "en_label": "Virus",
+          "coverage": 1.0
+        },
+        {
+          "qid": "Q10876",
+          "en_label": "Bacteria",
+          "coverage": 0.923
+        },
+        {
+          "qid": "Q1072",
+          "en_label": "Heart",
+          "coverage": 0.923
+        },
+        {
+          "qid": "Q12199",
+          "en_label": "HIV/AIDS",
+          "coverage": 0.923
+        },
+        {
+          "qid": "Q12204",
+          "en_label": "Tuberculosis",
+          "coverage": 0.846
+        }
+      ]
+    },
+    "6": {
+      "name": "Middle Eastern & South Asian",
+      "size": 22,
+      "members": [
+        "hi",
+        "bn",
+        "ta",
+        "simple",
+        "tl",
+        "mr",
+        "te",
+        "af",
+        "sw",
+        "kn",
+        "si",
+        "ur",
+        "my",
+        "gu",
+        "tg",
+        "ne",
+        "or",
+        "pa",
+        "tk",
+        "ps",
+        "ha",
+        "bcl"
+      ],
+      "family_composition": {
+        "Indo-Iranian": 9,
+        "Dravidian": 3,
+        "Germanic": 2,
+        "Austronesian": 1,
+        "Niger-Congo": 1,
+        "Sino-Tibetan": 1,
+        "Other": 3,
+        "Turkic": 1,
+        "Afroasiatic": 1
+      },
+      "signature_articles": [
+        {
+          "qid": "Q30953",
+          "en_label": "Dengue fever",
+          "freq_in_cluster": 0.591,
+          "freq_outside": 0.047,
+          "lift": 10.46
+        },
+        {
+          "qid": "Q83319",
+          "en_label": "Typhoid fever",
+          "freq_in_cluster": 0.364,
+          "freq_outside": 0.037,
+          "lift": 7.7
+        },
+        {
+          "qid": "Q133244",
+          "en_label": "Jaundice",
+          "freq_in_cluster": 0.409,
+          "freq_outside": 0.047,
+          "lift": 7.24
+        },
+        {
+          "qid": "Q41478",
+          "en_label": "Hemorrhoid",
+          "freq_in_cluster": 0.682,
+          "freq_outside": 0.102,
+          "lift": 6.07
+        },
+        {
+          "qid": "Q12167",
+          "en_label": "Malnutrition",
+          "freq_in_cluster": 0.318,
+          "freq_outside": 0.051,
+          "lift": 5.2
+        },
+        {
+          "qid": "Q132325",
+          "en_label": "Ayurveda",
+          "freq_in_cluster": 0.409,
+          "freq_outside": 0.074,
+          "lift": 4.85
+        },
+        {
+          "qid": "Q15787",
+          "en_label": "HIV",
+          "freq_in_cluster": 0.591,
+          "freq_outside": 0.116,
+          "lift": 4.68
+        },
+        {
+          "qid": "Q12198",
+          "en_label": "Sexually transmitted infection",
+          "freq_in_cluster": 0.455,
+          "freq_outside": 0.093,
+          "lift": 4.41
+        },
+        {
+          "qid": "Q38933",
+          "en_label": "Fever",
+          "freq_in_cluster": 0.5,
+          "freq_outside": 0.112,
+          "lift": 4.11
+        },
+        {
+          "qid": "Q41861",
+          "en_label": "Hypertension",
+          "freq_in_cluster": 0.455,
+          "freq_outside": 0.102,
+          "lift": 4.05
+        },
+        {
+          "qid": "Q35869",
+          "en_label": "Asthma",
+          "freq_in_cluster": 0.455,
+          "freq_outside": 0.102,
+          "lift": 4.05
+        },
+        {
+          "qid": "Q131123",
+          "en_label": "Air pollution",
+          "freq_in_cluster": 0.455,
+          "freq_outside": 0.112,
+          "lift": 3.74
+        },
+        {
+          "qid": "Q44727",
+          "en_label": "Chickenpox",
+          "freq_in_cluster": 0.409,
+          "freq_outside": 0.112,
+          "lift": 3.36
+        },
+        {
+          "qid": "Q12171",
+          "en_label": "Menstruation",
+          "freq_in_cluster": 0.545,
+          "freq_outside": 0.153,
+          "lift": 3.34
+        },
+        {
+          "qid": "Q5445",
+          "en_label": "Anemia",
+          "freq_in_cluster": 0.318,
+          "freq_outside": 0.098,
+          "lift": 2.96
+        }
+      ],
+      "universal_articles": [
+        {
+          "qid": "Q12199",
+          "en_label": "HIV/AIDS",
+          "coverage": 0.909
+        },
+        {
+          "qid": "Q12204",
+          "en_label": "Tuberculosis",
+          "coverage": 0.864
+        },
+        {
+          "qid": "Q5873",
+          "en_label": "Sexual intercourse",
+          "coverage": 0.818
+        }
+      ]
+    },
+    "7": {
+      "name": "Diverse / Smaller languages",
+      "size": 7,
+      "members": [
+        "xh",
+        "ig",
+        "ts",
+        "ny",
+        "wo",
+        "din",
+        "nso"
+      ],
+      "family_composition": {
+        "Niger-Congo": 2,
+        "Other": 5
+      },
+      "signature_articles": [
+        {
+          "qid": "Q7170955",
+          "en_label": "Pertussis vaccine",
+          "freq_in_cluster": 0.429,
+          "freq_outside": 0.0,
+          "lift": 42.86
+        },
+        {
+          "qid": "Q6817090",
+          "en_label": "Meningococcal vaccine",
+          "freq_in_cluster": 0.429,
+          "freq_outside": 0.0,
+          "lift": 42.86
+        },
+        {
+          "qid": "Q3553093",
+          "en_label": "Hepatitis A vaccine",
+          "freq_in_cluster": 0.429,
+          "freq_outside": 0.0,
+          "lift": 42.86
+        },
+        {
+          "qid": "Q3097999",
+          "en_label": "Pit latrine",
+          "freq_in_cluster": 0.571,
+          "freq_outside": 0.004,
+          "lift": 39.83
+        },
+        {
+          "qid": "Q331283",
+          "en_label": "Leishmaniasis",
+          "freq_in_cluster": 0.857,
+          "freq_outside": 0.017,
+          "lift": 31.29
+        },
+        {
+          "qid": "Q1137321",
+          "en_label": "Onchocerciasis",
+          "freq_in_cluster": 0.714,
+          "freq_outside": 0.013,
+          "lift": 31.0
+        },
+        {
+          "qid": "Q221159",
+          "en_label": "Schistosomiasis",
+          "freq_in_cluster": 0.857,
+          "freq_outside": 0.022,
+          "lift": 27.01
+        },
+        {
+          "qid": "Q117749",
+          "en_label": "Hepatitis B vaccine",
+          "freq_in_cluster": 0.429,
+          "freq_outside": 0.009,
+          "lift": 22.92
+        },
+        {
+          "qid": "Q202864",
+          "en_label": "Zika virus",
+          "freq_in_cluster": 0.714,
+          "freq_outside": 0.022,
+          "lift": 22.5
+        },
+        {
+          "qid": "Q157661",
+          "en_label": "Hepatitis A",
+          "freq_in_cluster": 0.714,
+          "freq_outside": 0.026,
+          "lift": 19.79
+        },
+        {
+          "qid": "Q134859",
+          "en_label": "Whooping cough",
+          "freq_in_cluster": 0.571,
+          "freq_outside": 0.035,
+          "lift": 12.76
+        },
+        {
+          "qid": "Q12167",
+          "en_label": "Malnutrition",
+          "freq_in_cluster": 0.571,
+          "freq_outside": 0.061,
+          "lift": 8.06
+        },
+        {
+          "qid": "Q51993",
+          "en_label": "Ebola",
+          "freq_in_cluster": 1.0,
+          "freq_outside": 0.13,
+          "lift": 7.12
+        },
+        {
+          "qid": "Q6853",
+          "en_label": "Hepatitis B",
+          "freq_in_cluster": 0.429,
+          "freq_outside": 0.052,
+          "lift": 6.89
+        },
+        {
+          "qid": "Q48143",
+          "en_label": "Meningitis",
+          "freq_in_cluster": 0.571,
+          "freq_outside": 0.078,
+          "lift": 6.47
+        }
+      ],
+      "universal_articles": [
+        {
+          "qid": "Q51993",
+          "en_label": "Ebola",
+          "coverage": 1.0
+        },
+        {
+          "qid": "Q331283",
+          "en_label": "Leishmaniasis",
+          "coverage": 0.857
+        },
+        {
+          "qid": "Q39222",
+          "en_label": "Rabies",
+          "coverage": 0.857
+        },
+        {
+          "qid": "Q221159",
+          "en_label": "Schistosomiasis",
+          "coverage": 0.857
+        },
+        {
+          "qid": "Q12156",
+          "en_label": "Malaria",
+          "coverage": 0.857
+        },
+        {
+          "qid": "Q36956",
+          "en_label": "Leprosy",
+          "coverage": 0.857
+        }
+      ]
+    },
+    "8": {
+      "name": "Southeast Asian",
+      "size": 62,
+      "members": [
+        "ms",
+        "bs",
+        "arz",
+        "km",
+        "sn",
+        "bar",
+        "zu",
+        "mzn",
+        "rw",
+        "bjn",
+        "diq",
+        "pam",
+        "kab",
+        "eml",
+        "hyw",
+        "vec",
+        "tn",
+        "lo",
+        "nds-nl",
+        "pap",
+        "mai",
+        "mt",
+        "dag",
+        "arc",
+        "ay",
+        "mwl",
+        "szl",
+        "tyv",
+        "roa-rup",
+        "vls",
+        "ti",
+        "tcy",
+        "hsb",
+        "csb",
+        "gpe",
+        "se",
+        "tw",
+        "ang",
+        "pi",
+        "ki",
+        "gom",
+        "ie",
+        "chr",
+        "szy",
+        "mad",
+        "kaa",
+        "vo",
+        "av",
+        "awa",
+        "ff",
+        "kcg",
+        "mdf",
+        "fj",
+        "shi",
+        "blk",
+        "nia",
+        "guw",
+        "bew",
+        "dtp",
+        "skr",
+        "iba",
+        "rki"
+      ],
+      "family_composition": {
+        "Austronesian": 1,
+        "Slavic": 1,
+        "Other": 56,
+        "Austroasiatic": 1,
+        "Niger-Congo": 3
+      },
+      "signature_articles": [
+        {
+          "qid": "Q84263196",
+          "en_label": "COVID-19",
+          "freq_in_cluster": 0.484,
+          "freq_outside": 0.497,
+          "lift": 0.95
+        },
+        {
+          "qid": "Q4",
+          "en_label": "Death",
+          "freq_in_cluster": 0.371,
+          "freq_outside": 0.394,
+          "lift": 0.92
+        },
+        {
+          "qid": "Q7873",
+          "en_label": "Blood",
+          "freq_in_cluster": 0.532,
+          "freq_outside": 0.669,
+          "lift": 0.78
+        },
+        {
+          "qid": "Q81068910",
+          "en_label": "COVID-19 pandemic",
+          "freq_in_cluster": 0.339,
+          "freq_outside": 0.451,
+          "lift": 0.73
+        },
+        {
+          "qid": "Q1072",
+          "en_label": "Heart",
+          "freq_in_cluster": 0.516,
+          "freq_outside": 0.703,
+          "lift": 0.72
+        },
+        {
+          "qid": "Q9215",
+          "en_label": "Sigmund Freud",
+          "freq_in_cluster": 0.371,
+          "freq_outside": 0.549,
+          "lift": 0.66
+        },
+        {
+          "qid": "Q11190",
+          "en_label": "Medicine",
+          "freq_in_cluster": 0.339,
+          "freq_outside": 0.509,
+          "lift": 0.65
+        },
+        {
+          "qid": "Q7186",
+          "en_label": "Marie Curie",
+          "freq_in_cluster": 0.355,
+          "freq_outside": 0.554,
+          "lift": 0.63
+        },
+        {
+          "qid": "Q12078",
+          "en_label": "Cancer",
+          "freq_in_cluster": 0.306,
+          "freq_outside": 0.611,
+          "lift": 0.49
+        },
+        {
+          "qid": "Q12199",
+          "en_label": "HIV/AIDS",
+          "freq_in_cluster": 0.306,
+          "freq_outside": 0.703,
+          "lift": 0.43
+        }
+      ],
+      "universal_articles": []
+    }
+  }
+}
