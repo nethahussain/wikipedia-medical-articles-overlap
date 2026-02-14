@@ -6,6 +6,9 @@ This project analyzes pageview data from [WikiProject Medicine](https://mdwiki.t
 
 ## Key Findings
 
+> ### [**Explore the Top 50 Medical Articles Across All Wikipedias** &#x1F310;](top50_medical_articles.html)
+> Interactive table with search, sorting, and per-language breakdowns — download the HTML file and open it in your browser.
+
 - **1,929 unique medical articles** appear in the top 50 of at least one language edition
 - **865 articles (45%)** appear in two or more languages' top 50
 - **"Heart"** is the single most universal medical article, appearing in **174 out of 337** language editions' top 50
@@ -76,28 +79,22 @@ Using Jaccard similarity on each language's top-50 article set (unified via Wiki
 
 ```
 ├── README.md
+├── top50_medical_articles.html        # Interactive explorer — open in browser
 ├── code/
-│   ├── 01_fetch_all_languages.py   # Stage 1: Fetch top-50 articles for all 337 languages
-│   ├── 02_wikidata_unification.py  # Stage 2: Query Wikidata for cross-language mapping
-│   ├── 03_analyze_overlap.py       # Stage 3: Overlap analysis + basic visualizations
-│   ├── 04_economist_charts.py      # Stage 4: Economist-style chart generation
-│   └── 05_cluster_analysis.py      # Stage 5: Hierarchical clustering & cluster characterisation
+│   ├── 01_fetch_all_languages.py      # Fetch top-50 articles for all 337 languages
+│   ├── 02_wikidata_unification.py     # Query Wikidata for cross-language mapping
+│   ├── 03_analyze_overlap.py          # Overlap analysis + basic visualizations
+│   ├── 04_economist_charts.py         # Economist-style chart generation
+│   ├── 05_cluster_analysis.py         # Hierarchical clustering & cluster characterisation
+│   ├── 06_fetch_timeseries.py         # Fetch year-by-year pageview data (2016–2025)
+│   └── 07_trend_charts.py            # Time-trend visualisations (fig12–fig19)
 ├── data/
-│   ├── all_languages_overlap_analysis.csv  # Full overlap data (1,929 articles)
-│   ├── all_languages_summary.json          # Summary statistics + top 100 articles
-│   └── cluster_analysis.json               # Cluster membership, signatures, inter-cluster similarity
+│   ├── all_languages_overlap_analysis.csv
+│   ├── all_languages_summary.json
+│   └── cluster_analysis.json
 └── images/
-    ├── eco_fig1_universal_articles.png
-    ├── eco_fig2_overlap_distribution.png
-    ├── eco_fig3_cumulative.png
-    ├── eco_fig4_heatmap.png
-    ├── eco_fig5_language_pairs.png
-    ├── eco_fig6_categories.png
-    ├── eco_fig7_category_spread.png
-    ├── eco_fig8_dendrogram.png
-    ├── eco_fig9_cluster_composition.png
-    ├── eco_fig10_cluster_signatures.png
-    └── eco_fig11_cluster_similarity.png
+    ├── eco_fig1–fig11                 # Cross-language overlap & cluster charts
+    └── eco_fig12–fig19                # Time-trend charts (2016–2025)
 ```
 
 ## How to Reproduce
