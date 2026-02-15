@@ -62,9 +62,6 @@ Using Jaccard similarity on each language's top-50 article set (unified via Wiki
 ### Dendrogram: Language similarity tree
 ![Dendrogram](images/eco_fig8_dendrogram.png)
 
-### Cluster composition by language family
-![Cluster composition](images/eco_fig9_cluster_composition.png)
-
 ### Distinctive articles per cluster
 ![Cluster signatures](images/eco_fig10_cluster_signatures.png)
 
